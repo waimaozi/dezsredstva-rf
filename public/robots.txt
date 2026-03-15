@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /tools/.pubmed_state.json
+
+Host: дезинфицирующиесредства.рф
 
 Sitemap: https://дезинфицирующиесредства.рф/sitemap-index.xml

@@ -50,9 +50,11 @@ const navItems = [
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
+    <link rel="alternate" type="application/rss+xml" title="Дезинфицирующиесредства.рф — RSS" href="/rss.xml" />
     {structuredData && (
       <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
     )}
+    <!-- Яндекс.Метрика — вставить код сюда -->
   </head>
   <body class="bg-slate-50 text-slate-900 antialiased">
     <div class="medical-grid fixed inset-0 -z-10 opacity-60"></div>
