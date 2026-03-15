@@ -1,0 +1,46 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const guides = [
+  {
+    title: "Активные вещества: полное сравнение",
+    description: "ЧАС, гипохлорит натрия, перекись водорода, спирты, ПАА — спектр действия, совместимость, ограничения",
+    href: "/guides/active-substances/",
+    icon: "🧪"
+  },
+  {
+    title: "Дезинфекция в ЛПУ: алгоритм и требования",
+    description: "Пошаговый алгоритм дезинфекции в медицинских учреждениях по актуальным СанПиН",
+    href: "/guides/healthcare/",
+    icon: "🏥"
+  },
+  {
+    title: "Санитарная обработка в общепите",
+    description: "Режимы, периодичность, журналы, требования Роспотребнадзора для предприятий питания",
+    href: "/guides/food-service/",
+    icon: "🍽️"
+  }
+];
+---
+
+<Layout
+  title="Руководства — Дезинфицирующиесредства.рф"
+  description="Экспертные руководства по дезинфекции: сравнение активных веществ, алгоритмы для ЛПУ, требования для общепита."
+  pathname="/guides/"
+>
+  <h1 class="text-3xl font-bold text-slate-900 mb-2">Руководства</h1>
+  <p class="text-lg text-slate-600 mb-8 max-w-2xl">
+    Структурированные материалы для специалистов: от выбора дезинфектанта
+    до оформления документации.
+  </p>
+
+  <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    {guides.map((guide) => (
+      <a href={guide.href} class="group rounded-2xl border border-sky-100 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-sky-300">
+        <span class="text-4xl">{guide.icon}</span>
+        <h2 class="mt-4 text-xl font-semibold text-slate-900 group-hover:text-sky-700">{guide.title}</h2>
+        <p class="mt-2 text-slate-600">{guide.description}</p>
+      </a>
+    ))}
+  </div>
+</Layout>

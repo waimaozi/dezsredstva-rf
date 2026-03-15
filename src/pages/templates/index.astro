@@ -1,0 +1,86 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const templates = [
+  {
+    title: "Журнал учёта дезинфекции",
+    description: "Типовая форма для ежедневного учёта проведённой дезинфекции помещений и оборудования. Соответствует требованиям СанПиН.",
+    format: "PDF / Excel",
+    icon: "📋",
+    category: "Учёт"
+  },
+  {
+    title: "График генеральных уборок",
+    description: "Шаблон годового/месячного графика генеральных уборок для ЛПУ, общепита, производственных помещений.",
+    format: "Excel",
+    icon: "📅",
+    category: "Планирование"
+  },
+  {
+    title: "Чек-лист ежедневной уборки",
+    description: "Контрольный лист для проверки качества текущей уборки. Разделы: полы, поверхности, санузлы, оборудование.",
+    format: "PDF",
+    icon: "✅",
+    category: "Контроль"
+  },
+  {
+    title: "Инструкция по приготовлению дезрастворов",
+    description: "Типовая рабочая инструкция для персонала: правила разведения, хранения, маркировки рабочих растворов.",
+    format: "Word / PDF",
+    icon: "📑",
+    category: "Инструкции"
+  },
+  {
+    title: "Журнал контроля концентрации дезрастворов",
+    description: "Форма для записи результатов экспресс-контроля концентрации рабочих растворов индикаторными полосками.",
+    format: "PDF",
+    icon: "🧪",
+    category: "Учёт"
+  }
+];
+---
+
+<Layout
+  title="Шаблоны документов — журналы, графики, чек-листы по дезинфекции"
+  description="Бесплатные шаблоны документов: журнал дезинфекции, график генеральных уборок, чек-листы, инструкции по приготовлению дезрастворов."
+  pathname="/templates/"
+>
+  <h1 class="text-3xl font-bold text-slate-900 mb-2">Шаблоны документов</h1>
+  <p class="text-lg text-slate-600 mb-8 max-w-2xl">
+    Готовые формы для ведения документации по дезинфекции и санитарной обработке.
+    Скачайте, адаптируйте под свой объект и используйте.
+  </p>
+
+  <div class="not-prose mb-8 rounded-xl bg-amber-50 border border-amber-200 p-4">
+    <p class="text-amber-800 text-sm">
+      ⚠️ Шаблоны носят рекомендательный характер. Для конкретного объекта формы
+      документации могут отличаться в зависимости от профиля деятельности
+      и требований территориального Роспотребнадзора.
+    </p>
+  </div>
+
+  <div class="grid gap-4">
+    {templates.map((tpl) => (
+      <div class="flex items-start gap-4 rounded-xl border border-sky-100 bg-white p-5 shadow-sm">
+        <span class="text-3xl flex-shrink-0">{tpl.icon}</span>
+        <div class="flex-1">
+          <div class="flex items-center gap-2 flex-wrap">
+            <h2 class="text-lg font-semibold text-slate-900">{tpl.title}</h2>
+            <span class="rounded-full bg-sky-100 px-2 py-0.5 text-xs font-medium text-sky-700">{tpl.category}</span>
+            <span class="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-500">{tpl.format}</span>
+          </div>
+          <p class="mt-1 text-slate-600">{tpl.description}</p>
+          <p class="mt-2 text-sm text-slate-400 italic">Шаблон готовится к публикации</p>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <div class="mt-10 rounded-xl bg-sky-50 border border-sky-200 p-6">
+    <h2 class="text-lg font-semibold text-slate-900">Нужен шаблон, которого нет в списке?</h2>
+    <p class="mt-2 text-slate-600">
+      Напишите нам на <a href="mailto:info@chemitech.ru" class="text-sky-700 hover:text-sky-900">info@chemitech.ru</a> —
+      мы подготовим и добавим.
+    </p>
+  </div>
+</Layout>

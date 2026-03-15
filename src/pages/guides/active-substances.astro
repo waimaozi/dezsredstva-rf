@@ -1,0 +1,265 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Сравнение активных веществ дезинфектантов: ЧАС, хлор, перекись, спирты, ПАА",
+  "description": "Полное сравнение действующих веществ дезинфицирующих средств: спектр активности, совместимость с материалами, концентрации, ограничения.",
+  "author": { "@type": "Organization", "name": "Дезинфицирующиесредства.рф" }
+};
+---
+
+<Layout
+  title="Сравнение активных веществ дезинфектантов — ЧАС, хлор, перекись, спирты"
+  description="Полное сравнение действующих веществ: спектр активности, совместимость с материалами, рабочие концентрации, ограничения и рекомендации."
+  pathname="/guides/active-substances/"
+  structuredData={structuredData}
+>
+  <article class="prose prose-lg prose-slate mx-auto max-w-4xl">
+    <h1>Сравнение активных веществ дезинфектантов</h1>
+
+    <p class="lead text-xl text-slate-600">
+      Выбор дезинфицирующего средства начинается с понимания действующего вещества.
+      Каждый класс имеет свой спектр активности, ограничения по материалам
+      и оптимальные условия применения.
+    </p>
+
+    <nav class="not-prose my-8 rounded-xl bg-sky-50 p-6">
+      <h2 class="text-lg font-semibold text-slate-900 mb-3">Содержание</h2>
+      <ol class="space-y-1 text-sky-700">
+        <li><a href="#qac" class="hover:text-sky-900">1. Четвертичные аммониевые соединения (ЧАС)</a></li>
+        <li><a href="#chlorine" class="hover:text-sky-900">2. Хлорсодержащие (гипохлорит натрия)</a></li>
+        <li><a href="#peroxide" class="hover:text-sky-900">3. Перекись водорода и кислородактивные</a></li>
+        <li><a href="#alcohols" class="hover:text-sky-900">4. Спирты (этанол, изопропанол)</a></li>
+        <li><a href="#paa" class="hover:text-sky-900">5. Надуксусная кислота (ПАА)</a></li>
+        <li><a href="#comparison" class="hover:text-sky-900">6. Сводная таблица сравнения</a></li>
+        <li><a href="#choose" class="hover:text-sky-900">7. Как выбрать: алгоритм</a></li>
+      </ol>
+    </nav>
+
+    <h2 id="qac">1. Четвертичные аммониевые соединения (ЧАС)</h2>
+    <p>
+      ЧАС — наиболее распространённый класс дезинфектантов в клининге.
+      Катионные поверхностно-активные вещества, разрушающие клеточную мембрану микроорганизмов.
+    </p>
+    <h3>Спектр активности</h3>
+    <ul>
+      <li>✅ Грамположительные бактерии (MRSA, стафилококки)</li>
+      <li>✅ Грамотрицательные бактерии (E. coli, Klebsiella)</li>
+      <li>✅ Оболочечные вирусы (грипп, коронавирусы, ВИЧ)</li>
+      <li>⚠️ Ограниченно: микобактерии, грибы</li>
+      <li>❌ Не активны: споры, безоболочечные вирусы (норовирус, гепатит А)</li>
+    </ul>
+    <h3>Преимущества</h3>
+    <ul>
+      <li>Низкая токсичность, подходят для ежедневной уборки</li>
+      <li>Не повреждают большинство поверхностей</li>
+      <li>Хорошие моющие свойства (совмещение мойки и дезинфекции)</li>
+      <li>Стабильные рабочие растворы (до 14 дней)</li>
+    </ul>
+    <h3>Ограничения</h3>
+    <ul>
+      <li>Инактивируются анионными ПАВ и органической нагрузкой</li>
+      <li>Формирование устойчивости при длительном применении без ротации</li>
+      <li>Не подходят для дезинфекции высокого уровня (ДВУ)</li>
+    </ul>
+
+    <h2 id="chlorine">2. Хлорсодержащие средства (гипохлорит натрия)</h2>
+    <p>
+      Классика дезинфекции. Гипохлорит натрия (NaOCl) — активный хлор,
+      один из самых широких спектров действия среди всех дезинфектантов.
+    </p>
+    <h3>Спектр активности</h3>
+    <ul>
+      <li>✅ Бактерии (включая микобактерии при ≥1000 ppm)</li>
+      <li>✅ Все вирусы (включая безоболочечные — норовирус, гепатит)</li>
+      <li>✅ Грибы и дрожжи</li>
+      <li>✅ Споры (при высоких концентрациях ≥5000 ppm)</li>
+    </ul>
+    <h3>Преимущества</h3>
+    <ul>
+      <li>Самый широкий спектр действия</li>
+      <li>Быстрое действие (экспозиция от 1 минуты)</li>
+      <li>Низкая стоимость</li>
+      <li>Рекомендован ВОЗ и CDC для вспышек</li>
+    </ul>
+    <h3>Ограничения</h3>
+    <ul>
+      <li>Коррозия металлов, обесцвечивание тканей</li>
+      <li>Нестабильные рабочие растворы (готовить ежедневно)</li>
+      <li>Раздражение дыхательных путей</li>
+      <li>Инактивация органической нагрузкой (требуется предварительная очистка)</li>
+      <li>Нельзя смешивать с кислотами (выделение хлора!)</li>
+    </ul>
+
+    <h2 id="peroxide">3. Перекись водорода и кислородактивные средства</h2>
+    <p>
+      H₂O₂ — универсальный окислитель. В концентрациях 3-6% — дезинфекция поверхностей,
+      в стабилизированных формах — дезинфекция высокого уровня.
+    </p>
+    <h3>Спектр активности</h3>
+    <ul>
+      <li>✅ Бактерии, вирусы, грибы</li>
+      <li>✅ Микобактерии (при ≥3%)</li>
+      <li>✅ Споры (при ≥6% и длительной экспозиции)</li>
+    </ul>
+    <h3>Преимущества</h3>
+    <ul>
+      <li>Разложение на воду и кислород — экологически безопасно</li>
+      <li>Совместимость с большинством материалов</li>
+      <li>Применение в аэрозольной дезинфекции помещений</li>
+    </ul>
+    <h3>Ограничения</h3>
+    <ul>
+      <li>Нестабильность на свету и при нагреве</li>
+      <li>Обесцвечивание тканей при высоких концентрациях</li>
+      <li>Стоимость выше хлорсодержащих</li>
+    </ul>
+
+    <h2 id="alcohols">4. Спирты (этанол, изопропанол)</h2>
+    <p>
+      Основное применение — антисептика рук и быстрая дезинфекция малых поверхностей.
+      Оптимальная концентрация: 60-80%.
+    </p>
+    <h3>Спектр активности</h3>
+    <ul>
+      <li>✅ Бактерии (быстрое действие)</li>
+      <li>✅ Оболочечные вирусы</li>
+      <li>✅ Микобактерии</li>
+      <li>❌ Споры</li>
+      <li>⚠️ Ограниченно: безоболочечные вирусы</li>
+    </ul>
+    <h3>Преимущества</h3>
+    <ul>
+      <li>Быстрое испарение, не требует смывания</li>
+      <li>Действие за 15-30 секунд</li>
+    </ul>
+    <h3>Ограничения</h3>
+    <ul>
+      <li>Пожароопасность</li>
+      <li>Не подходят для больших поверхностей</li>
+      <li>Высушивают кожу при частом использовании</li>
+      <li>Неэффективны при наличии органических загрязнений</li>
+    </ul>
+
+    <h2 id="paa">5. Надуксусная кислота (ПАА / перуксусная)</h2>
+    <p>
+      Мощный окислитель для дезинфекции высокого уровня. Применяется
+      для обработки эндоскопов, медицинских инструментов, в пищевой промышленности.
+    </p>
+    <h3>Спектр активности</h3>
+    <ul>
+      <li>✅ Полный спектр: бактерии, вирусы, грибы, споры, микобактерии</li>
+      <li>✅ Эффективна при низких температурах</li>
+      <li>✅ Активна в присутствии органической нагрузки</li>
+    </ul>
+    <h3>Преимущества</h3>
+    <ul>
+      <li>Разложение на безвредные продукты (уксусная кислота + вода + кислород)</li>
+      <li>Работает при органической нагрузке</li>
+      <li>Короткая экспозиция</li>
+    </ul>
+    <h3>Ограничения</h3>
+    <ul>
+      <li>Резкий запах</li>
+      <li>Коррозия меди, латуни, бронзы</li>
+      <li>Нестабильность разведённых растворов</li>
+      <li>Высокая стоимость</li>
+    </ul>
+
+    <h2 id="comparison" class="not-prose">
+      <span class="text-2xl font-bold text-slate-900">6. Сводная таблица сравнения</span>
+    </h2>
+
+    <div class="not-prose my-6 overflow-x-auto">
+      <table class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="bg-sky-50">
+            <th class="border border-sky-200 px-3 py-2 text-left">Параметр</th>
+            <th class="border border-sky-200 px-3 py-2 text-center">ЧАС</th>
+            <th class="border border-sky-200 px-3 py-2 text-center">Хлор</th>
+            <th class="border border-sky-200 px-3 py-2 text-center">H₂O₂</th>
+            <th class="border border-sky-200 px-3 py-2 text-center">Спирты</th>
+            <th class="border border-sky-200 px-3 py-2 text-center">ПАА</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="border border-sky-100 px-3 py-2 font-medium">Бактерии</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td></tr>
+          <tr><td class="border border-sky-100 px-3 py-2 font-medium">Вирусы (обол.)</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td></tr>
+          <tr><td class="border border-sky-100 px-3 py-2 font-medium">Вирусы (безобол.)</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">❌</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">⚠️</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td></tr>
+          <tr><td class="border border-sky-100 px-3 py-2 font-medium">Микобактерии</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">⚠️</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td></tr>
+          <tr><td class="border border-sky-100 px-3 py-2 font-medium">Споры</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">❌</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅*</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅*</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">❌</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td></tr>
+          <tr><td class="border border-sky-100 px-3 py-2 font-medium">Грибы</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">⚠️</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">⚠️</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">✅</td></tr>
+          <tr><td class="border border-sky-100 px-3 py-2 font-medium">Совместимость</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">Высокая</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">Низкая</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">Высокая</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">Средняя</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">Средняя</td></tr>
+          <tr><td class="border border-sky-100 px-3 py-2 font-medium">Стоимость</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">Средняя</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">Низкая</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">Средняя</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">Высокая</td>
+            <td class="border border-sky-100 px-3 py-2 text-center">Высокая</td></tr>
+        </tbody>
+      </table>
+      <p class="mt-2 text-xs text-slate-500">* При высоких концентрациях и длительной экспозиции</p>
+    </div>
+
+    <h2 id="choose">7. Как выбрать: алгоритм</h2>
+    <ol>
+      <li><strong>Определите целевые микроорганизмы</strong> — от этого зависит минимальный уровень дезинфекции</li>
+      <li><strong>Оцените тип поверхности</strong> — металл, пластик, ткань, резина</li>
+      <li><strong>Учтите условия применения</strong> — органическая нагрузка, температура, вентиляция</li>
+      <li><strong>Проверьте совместимость</strong> — не все средства можно чередовать или смешивать</li>
+      <li><strong>Рассчитайте стоимость рабочего раствора</strong> — не концентрата, а именно готового раствора на м²</li>
+    </ol>
+
+    <div class="not-prose my-8 rounded-xl bg-amber-50 border border-amber-200 p-6">
+      <p class="text-amber-900 font-medium">⚠️ Важно</p>
+      <p class="mt-2 text-amber-800">
+        Ротация дезинфектантов с разным механизмом действия — обязательное условие
+        для предотвращения формирования устойчивых штаммов. Рекомендуемая периодичность
+        ротации: каждые 3-6 месяцев.
+      </p>
+    </div>
+
+    <h2>Полезные ссылки</h2>
+    <ul>
+      <li><a href="/tools/">Калькулятор разведения дезсредств</a></li>
+      <li><a href="/articles/">Научные дайджесты</a></li>
+    </ul>
+  </article>
+</Layout>
