@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: Inter, "Segoe UI", sans-serif;
+  font-family: "Segoe UI", "Noto Sans", "DejaVu Sans", sans-serif;
   background:
     radial-gradient(circle at top left, rgba(186, 230, 253, 0.3), transparent 28%),
     linear-gradient(180deg, #f8fbff 0%, #f8fbff 100%);
@@ -39,4 +39,20 @@ body {
 
 .section-copy {
   @apply text-base leading-7 text-slate-600 sm:text-lg;
+}
+
+.prose-article {
+  @apply max-w-none text-[1.05rem] leading-8 text-slate-700;
+}
+
+.prose-article h2 {
+  @apply mt-10 text-2xl font-semibold tracking-tight text-slate-900;
+}
+
+.prose-article p {
+  @apply mt-5;
+}
+
+.prose-article a {
+  @apply text-sky-700 underline decoration-sky-200 underline-offset-4 transition hover:text-sky-900;
 }

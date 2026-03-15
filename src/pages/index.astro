@@ -1,65 +1,51 @@
 ---
+import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 
-const sections = [
-  {
-    href: "/products/",
-    title: "Каталог дезсредств",
-    text: "Карточки средств Химитек с назначением, рабочими концентрациями и сферами применения."
-  },
-  {
-    href: "/tools/",
-    title: "Калькуляторы",
-    text: "Расчёт разведения растворов и подготовка режимов обработки для ежедневной работы."
-  },
-  {
-    href: "/compare/",
-    title: "Сравнение групп",
-    text: "Сводные таблицы по хлорным, ЧАС, перекисным и спиртовым составам."
-  },
-  {
-    href: "/research/",
-    title: "Дайджест исследований",
-    text: "Подборки материалов по эффективности, устойчивости и практике дезинфекции."
-  },
-  {
-    href: "/regulations/",
-    title: "Нормативные документы",
-    text: "СанПиН, ГОСТ, методические указания и краткие пояснения по применению."
-  }
-];
+const articles = (await getCollection("articles")).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+
+const latestArticles = articles.slice(0, 3);
+
+const formatDate = (date: Date) =>
+  new Intl.DateTimeFormat("ru-RU", {
+    day: "numeric",
+    month: "long",
+    year: "numeric"
+  }).format(date);
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: "Дезинфицирующиесредства.рф",
+  "@type": "Blog",
+  name: "Дезинфицирующие средства — блог о дезинфекции",
   url: "https://дезинфицирующиесредства.рф/",
   inLanguage: "ru",
-  description: "Информационный агрегатор по дезинфицирующим средствам, нормативам и инструментам расчёта."
+  description: "Независимый блог о дезинфекции: переводы исследований, обзоры практик и полезные инструменты."
 };
 ---
 
 <Layout
-  title="Дезинфицирующиесредства.рф — каталог дезсредств, нормативы и инструменты"
-  description="Профессиональный агрегатор по дезинфицирующим средствам: каталог, сравнение активных веществ, калькулятор разведения и нормативные документы."
+  title="Дезинфицирующие средства — блог о дезинфекции"
+  description="Независимый блог о дезинфекции: переводы исследований, практические обзоры и калькулятор разведения растворов."
   pathname="/"
   structuredData={structuredData}
 >
-  <section class="grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
+  <section class="grid gap-8 lg:grid-cols-[1.35fr_0.65fr]">
     <div class="section-shell overflow-hidden p-8 sm:p-10">
-      <span class="eyebrow">Профессиональная дезинфекция</span>
-      <h1 class="mt-5 max-w-3xl text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
-        Каталог дезинфицирующих средств и практические материалы для выбора режима обработки
+      <span class="eyebrow">Независимый ресурс</span>
+      <h1 class="mt-5 max-w-4xl text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+        Дезинфицирующие средства — блог о дезинфекции
       </h1>
       <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-        Дезинфицирующиесредства.рф собирает в одном месте карточки препаратов, сравнительные таблицы, нормативные документы и инструменты расчёта рабочих растворов для медицины, пищевых производств, клининга и HoReCa.
+        Независимый информационный блог о дезинфекции. Здесь публикуются переводные дайджесты исследований, обзоры практики инфекционного контроля и полезные инструменты для повседневной работы со средствами и режимами обработки.
       </p>
       <div class="mt-8 flex flex-wrap gap-3">
         <a
-          href="/products/"
+          href="/articles/"
           class="rounded-full bg-sky-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-sky-200 transition hover:bg-sky-700"
         >
-          Перейти в каталог
+          Читать статьи
         </a>
         <a
           href="/tools/"
@@ -72,23 +58,23 @@ const structuredData = {
 
     <aside class="section-shell grid gap-4 p-8">
       <div class="rounded-3xl bg-sky-600 p-6 text-white">
-        <p class="text-sm uppercase tracking-[0.2em] text-sky-100">Фокус сайта</p>
-        <p class="mt-4 text-3xl font-semibold">5 товарных карточек</p>
+        <p class="text-sm uppercase tracking-[0.2em] text-sky-100">Фокус блога</p>
+        <p class="mt-4 text-3xl font-semibold">Исследования и практика</p>
         <p class="mt-2 text-sm leading-6 text-sky-100">
-          Стартовый каталог средств Химитек с краткой навигацией по областям применения.
+          Материалы о патогенах, активных веществах, устойчивости загрязнений и реальных режимах дезинфекции.
         </p>
       </div>
       <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
         <div class="rounded-3xl border border-sky-100 bg-sky-50 p-5">
-          <p class="text-sm font-semibold text-sky-800">Сравнение активных веществ</p>
+          <p class="text-sm font-semibold text-sky-800">Переводные дайджесты</p>
           <p class="mt-2 text-sm leading-6 text-slate-600">
-            Хлор, ЧАС, перекись и спирты в одном обзоре с практическими плюсами и ограничениями.
+            Краткие русскоязычные обзоры зарубежных публикаций без рекламной подачи и продуктовых вставок.
           </p>
         </div>
         <div class="rounded-3xl border border-sky-100 bg-white p-5">
-          <p class="text-sm font-semibold text-slate-900">Нормативная база</p>
+          <p class="text-sm font-semibold text-slate-900">Практический инструмент</p>
           <p class="mt-2 text-sm leading-6 text-slate-600">
-            Быстрый доступ к СанПиН, ГОСТ и методическим указаниям по дезинфекционным мероприятиям.
+            Калькулятор разведения помогает быстро подготовить рабочий раствор под нужную концентрацию.
           </p>
         </div>
       </div>
@@ -97,39 +83,46 @@ const structuredData = {
 
   <section class="mt-12">
     <div class="mb-6">
-      <span class="eyebrow">Разделы сайта</span>
-      <h2 class="section-title mt-4">Навигация по ключевым кластерам запросов</h2>
+      <span class="eyebrow">Последние публикации</span>
+      <h2 class="section-title mt-4">Свежие статьи</h2>
       <p class="section-copy mt-4 max-w-3xl">
-        Каждая страница заточена под отдельный поисковый интент: выбор дезсредства, расчёт концентрации, сравнение химических групп, нормативные требования и обзор практики применения.
+        Новые материалы публикуются в формате коротких исследовательских дайджестов: что известно, почему это важно для практики и какие ограничения есть у выводов.
       </p>
     </div>
-    <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-5">
-      {sections.map((section) => (
-        <a href={section.href} class="section-shell group p-6 transition hover:-translate-y-1 hover:border-sky-200">
-          <p class="text-sm font-semibold uppercase tracking-[0.18em] text-sky-700">Раздел</p>
-          <h3 class="mt-4 text-xl font-semibold text-slate-900">{section.title}</h3>
-          <p class="mt-3 text-sm leading-6 text-slate-600">{section.text}</p>
+    <div class="grid gap-6 lg:grid-cols-3">
+      {latestArticles.map((article) => (
+        <a href={`/articles/${article.id}/`} class="section-shell group p-6 transition hover:-translate-y-1 hover:border-sky-200">
+          <p class="text-sm font-medium text-sky-700">{formatDate(article.data.date)}</p>
+          <h3 class="mt-4 text-xl font-semibold text-slate-900">{article.data.title}</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-600">{article.data.description}</p>
           <span class="mt-6 inline-flex text-sm font-semibold text-sky-700 transition group-hover:text-sky-900">
-            Открыть →
+            Читать статью →
           </span>
         </a>
       ))}
     </div>
   </section>
 
-  <section class="section-shell mt-12 p-8 sm:p-10">
-    <span class="eyebrow">О проекте</span>
-    <h2 class="section-title mt-4">Дезинфекция без лишнего шума: от выбора состава до нормативного обоснования</h2>
-    <div class="mt-6 grid gap-6 lg:grid-cols-3">
-      <p class="section-copy">
-        На сайте собраны базовые сведения по дезинфицирующим средствам для медицинских организаций, предприятий общественного питания, гостиниц, клининговых служб и пищевой промышленности. Акцент сделан на понятную структуру и быстрый поиск нужного режима обработки.
+  <section class="mt-12 grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
+    <div class="section-shell p-8 sm:p-10">
+      <span class="eyebrow">О проекте</span>
+      <h2 class="section-title mt-4">Практическая информация без каталога и рекламных вставок</h2>
+      <p class="section-copy mt-5">
+        Блог ориентирован на специалистов, которым нужны не продуктовые карточки, а понятные обзоры исследований, методические выводы и короткие пояснения к практическим сценариям. Основной фокус: поверхности, патогены, активные вещества, устойчивость загрязнений и качество обработки.
       </p>
-      <p class="section-copy">
-        В каталоге представлены стартовые карточки препаратов Химитек с указанием назначения, форм выпуска и сфер применения. Сравнительные материалы помогают выбрать между хлорсодержащими и бесхлорными средствами, а калькулятор разведения ускоряет подготовку рабочих растворов.
+    </div>
+    <div class="section-shell p-8">
+      <span class="eyebrow">Инструмент</span>
+      <h2 class="mt-4 text-2xl font-semibold tracking-tight text-slate-900">Калькулятор разведения растворов</h2>
+      <p class="mt-4 text-base leading-7 text-slate-600">
+        Отдельная страница для быстрого расчёта объёма концентрата и воды по формуле `C1 × V1 = C2 × V2`.
       </p>
-      <p class="section-copy">
-        Отдельный раздел с нормативными документами упрощает работу с требованиями СанПиН, ГОСТ и методических указаний. Такой формат полезен специалистам по инфекционному контролю, технологам, закупщикам и руководителям объектов с повышенными требованиями к санитарной безопасности.
-      </p>
+      <a
+        href="/tools/"
+        class="mt-6 inline-flex rounded-full border border-sky-200 bg-sky-50 px-5 py-3 text-sm font-semibold text-sky-700 transition hover:border-sky-300 hover:bg-sky-100"
+      >
+        Перейти к калькулятору
+      </a>
     </div>
   </section>
 </Layout>

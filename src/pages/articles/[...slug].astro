@@ -1,0 +1,82 @@
+---
+import { getCollection, render } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  const articles = await getCollection("articles");
+
+  return articles.map((article) => ({
+    params: { slug: article.id },
+    props: { article }
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+
+const formatDate = (date: Date) =>
+  new Intl.DateTimeFormat("ru-RU", {
+    day: "numeric",
+    month: "long",
+    year: "numeric"
+  }).format(date);
+
+const pathname = `/articles/${article.id}/`;
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: article.data.title,
+  description: article.data.description,
+  datePublished: article.data.date.toISOString(),
+  inLanguage: "ru",
+  mainEntityOfPage: `https://дезинфицирующиесредства.рф${pathname}`
+};
+---
+
+<Layout
+  title={`${article.data.title} — Дезинфицирующие средства`}
+  description={article.data.description}
+  pathname={pathname}
+  structuredData={structuredData}
+>
+  <article class="section-shell px-8 py-10 sm:px-12 sm:py-12">
+    <a href="/articles/" class="text-sm font-semibold text-sky-700 transition hover:text-sky-900">
+      ← Ко всем статьям
+    </a>
+
+    <header class="mt-6 border-b border-sky-100 pb-8">
+      <p class="text-sm font-medium text-sky-700">{formatDate(article.data.date)}</p>
+      <h1 class="mt-3 max-w-4xl text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
+        {article.data.title}
+      </h1>
+      <p class="mt-5 max-w-3xl text-lg leading-8 text-slate-600">{article.data.description}</p>
+
+      <div class="mt-6 flex flex-wrap gap-3">
+        {article.data.tags.map((tag: string) => (
+          <span class="rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-sm font-medium text-sky-700">
+            #{tag}
+          </span>
+        ))}
+      </div>
+
+      {article.data.source && (
+        <p class="mt-6 text-sm text-slate-600">
+          Источник:{" "}
+          <a
+            href={article.data.source}
+            target="_blank"
+            rel="noreferrer"
+            class="font-medium text-sky-700 underline decoration-sky-200 underline-offset-4"
+          >
+            оригинальная публикация
+          </a>
+        </p>
+      )}
+    </header>
+
+    <div class="prose-article mt-8">
+      <Content />
+    </div>
+  </article>
+</Layout>

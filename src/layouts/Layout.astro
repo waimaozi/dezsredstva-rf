@@ -23,11 +23,8 @@ const ogImage = new URL(image, siteUrl);
 
 const navItems = [
   { href: "/", label: "Главная" },
-  { href: "/products/", label: "Средства" },
-  { href: "/tools/", label: "Инструменты" },
-  { href: "/compare/", label: "Сравнение" },
-  { href: "/research/", label: "Исследования" },
-  { href: "/regulations/", label: "Нормативы" }
+  { href: "/articles/", label: "Статьи" },
+  { href: "/tools/", label: "Калькулятор" }
 ];
 ---
 
@@ -65,13 +62,8 @@ const navItems = [
           <span class="flex h-11 w-11 items-center justify-center rounded-2xl bg-sky-600 text-lg font-semibold text-white shadow-lg shadow-sky-200">
             ДС
           </span>
-          <span>
-            <span class="block text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">
-              Агрегатор
-            </span>
-            <span class="block text-lg font-semibold text-slate-900">
-              Дезинфицирующиесредства.рф
-            </span>
+          <span class="block text-lg font-semibold text-slate-900">
+            Дезинфицирующиесредства.рф
           </span>
         </a>
         <nav aria-label="Основная навигация" class="hidden items-center gap-2 lg:flex">
@@ -114,25 +106,14 @@ const navItems = [
     </main>
 
     <footer class="border-t border-sky-100 bg-white/90">
-      <div class="mx-auto grid max-w-7xl gap-6 px-4 py-8 text-sm text-slate-600 sm:px-6 lg:grid-cols-[1.5fr_1fr] lg:px-8">
+      <div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-8 text-sm text-slate-600 sm:px-6 lg:px-8">
         <div>
           <p class="text-base font-semibold text-slate-900">Дезинфицирующиесредства.рф</p>
           <p class="mt-2 max-w-2xl">
-            Справочный каталог дезинфицирующих средств, нормативных документов и практических инструментов для медицины, HoReCa, пищевых производств и клининга.
+            Независимый блог о дезинфекции: переводы исследований, практические обзоры и полезные инструменты.
           </p>
         </div>
-        <div class="lg:justify-self-end">
-          <p class="font-medium text-slate-900">Партнёр проекта</p>
-          <a
-            href="https://chemitech.ru"
-            target="_blank"
-            rel="noreferrer"
-            class="mt-2 inline-flex text-sky-700 transition hover:text-sky-900"
-          >
-            chemitech.ru
-          </a>
-          <p class="mt-3">Статический SEO-агрегатор с фокусом на профессиональную дезинфекцию.</p>
-        </div>
+        <p>При поддержке <a href="https://chemitech.ru" target="_blank" rel="noreferrer" class="text-sky-700 transition hover:text-sky-900">chemitech.ru</a></p>
       </div>
     </footer>
   </body>
