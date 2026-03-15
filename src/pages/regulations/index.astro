@@ -1,0 +1,53 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const docs = [
+  {
+    title: "СанПиН 3.3686-21",
+    description: "Базовый санитарно-эпидемиологический документ по профилактике инфекционных болезней, включая требования к дезинфекции и санитарным мероприятиям.",
+    href: "https://www.consultant.ru/document/cons_doc_LAW_378727/"
+  },
+  {
+    title: "ГОСТ по дезинфицирующим средствам",
+    description: "Категория стандартов для методов испытаний, терминологии и общих требований к дезинфицирующим средствам и режимам их оценки.",
+    href: "https://protect.gost.ru/"
+  },
+  {
+    title: "Методические указания (МУ)",
+    description: "Практические документы с разъяснениями по подготовке рабочих растворов, обработке поверхностей, инструментов и санитарно-технического оборудования.",
+    href: "https://www.rospotrebnadzor.ru/documents/"
+  }
+];
+---
+
+<Layout
+  title="Нормативные документы по дезинфекции: СанПиН, ГОСТ, МУ"
+  description="Справочная страница по нормативным документам в сфере дезинфекции: СанПиН 3.3686-21, ГОСТ и методические указания."
+  pathname="/regulations/"
+>
+  <section class="mb-8">
+    <span class="eyebrow">Нормативы</span>
+    <h1 class="section-title mt-4">СанПиН, ГОСТ и методические указания по дезинфекции</h1>
+    <p class="section-copy mt-4 max-w-4xl">
+      На этой странице собраны ключевые типы нормативных документов, которые чаще всего используют при разработке программ производственного контроля, инструкций по санитарной обработке и внутренних регламентов на объекте.
+    </p>
+  </section>
+
+  <section class="grid gap-6 lg:grid-cols-3">
+    {docs.map((doc) => (
+      <article class="section-shell p-8">
+        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Документ</p>
+        <h2 class="mt-4 text-2xl font-semibold text-slate-900">{doc.title}</h2>
+        <p class="mt-4 text-base leading-7 text-slate-600">{doc.description}</p>
+        <a
+          href={doc.href}
+          target="_blank"
+          rel="noreferrer"
+          class="mt-6 inline-flex rounded-full border border-sky-200 px-5 py-3 text-sm font-semibold text-sky-700 transition hover:bg-sky-50"
+        >
+          Открыть источник
+        </a>
+      </article>
+    ))}
+  </section>
+</Layout>

@@ -1,0 +1,99 @@
+---
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout
+  title="Калькулятор разведения дезинфицирующих растворов"
+  description="Онлайн-калькулятор разведения дезинфицирующих средств: расчёт объёма концентрата и воды для нужной концентрации раствора."
+  pathname="/tools/"
+>
+  <section class="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+    <div class="section-shell p-8 sm:p-10">
+      <span class="eyebrow">Инструменты</span>
+      <h1 class="section-title mt-4">Калькулятор разведения дезинфицирующих растворов</h1>
+      <p class="section-copy mt-4">
+        Введите концентрацию исходного концентрата, требуемую рабочую концентрацию и итоговый объём раствора. Калькулятор рассчитает, сколько миллилитров концентрата и воды потребуется для приготовления рабочей смеси.
+      </p>
+      <div class="mt-8 grid gap-4 sm:grid-cols-3">
+        <div class="rounded-3xl border border-sky-100 bg-sky-50 p-5">
+          <p class="text-sm font-semibold text-sky-800">Формула</p>
+          <p class="mt-2 text-sm leading-6 text-slate-700">C1 × V1 = C2 × V2</p>
+        </div>
+        <div class="rounded-3xl border border-sky-100 bg-white p-5">
+          <p class="text-sm font-semibold text-slate-900">Единицы</p>
+          <p class="mt-2 text-sm leading-6 text-slate-700">Проценты и литры</p>
+        </div>
+        <div class="rounded-3xl border border-sky-100 bg-white p-5">
+          <p class="text-sm font-semibold text-slate-900">Сценарий</p>
+          <p class="mt-2 text-sm leading-6 text-slate-700">Подготовка рабочих растворов на смену</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="section-shell p-8 sm:p-10">
+      <form id="dilution-form" class="grid gap-5">
+        <label class="grid gap-2">
+          <span class="text-sm font-medium text-slate-800">Концентрация концентрата, %</span>
+          <input id="stock" type="number" min="0.1" step="0.1" value="10" class="rounded-2xl border border-sky-200 bg-white px-4 py-3 outline-none transition focus:border-sky-500" />
+        </label>
+        <label class="grid gap-2">
+          <span class="text-sm font-medium text-slate-800">Требуемая рабочая концентрация, %</span>
+          <input id="target" type="number" min="0.01" step="0.01" value="0.5" class="rounded-2xl border border-sky-200 bg-white px-4 py-3 outline-none transition focus:border-sky-500" />
+        </label>
+        <label class="grid gap-2">
+          <span class="text-sm font-medium text-slate-800">Итоговый объём раствора, литры</span>
+          <input id="volume" type="number" min="0.1" step="0.1" value="5" class="rounded-2xl border border-sky-200 bg-white px-4 py-3 outline-none transition focus:border-sky-500" />
+        </label>
+        <button type="submit" class="rounded-full bg-sky-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-sky-700">
+          Рассчитать
+        </button>
+      </form>
+
+      <div id="result" class="mt-8 rounded-[1.75rem] border border-sky-100 bg-sky-50 p-6">
+        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-sky-700">Результат</p>
+        <p class="mt-3 text-lg leading-8 text-slate-700">
+          Для приготовления раствора укажите значения и нажмите «Рассчитать».
+        </p>
+      </div>
+    </section>
+  </section>
+
+  <script is:inline>
+    const form = document.getElementById("dilution-form");
+    const result = document.getElementById("result");
+
+    const formatMl = (value) =>
+      new Intl.NumberFormat("ru-RU", { maximumFractionDigits: 1 }).format(value);
+
+    form?.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      const stock = Number(document.getElementById("stock")?.value);
+      const target = Number(document.getElementById("target")?.value);
+      const volume = Number(document.getElementById("volume")?.value);
+
+      if (!stock || !target || !volume || target >= stock) {
+        result.innerHTML = `
+          <p class="text-sm font-semibold uppercase tracking-[0.18em] text-rose-700">Проверьте ввод</p>
+          <p class="mt-3 text-lg leading-8 text-slate-700">
+            Рабочая концентрация должна быть меньше концентрации концентрата, а все поля должны быть заполнены положительными значениями.
+          </p>
+        `;
+        return;
+      }
+
+      const totalMl = volume * 1000;
+      const concentrateMl = (target / stock) * totalMl;
+      const waterMl = totalMl - concentrateMl;
+
+      result.innerHTML = `
+        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-sky-700">Результат</p>
+        <p class="mt-3 text-lg leading-8 text-slate-700">
+          Для ${volume} л раствора концентрацией ${target}% из концентрата ${stock}% потребуется
+          <strong>${formatMl(concentrateMl)} мл концентрата</strong> и
+          <strong>${formatMl(waterMl)} мл воды</strong>.
+        </p>
+      `;
+    });
+  </script>
+</Layout>

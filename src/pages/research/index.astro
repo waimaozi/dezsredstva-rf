@@ -1,0 +1,61 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const digestItems = [
+  {
+    title: "Устойчивость патогенов на контактных поверхностях",
+    text: "Краткий разбор публикаций о выживаемости микроорганизмов на пластике, металле и композитных материалах."
+  },
+  {
+    title: "Как влияет органическая нагрузка на эффективность дезсредств",
+    text: "Шаблон дайджеста для материалов о предварительной очистке и корректировке режимов обработки."
+  },
+  {
+    title: "Практика дезинфекции в HoReCa и пищевом производстве",
+    text: "Обзор типовых ошибок и подходов к выбору бесхлорных и хлорсодержащих составов."
+  }
+];
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Дайджесты исследований по дезинфекции",
+  inLanguage: "ru",
+  hasPart: digestItems.map((item) => ({
+    "@type": "Article",
+    headline: item.title,
+    description: item.text
+  }))
+};
+---
+
+<Layout
+  title="Дайджесты исследований по дезинфицирующим средствам"
+  description="Раздел для публикации дайджестов исследований по дезинфекции, устойчивости патогенов и практическому выбору режимов обработки."
+  pathname="/research/"
+  structuredData={structuredData}
+>
+  <section class="mb-8">
+    <span class="eyebrow">Исследования</span>
+    <h1 class="section-title mt-4">Дайджесты исследований и отраслевых публикаций</h1>
+    <p class="section-copy mt-4 max-w-4xl">
+      Раздел подготовлен как шаблон под автопубликацию материалов через N8N. Здесь могут появляться краткие дайджесты научных статей, отраслевых обзоров и практических кейсов по дезинфекции, санитарной обработке и инфекционному контролю.
+    </p>
+  </section>
+
+  <section class="grid gap-6 xl:grid-cols-3">
+    {digestItems.map((item) => (
+      <article class="section-shell p-8" itemScope itemType="https://schema.org/Article">
+        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Пример дайджеста</p>
+        <h2 class="mt-4 text-2xl font-semibold text-slate-900" itemProp="headline">{item.title}</h2>
+        <p class="mt-4 text-base leading-7 text-slate-600" itemProp="description">{item.text}</p>
+        <div class="mt-6 rounded-3xl border border-sky-100 bg-sky-50 p-5">
+          <p class="text-sm font-medium text-sky-800">Структура публикации</p>
+          <p class="mt-2 text-sm leading-6 text-slate-700">
+            Аннотация, ключевые выводы, практическое значение, рекомендации по применению на объекте.
+          </p>
+        </div>
+      </article>
+    ))}
+  </section>
+</Layout>

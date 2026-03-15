@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --bg-soft: #f8fbff;
+  --line: rgba(14, 116, 144, 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(186, 230, 253, 0.3), transparent 28%),
+    linear-gradient(180deg, #f8fbff 0%, #f8fbff 100%);
+}
+
+.medical-grid {
+  background-image:
+    linear-gradient(to right, transparent 0, transparent 23px, var(--line) 24px),
+    linear-gradient(to bottom, transparent 0, transparent 23px, var(--line) 24px);
+  background-size: 24px 24px;
+  mask-image: linear-gradient(180deg, rgba(255, 255, 255, 0.65), transparent 85%);
+}
+
+.section-shell {
+  @apply rounded-[2rem] border border-sky-100 bg-white/90 shadow-[0_20px_80px_-40px_rgba(14,116,144,0.45)];
+}
+
+.eyebrow {
+  @apply inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700;
+}
+
+.section-title {
+  @apply text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl;
+}
+
+.section-copy {
+  @apply text-base leading-7 text-slate-600 sm:text-lg;
+}
