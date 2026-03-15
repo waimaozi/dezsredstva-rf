@@ -54,7 +54,7 @@ const navItems = [
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
     <link rel="alternate" type="application/rss+xml" title="Дезинфицирующиесредства.рф — RSS" href="/rss.xml" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script is:inline src="https://cdn.tailwindcss.com"></script>
     {structuredData && (
       <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
     )}
@@ -135,7 +135,7 @@ const navItems = [
           </p>
         </div>
         <p>При поддержке <a href="https://chemitech.ru" target="_blank" rel="noreferrer" class="text-sky-700 transition hover:text-sky-900">chemitech.ru</a></p>
-        <p class="text-xs text-slate-400 mt-2">v2.2 — 15.03.2026 17:55</p>
+        <p class="text-xs text-slate-400 mt-2">v3.0 — 15.03.2026 17:57</p>
       </div>
     </footer>
   </body>

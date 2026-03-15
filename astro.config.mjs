@@ -1,6 +1,5 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig(async () => {
@@ -10,14 +9,11 @@ export default defineConfig(async () => {
     const { default: sitemap } = await import('@astrojs/sitemap');
     integrations.push(sitemap());
   } catch {
-    console.warn('[astro.config] @astrojs/sitemap не установлен. Sitemap будет доступен после `npm install`.');
+    console.warn('[astro.config] @astrojs/sitemap не установлен.');
   }
 
   return {
     site: 'https://дезинфицирующиесредства.рф',
     integrations,
-    vite: {
-      plugins: [tailwindcss()]
-    }
   };
 });

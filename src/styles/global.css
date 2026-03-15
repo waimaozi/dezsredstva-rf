@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* Tailwind handled by CDN script in Layout.astro */
 
 :root {
   color-scheme: light;
@@ -26,33 +26,65 @@ body {
 }
 
 .section-shell {
-  @apply rounded-[2rem] border border-sky-100 bg-white/90 shadow-[0_20px_80px_-40px_rgba(14,116,144,0.45)];
+  border-radius: 2rem;
+  border: 1px solid rgb(224 242 254);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 20px 80px -40px rgba(14, 116, 144, 0.45);
 }
 
 .eyebrow {
-  @apply inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700;
+  display: inline-flex;
+  border-radius: 9999px;
+  border: 1px solid rgb(186 230 253);
+  background-color: rgb(240 249 255);
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  color: rgb(3 105 161);
 }
 
 .section-title {
-  @apply text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl;
+  font-size: 1.875rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: rgb(15 23 42);
 }
 
 .section-copy {
-  @apply text-base leading-7 text-slate-600 sm:text-lg;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: rgb(71 85 105);
 }
 
 .prose-article {
-  @apply max-w-none text-[1.05rem] leading-8 text-slate-700;
+  max-width: none;
+  font-size: 1.05rem;
+  line-height: 2rem;
+  color: rgb(51 65 85);
 }
 
 .prose-article h2 {
-  @apply mt-10 text-2xl font-semibold tracking-tight text-slate-900;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: rgb(15 23 42);
 }
 
 .prose-article p {
-  @apply mt-5;
+  margin-top: 1.25rem;
 }
 
 .prose-article a {
-  @apply text-sky-700 underline decoration-sky-200 underline-offset-4 transition hover:text-sky-900;
+  color: rgb(3 105 161);
+  text-decoration: underline;
+  text-decoration-color: rgb(186 230 253);
+  text-underline-offset: 4px;
+  transition: color 0.15s;
+}
+
+.prose-article a:hover {
+  color: rgb(12 74 110);
 }
