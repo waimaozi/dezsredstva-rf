@@ -7,6 +7,7 @@ Usage:
   python3 tools/autopublish.py              # fetch & publish 1 new article
   python3 tools/autopublish.py --count 3    # fetch & publish 3 articles
   python3 tools/autopublish.py --dry-run    # preview without committing
+  python3 tools/autopublish.py --expert     # add expert comment block to articles
 """
 
 import argparse
@@ -32,6 +33,107 @@ PUBMED_FETCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
 KIE_API_KEY = os.environ.get("KIE_API_KEY", "")
 KIE_MODEL = "gemini-2.5-flash"
 KIE_URL = f"https://api.kie.ai/{KIE_MODEL}/v1/chat/completions"
+
+# --- Expert comment config ---
+# Experts for E-E-A-T blocks. Update with real data when available (Этап 2).
+# Each expert has: name, position, company, experience, specialties
+EXPERTS_FILE = REPO_DIR / "tools" / ".experts.json"
+
+DEFAULT_EXPERTS = [
+    {
+        "name": "Тестовый Эксперт",
+        "position": "технолог отдела контроля качества",
+        "company": "ОАО «Химитек»",
+        "experience": "15 лет опыта в промышленной дезинфекции",
+        "specialties": ["поверхности", "ЛПУ", "пищепром", "вещества", "методы"],
+    },
+]
+
+
+def load_experts():
+    """Load experts list. Falls back to defaults if file missing."""
+    if EXPERTS_FILE.exists():
+        return json.loads(EXPERTS_FILE.read_text())
+    return DEFAULT_EXPERTS
+
+
+def pick_expert(category, experts=None):
+    """Pick best-matching expert for article category."""
+    if experts is None:
+        experts = load_experts()
+    # Find expert whose specialties match the category
+    for expert in experts:
+        if category and category.lower() in [s.lower() for s in expert.get("specialties", [])]:
+            return expert
+    # Fallback: first expert
+    return experts[0] if experts else None
+
+
+def generate_expert_comment(article, digest, expert):
+    """Generate expert comment using kie.ai Gemini Flash."""
+    if not KIE_API_KEY:
+        return "Комментарий эксперта будет добавлен позже."
+
+    prompt = (
+        "Ты — специалист по дезинфекции и санитарной обработке.\n"
+        f"Имя: {expert['name']}, {expert['position']}, {expert['company']}.\n"
+        f"Опыт: {expert['experience']}.\n\n"
+        "На основе этой статьи напиши КОРОТКИЙ экспертный комментарий от первого лица (2-4 предложения).\n"
+        "Стиль: практичный, из опыта. Не пересказывай статью. Скажи, как это соотносится с российской практикой, "
+        "что бы ты порекомендовал коллегам, или на что обратить внимание.\n"
+        "Пиши как живой человек, не как бот. Можно упомянуть конкретный случай из практики (выдуманный, но реалистичный).\n\n"
+        f"Заголовок статьи: {digest.get('title_ru', article.get('title', ''))}\n"
+        f"Категория: {digest.get('category', 'методы')}\n"
+        f"Краткое содержание: {digest.get('body_ru', '')[:500]}\n\n"
+        "Ответь ТОЛЬКО текстом комментария (2-4 предложения), без кавычек, без пояснений."
+    )
+
+    payload = json.dumps({
+        "model": KIE_MODEL,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.5,
+        "max_tokens": 300,
+    })
+
+    try:
+        import tempfile
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as f:
+            f.write(payload)
+            payload_file = f.name
+
+        cmd = [
+            "curl", "-s", "-X", "POST", KIE_URL,
+            "-H", f"Authorization: Bearer {KIE_API_KEY}",
+            "-H", "Content-Type: application/json",
+            "-d", f"@{payload_file}",
+            "--max-time", "30",
+        ]
+        proc = subprocess.run(cmd, capture_output=True, text=True, timeout=35)
+        os.unlink(payload_file)
+
+        if proc.returncode != 0:
+            print(f"  Warning: expert comment curl error: {proc.stderr[:200]}")
+            return None
+
+        result = json.loads(proc.stdout)
+        content = result["choices"][0]["message"]["content"].strip()
+        # Clean up quotes if LLM wrapped them
+        content = content.strip('"\'«»')
+        return content
+    except Exception as e:
+        print(f"  Warning: expert comment generation error: {e}")
+        return None
+
+
+def format_expert_block(comment, expert):
+    """Format the expert comment as a markdown block for the article."""
+    return (
+        f'\n\n---\n\n'
+        f'### 💬 Комментарий специалиста\n\n'
+        f'> {comment}\n\n'
+        f'**{expert["name"]}**, {expert["position"]}, {expert["company"]} — {expert["experience"]}\n'
+    )
+
 
 # PubMed search queries for disinfection research
 PUBMED_QUERIES = [
@@ -251,7 +353,7 @@ def slugify(text):
     return result[:80]
 
 
-def create_article_file(article, digest):
+def create_article_file(article, digest, expert_block=""):
     """Create .md file in articles directory."""
     slug = slugify(digest["title_ru"])
     date_str = datetime.utcnow().strftime("%Y-%m-%d")
@@ -279,6 +381,10 @@ def create_article_file(article, digest):
     )
 
     body = digest["body_ru"]
+
+    # Expert comment block (inserted between body and source)
+    expert_section = expert_block if expert_block else ""
+
     source_line = (
         f'\n\n---\n\n'
         f'**Источник:** [{article["authors"]}. *{article["journal"]}* ({article["year"]})]'
@@ -288,7 +394,7 @@ def create_article_file(article, digest):
         f'и не заменяет официальные инструкции производителей и нормативные документы.*\n'
     )
 
-    content = frontmatter + "\n" + body + source_line
+    content = frontmatter + "\n" + body + expert_section + source_line
     filepath.write_text(content, encoding="utf-8")
     return filepath
 
@@ -307,10 +413,13 @@ def main():
     parser.add_argument("--count", type=int, default=1, help="Number of articles to publish")
     parser.add_argument("--dry-run", action="store_true", help="Preview without committing")
     parser.add_argument("--query-index", type=int, default=None, help="Use specific query (0-based)")
+    parser.add_argument("--expert", action="store_true", help="Add expert comment block to articles (E-E-A-T)")
     args = parser.parse_args()
 
     print("Autopublish pipeline started")
-    print(f"  Target: {args.count} article(s), dry_run={args.dry_run}")
+    print(f"  Target: {args.count} article(s), dry_run={args.dry_run}, expert={args.expert}")
+
+    experts = load_experts() if args.expert else []
 
     state = load_state()
     published = set(state.get("published_pmids", []))
@@ -355,11 +464,27 @@ def main():
 
             print(f"  Title RU: {digest['title_ru'][:60]}...")
 
+            # Generate expert comment if --expert flag is set
+            expert_block = ""
+            if args.expert and experts:
+                category = digest.get("category", "методы")
+                expert = pick_expert(category, experts)
+                if expert:
+                    print(f"  Generating expert comment ({expert['name']})...")
+                    comment = generate_expert_comment(article, digest, expert)
+                    if comment:
+                        expert_block = format_expert_block(comment, expert)
+                        print(f"  Expert comment: {comment[:80]}...")
+                    else:
+                        print("  Expert comment generation failed, skipping block")
+
             if args.dry_run:
                 print("  [DRY RUN] Would create article file")
                 print(f"  Tags: {digest.get('tags', [])}")
+                if expert_block:
+                    print(f"  [DRY RUN] Expert block would be included")
             else:
-                filepath = create_article_file(article, digest)
+                filepath = create_article_file(article, digest, expert_block)
                 new_files.append(filepath)
                 print(f"  Created: {filepath.name}")
 
