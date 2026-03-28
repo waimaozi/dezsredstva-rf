@@ -1,19 +1,9 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
-export default defineConfig(async () => {
-  const integrations = [];
-
-  try {
-    const { default: sitemap } = await import('@astrojs/sitemap');
-    integrations.push(sitemap());
-  } catch {
-    console.warn('[astro.config] @astrojs/sitemap не установлен.');
-  }
-
-  return {
-    site: 'https://дезинфицирующиесредства.рф',
-    integrations,
-  };
+export default defineConfig({
+  site: 'https://xn--80adjkbqfcejjiieo4b.xn--p1ai',
+  integrations: [sitemap()],
 });
