@@ -8,7 +8,7 @@ export async function GET(context: APIContext) {
     (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
   );
 
-  const site = context.site?.toString() ?? "https://xn--b1aecbbpdbbdc0a3a2a4b.xn--p1ai";
+  const site = context.site?.toString() ?? "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai";
 
   return rss({
     title: "Дезинфицирующиесредства.рф — блог о дезинфекции",

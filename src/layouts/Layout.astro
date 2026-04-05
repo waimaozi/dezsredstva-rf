@@ -6,6 +6,8 @@ interface Props {
   description: string;
   pathname?: string;
   image?: string;
+  ogType?: "website" | "article";
+  publishedTime?: string;
   structuredData?: Record<string, unknown> | Array<Record<string, unknown>>;
 }
 
@@ -14,6 +16,8 @@ const {
   description,
   pathname = "/",
   image = "/og-cover.jpg",
+  ogType = "website",
+  publishedTime,
   structuredData
 } = Astro.props;
 
@@ -42,7 +46,8 @@ const navItems = [
     <link rel="canonical" href={canonical} />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
+    {publishedTime && <meta property="article:published_time" content={publishedTime} />}
     <meta property="og:locale" content="ru_RU" />
     <meta property="og:site_name" content="Дезинфицирующиесредства.рф" />
     <meta property="og:title" content={title} />

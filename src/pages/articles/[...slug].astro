@@ -87,6 +87,8 @@ const structuredData = [
   title={`${article.data.title} — Дезинфицирующие средства`}
   description={article.data.description}
   pathname={pathname}
+  ogType="article"
+  publishedTime={article.data.date.toISOString()}
   structuredData={structuredData}
 >
   <nav aria-label="Хлебные крошки" class="mb-6">

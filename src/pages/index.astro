@@ -6,7 +6,7 @@ const articles = (await getCollection("articles")).sort(
   (a, b) => b.data.date.getTime() - a.data.date.getTime()
 );
 
-const latestArticles = articles.slice(0, 3);
+const latestArticles = articles.slice(0, 12);
 
 const formatDate = (date: Date) =>
   new Intl.DateTimeFormat("ru-RU", {
@@ -89,7 +89,7 @@ const structuredData = {
         Новые материалы публикуются в формате коротких исследовательских дайджестов: что известно, почему это важно для практики и какие ограничения есть у выводов.
       </p>
     </div>
-    <div class="grid gap-6 lg:grid-cols-3">
+    <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
       {latestArticles.map((article) => (
         <a href={`/articles/${article.id}/`} class="section-shell group p-6 transition hover:-translate-y-1 hover:border-sky-200">
           <p class="text-sm font-medium text-sky-700">{formatDate(article.data.date)}</p>
@@ -100,6 +100,14 @@ const structuredData = {
           </span>
         </a>
       ))}
+    </div>
+    <div class="mt-6 flex justify-end">
+      <a
+        href="/articles/"
+        class="inline-flex rounded-full border border-sky-200 bg-white px-5 py-3 text-sm font-semibold text-sky-700 transition hover:border-sky-300 hover:bg-sky-50 hover:text-sky-900"
+      >
+        Все статьи →
+      </a>
     </div>
   </section>
 
