@@ -1,0 +1,65 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import { getArticlesByTag, getUniqueTags, normalizeTag } from "../../lib/articles";
+
+export async function getStaticPaths() {
+  const articles = await getCollection("articles");
+  const tags = getUniqueTags(articles);
+
+  return tags.map((tag) => ({
+    params: { tag: tag.slug },
+    props: { tag }
+  }));
+}
+
+const { tag } = Astro.props;
+const articles = await getCollection("articles");
+const taggedArticles = getArticlesByTag(articles, tag.slug);
+const normalizedTag = normalizeTag(tag.label);
+
+const formatDate = (date: Date) =>
+  new Intl.DateTimeFormat("ru-RU", {
+    day: "numeric",
+    month: "long",
+    year: "numeric"
+  }).format(date);
+
+const pathname = `/tags/${normalizedTag.slug}/`;
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: `Статьи по тегу ${tag.label}`,
+  description: `Подборка статей по теме «${tag.label}» на Дезинфицирующиесредства.рф.`,
+  url: `https://дезинфицирующиесредства.рф${pathname}`,
+  inLanguage: "ru"
+};
+---
+
+<Layout
+  title={`Тег: ${tag.label}`}
+  description={`Все статьи по тегу «${tag.label}».`}
+  pathname={pathname}
+  structuredData={structuredData}
+>
+  <section class="section-shell p-8 sm:p-10">
+    <a href="/tags/" class="text-sm font-semibold text-sky-700 transition hover:text-sky-900">
+      ← Ко всем тегам
+    </a>
+    <span class="eyebrow mt-6">Тема</span>
+    <h1 class="section-title mt-4">#{tag.label}</h1>
+    <p class="section-copy mt-4 max-w-3xl">
+      Публикаций по теме: {taggedArticles.length}.
+    </p>
+  </section>
+
+  <section class="mt-10 grid gap-6">
+    {taggedArticles.map((article) => (
+      <a href={`/articles/${article.id}/`} class="section-shell group p-6 sm:p-8 transition hover:-translate-y-1 hover:border-sky-200">
+        <p class="text-sm font-medium text-sky-700">{formatDate(article.data.date)}</p>
+        <h2 class="mt-3 text-2xl font-semibold tracking-tight text-slate-900">{article.data.title}</h2>
+        <p class="mt-4 max-w-3xl text-base leading-7 text-slate-600">{article.data.description}</p>
+      </a>
+    ))}
+  </section>
+</Layout>

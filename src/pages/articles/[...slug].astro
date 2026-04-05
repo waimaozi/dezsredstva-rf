@@ -1,6 +1,14 @@
 ---
 import { getCollection, render } from "astro:content";
+import TableOfContents from "../../components/TableOfContents.astro";
 import Layout from "../../layouts/Layout.astro";
+import {
+  getArticleAbsoluteUrl,
+  getArticleUrl,
+  getRelatedArticles,
+  normalizeTag,
+  sortArticlesByDate
+} from "../../lib/articles";
 
 export async function getStaticPaths() {
   const articles = await getCollection("articles");
@@ -12,7 +20,9 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props;
-const { Content } = await render(article);
+const articles = sortArticlesByDate(await getCollection("articles"));
+const { Content, headings = [] } = await render(article);
+const relatedArticles = getRelatedArticles(article, articles);
 
 const formatDate = (date: Date) =>
   new Intl.DateTimeFormat("ru-RU", {
@@ -21,17 +31,56 @@ const formatDate = (date: Date) =>
     year: "numeric"
   }).format(date);
 
-const pathname = `/articles/${article.id}/`;
+const pathname = getArticleUrl(article);
+const articleUrl = getArticleAbsoluteUrl(article);
+const breadcrumbItems = [
+  {
+    "@type": "ListItem",
+    position: 1,
+    name: "Главная",
+    item: "https://дезинфицирующиесредства.рф/"
+  },
+  {
+    "@type": "ListItem",
+    position: 2,
+    name: "Статьи",
+    item: "https://дезинфицирующиесредства.рф/articles/"
+  },
+  {
+    "@type": "ListItem",
+    position: 3,
+    name: article.data.title,
+    item: articleUrl
+  }
+];
 
-const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  headline: article.data.title,
-  description: article.data.description,
-  datePublished: article.data.date.toISOString(),
-  inLanguage: "ru",
-  mainEntityOfPage: `https://дезинфицирующиесредства.рф${pathname}`
-};
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.data.title,
+    description: article.data.description,
+    datePublished: article.data.date.toISOString(),
+    dateModified: article.data.date.toISOString(),
+    inLanguage: "ru",
+    author: {
+      "@type": "Organization",
+      name: "Дезинфицирующиесредства.рф"
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Дезинфицирующиесредства.рф",
+      url: "https://дезинфицирующиесредства.рф/"
+    },
+    mainEntityOfPage: articleUrl,
+    keywords: article.data.tags
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: breadcrumbItems
+  }
+];
 ---
 
 <Layout
@@ -40,43 +89,82 @@ const structuredData = {
   pathname={pathname}
   structuredData={structuredData}
 >
-  <article class="section-shell px-8 py-10 sm:px-12 sm:py-12">
-    <a href="/articles/" class="text-sm font-semibold text-sky-700 transition hover:text-sky-900">
-      ← Ко всем статьям
-    </a>
+  <nav aria-label="Хлебные крошки" class="mb-6">
+    <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
+      <li><a href="/" class="transition hover:text-sky-800">Главная</a></li>
+      <li aria-hidden="true">→</li>
+      <li><a href="/articles/" class="transition hover:text-sky-800">Статьи</a></li>
+      <li aria-hidden="true">→</li>
+      <li class="text-slate-700">{article.data.title}</li>
+    </ol>
+  </nav>
 
-    <header class="mt-6 border-b border-sky-100 pb-8">
-      <p class="text-sm font-medium text-sky-700">{formatDate(article.data.date)}</p>
-      <h1 class="mt-3 max-w-4xl text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
-        {article.data.title}
-      </h1>
-      <p class="mt-5 max-w-3xl text-lg leading-8 text-slate-600">{article.data.description}</p>
+  <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_18rem] lg:items-start">
+    <article class="section-shell px-8 py-10 sm:px-12 sm:py-12">
+      <a href="/articles/" class="text-sm font-semibold text-sky-700 transition hover:text-sky-900">
+        ← Ко всем статьям
+      </a>
 
-      <div class="mt-6 flex flex-wrap gap-3">
-        {article.data.tags.map((tag: string) => (
-          <span class="rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-sm font-medium text-sky-700">
-            #{tag}
-          </span>
-        ))}
+      <header class="mt-6 border-b border-sky-100 pb-8">
+        <p class="text-sm font-medium text-sky-700">{formatDate(article.data.date)}</p>
+        <h1 class="mt-3 max-w-4xl text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
+          {article.data.title}
+        </h1>
+        <p class="mt-5 max-w-3xl text-lg leading-8 text-slate-600">{article.data.description}</p>
+
+        <div class="mt-6 flex flex-wrap gap-3">
+          {article.data.tags.map((tag: string) => {
+            const normalizedTag = normalizeTag(tag);
+
+            return (
+              <a
+                href={`/tags/${normalizedTag.slug}/`}
+                class="rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-sm font-medium text-sky-700 transition hover:border-sky-300 hover:bg-sky-100"
+              >
+                #{normalizedTag.label}
+              </a>
+            );
+          })}
+        </div>
+
+        {article.data.source && (
+          <p class="mt-6 text-sm text-slate-600">
+            Источник:{" "}
+            <a
+              href={article.data.source}
+              target="_blank"
+              rel="noreferrer"
+              class="font-medium text-sky-700 underline decoration-sky-200 underline-offset-4"
+            >
+              оригинальная публикация
+            </a>
+          </p>
+        )}
+      </header>
+
+      <div class="prose-article mt-8">
+        <Content />
       </div>
 
-      {article.data.source && (
-        <p class="mt-6 text-sm text-slate-600">
-          Источник:{" "}
-          <a
-            href={article.data.source}
-            target="_blank"
-            rel="noreferrer"
-            class="font-medium text-sky-700 underline decoration-sky-200 underline-offset-4"
-          >
-            оригинальная публикация
+      <section class="mt-12 border-t border-sky-100 pt-8">
+        <div class="flex items-center justify-between gap-4">
+          <h2 class="text-2xl font-semibold tracking-tight text-slate-900">Похожие статьи</h2>
+          <a href="/articles/" class="text-sm font-semibold text-sky-700 transition hover:text-sky-900">
+            Все статьи →
           </a>
-        </p>
-      )}
-    </header>
+        </div>
+        <div class="mt-6 grid gap-4 md:grid-cols-3">
+          {relatedArticles.map((relatedArticle) => (
+            <a href={getArticleUrl(relatedArticle)} class="rounded-3xl border border-sky-100 bg-sky-50/60 p-5 transition hover:-translate-y-1 hover:border-sky-200 hover:bg-white">
+              <p class="text-sm font-medium text-sky-700">{formatDate(relatedArticle.data.date)}</p>
+              <h3 class="mt-3 text-lg font-semibold text-slate-900">{relatedArticle.data.title}</h3>
+              <p class="mt-3 text-sm leading-6 text-slate-600">{relatedArticle.data.description}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    </article>
 
-    <div class="prose-article mt-8">
-      <Content />
-    </div>
-  </article>
+    <TableOfContents headings={headings} />
+  </div>
 </Layout>

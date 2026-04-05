@@ -1,10 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
+import { normalizeTag, sortArticlesByDate } from "../../lib/articles";
 
-const articles = (await getCollection("articles")).sort(
-  (a, b) => b.data.date.getTime() - a.data.date.getTime()
-);
+const articles = sortArticlesByDate(await getCollection("articles"));
 
 const formatDate = (date: Date) =>
   new Intl.DateTimeFormat("ru-RU", {
@@ -42,6 +41,20 @@ const structuredData = {
         <p class="text-sm font-medium text-sky-700">{formatDate(article.data.date)}</p>
         <h2 class="mt-3 text-2xl font-semibold tracking-tight text-slate-900">{article.data.title}</h2>
         <p class="mt-4 max-w-3xl text-base leading-7 text-slate-600">{article.data.description}</p>
+        <div class="mt-5 flex flex-wrap gap-2">
+          {article.data.tags.map((tag) => {
+            const normalizedTag = normalizeTag(tag);
+
+            return (
+              <a
+                href={`/tags/${normalizedTag.slug}/`}
+                class="rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs font-medium text-sky-700 transition hover:border-sky-300 hover:bg-sky-100"
+              >
+                #{normalizedTag.label}
+              </a>
+            );
+          })}
+        </div>
         <span class="mt-5 inline-flex text-sm font-semibold text-sky-700 transition group-hover:text-sky-900">
           Открыть материал →
         </span>

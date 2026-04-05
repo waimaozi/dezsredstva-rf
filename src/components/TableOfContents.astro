@@ -1,0 +1,37 @@
+---
+interface HeadingItem {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  headings: HeadingItem[];
+}
+
+const { headings } = Astro.props;
+const items = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
+---
+
+{items.length >= 3 && (
+  <aside class="section-shell h-fit p-5 lg:sticky lg:top-28">
+    <p class="text-sm font-semibold uppercase tracking-[0.18em] text-sky-700">Содержание</p>
+    <nav aria-label="Содержание статьи" class="mt-4">
+      <ol class="space-y-3">
+        {items.map((heading) => (
+          <li>
+            <a
+              href={`#${heading.slug}`}
+              class:list={[
+                "block text-sm leading-6 text-slate-600 transition hover:text-sky-800",
+                heading.depth === 3 && "pl-4 text-slate-500"
+              ]}
+            >
+              {heading.text}
+            </a>
+          </li>
+        ))}
+      </ol>
+    </nav>
+  </aside>
+)}

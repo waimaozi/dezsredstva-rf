@@ -1,0 +1,40 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import { getUniqueTags } from "../../lib/articles";
+
+const articles = await getCollection("articles");
+const tags = getUniqueTags(articles);
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Теги статей",
+  url: "https://дезинфицирующиесредства.рф/tags/",
+  inLanguage: "ru"
+};
+---
+
+<Layout
+  title="Теги статей"
+  description="Все теги статей о дезинфекции с количеством публикаций по каждой теме."
+  pathname="/tags/"
+  structuredData={structuredData}
+>
+  <section class="section-shell p-8 sm:p-10">
+    <span class="eyebrow">Навигация</span>
+    <h1 class="section-title mt-4">Теги статей</h1>
+    <p class="section-copy mt-4 max-w-3xl">
+      Быстрый вход в подборки материалов по темам: патогены, методы, поверхности, ЛПУ и другие направления.
+    </p>
+  </section>
+
+  <section class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    {tags.map((tag) => (
+      <a href={`/tags/${tag.slug}/`} class="section-shell flex items-center justify-between gap-4 p-5 transition hover:-translate-y-1 hover:border-sky-200">
+        <span class="text-base font-semibold text-slate-900">#{tag.label}</span>
+        <span class="rounded-full bg-sky-50 px-3 py-1 text-sm font-medium text-sky-700">{tag.count}</span>
+      </a>
+    ))}
+  </section>
+</Layout>
