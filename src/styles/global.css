@@ -3,8 +3,8 @@
 
 :root {
   color-scheme: light;
-  --bg-soft: #f8fbff;
-  --line: rgba(14, 116, 144, 0.12);
+  --bg-soft: #F8F6F3;
+  --line: rgba(106, 93, 77, 0.10);
 }
 
 html {
@@ -14,8 +14,8 @@ html {
 body {
   font-family: "Segoe UI", "Noto Sans", "DejaVu Sans", sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(186, 230, 253, 0.3), transparent 28%),
-    linear-gradient(180deg, #f8fbff 0%, #f8fbff 100%);
+    radial-gradient(circle at top left, rgba(226, 216, 204, 0.35), transparent 28%),
+    linear-gradient(180deg, #F8F6F3 0%, #F8F6F3 100%);
 }
 
 .medical-grid {
@@ -28,22 +28,22 @@ body {
 
 .section-shell {
   border-radius: 2rem;
-  border: 1px solid rgb(224 242 254);
+  border: 1px solid #E2D8CC;
   background-color: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 20px 80px -40px rgba(14, 116, 144, 0.45);
+  box-shadow: 0 20px 80px -40px rgba(106, 93, 77, 0.30);
 }
 
 .eyebrow {
   display: inline-flex;
   border-radius: 9999px;
-  border: 1px solid rgb(186 230 253);
-  background-color: rgb(240 249 255);
+  border: 1px solid #E2D8CC;
+  background-color: #FAF7F4;
   padding: 0.25rem 0.75rem;
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.24em;
-  color: rgb(3 105 161);
+  color: #574C3E;
 }
 
 .section-title {
@@ -79,13 +79,13 @@ body {
 }
 
 .prose-article a {
-  color: rgb(3 105 161);
+  color: #6A5D4D;
   text-decoration: underline;
-  text-decoration-color: rgb(186 230 253);
+  text-decoration-color: #E2D8CC;
   text-underline-offset: 4px;
   transition: color 0.15s;
 }
 
 .prose-article a:hover {
-  color: rgb(12 74 110);
+  color: #352F26;
 }
