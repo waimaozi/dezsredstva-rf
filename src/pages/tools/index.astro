@@ -19,11 +19,11 @@ import Layout from "../../layouts/Layout.astro";
           <p class="text-sm font-semibold text-sky-800">Формула</p>
           <p class="mt-2 text-sm leading-6 text-slate-700">C1 × V1 = C2 × V2</p>
         </div>
-        <div class="rounded-3xl border border-sky-100 bg-white p-5">
+        <div class="rounded-3xl border border-sky-100 bg-[#F8F6F3] p-5">
           <p class="text-sm font-semibold text-slate-900">Единицы</p>
           <p class="mt-2 text-sm leading-6 text-slate-700">Проценты и литры</p>
         </div>
-        <div class="rounded-3xl border border-sky-100 bg-white p-5">
+        <div class="rounded-3xl border border-sky-100 bg-[#F8F6F3] p-5">
           <p class="text-sm font-semibold text-slate-900">Сценарий</p>
           <p class="mt-2 text-sm leading-6 text-slate-700">Подготовка рабочих растворов на смену</p>
         </div>
@@ -34,15 +34,15 @@ import Layout from "../../layouts/Layout.astro";
       <form id="dilution-form" class="grid gap-5">
         <label class="grid gap-2">
           <span class="text-sm font-medium text-slate-800">Концентрация концентрата, %</span>
-          <input id="stock" type="number" min="0.1" step="0.1" value="10" class="rounded-2xl border border-sky-200 bg-white px-4 py-3 outline-none transition focus:border-sky-500" />
+          <input id="stock" type="number" min="0.1" step="0.1" value="10" class="rounded-2xl border border-sky-200 bg-[#F8F6F3] px-4 py-3 outline-none transition focus:border-sky-500" />
         </label>
         <label class="grid gap-2">
           <span class="text-sm font-medium text-slate-800">Требуемая рабочая концентрация, %</span>
-          <input id="target" type="number" min="0.01" step="0.01" value="0.5" class="rounded-2xl border border-sky-200 bg-white px-4 py-3 outline-none transition focus:border-sky-500" />
+          <input id="target" type="number" min="0.01" step="0.01" value="0.5" class="rounded-2xl border border-sky-200 bg-[#F8F6F3] px-4 py-3 outline-none transition focus:border-sky-500" />
         </label>
         <label class="grid gap-2">
           <span class="text-sm font-medium text-slate-800">Итоговый объём раствора, литры</span>
-          <input id="volume" type="number" min="0.1" step="0.1" value="5" class="rounded-2xl border border-sky-200 bg-white px-4 py-3 outline-none transition focus:border-sky-500" />
+          <input id="volume" type="number" min="0.1" step="0.1" value="5" class="rounded-2xl border border-sky-200 bg-[#F8F6F3] px-4 py-3 outline-none transition focus:border-sky-500" />
         </label>
         <button type="submit" class="rounded-full bg-sky-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-sky-700">
           Рассчитать

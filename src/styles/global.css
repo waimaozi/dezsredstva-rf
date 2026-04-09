@@ -29,7 +29,7 @@ body {
 .section-shell {
   border-radius: 2rem;
   border: 1px solid #E2D8CC;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(248, 246, 243, 0.92);
   box-shadow: 0 20px 80px -40px rgba(106, 93, 77, 0.30);
 }
 
@@ -37,7 +37,7 @@ body {
   display: inline-flex;
   border-radius: 9999px;
   border: 1px solid #E2D8CC;
-  background-color: #FAF7F4;
+  background-color: #F8F6F3;
   padding: 0.25rem 0.75rem;
   font-size: 0.75rem;
   font-weight: 600;
