@@ -1,0 +1,49 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import { getArticleUrl } from "../../lib/articles";
+
+const order = ["zagryaznennyj-sterilnyj-gel", "voda-i-inzhektor-kt", "bioplenki-myasopererabotka-fsa"];
+const entries = (await getCollection("articles"))
+  .filter((article) => article.data.translation?.issue === "2026-10")
+  .sort((a, b) => order.findIndex((id) => a.id.endsWith(id)) - order.findIndex((id) => b.id.endsWith(id)));
+const readers = [
+  "Эпидемиологам, микробиологам и специалистам по закупкам",
+  "Командам инфекционного контроля и рентгенологическим отделениям",
+  "Технологам и санитарным службам пищевых предприятий"
+];
+---
+<Layout title="Зарубежная практика по-русски — выпуск 01" description="Три перевода о расследованиях загрязнения и контроле биоплёнок. Материалы EID и FSA, оригиналы и выпуск для чтения без интернета." pathname="/vypuski/2026-10/">
+  <section class="section-shell issue-intro">
+    <p class="eyebrow">Выпуск 01 · 13 октября 2026</p>
+    <h1>Зарубежная практика<br />по-русски</h1>
+    <p class="issue-lead">Что скрывается за положительным посевом, чистым оборудованием и результатом анализа биоплёнки?</p>
+    <p>Расследования из ЮАР и США и исследование британских мясоперерабатывающих предприятий. Переводим выбранные разделы, сохраняем ход рассуждений авторов, цифры и ограничения. Объём перевода указан у каждого материала.</p>
+    <div class="reading-actions">
+      <a class="primary-action" href="/downloads/2026-10/vypusk.pdf" download>Скачать выпуск PDF</a>
+      <a href="/downloads/2026-10/vypusk.html" download>Сохранить для чтения без интернета</a>
+    </div>
+    <p class="issue-small">Тексты, рисунок и оригиналы PDF хранятся на этом сайте. Для чтения переводов открывать иностранные сайты не требуется.</p>
+  </section>
+  <section class="issue-list" aria-label="В этом выпуске">
+    {entries.map((article, i) => (
+      <article class="section-shell issue-card">
+        <div class="issue-number" aria-hidden="true">0{i + 1}</div>
+        <div>
+          <p class="eyebrow">{readers[i]}</p>
+          <h2><a href={getArticleUrl(article)}>{article.data.title}</a></h2>
+          <p>{article.data.description}</p>
+          <p class="issue-small">{article.data.translation?.publisher} · {article.data.translation?.originalDate}</p>
+          <p class="issue-small">{article.data.translation?.scope}</p>
+          <a class="article-link" href={getArticleUrl(article)}>Читать перевод →</a>
+        </div>
+      </article>
+    ))}
+  </section>
+  <section class="section-shell issue-intro issue-method">
+    <h2>Как читать этот выпуск</h2>
+    <p>«Мы» в переводах — авторы исходных работ. Наши пояснения и вопросы к практике помечены «От редакции» или «Комментарий редакции». Объём перевода указан у каждого материала. Более ранний отчёт FSA включён ради полезной методики и честного обсуждения ограничений, а не как новость.</p>
+    <p>Переводы подготовлены и сопоставлены с оригиналами с помощью ИИ. Независимая профильная рецензия не проводилась. Наблюдения из отдельных исследований не заменяют инструкции к оборудованию и утверждённые процедуры вашего учреждения.</p>
+    <p><a href="/rss.xml">Подписаться на RSS сайта</a></p>
+  </section>
+</Layout>

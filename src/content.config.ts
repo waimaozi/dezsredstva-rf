@@ -9,7 +9,18 @@ const articles = defineCollection({
     date: z.date(),
     category: z.string().optional(),
     tags: z.array(z.string()),
-    source: z.string().url().optional()
+    source: z.string().url().optional(),
+    translation: z.object({
+      issue: z.string(),
+      publisher: z.string(),
+      originalTitle: z.string(),
+      authors: z.string(),
+      originalDate: z.string(),
+      scope: z.string(),
+      license: z.string(),
+      licenseUrl: z.string().url(),
+      originalPdf: z.string()
+    }).optional()
   })
 });
 

@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import TableOfContents from "../../components/TableOfContents.astro";
+import TranslationSource from "../../components/TranslationSource.astro";
 import Layout from "../../layouts/Layout.astro";
 import {
   getArticleAbsoluteUrl,
@@ -73,7 +74,16 @@ const structuredData = [
       url: "https://дезинфицирующиесредства.рф/"
     },
     mainEntityOfPage: articleUrl,
-    keywords: article.data.tags
+    keywords: article.data.tags,
+    ...(article.data.translation && {
+      isBasedOn: article.data.source,
+      translationOfWork: {
+        "@type": "CreativeWork",
+        name: article.data.translation.originalTitle,
+        inLanguage: "en",
+        url: article.data.source
+      }
+    })
   },
   {
     "@context": "https://schema.org",
@@ -143,6 +153,8 @@ const structuredData = [
           </p>
         )}
       </header>
+
+      {article.data.translation && <TranslationSource translation={article.data.translation} />}
 
       <div class="prose-article mt-8">
         <Content />
