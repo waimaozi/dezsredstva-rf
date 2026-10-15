@@ -1,0 +1,275 @@
+{
+  "tree": {
+    "tag": "div",
+    "attrs": {},
+    "children": [
+      {
+        "tag": "h2",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s000"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s001"
+          }
+        ]
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s002"
+          }
+        ]
+      },
+      {
+        "tag": "ul",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s003"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s004"
+              },
+              {
+                "tag": "a",
+                "attrs": {
+                  "href": "https://www.cdc.gov/healthcare-associated-infections/hcp/cleaning-global/supplies-and-equipment.html#cdc_generic_section_7-3-5-care-and-storage-of-supplies-equipment-and-personal-protective-equipment",
+                  "target": "_blank",
+                  "rel": "noopener"
+                },
+                "children": [
+                  {
+                    "id": "s005"
+                  }
+                ]
+              },
+              {
+                "id": "s006"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s007"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s008"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s009"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s010"
+          }
+        ]
+      },
+      {
+        "tag": "ul",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s011"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s012"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s013"
+          },
+          {
+            "tag": "a",
+            "attrs": {
+              "href": "https://www.cdc.gov/healthcare-associated-infections/hcp/cleaning-global/supplies-and-equipment.html#cdc_generic_section_5-3-3-supplies-and-equipment-for-environmental-cleaning",
+              "target": "_blank",
+              "rel": "noopener"
+            },
+            "children": [
+              {
+                "id": "s014"
+              }
+            ]
+          },
+          {
+            "id": "s015"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s016"
+          }
+        ]
+      },
+      {
+        "tag": "ul",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s017"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s018"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s019"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "segments": {
+    "s000": "3.2 Preparation of environmental cleaning products",
+    "s001": "Environmental cleaning products are often sold as concentrated formulas that are diluted (i.e., combined with water) to make a solution.",
+    "s002": "Best practices for preparation of environmental cleaning products",
+    "s003": "Always prepare solutions according to the manufacturer's instructions. Most chemicals (including cleaning products) work at an optimum dilution—too diluted or too concentrated impacts the effectiveness of the product and may pose unnecessary risk to staff, patients, visitors, and the environment.",
+    "s004": "Always prepare environmental cleaning products in designated environmental cleaning services areas (i.e., a dedicated, secured space not used for any other purposes). See",
+    "s005": "3.5 Care and storage of supplies, equipment, and personal protective equipment",
+    "s006": ".",
+    "s007": "Provide training and simple instructions (e.g., standard operating procedures (SOPs)) for preparing solutions according to manufacturer's instructions.",
+    "s008": "PPE might be required for preparation of solutions, particularly for disinfectants (e.g., sodium hypochlorite). Consult the product's SDS for the required PPE.",
+    "s009": "Standardized containers (for measuring solutions) and easy to use pictorial job aids (e.g., posters) should be used for preparation of solutions.",
+    "s010": "If feasible, it is highly recommended to:",
+    "s011": "Prepare solutions with an automatic dispensing system that is calibrated regularly. Manual dilution and mixing are more subject to error.",
+    "s012": "Use test strips to confirm correct concentrations of solutions (e.g., for chlorine-based products).",
+    "s013": "Solutions are generally batch prepared in large containers, which are then transferred to smaller, portable containers (e.g., bottles, buckets) for daily cleaning procedures. See",
+    "s014": "3.3 Supplies and equipment for environmental cleaning",
+    "s015": ". Solutions can also be prepared directly into buckets for environmental cleaning of floors if a standard-sized bucket is available.",
+    "s016": "All containers used for storing solutions of environmental cleaning products should:",
+    "s017": "Be clean, clearly labeled, and have an expiration date based on the manufacturer's instructions for stability.",
+    "s018": "Be thoroughly cleaned and dried before refilling.",
+    "s019": "Never be topped up—use them until the indicated expiration date (after which it should be disposed) or until the container is empty, whichever comes first."
+  },
+  "sha256": "b837742d60a37d29e0d0727f4f4626fcf1efeff6195404226c56f6551089b927"
+}

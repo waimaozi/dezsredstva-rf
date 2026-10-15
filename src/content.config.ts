@@ -10,8 +10,9 @@ const articles = defineCollection({
     category: z.string().optional(),
     tags: z.array(z.string()),
     source: z.string().url().optional(),
+    translationId: z.string().optional(),
     translation: z.object({
-      issue: z.string(),
+      issue: z.string().optional(),
       publisher: z.string(),
       originalTitle: z.string(),
       authors: z.string(),
@@ -19,7 +20,9 @@ const articles = defineCollection({
       scope: z.string(),
       license: z.string(),
       licenseUrl: z.string().url(),
-      originalPdf: z.string()
+      originalPdf: z.string().optional(),
+      originalHtml: z.string().optional(),
+      offlineHtml: z.string().optional()
     }).optional()
   })
 });

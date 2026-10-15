@@ -1,0 +1,12 @@
+[Unit]
+Description=Demand-led Russian source translations
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=openclaw
+WorkingDirectory=/home/openclaw/dezsredstva-translations
+ExecStart=/bin/bash /home/openclaw/dezsredstva-translations/tools/run-daily.sh
+TimeoutStartSec=25min
+UMask=0077

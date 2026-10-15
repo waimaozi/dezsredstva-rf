@@ -1,0 +1,979 @@
+{
+  "tree": {
+    "tag": "div",
+    "attrs": {},
+    "children": [
+      {
+        "tag": "h2",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s000"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "strong",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s001"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "ul",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s002"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s003"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s004"
+          },
+          {
+            "tag": "a",
+            "attrs": {
+              "href": "https://www.cdc.gov/healthcare-associated-infections/hcp/cleaning-global/programs.html#cdc_generic_section_6-2-5-monitoring-feedback-and-audit-elements",
+              "target": "_blank",
+              "rel": "noopener"
+            },
+            "children": [
+              {
+                "id": "s005"
+              }
+            ]
+          },
+          {
+            "id": "s006"
+          }
+        ]
+      },
+      {
+        "tag": "h4",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s007"
+          }
+        ]
+      },
+      {
+        "tag": "ul",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s008"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s009"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s010"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h4",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s011"
+          }
+        ]
+      },
+      {
+        "tag": "ul",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s012"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s013"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h4",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s014"
+          }
+        ]
+      },
+      {
+        "tag": "table",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s015"
+          },
+          {
+            "tag": "thead",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "tr",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "th",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s016"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "th",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s017"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "th",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s018"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "tbody",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "tr",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "strong",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s019"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "s020"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s021"
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s022"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s023"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s024"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s025"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s026"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s027"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s028"
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s029"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s030"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s031"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "tr",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "strong",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s032"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "s033"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s034"
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s035"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s036"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s037"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s038"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s039"
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s040"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s041"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "tr",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "strong",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s042"
+                          },
+                          {
+                            "tag": "br",
+                            "attrs": {},
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "s043"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s044"
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s045"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s046"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s047"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s048"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s049"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s050"
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s051"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s052"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s053"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s054"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h4",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s055"
+          }
+        ]
+      },
+      {
+        "tag": "table",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s056"
+          },
+          {
+            "tag": "thead",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "tr",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "th",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s057"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "th",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s058"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "th",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s059"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "tbody",
+            "attrs": {},
+            "children": [
+              {
+                "tag": "tr",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "strong",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s060"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "br",
+                        "attrs": {},
+                        "children": []
+                      },
+                      {
+                        "id": "s061"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s062"
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s063"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s064"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s065"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s066"
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s067"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s068"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s069"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s070"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s071"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "tr",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "strong",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s072"
+                          },
+                          {
+                            "tag": "br",
+                            "attrs": {},
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "s073"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s074"
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s075"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s076"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s077"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "td",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s078"
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s079"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s080"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s081"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "attrs": {},
+                        "children": [
+                          {
+                            "id": "s082"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "segments": {
+    "s000": "4.8 Methods for assessment of cleaning and cleanliness",
+    "s001": "It is best practice to perform routine, standardized assessments of environmental cleaning (i.e., practices, level of cleanliness) in order to:",
+    "s002": "Ensure that environmental cleaning procedures are being performed according to best practices and facility policy.",
+    "s003": "Use results to inform program improvement (e.g., training, resource allocation).",
+    "s004": "This section includes an overview of the available methods, as well as their advantages and disadvantages. The best practices for developing a system of routine monitoring, audit, and feedback within environmental cleaning program implementation are covered in",
+    "s005": "2.5 Monitoring, feedback, and audit elements",
+    "s006": ".",
+    "s007": "Methods for assessing cleaning practice include (Table 29 below)",
+    "s008": "Direct performance observations.",
+    "s009": "Visual assessment.",
+    "s010": "Fluorescent markers.",
+    "s011": "Methods for assessing the level of cleanliness include (Table 30 below)",
+    "s012": "Measuring the residual bioburden (i.e., ATP).",
+    "s013": "Taking a bacteriological culture of the surface itself using a swab or contact agar plate method.",
+    "s014": "Table 29. Advantages and Disadvantages of Monitoring Methods for Assessing Cleaning Practice: Adherence to Cleaning Procedures",
+    "s015": "Monitoring Methods for Adherence to Cleaning Procedures by Method, Advantages, and Disadvantages.",
+    "s016": "Method",
+    "s017": "Advantages",
+    "s018": "Disadvantages",
+    "s019": "Performance observations:",
+    "s020": "observers (e.g., cleaning supervisors) use standardized perform structured observations using checklists that are specific to individual patient care areas. The goal is to rate the effectiveness of cleaning staff and adherence to the SOP (such as identifying the number of steps performed correctly).",
+    "s021": "Can be used for large areas (units, wards)",
+    "s022": "Easy to implement",
+    "s023": "Benchmarking is possible",
+    "s024": "Simple and inexpensive",
+    "s025": "Allows immediate and direct feedback to individual staff",
+    "s026": "Encourages cleaning staff engagement and input",
+    "s027": "Identifies gaps for staff training/job aid improvements",
+    "s028": "Subjective—difficulty in standardizing methodology and assessment across observers",
+    "s029": "Labor-intensive",
+    "s030": "Results affected by Hawthorne bias (i.e., more of an assessment of knowledge than actual practice)",
+    "s031": "Does not assess or correlate to bioburden",
+    "s032": "Visual assessment of cleanliness:",
+    "s033": "after an area has been cleaned, observers check the cleanliness of items. For example, using a gloved hand, wipe surfaces to inspect for dust.",
+    "s034": "Can be applied to entire facility or specific units/wards",
+    "s035": "Easy to implement",
+    "s036": "Benchmarking is possible",
+    "s037": "Inexpensive",
+    "s038": "Allows immediate and direct feedback to individual staff",
+    "s039": "Could be delay in feedback dependent on method used to compile results",
+    "s040": "Subjective—based on individual determinations of dust/debris levels",
+    "s041": "Does not assess or correlate to bioburden",
+    "s042": "Fluorescent markers (e.g., UV visible):",
+    "s043": "a tracing agent (e.g., fluorescent material, chemical tracer) marks predetermined items and surfaces before cleaning. After cleaning, a trained observer uses a detecting agent (e.g., ultraviolet light, enzymatic detector) to determine if any tracing agent is left. The observer counts the items that still show tracing agent and gives a score based on how many were cleaned completely, partially, or not at all.",
+    "s044": "Quick",
+    "s045": "Provides immediate feedback on performance",
+    "s046": "Minimal training required to perform",
+    "s047": "Objective",
+    "s048": "Benchmarking is possible",
+    "s049": "Relatively inexpensive",
+    "s050": "Does not assess or correlate to bioburden",
+    "s051": "Labor-intensive as surfaces should be marked before cleaning and checked after cleaning has been completed",
+    "s052": "Some difficulties documented in terms of removal of markers from porous or rough surfaces (e.g., canvas straps)",
+    "s053": "Time-intensive",
+    "s054": "Need to vary frequency and objects to prevent monitoring system from becoming known",
+    "s055": "Table 30. Advantages and Disadvantages of Monitoring Methods for Assessing Cleanliness: Effectiveness of Cleaning Procedures",
+    "s056": "Monitoring Methods for Effectiveness of Cleaning Procedures by Method, Advantages, and Disadvantages.",
+    "s057": "Method",
+    "s058": "Advantages",
+    "s059": "Disadvantages",
+    "s060": "ATP bioluminescence:",
+    "s061": "detection of ATP indicates that organic material (microbial or biologic) is present on an object or surface. Objects are tested before and after cleaning to determine the effectiveness of a cleaning procedure. A numeric score can be generated based on the proportion of marked surfaces/objects that were under the pre-determined threshold.",
+    "s062": "Quick",
+    "s063": "Provides immediate feedback",
+    "s064": "Minimal training required to perform",
+    "s065": "Objective",
+    "s066": "Expensive",
+    "s067": "Low sensitivity and specificity",
+    "s068": "Lacks a standardized threshold or benchmark for determining the level or status of cleanliness (i.e., “safe” post-cleaning ATL levels) for specific surfaces or patient care areas",
+    "s069": "Variable benchmarks",
+    "s070": "Technology constantly changing",
+    "s071": "Interference of cleaning products, supplies and in some cases surfaces, which can both reduce or enhanced ATP levels (e.g., bleach, microfiber, stainless steel)",
+    "s072": "Environmental cultures:",
+    "s073": "the only direct measurement of levels of microbial contamination after cleaning. In this process, cultures are taken (by swabbing or use of RODAC or contact agar plates) after an item is cleaned. Swabbing can indicate the presence of a specific bacteria on a surface. Contact agar plates can show the level of bacterial contamination on an area of a large, flat surface.",
+    "s074": "High sensitivity and specificity",
+    "s075": "Provides direct indication of presence of specific pathogens (direct swab cultures)",
+    "s076": "May be useful for identifying source of outbreaks and/or environmental reservoirs",
+    "s077": "Objective",
+    "s078": "Not recommended for routine use",
+    "s079": "Expensive",
+    "s080": "Prolonged time for results (>48hrs)",
+    "s081": "Requires access to laboratory resources and trained personnel for interpreting results",
+    "s082": "Lack of defined threshold or benchmark for determining the level or status of cleanliness (e.g., colony-forming units per surface area)"
+  },
+  "sha256": "0982fa77d3f5f6fb8561062bdb336347c979ac19ded929608e3439bfd03b338c"
+}
