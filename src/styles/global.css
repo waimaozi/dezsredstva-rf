@@ -99,6 +99,10 @@ body {
 .reading-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .8rem 1.2rem; margin-top: 1.25rem; font-size: .9rem; }
 .reading-actions a, .reading-actions button { font-weight: 600; text-underline-offset: 3px; }
 .reading-actions button { cursor: pointer; text-decoration: underline; }
+article.section-shell { min-width: 0; }
+.prose-article table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 1.5rem 0; font-size: .88em; line-height: 1.55; }
+.prose-article th, .prose-article td { border: 1px solid #cad8dd; padding: .8rem; min-width: 10rem; vertical-align: top; }
+.prose-article th { background: #edf3ef; text-align: left; }
 .reading-actions .primary-action { background: #3d5c4f; color: white; padding: .9rem 1.3rem; border-radius: .8rem; text-decoration: none; }
 .editor-note { border-left: 4px solid #8a7051; background: #f0e9df; padding: 1.2rem 1.4rem; margin: 1.8rem 0; border-radius: 0 .8rem .8rem 0; }
 .prose-article .omission { color: #58636b; font-size: .9rem; font-style: italic; }
@@ -130,6 +134,8 @@ body {
   .translation-source { padding: 1rem; }
 }
 @media print {
+  .prose-article table { display: table; width: 100%; font-size: 8pt; }
+  .prose-article th, .prose-article td { min-width: 0; }
   body { background: white; color: black; }
   body > header, body > .medical-grid, body > footer, main > nav, aside:not(.editor-note), .reading-actions, article > section:last-child { display: none !important; }
   main { padding: 0 !important; max-width: none !important; }

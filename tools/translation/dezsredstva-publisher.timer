@@ -1,0 +1,10 @@
+[Unit]
+Description=One checked translation each Tuesday at 09:00 Moscow
+
+[Timer]
+OnCalendar=Tue *-*-* 06:00:00 UTC
+Persistent=true
+Unit=dezsredstva-publisher.service
+
+[Install]
+WantedBy=timers.target

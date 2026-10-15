@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Python operational cache (publisher evidence stays outside the checkout)
+__pycache__/
+*.pyc

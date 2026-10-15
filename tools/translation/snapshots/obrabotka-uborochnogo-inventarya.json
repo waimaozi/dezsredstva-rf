@@ -1,0 +1,643 @@
+{
+  "tree": {
+    "tag": "div",
+    "attrs": {},
+    "children": [
+      {
+        "tag": "h2",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s000"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s001"
+          }
+        ]
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s002"
+          }
+        ]
+      },
+      {
+        "tag": "ul",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s003"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "li",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s004"
+                      },
+                      {
+                        "tag": "ul",
+                        "attrs": {},
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s005"
+                      },
+                      {
+                        "tag": "ul",
+                        "attrs": {},
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s006"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s007"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s008"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s009"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s010"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s011"
+          }
+        ]
+      },
+      {
+        "tag": "ol",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s012"
+              },
+              {
+                "tag": "ol",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s013"
+              },
+              {
+                "tag": "ol",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "li",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s014"
+                      },
+                      {
+                        "tag": "ol",
+                        "attrs": {},
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s015"
+                      },
+                      {
+                        "tag": "ol",
+                        "attrs": {},
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s016"
+              },
+              {
+                "tag": "ol",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "li",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s017"
+                      },
+                      {
+                        "tag": "ol",
+                        "attrs": {},
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "li",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s018"
+                      },
+                      {
+                        "tag": "ol",
+                        "attrs": {},
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s019"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s020"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s021"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s022"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s023"
+          }
+        ]
+      },
+      {
+        "tag": "h3",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s024"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s025"
+          }
+        ]
+      },
+      {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+          {
+            "id": "s026"
+          }
+        ]
+      },
+      {
+        "tag": "ul",
+        "attrs": {},
+        "children": [
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s027"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s028"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s029"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s030"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s031"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s032"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s033"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s034"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s035"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s036"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s037"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s038"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s039"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": [
+                  {
+                    "tag": "li",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "id": "s040"
+                      },
+                      {
+                        "tag": "ul",
+                        "attrs": {},
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s041"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s042"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s043"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          },
+          {
+            "tag": "li",
+            "attrs": {},
+            "children": [
+              {
+                "id": "s044"
+              },
+              {
+                "tag": "ul",
+                "attrs": {},
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "segments": {
+    "s000": "3.5 Care and storage of supplies, equipment, and personal protective equipment",
+    "s001": "Environmental cleaning supplies and equipment quickly become contaminated during their use. Regularly reprocess all reusable items (i.e., thoroughly clean, disinfect, and dry).",
+    "s002": "Best practices for reprocessing reusable cleaning supplies and equipment",
+    "s003": "Send all reusable supplies and equipment (e.g., buckets, rubber gloves) for reprocessing:",
+    "s004": "Directly after use in a transmission-based precaution area.",
+    "s005": "When soiled with blood or body fluids.",
+    "s006": "Thoroughly clean, disinfect, and rinse equipment such as buckets and containers whenever solution is replaced and daily. Store them upside down to allow complete drying.",
+    "s007": "Launder mop heads, floor cloths, and soiled cleaning cloths at least daily (e.g., at the end of the day) and allow them to fully dry before storage and reuse.",
+    "s008": "Reprocess all reusable supplies and equipment in a dedicated area that is not used for other purposes (i.e., reprocessing of cleaning equipment should never be conducted in handwashing sinks).",
+    "s009": "Reprocess (e.g., launder) all reusable supplies and equipment according to manufacturer's instructions.",
+    "s010": "Manual reprocessing steps",
+    "s011": "If manufacturer's instructions are not available, use this general process to manually reprocess reusable supplies, equipment, and PPE:",
+    "s012": "Immerse in detergent solution and use mechanical action (e.g., scrubbing) to remove soil.",
+    "s013": "Disinfect by:",
+    "s014": "Fully immersing the items in boiling water or",
+    "s015": "Fully immersing the items in disinfectant solution for the required contact time and rinsing with clean water to remove residue.",
+    "s016": "Allow to fully dry",
+    "s017": "Lay items to dry in a clean and dry area to prevent recontamination.",
+    "s018": "Position mops with the head up to allow the mop head to fully dry.",
+    "s019": "Do not use chlorine-based disinfectants to disinfect microfiber cloths.",
+    "s020": "Use laundry services with hot water (70–80°C x 10 min) [158–176°F] to reprocess cloths and mop heads if they are available. Similarly, a commercial dryer can be used for these items if available (if not, these items are reprocessed as above).",
+    "s021": "Always launder mop heads and cleaning cloths separately from other soiled hospital textiles.",
+    "s022": "All reusable supplies and equipment should be well maintained, clean, and in good repair. Regularly inspect and replace or repair all reusable equipment when needed. Develop a facility monitoring and maintenance schedule that clearly documents reusable supplies and equipment, frequency of inspection, and responsible staff.",
+    "s023": "Certain equipment, such as floor polishers, might require maintenance checks by qualified people according to the manufacturer's instructions. Keep a service record and make it available for inspection by the cleaning program manager and the IPC Team.",
+    "s024": "Environmental cleaning services area",
+    "s025": "Designate at least one environmental cleaning services area within the facility for preparation, storage, and reprocessing of reusable cleaning equipment and supplies. This area should not be used for any other purposes. For multistory facilities, it is best practice to have one of these areas on each floor.",
+    "s026": "The designated environmental cleaning services area should:",
+    "s027": "Be well-ventilated and illuminated (lighting or window access).",
+    "s028": "Be labeled with a biohazard sign on the door.",
+    "s029": "Have an appropriate water supply (hot and cold water access, if feasible).",
+    "s030": "Have a utility sink/floor drain for safe disposal of used solutions.",
+    "s031": "Be designed so that, whenever possible, buckets can be emptied into utility sink/floor drains without lifting them or creating splashes.",
+    "s032": "Have a dedicated handwashing sink, used only for handwashing.",
+    "s033": "Have access to an eyewash station.",
+    "s034": "Have appropriate PPE available.",
+    "s035": "Have enough space to keep reprocessing (dirty areas) separate from storage areas for cleaned equipment.",
+    "s036": "Be easily accessible in relation to the areas it serves (i.e., easily accessible throughout the facility).",
+    "s037": "Be appropriately sized to the amount of materials, equipment, and chemicals stored in the room/area.",
+    "s038": "Have printed copies of the SDS for all environmental cleaning products, manufacturer's instructions, and job aids for preparation of cleaning and disinfectant solutions.",
+    "s039": "Never contain personal clothing or grooming supplies, food, or beverages.",
+    "s040": "Have a separate area for cleaning staff to store these items.",
+    "s041": "Have safe chemical storage and access.",
+    "s042": "Have locks fitted to all doors to restrict access only to cleaning staff.",
+    "s043": "Be free from clutter.",
+    "s044": "Have washable surfaces (floors, walls, shelves)."
+  },
+  "sha256": "7a5b417575125fd09265281926cde6741cdeea6f07b684b5985015475472e3e3"
+}

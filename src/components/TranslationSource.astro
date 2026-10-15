@@ -1,7 +1,7 @@
 ---
 interface Props {
   translation: {
-    issue: string;
+    issue?: string;
     publisher: string;
     originalTitle: string;
     authors: string;
@@ -9,7 +9,9 @@ interface Props {
     scope: string;
     license: string;
     licenseUrl: string;
-    originalPdf: string;
+    originalPdf?: string;
+    originalHtml?: string;
+    offlineHtml?: string;
   };
 }
 const { translation: t } = Astro.props;
@@ -26,13 +28,22 @@ const { translation: t } = Astro.props;
     <p>Перевод подготовлен и сопоставлен с оригиналом с помощью ИИ. Независимая профильная рецензия не проводилась. Редакционные дополнения выделены отдельно.</p>
   </details>
   <div class="reading-actions">
-    <a href={`/vypuski/${t.issue}/`}>← Весь выпуск</a>
-    <a href={t.originalPdf} download>Скачать оригинал PDF</a>
-    <a href={`/downloads/${t.issue}/vypusk.pdf`} download>Выпуск по-русски PDF</a>
+    {t.issue && <a href={`/vypuski/${t.issue}/`}>← Весь выпуск</a>}
+    {!t.issue && <a href="/perevody/">← Все переводы</a>}
+    {t.originalPdf && <a href={t.originalPdf} download data-translation-download="original">Скачать оригинал PDF</a>}
+    {t.originalHtml && <a href={t.originalHtml} download data-translation-download="original">Скачать исходный раздел</a>}
+    {t.offlineHtml && <a href={t.offlineHtml} download data-translation-download="russian">Читать по-русски без интернета</a>}
+    {t.issue && <a href={`/downloads/${t.issue}/vypusk.pdf`} download data-translation-download="russian">Выпуск по-русски PDF</a>}
     <button type="button" class="print-article">Распечатать</button>
   </div>
 </section>
 <script>
+  document.querySelectorAll<HTMLAnchorElement>("[data-translation-download]").forEach((link) => {
+    link.addEventListener("click", () => {
+      const analytics = (window as unknown as { ym?: (...args: unknown[]) => void }).ym;
+      analytics?.(107711899, "reachGoal", "translation_download", { format: link.dataset.translationDownload });
+    });
+  });
   document.querySelectorAll<HTMLButtonElement>(".print-article").forEach((button) => {
     button.addEventListener("click", () => window.print());
   });
