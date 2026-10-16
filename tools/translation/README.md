@@ -1,11 +1,26 @@
-# Demand-led translations
+# Translations for professional readers
 
-The publisher uses real Wordstat phrase results (Russia, last 30 days). Google
+The editorial rule in AGENTS.md was corrected on 2026-10-16: select useful
+foreign research, investigations and technical material for quality, food
+safety, laboratory, technology, veterinary and hygiene roles. Search demand is
+supporting discovery evidence, not an instruction to generate generic how-to
+pages. A paper's usefulness must be established from its actual content.
+
+The two unpublished generic CDC topics (solution preparation and reusable
+cleaning equipment) were removed from the executable catalog. Their snapshots
+remain historical evidence. The already-published ATP item remains for history.
+The weekly timer is unchanged; with no new eligible sources it reports
+`needs_sources` instead of publishing a generic substitute. The existing CLI
+below is a bounded CDC-section publisher, not an autonomous scientific-paper
+discovery system. Research translations can be checked and released through
+content PRs; the 2026-10-16 yeast outbreak paper is such an extra release.
+
+The existing bounded publisher uses real Wordstat phrase results (Russia, last 30 days). Google
 suggestions are a fallback and carry no invented search counts. Rare phrases
 have no volume floor. Catalog order prioritizes a specific answer over volume.
 
-`catalog.json` is an editorially mapped source library. The initial three topics
-cover ATP interpretation, solution preparation and reusable cleaning equipment.
+`catalog.json` is an editorially mapped source library. Its remaining historical
+item covers ATP interpretation.
 Every run refreshes nine seed searches and records unmatched queries in
 `queue.json`. This is a bounded library: it does not pretend to find and license
 new sources automatically. Exhausting it produces `needs_sources` and a failed
