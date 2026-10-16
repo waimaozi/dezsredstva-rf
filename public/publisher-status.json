@@ -1,24 +1,14 @@
 {
-  "checked_at": "2026-10-15T20:16:15.194051+00:00",
+  "checked_at": "2026-10-16T18:52:35.569631+00:00",
   "status": "published",
   "cadence": "weekly",
   "schedule": "Tuesday 09:00 Europe/Moscow",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-10-15-chto-pokazyvaet-lyuminometr/",
-  "eligible_questions": 3,
-  "demand_providers": [
-    "yandex_wordstat"
-  ],
-  "question": "Что показывает люминометр: возможности и ограничения АТФ-контроля",
-  "demand": {
-    "phrase": "что показывает люминометр",
-    "count": "22",
-    "provider": "yandex_wordstat",
-    "period": "last_30_days",
-    "match": "phrase_family",
-    "region": "Russia",
-    "checked_at": "2026-10-15T20:16:22.277056+00:00"
-  },
-  "source_sha256": "0982fa77d3f5f6fb8561062bdb336347c979ac19ded929608e3439bfd03b338c",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-10-16-listerioz-hlebopekarnye-drozhzhi/",
+  "question": "Листериоз и хлебопекарные дрожжи: расследование вспышки в Швейцарии",
+  "selection_basis": "editorial_relevance_to_food_quality_laboratory_technology_and_hygiene_roles",
+  "release": "additional_editorial_article_requested_2026-10-16",
+  "source": "https://wwwnc.cdc.gov/eid/article/30/11/24-0764_article",
+  "source_sha256": "32b58564052c0386bd26e252f0938ca57d246f908f4983fcf03b0429cb30d976",
   "source_retrieval": "live",
-  "source_checked_at": "2026-10-15T20:17:14.502765+00:00"
+  "source_checked_at": "2026-10-16T18:52:35.569631+00:00"
 }
