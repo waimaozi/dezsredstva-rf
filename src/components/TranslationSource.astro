@@ -31,7 +31,7 @@ const { translation: t } = Astro.props;
     {t.issue && <a href={`/vypuski/${t.issue}/`}>← Весь выпуск</a>}
     {!t.issue && <a href="/perevody/">← Все переводы</a>}
     {t.originalPdf && <a href={t.originalPdf} download data-translation-download="original">Скачать оригинал PDF</a>}
-    {t.originalHtml && <a href={t.originalHtml} download data-translation-download="original">Скачать исходный раздел</a>}
+    {t.originalHtml && <a href={t.originalHtml} download data-translation-download="original">Скачать оригинал HTML</a>}
     {t.offlineHtml && <a href={t.offlineHtml} download data-translation-download="russian">Читать по-русски без интернета</a>}
     {t.issue && <a href={`/downloads/${t.issue}/vypusk.pdf`} download data-translation-download="russian">Выпуск по-русски PDF</a>}
     <button type="button" class="print-article">Распечатать</button>
