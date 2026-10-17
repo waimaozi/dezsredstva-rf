@@ -1,9 +1,10 @@
 import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
 import type { APIContext } from "astro";
+import { isIndexableArticle } from "../lib/editorial-review.mjs";
 
 export async function GET(context: APIContext) {
-  const articles = await getCollection("articles");
+  const articles = (await getCollection("articles")).filter(isIndexableArticle);
   const sorted = articles.sort(
     (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
   );

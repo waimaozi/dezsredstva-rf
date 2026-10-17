@@ -1,4 +1,5 @@
 import type { CollectionEntry } from "astro:content";
+import { isIndexableArticle } from "./editorial-review.mjs";
 
 export type ArticleEntry = CollectionEntry<"articles">;
 
@@ -74,7 +75,7 @@ export function getArticlesByTag(articles: ArticleEntry[], tagSlug: string) {
 export function getRelatedArticles(article: ArticleEntry, articles: ArticleEntry[], limit = 3) {
   const genericTags = new Set(["перевод", "исследования"]);
   const currentTags = new Set(article.data.tags.map(slugifyTag).filter((tag) => !genericTags.has(tag)));
-  const candidates = articles.filter((entry) => entry.id !== article.id && (!article.data.translation || entry.data.translation));
+  const candidates = articles.filter((entry) => entry.id !== article.id && isIndexableArticle(entry) && (!article.data.translation || entry.data.translation));
 
   const ranked = candidates
     .map((entry) => {

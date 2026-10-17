@@ -4,6 +4,7 @@ import TableOfContents from "../../components/TableOfContents.astro";
 import TranslationSource from "../../components/TranslationSource.astro";
 import Layout from "../../layouts/Layout.astro";
 import { getArticleSchema } from "../../lib/article-schema";
+import { getEditorialReview } from "../../lib/editorial-review.mjs";
 import {
   getArticleAbsoluteUrl,
   getArticleUrl,
@@ -22,6 +23,7 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props;
+const editorialReview = getEditorialReview(article.id);
 const articles = sortArticlesByDate(await getCollection("articles"));
 const { Content, headings = [] } = await render(article);
 const relatedArticles = getRelatedArticles(article, articles);
@@ -73,6 +75,7 @@ const structuredData = [
   ogType="article"
   publishedTime={article.data.date.toISOString()}
   structuredData={structuredData}
+  noIndex={Boolean(editorialReview)}
 >
   <nav aria-label="Хлебные крошки" class="mb-6">
     <ol class="flex flex-wrap items-center gap-2 text-sm text-slate-500">
@@ -92,6 +95,7 @@ const structuredData = [
 
       <header class="mt-6 border-b border-sky-100 pb-8">
         <p class="text-sm font-medium text-sky-700">{formatDate(article.data.date)}</p>
+        {article.data.updated && <p class="mt-1 text-sm text-slate-600">Обновлено: {formatDate(article.data.updated)}</p>}
         <h1 class="mt-3 max-w-4xl text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
           {article.data.title}
         </h1>
@@ -112,7 +116,7 @@ const structuredData = [
           })}
         </div>
 
-        {article.data.source && (
+        {article.data.source && !editorialReview && (
           <p class="mt-6 text-sm text-slate-600">
             Источник:{" "}
             <a
@@ -127,6 +131,16 @@ const structuredData = [
         )}
       </header>
 
+      {editorialReview && (
+        <aside class="editor-note mt-8" aria-label="Редакционная проверка">
+          <strong>Архивная заметка · источники требуют уточнения</strong>
+          <p>{editorialReview.reason}</p>
+          <p>Для чтения исследований с указанным источником и объёмом перевода перейдите в <a href="/perevody/">подборку переводов</a>.</p>
+        </aside>
+      )}
+      {!article.data.translation && !editorialReview && (
+        <p class="mt-6 text-sm text-slate-600">Архивный дайджест исследования. Это краткое изложение с редакционными комментариями; полный перевод оригинала здесь не опубликован. <a class="text-sky-700 underline" href="/perevody/">Переводы с указанным объёмом и оригиналами для скачивания</a>.</p>
+      )}
       {article.data.translation && <TranslationSource translation={article.data.translation} />}
 
       <div class="prose-article mt-8">

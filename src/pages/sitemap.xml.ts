@@ -1,8 +1,9 @@
 import { getCollection } from "astro:content";
 import type { APIRoute } from "astro";
+import { isIndexableArticle } from "../lib/editorial-review.mjs";
 
 export const GET: APIRoute = async () => {
-  const articles = await getCollection("articles");
+  const articles = (await getCollection("articles")).filter(isIndexableArticle);
   const site = "https://дезинфицирующиесредства.рф";
   
   const pages = [
@@ -19,7 +20,7 @@ export const GET: APIRoute = async () => {
       loc: `/articles/${article.id}/`,
       priority: "0.8",
       changefreq: "monthly" as const,
-      lastmod: article.data.date.toISOString().split("T")[0]
+      lastmod: (article.data.updated ?? article.data.date).toISOString().split("T")[0]
     }))
   ];
 
