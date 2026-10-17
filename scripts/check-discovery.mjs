@@ -45,7 +45,7 @@ for(const id of Object.keys(editorialReviews)) {
   const p=`/articles/${id}/`;
   assert(articlePaths.has(p), `Reviewed URL no longer accessible: ${p}`);
   const html=await readFile(`dist${p}index.html`,'utf8');
-  assert(html.includes('источники требуют уточнения'), `Missing visible review note: ${p}`);
+  assert(html.includes(editorialReviews[id].title ?? 'источники требуют уточнения'), `Missing visible review note: ${p}`);
   for(const feed of ['sitemap.xml','rss.xml','turbo.xml']) {
     assert(!(await readFile(`dist/${feed}`,'utf8')).includes(id), `Reviewed article in ${feed}: ${id}`);
   }

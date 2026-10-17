@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily research-site visibility check at 09:20 Moscow
+
+[Timer]
+OnCalendar=*-*-* 06:20:00 UTC
+Persistent=true
+RandomizedDelaySec=120
+Unit=dezsredstva-discovery.service
+
+[Install]
+WantedBy=timers.target

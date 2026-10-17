@@ -38,7 +38,8 @@ if p.get('search_key_file'):
   result=get('https://searchapi.api.cloud.yandex.net/v2/web/search',{'Authorization':'Api-Key '+key},body)
   if result['status']==200 and 'rawData' in result.get('data',{}):
    raw=base64.b64decode(result['data']['rawData']).decode();root=E.fromstring(raw)
-   result={'status':200,'region':'193','query':body['query']['queryText'],'documents':[{'url':d.findtext('url'),'title':''.join(d.find('title').itertext()) if d.find('title') is not None else ''} for d in root.findall('.//group/doc')],'search_error':root.findtext('.//error'),'xml':raw}
+   error=root.find('.//error')
+   result={'status':200,'region':'193','query':body['query']['queryText'],'documents':[{'url':d.findtext('url'),'title':''.join(d.find('title').itertext()) if d.find('title') is not None else ''} for d in root.findall('.//group/doc')],'search_error':root.findtext('.//error'),'search_error_code':error.get('code') if error is not None else None,'xml':raw}
   out['yandex_search']=result
  except Exception as e:out['yandex_search']={'error':type(e).__name__}
 if p.get('webmaster'):

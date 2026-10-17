@@ -1,0 +1,22 @@
+[Unit]
+Description=Read-only Yandex and Metrika visibility snapshot
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=2h
+StartLimitBurst=3
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/dezsredstva-discovery/snapshot.py --oauth-file /root/.config/dezsredstva-discovery/metrika.token --search-key-file /root/chemitech-enrichment-pilot-20261006/yandex-search.key --state-dir /var/lib/dezsredstva-discovery
+TimeoutStartSec=3min
+Restart=on-failure
+RestartSec=15min
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/var/lib/dezsredstva-discovery
+
+[Install]
+WantedBy=multi-user.target

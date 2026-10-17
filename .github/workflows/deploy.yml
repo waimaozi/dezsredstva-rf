@@ -25,6 +25,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: node --experimental-strip-types --test tests/article-discovery.test.ts
+      - run: python3 -m unittest discover -s tests -p test_discovery_snapshot.py
+      - run: python3 -m unittest discover -s tests -p test_research_probe.py
       - run: npm run build
       - run: node scripts/check-discovery.mjs
       - uses: actions/upload-pages-artifact@v3

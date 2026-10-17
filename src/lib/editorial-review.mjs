@@ -1,6 +1,11 @@
 // Individual editorial decisions after checking the cited references.
 // Keep the original URLs accessible; do not promote untraceable summaries as research.
 export const editorialReviews = {
+  'mikrosporidioz-krevetok-novye-vektory-rasprostraneniya-i-perspektivy-dezinfektsi': {
+    title: 'Архивная заметка · исходная статья отозвана',
+    reason: '17 октября 2026 года проверено: статья PMID 41845977 помечена в PubMed как WITHDRAWN / Retracted. Опубликовано отдельное уведомление об отзыве (PMID 42167966). Выводы прежнего дайджеста нельзя использовать как подтверждённые результаты исследования.',
+    sourceUrl: 'https://pubmed.ncbi.nlm.nih.gov/42167966/',
+  },
   'khlornye-vs-beskhlornye-dezinfektanty-chto-govorit-nauka': {
     reason: 'В этой архивной заметке не указаны конкретные исследования: ссылка ведёт на главную страницу PubMed. Проверить изложенные выводы по первоисточникам пока нельзя.',
   },
