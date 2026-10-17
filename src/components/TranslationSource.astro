@@ -11,6 +11,7 @@ interface Props {
     licenseUrl: string;
     originalPdf?: string;
     originalHtml?: string;
+    translatedPdf?: string;
     offlineHtml?: string;
   };
 }
@@ -30,6 +31,7 @@ const { translation: t } = Astro.props;
   <div class="reading-actions">
     {t.issue && <a href={`/vypuski/${t.issue}/`}>← Весь выпуск</a>}
     {!t.issue && <a href="/perevody/">← Все переводы</a>}
+    {t.translatedPdf && <a href={t.translatedPdf} download data-translation-download="russian-pdf">Скачать перевод PDF</a>}
     {t.originalPdf && <a href={t.originalPdf} download data-translation-download="original">Скачать оригинал PDF</a>}
     {t.originalHtml && <a href={t.originalHtml} download data-translation-download="original">Скачать оригинал HTML</a>}
     {t.offlineHtml && <a href={t.offlineHtml} download data-translation-download="russian">Читать по-русски без интернета</a>}

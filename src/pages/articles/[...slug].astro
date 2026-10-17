@@ -133,8 +133,9 @@ const structuredData = [
 
       {editorialReview && (
         <aside class="editor-note mt-8" aria-label="Редакционная проверка">
-          <strong>Архивная заметка · источники требуют уточнения</strong>
+          <strong>{editorialReview.title ?? 'Архивная заметка · источники требуют уточнения'}</strong>
           <p>{editorialReview.reason}</p>
+          {editorialReview.sourceUrl && <p><a href={editorialReview.sourceUrl}>Уведомление об отзыве в PubMed</a></p>}
           <p>Для чтения исследований с указанным источником и объёмом перевода перейдите в <a href="/perevody/">подборку переводов</a>.</p>
         </aside>
       )}

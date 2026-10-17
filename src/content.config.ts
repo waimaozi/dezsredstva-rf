@@ -31,6 +31,7 @@ const articles = defineCollection({
       licenseUrl: z.string().url(),
       originalPdf: z.string().optional(),
       originalHtml: z.string().optional(),
+      translatedPdf: z.string().optional(),
       offlineHtml: z.string().optional()
     }).optional()
   })

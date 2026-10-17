@@ -4,8 +4,13 @@ import Layout from "../layouts/Layout.astro";
 import { getArticleAbsoluteUrl } from "../lib/articles";
 const articles = (await getCollection("articles"))
   .filter((a) => a.data.translation)
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+  .sort((a, b) => (b.data.updated ?? b.data.date).getTime() - (a.data.updated ?? a.data.date).getTime());
 const topics = [
+  {
+    id: "ispytaniya-dezinfekcii", title: "Что меняет результат испытания дезинфекции",
+    description: "Лабораторный эксперимент с микропластиком: разные результаты для тепла, УФ и химической обработки. Какие условия проверены и что пока нельзя переносить на производство.",
+    ids: ["mikroplastik-kak-faktor-rezistentnosti-patogenov-novye-dannye-dlya-pishchevykh-p"]
+  },
   {
     id: "otbor-prob", title: "Отбор проб и отрицательные результаты",
     description: "Когда и где отбирали пробы, что измерял метод и почему отрицательный результат мог не закрыть расследование.",

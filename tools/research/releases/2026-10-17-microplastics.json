@@ -1,0 +1,100 @@
+{
+  "checked_at": "2026-10-17T16:44:23.049777+00:00",
+  "article_slug": "mikroplastik-kak-faktor-rezistentnosti-patogenov-novye-dannye-dlya-pishchevykh-p",
+  "source": {
+    "pmid": "42688105",
+    "pmcid": "PMC13533754",
+    "doi": "10.3389/fnut.2026.1812387",
+    "publisher_url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1812387/full",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "jats_sha256": "1f79c2250111602222aa57566915380eae6050f1d499061295530af17fbd4346",
+    "independent_refetch_same_bytes": true
+  },
+  "selection": {
+    "audience": "Специалистам по качеству, пищевой безопасности и лабораторному контролю на пищевых производствах.",
+    "use": "Эксперимент помогает понять, как посторонние частицы могут менять результат испытания дезинфекции и почему результаты для одного способа обработки нельзя переносить на другой.",
+    "limit": "Лабораторное исследование двух видов бактерий и двух типов полимерных частиц при намеренно высокой концентрации пластика 1% (масса/объём). Оно не доказывает неэффективность рабочих дезсредств на конкретном производстве и не задаёт производственный режим обработки.",
+    "triage": "9 full-text candidate abstracts; TypeSafe advisory labels, followed by source inspection.",
+    "wordstat": "The phrase микропластик дезинфекция returned HTTP 200 with an empty object; no count asserted.",
+    "search_gap": "Voronezh Yandex results included an automatically translated publisher abstract. No claim that no Russian coverage exists. Added value: complete scoped text, figure reading keys and offline files."
+  },
+  "coverage": {
+    "segments": 78,
+    "figures": 5,
+    "tables_in_main_text": 0,
+    "references": 38,
+    "funding_statement": "Included from front-matter metadata",
+    "supplements": "Separate author PDF/XLSX not translated; explicitly excluded from scope."
+  },
+  "verification": {
+    "numeric_and_inequality_counters": "all 78 segments passed after edits",
+    "advisory_fidelity_pairs": 44,
+    "advisory_flags": 0,
+    "review_limit": "Direct source review found unsupported magnetron specificity and clarified exposure timing despite model PASS. Corrected before release. Two supplemental control attempts timed out; no reduction of source review or unattended-publication claim.",
+    "pdf": "19 A4 pages; all five images embedded; figure pages inspected; no blank pages",
+    "offline_external_requests": 0,
+    "browser": "390px and 1280px: no overflow, all figures load, six source authors, download event, home/hub links and withdrawal note",
+    "tests": "4 article-discovery tests, 4 snapshot-health tests, 2 source-identity regression tests; Astro build and discovery checks",
+    "independent_specialist_review": false
+  },
+  "files": {
+    "figure-5.webp": {
+      "bytes": 114966,
+      "sha256": "44ea290b653cf2dabf319e00a5fcccce7216481bb9fea083752be794e33e7935"
+    },
+    "translation.pdf": {
+      "bytes": 2936689,
+      "sha256": "39107639569e825dd23f552084f4abab8a2af6cbebf1f2e20ea226a874695c1a"
+    },
+    "figure-4.webp": {
+      "bytes": 110146,
+      "sha256": "8fad54a5f893359bd4768b32c3d5600eea04fcca7f387e5ac86e991e76cfd437"
+    },
+    "figure-3.webp": {
+      "bytes": 135764,
+      "sha256": "3daaf508bc97b059aae767ed9eefe4d90f4f393f2a18951325ec72729c11c728"
+    },
+    "original.pdf": {
+      "bytes": 5265838,
+      "sha256": "2360fb9e7f6f85021c84c239a4aaf0b78758f8c87521fa45d5f72199b19bfd22"
+    },
+    "translation.html": {
+      "bytes": 1235554,
+      "sha256": "5472f1d5ecb34ed7cbe9d852fb3e4d01db9aa47c79588705345295a49036cfb0"
+    },
+    "figure-2.webp": {
+      "bytes": 155482,
+      "sha256": "16b7f1314f0ffeaa25cafd2b8c43584a3ab718038b308471153f05f3acfa84ad"
+    },
+    "figure-1.webp": {
+      "bytes": 344490,
+      "sha256": "decd37ea59d1f557118a0e616ed442f68b0c41e60497f480783d9a14b4ccb0b7"
+    },
+    "original.html": {
+      "bytes": 1196476,
+      "sha256": "af1376f7033f6ae03d5f575ab89e6a5a96c07fdab040b77cab62d10df52ae9e0"
+    }
+  },
+  "related_correction": {
+    "withdrawn_pmid": "41845977",
+    "notice_pmid": "42167966",
+    "action": "Retain URL with withdrawal notice; remove old unsupported summary and exclude from search feeds/recommendations."
+  },
+  "monitoring": {
+    "host": "russian-vps",
+    "timer": "dezsredstva-discovery.timer",
+    "schedule": "daily 09:20 Europe/Moscow, up to 2 minutes randomized delay",
+    "first_run": "2026-10-17T16:26:43.745068+00:00",
+    "status": "ok",
+    "period": [
+      "2026-10-10",
+      "2026-10-16"
+    ],
+    "visits": 5,
+    "organic_visits": 0,
+    "download_goals": 0,
+    "yandex_site_query_documents": 0,
+    "limitation": "Search results are not Webmaster index counts; no ranking improvement established."
+  }
+}
