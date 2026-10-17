@@ -31,7 +31,7 @@ export function getArticleSchema(article: ArticleEntry, articleUrl: string) {
     headline: article.data.title,
     description: article.data.description,
     datePublished: article.data.date.toISOString(),
-    dateModified: article.data.date.toISOString(),
+    dateModified: (article.data.updated ?? article.data.date).toISOString(),
     inLanguage: "ru",
     ...(t ? (authors?.length ? { author: authors } : {}) : { author: publisher }),
     publisher,

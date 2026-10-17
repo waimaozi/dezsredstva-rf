@@ -12,7 +12,7 @@ const topics = [
     ids: ["2026-10-17-listeriya-v-apparate-dlya-molochnyh-kokteyley", "2026-10-17-listeriya-gotovye-salaty-proizvodstvennyy-kontrol", "2026-10-15-chto-pokazyvaet-lyuminometr"]
   },
   {
-    id: "pishchevye-proizvodstva", title: "Листерия в пищевом производстве",
+    id: "pishchevye-proizvodstva", title: "Листерия на производстве",
     description: "Расследования на молочном, рыбном и дрожжевом производствах: связь продукции и производственной среды, прослеживаемость и пределы доказательств.",
     ids: ["2026-10-17-listeriya-syr-pasterizovannoe-moloko", "2026-10-17-listeriya-kopchenyy-losos-dlitelnaya-vspyshka", "2026-10-16-listerioz-hlebopekarnye-drozhzhi"]
   },
@@ -20,6 +20,11 @@ const topics = [
     id: "oborudovanie", title: "Оборудование как источник загрязнения",
     description: "Что нашли в стиральной машине, на линии фасовки антисептика и на шоколадной фабрике. В каждом случае — отдельные условия и степень уверенности авторов.",
     ids: ["2026-10-17-stiralnaya-mashina-istochnik-klebsiella", "2026-10-17-zagryaznennyy-hlorgeksidin-liniya-fasovki", "2026-10-17-salmonella-na-shokoladnoy-fabrike"]
+  },
+  {
+    id: "bioplenki-i-voda", title: "Биоплёнки, вода и загрязнённые расходные материалы",
+    description: "Что можно узнать из проб производственной среды и необычных результатов посевов. Где исследователям удалось найти источник, а где он остался предположением.",
+    ids: ["2026-10-13-bioplenki-myasopererabotka-fsa", "2026-10-13-voda-i-inzhektor-kt", "2026-10-13-zagryaznennyj-sterilnyj-gel"]
   }
 ].map((topic) => ({ ...topic, articles: topic.ids.map((id) => {
   const article = articles.find((a) => a.id === id);
@@ -47,13 +52,16 @@ const structuredData = {
       <a class="text-sky-700 underline" href="#vse-perevody">Все переводы</a>
     </nav>
   </section>
-  <div class="mt-8 grid gap-6 lg:grid-cols-3">
+  <div class="mt-8 grid gap-6 lg:grid-cols-2">
     {topics.map((topic) => (
       <section id={topic.id} class="section-shell scroll-mt-40 p-6">
         <h2 class="text-2xl font-semibold">{topic.title}</h2>
         <p class="section-copy mt-4">{topic.description}</p>
         <ul class="mt-5 space-y-4">
-          {topic.articles.map((a) => <li><a class="text-sky-700 underline underline-offset-4" href={`/articles/${a.id}/`}>{a.data.title}</a></li>)}
+          {topic.articles.map((a) => <li>
+            {a.data.readerQuestion && <p class="mb-2 font-medium text-slate-900">{a.data.readerQuestion}</p>}
+            <a class="text-sky-700 underline underline-offset-4" href={`/articles/${a.id}/`}>{a.data.title}</a>
+          </li>)}
         </ul>
       </section>
     ))}

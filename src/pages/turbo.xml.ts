@@ -1,6 +1,7 @@
 import { getCollection, render } from "astro:content";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
 import type { APIContext } from "astro";
+import { isIndexableArticle } from "../lib/editorial-review.mjs";
 
 const SITE_URL = "https://дезинфицирующиесредства.рф";
 const ANALYTICS_ID = "107711899";
@@ -49,7 +50,7 @@ function buildTurboDocument({
 }
 
 export async function GET(_context: APIContext) {
-  const articles = sortByDateDesc(await getCollection("articles"));
+  const articles = sortByDateDesc((await getCollection("articles")).filter(isIndexableArticle));
   const container = await AstroContainer.create();
 
   const items = await Promise.all(

@@ -1,6 +1,7 @@
 import { readdir, readFile } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import path from 'node:path';
+import { editorialReviews, isReviewPath } from '../src/lib/editorial-review.mjs';
 async function files(dir) {
   return (await Promise.all((await readdir(dir,{withFileTypes:true})).map(e=>e.isDirectory()?files(path.join(dir,e.name)):path.join(dir,e.name)))).flat();
 }
@@ -36,5 +37,17 @@ for(const file of all.filter(f=>/\/sitemap-\d+\.xml$/.test(f))) {
 }
 assert(sitemapPaths.has('/perevody/'),'Translations hub missing from sitemap');
 for(const p of noindex) assert(!sitemapPaths.has(p), `Noindex URL in sitemap: ${p}`);
-for(const p of articlePaths) assert(sitemapPaths.has(p), `Article absent from sitemap: ${p}`);
-console.log(JSON.stringify({articlePages:articlePaths.size,tagPages,translations,sitemapUrls:sitemapPaths.size,noindexUrlsInSitemap:0,emptyTagPages:0}));
+for(const p of articlePaths) {
+  assert.equal(sitemapPaths.has(p), !isReviewPath(p), `Unexpected sitemap eligibility: ${p}`);
+  assert.equal(noindex.has(p), isReviewPath(p), `Unexpected article robots directive: ${p}`);
+}
+for(const id of Object.keys(editorialReviews)) {
+  const p=`/articles/${id}/`;
+  assert(articlePaths.has(p), `Reviewed URL no longer accessible: ${p}`);
+  const html=await readFile(`dist${p}index.html`,'utf8');
+  assert(html.includes('источники требуют уточнения'), `Missing visible review note: ${p}`);
+  for(const feed of ['sitemap.xml','rss.xml','turbo.xml']) {
+    assert(!(await readFile(`dist/${feed}`,'utf8')).includes(id), `Reviewed article in ${feed}: ${id}`);
+  }
+}
+console.log(JSON.stringify({articlePages:articlePaths.size,reviewPages:Object.keys(editorialReviews).length,tagPages,translations,sitemapUrls:sitemapPaths.size,noindexUrlsInSitemap:0,emptyTagPages:0}));
