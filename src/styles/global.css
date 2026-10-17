@@ -60,6 +60,7 @@ body {
 }
 
 .prose-article {
+  overflow-wrap: anywhere;
   max-width: none;
   font-size: 1.05rem;
   line-height: 2rem;
