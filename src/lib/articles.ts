@@ -66,19 +66,20 @@ export function getArticlesByTag(articles: ArticleEntry[], tagSlug: string) {
 
   return sortArticlesByDate(
     articles.filter((article) =>
-      article.data.tags.some((tag) => tag.trim().toLowerCase() === normalizedSlug)
+      article.data.tags.some((tag) => slugifyTag(tag) === normalizedSlug)
     )
   );
 }
 
 export function getRelatedArticles(article: ArticleEntry, articles: ArticleEntry[], limit = 3) {
-  const currentTags = new Set(article.data.tags.map((tag) => tag.trim().toLowerCase()));
-  const candidates = articles.filter((entry) => entry.id !== article.id);
+  const genericTags = new Set(["перевод", "исследования"]);
+  const currentTags = new Set(article.data.tags.map(slugifyTag).filter((tag) => !genericTags.has(tag)));
+  const candidates = articles.filter((entry) => entry.id !== article.id && (!article.data.translation || entry.data.translation));
 
   const ranked = candidates
     .map((entry) => {
       const overlap = entry.data.tags.reduce((count, tag) => {
-        return count + (currentTags.has(tag.trim().toLowerCase()) ? 1 : 0);
+        return count + (currentTags.has(slugifyTag(tag)) ? 1 : 0);
       }, 0);
 
       return { entry, overlap };
