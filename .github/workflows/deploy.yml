@@ -24,7 +24,9 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: node --experimental-strip-types --test tests/article-discovery.test.ts
       - run: npm run build
+      - run: node scripts/check-discovery.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

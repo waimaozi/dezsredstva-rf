@@ -3,6 +3,7 @@ import { getCollection, render } from "astro:content";
 import TableOfContents from "../../components/TableOfContents.astro";
 import TranslationSource from "../../components/TranslationSource.astro";
 import Layout from "../../layouts/Layout.astro";
+import { getArticleSchema } from "../../lib/article-schema";
 import {
   getArticleAbsoluteUrl,
   getArticleUrl,
@@ -56,35 +57,7 @@ const breadcrumbItems = [
 ];
 
 const structuredData = [
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: article.data.title,
-    description: article.data.description,
-    datePublished: article.data.date.toISOString(),
-    dateModified: article.data.date.toISOString(),
-    inLanguage: "ru",
-    author: {
-      "@type": "Organization",
-      name: "Дезинфицирующиесредства.рф"
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Дезинфицирующиесредства.рф",
-      url: "https://дезинфицирующиесредства.рф/"
-    },
-    mainEntityOfPage: articleUrl,
-    keywords: article.data.tags,
-    ...(article.data.translation && {
-      isBasedOn: article.data.source,
-      translationOfWork: {
-        "@type": "CreativeWork",
-        name: article.data.translation.originalTitle,
-        inLanguage: "en",
-        url: article.data.source
-      }
-    })
-  },
+  getArticleSchema(article, articleUrl),
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
