@@ -1,0 +1,12 @@
+<script>
+  document.querySelectorAll<HTMLAnchorElement>("[data-translation-download]").forEach((link) => {
+    link.addEventListener("click", () => {
+      const analytics = (window as unknown as { ym?: (...args: unknown[]) => void }).ym;
+      analytics?.(107711899, "reachGoal", "translation_download", {
+        format: link.dataset.translationDownload,
+        article: window.location.pathname,
+        asset: new URL(link.href).pathname
+      });
+    });
+  });
+</script>

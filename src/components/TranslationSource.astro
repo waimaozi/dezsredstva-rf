@@ -1,4 +1,5 @@
 ---
+import DownloadTracking from "./DownloadTracking.astro";
 interface Props {
   translation: {
     issue?: string;
@@ -39,17 +40,8 @@ const { translation: t } = Astro.props;
     <button type="button" class="print-article">Распечатать</button>
   </div>
 </section>
+<DownloadTracking />
 <script>
-  document.querySelectorAll<HTMLAnchorElement>("[data-translation-download]").forEach((link) => {
-    link.addEventListener("click", () => {
-      const analytics = (window as unknown as { ym?: (...args: unknown[]) => void }).ym;
-      analytics?.(107711899, "reachGoal", "translation_download", {
-        format: link.dataset.translationDownload,
-        article: window.location.pathname,
-        asset: new URL(link.href).pathname
-      });
-    });
-  });
   document.querySelectorAll<HTMLButtonElement>(".print-article").forEach((button) => {
     button.addEventListener("click", () => window.print());
   });
