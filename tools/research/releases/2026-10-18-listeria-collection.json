@@ -1,0 +1,93 @@
+{
+  "released_on": "2026-10-18",
+  "collection": "/vypuski/listeriya/",
+  "articles": [
+    "2026-10-17-listeriya-v-apparate-dlya-molochnyh-kokteyley",
+    "2026-10-17-listeriya-gotovye-salaty-proizvodstvennyy-kontrol",
+    "2026-10-17-listeriya-syr-pasterizovannoe-moloko"
+  ],
+  "changed_urls": [
+    "/",
+    "/perevody/",
+    "/vypuski/listeriya/",
+    "/articles/2026-10-17-listeriya-v-apparate-dlya-molochnyh-kokteyley/",
+    "/articles/2026-10-17-listeriya-gotovye-salaty-proizvodstvennyy-kontrol/",
+    "/articles/2026-10-17-listeriya-syr-pasterizovannoe-moloko/"
+  ],
+  "assets": [
+    {
+      "path": "/downloads/research/listeriya-v-apparate-dlya-molochnyh-kokteyley/translation.html",
+      "bytes": 190090,
+      "sha256": "407b2e42ed7d034d1056bab1ff2644e54e197b7daf7ee5be7df5c8debb84cce5"
+    },
+    {
+      "path": "/downloads/research/listeriya-v-apparate-dlya-molochnyh-kokteyley/translation.pdf",
+      "bytes": 470953,
+      "sha256": "96fdbafc09d97f54c60a026db0634088ccdfcadeb104ca3a6e5ec43256eaf0db"
+    },
+    {
+      "path": "/downloads/research/listeriya-gotovye-salaty-proizvodstvennyy-kontrol/translation.html",
+      "bytes": 172924,
+      "sha256": "a62f2842d940944395a05f93560a1e40cced4f47afcbe9b587beff70f3effb86"
+    },
+    {
+      "path": "/downloads/research/listeriya-gotovye-salaty-proizvodstvennyy-kontrol/translation.pdf",
+      "bytes": 558851,
+      "sha256": "1cd065fd6689175b2f4a460149b07843259efd852a310f888fcb6861894b1a27"
+    },
+    {
+      "path": "/downloads/research/listeriya-syr-pasterizovannoe-moloko/translation.html",
+      "bytes": 191809,
+      "sha256": "3f4db2c2af47f3ea5f0351be412524d1176c8c0efbc8c8e6c0a9fe6031839db8"
+    },
+    {
+      "path": "/downloads/research/listeriya-syr-pasterizovannoe-moloko/translation.pdf",
+      "bytes": 497357,
+      "sha256": "e6ce070591b7e5d47d1bf0b45550befd95dd9c4395e9035b742390231ceb46fb"
+    },
+    {
+      "path": "/downloads/collections/listeriya/collection.html",
+      "bytes": 558553,
+      "sha256": "853e657cd1f09cdd620e4946d8f8aaa737201fb40559b87c55cde4552662a2de"
+    },
+    {
+      "path": "/downloads/collections/listeriya/collection.pdf",
+      "bytes": 1088786,
+      "sha256": "14e805ddaa0ca727212f16df85956cb98cfa9a34633e05f3276e30d224aa2cc0"
+    },
+    {
+      "path": "/downloads/collections/listeriya/collection.zip",
+      "bytes": 4205061,
+      "sha256": "2e99af4d21bb45be962300b883e55ea63ca636e7d681afda0360431ea54460cc"
+    }
+  ],
+  "new_translations": 0,
+  "existing_translations_improved": 3,
+  "russian_figure_keys": 5,
+  "combined_pdf_pages": 37,
+  "individual_pdf_pages": [
+    10,
+    16,
+    9
+  ],
+  "source_status": "Existing verified translations and local originals reused; scientific source text and original assets preserved.",
+  "review": {
+    "type": "Advisory TypeSafe claim review plus direct source and figure review",
+    "source_claims_checked": 6,
+    "supported": 6,
+    "negative_controls": 2,
+    "negative_controls_rejected": 2,
+    "automatic_publication_based_on_scores": false,
+    "specialist_review": false,
+    "source_discrepancy_noted": "Cheese paper figure 1 caption CT7488 versus figure/main text CT7448"
+  },
+  "validation": [
+    "10 existing tests passed",
+    "Production build and discovery checks passed",
+    "8 browser page/viewport checks passed, including one goal event per download",
+    "ZIP: 16 files, CRC and SHA256 passed, local links and embedded images checked offline",
+    "PDF text checks: all checked paragraphs present; no blank pages or out-of-page text",
+    "Original article and offline translation text preserved after excluding added editorial keys",
+    "Original figure images and source files retained byte for byte"
+  ]
+}

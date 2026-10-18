@@ -110,6 +110,8 @@ article.section-shell { min-width: 0; }
 .prose-article figure { margin: 2rem 0; }
 .prose-article figure img { display: block; width: 100%; height: auto; border: 1px solid #dedbd5; }
 .prose-article figcaption { margin-top: .7rem; font-size: .85rem; line-height: 1.6; }
+.prose-article .figure-key { margin-top: 1rem; padding: 1rem; border-left: 3px solid #7caaba; background: #f3f7fa; font-size: .9rem; line-height: 1.7; }
+.prose-article .figure-key p { margin-top: .6rem; }
 .issue-intro { padding: clamp(1.5rem, 4vw, 3.5rem); }
 .issue-intro h1 { font-size: clamp(2.25rem, 5vw, 4.2rem); line-height: 1.12; letter-spacing: -.035em; font-weight: 650; margin: 1.4rem 0; }
 .issue-intro p { max-width: 54rem; line-height: 1.8; }
@@ -138,7 +140,7 @@ article.section-shell { min-width: 0; }
   .prose-article table { display: table; width: 100%; font-size: 8pt; }
   .prose-article th, .prose-article td { min-width: 0; }
   body { background: white; color: black; }
-  body > header, body > .medical-grid, body > footer, main > nav, aside:not(.editor-note), .reading-actions, article > section:last-child { display: none !important; }
+  body > header, body > .medical-grid, body > footer, main > nav, aside:not(.editor-note):not(.figure-key), .reading-actions, article > section:last-child { display: none !important; }
   main { padding: 0 !important; max-width: none !important; }
   main > div.grid { display: block !important; }
   .section-shell { padding: 0 !important; box-shadow: none; border: 0; background: white; }
