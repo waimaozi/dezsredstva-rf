@@ -9,7 +9,7 @@ import subprocess
 
 # Credentials enter the remote process over stdin, never in command arguments.
 REMOTE = r'''
-import sys,json,urllib.request,urllib.parse,datetime,base64,xml.etree.ElementTree as E
+import sys,json,urllib.request,urllib.parse,datetime,base64,ssl,socket,xml.etree.ElementTree as E
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 p=json.load(sys.stdin)
@@ -17,11 +17,17 @@ def get(url,headers,body=None,timeout=20):
  try:
   req=urllib.request.Request(url,data=json.dumps(body,ensure_ascii=False).encode() if body else None,headers=dict(headers,**({'Content-Type':'application/json'} if body else {})))
   with urllib.request.urlopen(req,timeout=timeout) as r:return {'status':r.status,'data':json.load(r)}
- except Exception as e:return {'status':getattr(e,'code',None),'error':type(e).__name__}
+ except Exception as e:
+  reason=getattr(e,'reason',e)
+  category='timeout' if isinstance(reason,(TimeoutError,socket.timeout)) else 'tls' if isinstance(reason,ssl.SSLError) else 'http' if getattr(e,'code',None) else 'transport'
+  return {'status':getattr(e,'code',None),'error':type(e).__name__,'category':category}
 jobs=[
  ('totals',None,'ym:s:visits,ym:s:users,ym:s:pageviews,ym:s:goal672237966reaches',None),
  ('search_engines','ym:s:lastSearchEngineRoot','ym:s:visits',"ym:s:lastTrafficSource=='organic'"),
  ('landing_pages','ym:s:startURL','ym:s:visits,ym:s:goal672237966reaches',None),
+ ('returning_visitors','ym:s:isNewUser','ym:s:visits,ym:s:users',None),
+ ('reader_goals',None,','.join('ym:s:goal'+str(goal)+'reaches' for goal in p['reader_goals']['goals'].values()),None),
+ ('reader_responses','ym:ep:actionGoal,ym:ep:eventParamsLevel1,ym:ep:eventParamsLevel2,ym:ep:eventParamsLevel3,ym:ep:eventParamsLevel4,ym:ep:eventParamsLevel5','ym:ep:eventsNumber,ym:ep:users',"ym:ep:eventParamsLevel1=='research_v1'"),
 ]
 def metrika(job):
  name,dimension,metrics,filters=job
@@ -30,7 +36,7 @@ def metrika(job):
  if filters:args['filters']=filters
  return name,get('https://api-metrika.yandex.net/stat/v1/data?'+urllib.parse.urlencode(args),{'Authorization':'OAuth '+p['oauth']})
 with ThreadPoolExecutor(max_workers=2) as pool:results=dict(pool.map(metrika,jobs))
-out={'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'period':[p['start'],p['end']],'metrika':results,'limitations':['Search API documents returned are not an authenticated index count.','Landing-page goal counts attribute downloads to visit entry, not necessarily to the article downloaded.','An API failure means unknown, not zero.']}
+out={'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'period':[p['start'],p['end']],'metrika':results,'reader_measurement':p['reader_measurement'],'limitations':['Search API documents returned are not an authenticated index count.','Landing-page goal counts attribute downloads to visit entry, not necessarily to the article downloaded.','An API failure means unknown, not zero.','Reader events are measured only from the instrumented_since date; earlier zeros do not mean no engagement.','90 seconds in a focused visible tab with content onscreen and 50% reached is an engagement proxy, not proof of reading or usefulness.','Usefulness and role are voluntary self-reports, not verified professional identity. Analytics blockers and unavailable session storage limit coverage and deduplication.','Reader response rows use event parameters, not landing-page attribution. Users across rows or overlapping daily periods must not be added.']}
 if p.get('search_key_file'):
  try:
   key=Path(p['search_key_file']).expanduser().read_text().strip()
@@ -55,12 +61,22 @@ if p.get('webmaster'):
 print(json.dumps(out,ensure_ascii=False))
 '''
 
+def reader_measurement(start, end, config):
+    since = dt.date.fromisoformat(config['instrumented_since'])
+    coverage = 'not_measured' if end < since else 'partial_period' if start <= since else 'measured'
+    return {**config, 'coverage': coverage,
+            'observed_period': None if end < since else [str(max(start, since)), str(end)],
+            'goal_metric_order': list(config['goals']),
+            'response_dimensions': ['goal', 'schema', 'content_kind', 'article_path', 'self_reported_role', 'response']}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--oauth-file', type=Path, required=True)
     parser.add_argument('--ssh', help='Existing SSH alias; omit to run API reads locally')
     parser.add_argument('--search-key-file', help='Optional API-key path on the machine performing the requests')
     parser.add_argument('--webmaster', action='store_true')
+    parser.add_argument('--reader-goals', type=Path, default=Path(__file__).with_name('reader-goals.json'))
     parser.add_argument('--start', type=dt.date.fromisoformat)
     parser.add_argument('--end', type=dt.date.fromisoformat)
     parser.add_argument('--out', type=Path, required=True)
@@ -69,9 +85,13 @@ def main():
     start = args.start or end - dt.timedelta(days=6)
     if start > end:
         parser.error('--start must not be after --end')
+    config = json.loads(args.reader_goals.read_text())
+    if not config.get('goals') or any(type(value) is not int or value <= 0 for value in config['goals'].values()):
+        parser.error('Reader goal IDs must be positive integers')
     payload = {'oauth': args.oauth_file.expanduser().read_text().splitlines()[0].strip(),
                'start': str(start), 'end': str(end), 'search_key_file': args.search_key_file,
-               'webmaster': args.webmaster}
+               'webmaster': args.webmaster, 'reader_goals': config,
+               'reader_measurement': reader_measurement(start, end, config)}
     command = ['python3', '-c', REMOTE]
     if args.ssh:
         command = ['ssh', '-o', 'BatchMode=yes', '-o', 'ConnectTimeout=8', args.ssh,

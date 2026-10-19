@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import DownloadTracking from "../../components/DownloadTracking.astro";
+import ResearchFeedback from "../../components/ResearchFeedback.astro";
 import collection from "../../data/listeria-collection.json";
 
 const all = await getCollection("articles");
@@ -22,6 +23,7 @@ const structuredData = {
 const downloads = "/downloads/collections/listeriya";
 ---
 <Layout title={collection.title} description={collection.description} pathname="/vypuski/listeriya/" structuredData={structuredData}>
+  <div data-research-content>
   <section class="section-shell p-6 sm:p-10">
     <p class="eyebrow">Тематическая подборка · 18 октября 2026</p>
     <h1 class="section-title mt-4">{collection.title}</h1>
@@ -79,6 +81,8 @@ const downloads = "/downloads/collections/listeriya";
     <p class="section-copy mt-4">Переводы и сопоставление с источниками выполнены с помощью ИИ. Независимая профильная рецензия не проводилась. Подборка предназначена для чтения и обсуждения исследований; она не задаёт режим обработки или программу производственного контроля.</p>
     <p class="mt-4"><a class="text-sky-700 underline" href="/perevody/">Все переводы по рабочим вопросам →</a></p>
   </section>
+  </div>
+  <ResearchFeedback kind="collection" />
   <DownloadTracking />
 </Layout>
 <style>

@@ -16,7 +16,7 @@ def atomic_json(path, value):
 
 def assess(data):
     failures = []
-    for name in ('totals', 'search_engines', 'landing_pages'):
+    for name in ('totals', 'search_engines', 'landing_pages', 'returning_visitors', 'reader_goals', 'reader_responses'):
         result = data.get('metrika', {}).get(name, {})
         if result.get('status') != 200 or 'totals' not in result.get('data', {}):
             failures.append('metrika:' + name)

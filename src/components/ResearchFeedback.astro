@@ -1,0 +1,95 @@
+---
+interface Props { kind: "translation" | "collection"; }
+const { kind } = Astro.props;
+---
+<section class="research-feedback mt-10 rounded-3xl border border-sky-200 bg-sky-50/60 p-6" data-research-feedback data-content-kind={kind} aria-labelledby="reader-feedback-title" hidden>
+  <h2 id="reader-feedback-title" class="text-xl font-semibold">Пригодится ли этот материал в работе?</h2>
+  <p class="mt-3 text-sm leading-6 text-slate-600">Ответ поможет выбирать следующие исследования для перевода.</p>
+  <label for="reader-role" class="mt-4 block text-sm font-medium">Ваша область работы <span class="font-normal text-slate-500">(необязательно)</span></label>
+  <select id="reader-role" class="mt-2 w-full max-w-sm rounded-xl border border-sky-200 bg-white px-3 py-3 text-base">
+    <option value="unspecified">Не указывать</option>
+    <option value="quality">Качество и ХАССП</option>
+    <option value="laboratory">Лаборатория / ОТК</option>
+    <option value="technologist">Технология производства</option>
+    <option value="sanitation">Санитария и гигиена</option>
+    <option value="veterinary">Ветеринария</option>
+    <option value="other">Другая область</option>
+  </select>
+  <div class="mt-4 flex flex-wrap gap-3">
+    <button type="button" data-reader-answer="useful">Да, полезно</button>
+    <button type="button" data-reader-answer="not_relevant">Не по моей теме</button>
+    <button type="button" data-reader-answer="needs_detail">Нужны подробности</button>
+  </div>
+  <p class="mt-3 text-sm leading-6 text-slate-500">Имя и контакты не нужны. Ответ и выбранная область передаются в Яндекс Метрику.</p>
+  <p class="mt-3 text-sm font-medium text-sky-800" data-reader-status role="status" aria-live="polite"></p>
+</section>
+<style>
+  .research-feedback[hidden] { display: none; }
+  button { border:1px solid #9dc9df; border-radius:.8rem; background:white; padding:.7rem 1rem; font-weight:600; color:#075985; cursor:pointer; }
+  button:hover:not(:disabled) { background:#e0f2fe; }
+  button:focus-visible, select:focus-visible { outline:3px solid #0284c7; outline-offset:3px; }
+  button:disabled { opacity:.55; cursor:default; }
+  @media print { .research-feedback { display:none; } }
+</style>
+<script>
+  import { advanceReading, newReadingState, evidenceParameters, feedbackGoals } from "../lib/reader-evidence";
+
+  const panel = document.querySelector<HTMLElement>("[data-research-feedback]");
+  const content = document.querySelector<HTMLElement>("[data-research-content]");
+  if (panel && content) {
+    const kind = panel.dataset.contentKind === "collection" ? "collection" : "translation";
+    const path = window.location.pathname;
+    const key = `research-v1:${path}:`;
+    const stored = (name: string) => { try { return sessionStorage.getItem(key + name) === "1"; } catch { return false; } };
+    const remember = (name: string) => { try { sessionStorage.setItem(key + name, "1"); } catch { /* Memory guards still prevent duplicates on this page. */ } };
+    const send = (goal: string, role: string, answer: string) => {
+      const analytics = (window as unknown as { ym?: (...args: unknown[]) => void }).ym;
+      try { analytics?.(107711899, "reachGoal", goal, evidenceParameters(kind, path, role, answer)); } catch { /* Analytics must not break reading. */ }
+    };
+    const buttons = panel.querySelectorAll<HTMLButtonElement>("[data-reader-answer]");
+    const select = panel.querySelector<HTMLSelectElement>("select")!;
+    const status = panel.querySelector<HTMLElement>("[data-reader-status]")!;
+    let answered = stored("feedback");
+    const finish = () => {
+      buttons.forEach((button) => { button.disabled = true; });
+      select.disabled = true;
+      status.textContent = "Спасибо за ответ.";
+    };
+    if (answered) finish();
+    buttons.forEach((button) => button.addEventListener("click", () => {
+      const answer = button.dataset.readerAnswer as keyof typeof feedbackGoals;
+      if (answered || !Object.hasOwn(feedbackGoals, answer)) return;
+      answered = true;
+      remember("feedback");
+      send(feedbackGoals[answer], select.value, answer);
+      finish();
+    }));
+    panel.hidden = false;
+
+    if (!stored("engaged")) {
+      let state = newReadingState();
+      const tick = () => {
+        if (state.reached) return;
+        const rect = content.getBoundingClientRect();
+        const headerBottom = document.querySelector("body > header")?.getBoundingClientRect().bottom ?? 0;
+        const eligible = document.visibilityState === "visible" && document.hasFocus()
+          && rect.bottom > Math.max(0, headerBottom) && rect.top < window.innerHeight;
+        const progress = rect.height > 0 ? (window.innerHeight - rect.top) / rect.height : 0;
+        state = advanceReading(state, performance.now(), eligible, progress);
+        if (state.reached) {
+          remember("engaged");
+          send("translation_engaged_90s", "unspecified", "engaged");
+          clearInterval(timer);
+          document.removeEventListener("visibilitychange", tick);
+          window.removeEventListener("blur", tick);
+          window.removeEventListener("focus", tick);
+        }
+      };
+      const timer = window.setInterval(tick, 1000);
+      document.addEventListener("visibilitychange", tick);
+      window.addEventListener("blur", tick);
+      window.addEventListener("focus", tick);
+      tick();
+    }
+  }
+</script>
