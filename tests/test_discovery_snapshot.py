@@ -53,6 +53,12 @@ class SnapshotHealth(unittest.TestCase):
         self.assertEqual(coverage('2026-10-19', '2026-10-19')['coverage'], 'partial_period')
         self.assertEqual(coverage('2026-10-20', '2026-10-26')['coverage'], 'measured')
 
+    def test_queued_release_does_not_claim_instrumentation_is_live(self):
+        config = {'instrumented_since': '2026-10-19', 'deployment_pending': True, 'goals': {'reader_useful': 123}}
+        result = measure.reader_measurement(dt.date(2026, 10, 20), dt.date(2026, 10, 26), config)
+        self.assertEqual(result['coverage'], 'awaiting_deployment')
+        self.assertIsNone(result['observed_period'])
+
 
 if __name__ == '__main__':
     unittest.main()

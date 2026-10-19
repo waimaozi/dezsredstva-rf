@@ -63,9 +63,10 @@ print(json.dumps(out,ensure_ascii=False))
 
 def reader_measurement(start, end, config):
     since = dt.date.fromisoformat(config['instrumented_since'])
-    coverage = 'not_measured' if end < since else 'partial_period' if start <= since else 'measured'
+    pending = config.get('deployment_pending', False)
+    coverage = 'awaiting_deployment' if pending else 'not_measured' if end < since else 'partial_period' if start <= since else 'measured'
     return {**config, 'coverage': coverage,
-            'observed_period': None if end < since else [str(max(start, since)), str(end)],
+            'observed_period': None if pending or end < since else [str(max(start, since)), str(end)],
             'goal_metric_order': list(config['goals']),
             'response_dimensions': ['goal', 'schema', 'content_kind', 'article_path', 'self_reported_role', 'response']}
 
