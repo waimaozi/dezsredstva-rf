@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-19",
+  "scope": "Reader evidence on 13 translations and the Listeria collection; one archive correction",
+  "reader_evidence": {
+    "schema": "research_v1",
+    "configuration": "tools/discovery/reader-goals.json",
+    "engagement_proxy": "90 seconds in a visible focused tab with content onscreen and at least 50% of content reached",
+    "explicit_answers": ["useful", "not_relevant", "needs_detail"],
+    "role": "Optional self-report, not verified professional identity",
+    "deduplication": "Once per path per tab session; current page only if sessionStorage is unavailable",
+    "reporting": "Event hierarchy preserves content kind, article path, role and response; pre-instrumentation periods marked not_measured",
+    "coverage_limit": "Analytics blockers and unavailable storage affect coverage; engagement is not proof of comprehension or usefulness"
+  },
+  "archive_correction": {
+    "slug": "analiz-regulyatornykh-trendov-v-asepticheskom-proizvodstve-uroki-fda-i-ema-dlya-",
+    "source_doi": "10.5731/pdajpst.2026.26418",
+    "source_type": "Poster Presented at PDA Week 2026",
+    "sources": ["https://doi.org/10.5731/pdajpst.2026.26418", "https://www.pda.org/global-event-calendar/event-detail/pda-week-2026"],
+    "verified_scope": "Bibliographic metadata and publicly available poster abstract; not the full publication",
+    "changes": ["Restored specific source", "Corrected publication type", "Qualified percentages as production observations/deficiencies", "Removed unsupported regulatory and operational prescriptions", "Preserved URL and original date; added correction note and updated date"]
+  },
+  "validation": {
+    "unit_tests": "8 Node tests and 8 Python tests passed",
+    "build": "Astro build and discovery checks passed: 202 articles, 13 translations, 209 sitemap URLs, no noindex URL in sitemap",
+    "browser": "Desktop and 390px mobile: foreground/hidden/focus timing, 90-second threshold, all response choices, keyboard, session reload, blocked storage, print, JavaScript disabled, download regression",
+    "analytics": "Four goals created and verified through Management API; six Reporting API reads returned HTTP 200. Browser tests stubbed analytics and blocked external requests; no fake production feedback sent."
+  }
+}

@@ -2,6 +2,7 @@
 import { getCollection, render } from "astro:content";
 import TableOfContents from "../../components/TableOfContents.astro";
 import TranslationSource from "../../components/TranslationSource.astro";
+import ResearchFeedback from "../../components/ResearchFeedback.astro";
 import Layout from "../../layouts/Layout.astro";
 import { getArticleSchema } from "../../lib/article-schema";
 import { getEditorialReview } from "../../lib/editorial-review.mjs";
@@ -144,9 +145,11 @@ const structuredData = [
       )}
       {article.data.translation && <TranslationSource translation={article.data.translation} />}
 
-      <div class="prose-article mt-8">
+      <div class="prose-article mt-8" data-research-content={article.data.translation && !editorialReview ? "" : undefined}>
         <Content />
       </div>
+
+      {article.data.translation && !editorialReview && <ResearchFeedback kind="translation" />}
 
       <section class="mt-12 border-t border-sky-100 pt-8">
         <div class="flex items-center justify-between gap-4">

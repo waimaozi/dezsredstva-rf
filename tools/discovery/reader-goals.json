@@ -1,0 +1,10 @@
+{
+  "schema": "research_v1",
+  "instrumented_since": "2026-10-19",
+  "goals": {
+    "translation_engaged_90s": 672522302,
+    "reader_useful": 672522303,
+    "reader_not_relevant": 672522306,
+    "reader_needs_detail": 672522307
+  }
+}
