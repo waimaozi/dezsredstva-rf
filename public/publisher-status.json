@@ -1,14 +1,11 @@
 {
-  "checked_at": "2026-10-16T18:52:35.569631+00:00",
-  "status": "published",
+  "checked_at": "2026-10-20T06:00:05.348773+00:00",
+  "status": "needs_sources",
   "cadence": "weekly",
   "schedule": "Tuesday 09:00 Europe/Moscow",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-10-16-listerioz-hlebopekarnye-drozhzhi/",
-  "question": "Листериоз и хлебопекарные дрожжи: расследование вспышки в Швейцарии",
-  "selection_basis": "editorial_relevance_to_food_quality_laboratory_technology_and_hygiene_roles",
-  "release": "additional_editorial_article_requested_2026-10-16",
-  "source": "https://wwwnc.cdc.gov/eid/article/30/11/24-0764_article",
-  "source_sha256": "32b58564052c0386bd26e252f0938ca57d246f908f4983fcf03b0429cb30d976",
-  "source_retrieval": "live",
-  "source_checked_at": "2026-10-16T18:52:35.569631+00:00"
+  "published": null,
+  "eligible_questions": 0,
+  "demand_providers": [
+    "yandex_wordstat"
+  ]
 }
