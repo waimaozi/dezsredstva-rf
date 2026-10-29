@@ -25,7 +25,24 @@ def assess(data):
         failures.append('yandex_search')
     elif search.get('search_error_code') not in (None, '15'):
         failures.append('yandex_search:' + search['search_error_code'])
+    if webmaster_state(data) == 'unavailable':
+        failures.append('webmaster')
     return failures
+
+
+def webmaster_state(data):
+    if 'webmaster_access' not in data:
+        return 'not_requested'
+    if data['webmaster_access'].get('status') != 200:
+        return 'unavailable'
+    if not (data.get('webmaster_target_host') or {}).get('verified'):
+        return 'unavailable'
+    summary = data.get('webmaster_summary', {})
+    if summary.get('status') == 200 and isinstance(summary.get('data'), dict):
+        return 'available'
+    if summary.get('status') == 404 and summary.get('api_error_code') == 'HOST_NOT_LOADED':
+        return 'pending_data'
+    return 'unavailable'
 
 
 def main():
@@ -33,6 +50,7 @@ def main():
     parser.add_argument('--oauth-file', required=True)
     parser.add_argument('--search-key-file', required=True)
     parser.add_argument('--state-dir', type=Path, required=True)
+    parser.add_argument('--webmaster', action='store_true')
     args = parser.parse_args()
     state = args.state_dir
     state.mkdir(parents=True, exist_ok=True, mode=0o700)
@@ -44,6 +62,8 @@ def main():
         command = [sys.executable, str(Path(__file__).with_name('measure.py')),
                    '--oauth-file', args.oauth_file, '--search-key-file', args.search_key_file,
                    '--out', str(pending)]
+        if args.webmaster:
+            command.append('--webmaster')
         result = subprocess.run(command, capture_output=True, text=True, timeout=150)
         if result.returncode:
             raise RuntimeError('snapshot_transport_or_credentials')
@@ -52,7 +72,8 @@ def main():
         history = state / (stamp + '.json')
         pending.replace(history)
         health.update(status='ok' if not failures else 'partial', failures=failures,
-                      snapshot=history.name, period=data['period'])
+                      snapshot=history.name, period=data['period'],
+                      webmaster=webmaster_state(data))
         atomic_json(state / 'latest.json', data)
         if not failures:
             atomic_json(state / 'last-success.json', {'checked_at': now.isoformat(), 'snapshot': history.name})
