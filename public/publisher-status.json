@@ -1,11 +1,36 @@
 {
-  "checked_at": "2026-10-27T06:00:03.006221+00:00",
-  "status": "needs_sources",
+  "checked_at": "2026-10-29T19:40:08.541282+00:00",
   "cadence": "weekly",
   "schedule": "Tuesday 09:00 Europe/Moscow",
-  "published": null,
-  "eligible_questions": 0,
-  "demand_providers": [
-    "yandex_wordstat"
+  "mode": "reviewed_research",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-10-29-allergen-arahisa-110-dney-na-poverhnosti/",
+  "status": "awaiting_deployment",
+  "approved_remaining": 0,
+  "verified_sources": 2,
+  "id": "allergen-arahisa-110-dney",
+  "question": "Аллерген арахиса на поверхности стола: что показали 110 дней наблюдения",
+  "source_doi": "10.1186/1710-1492-9-7",
+  "source_sha256": "43a5754ded7dab8bb07e7bb0b997bc6d073a58f6d540851a43ad2b9ab530e3a1",
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/allergen-arahisa-110-dney/figure-1.jpg",
+      "sha256": "b200799b5f6a9b32c2680d00be6e1bea683ff1e59fac94ba75b13c62f4e1d06d"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/allergen-arahisa-110-dney/original.html",
+      "sha256": "994b44bbe1e6af3b5551ba2c4e5df2c34ad142565e0b6402040d48718eac3dfa"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/allergen-arahisa-110-dney/original.pdf",
+      "sha256": "e9154c3ed4137ea837cdf92fe8e082d6e4cf47d4ab031817db02fc4d94b8bd3d"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/allergen-arahisa-110-dney/translation.html",
+      "sha256": "c4122e0bc8bc15a210bb491ef97b2ad1c467d71a2247d34affe4967b5171f780"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/allergen-arahisa-110-dney/translation.pdf",
+      "sha256": "bdab92751abc3fae98c3fbf91e870b5ebe10eef698289174b104c24c5a6ba155"
+    }
   ]
 }
