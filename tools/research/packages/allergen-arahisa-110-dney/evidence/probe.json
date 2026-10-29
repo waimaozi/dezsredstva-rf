@@ -1,0 +1,23 @@
+{
+  "pmid": "23419031",
+  "checked_at": "2026-10-29T19:21:25.317502+00:00",
+  "status": "full_text_available",
+  "requires_editorial_rights_review": true,
+  "title": "Persistence of peanut allergen on a table surface.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "notices": [],
+  "identifiers": {
+    "pubmed": "23419031",
+    "pmc": "PMC3599460",
+    "doi": "10.1186/1710-1492-9-7",
+    "pii": "1710-1492-9-7"
+  },
+  "source_sha256": "43a5754ded7dab8bb07e7bb0b997bc6d073a58f6d540851a43ad2b9ab530e3a1",
+  "permissions": [
+    "Copyright ©2013 Watson et al.; licensee BioMed Central Ltd. This is an Open Access article distributed under the terms of the Creative Commons Attribution License ( http://creativecommons.org/licenses/by/2.0 ), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited."
+  ],
+  "figures": 1,
+  "tables": 0
+}

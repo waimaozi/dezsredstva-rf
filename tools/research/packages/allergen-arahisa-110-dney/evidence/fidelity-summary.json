@@ -1,0 +1,22 @@
+[
+  {
+    "article": "peanut",
+    "batch": 1,
+    "checked": 3,
+    "flags": [],
+    "usage": {
+      "input_tokens": 1124,
+      "output_tokens": 141
+    }
+  },
+  {
+    "article": "peanut",
+    "batch": 0,
+    "checked": 23,
+    "flags": [],
+    "usage": {
+      "input_tokens": 13740,
+      "output_tokens": 1061
+    }
+  }
+]

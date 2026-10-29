@@ -46,8 +46,40 @@ Do not infer translation permission merely from PMC availability.
    merge the content PR, verify the deployed page/files from Russia, then submit
    the changed URLs to IndexNow. Acceptance is not indexing.
 
-The acquisition command, release manifest and monitoring are reusable. This is
-one verified, editorially reviewed publication cycle, not an enabled autonomous
-paper-discovery/publication service. The existing weekly CDC-section publisher
-keeps its bounded catalog and reports `needs_sources` when exhausted; this new
-research article does not disguise that state as an automated weekly success.
+The first release established the source-to-publication workflow. The approved
+research queue below now connects reviewed packages to the weekly timer.
+
+## Approved research queue (29 October 2026)
+
+The production weekly entrypoint now runs `tools/publish-research.py`, replacing
+scheduled generation from the exhausted CDC catalog. It does not discover,
+license or translate papers unattended. `candidates.json` lists verified sources
+whose translation/review is still required; these cannot be published by the job.
+
+An approved package lives in `packages/<translationId>/`: `files/` holds the
+article and its own local downloads; `evidence/` preserves the full source,
+translation, source check and explicit editorial review. `manifest.json` binds
+all files/evidence to SHA-256 hashes, source identifiers, a checked CC BY licence,
+reviewer, scope and an earliest release date. Unsupported licences require a
+separate reviewed implementation, not an override. Set `status` to `approved`
+only after completing source, meaning, figure/table, PDF and rendering checks.
+A source candidate or a model PASS alone is not approval.
+
+`python3 tools/publish-research.py --state-dir /private/preview` validates without
+publishing or making model calls. The timer uses `bash tools/run-daily.sh`, which
+locks, fetches/fast-forwards main, retries a retained push and releases at most
+one translation per ISO week. Failed builds remove only this attempt's newly
+created, unchanged files. Existing differing content, a partial installation,
+changed evidence, a dirty/diverged checkout or changed download bytes stops the
+release for inspection; never reset/stash away unexplained files.
+
+`last-publication.json` retains the deployment-verification job across failed
+pushes/deployments. The verifier checks title, source DOI, every download hash
+and the translations hub before IndexNow. Public `awaiting_deployment` is the
+commit-time status; private `live_verified` records the later check. The daily
+health workflow independently checks the live article/downloads. An empty queue
+returns `needs_translation` (successful runtime, editorial attention still
+required); the health workflow flags missed output. Two verified sources do not
+mean two scheduled translations. To retire a consumed package after subsequent
+editorial corrections, archive its manifest status after live verification;
+keep its evidence, and never mutate its approved payload in place.

@@ -1,0 +1,12 @@
+{
+  "reviewer": "Astra",
+  "checked_at": "2026-10-29T19:32:04.033571+00:00",
+  "scope": "Full article, abstract, figure/caption, declarations and 14 original-language references; no tables or supplements in source.",
+  "independent_specialist_review": false,
+  "source_identity": "PubMed/Europe PMC PMID, PMCID and DOI matched; original publisher PDF title and text checked.",
+  "rights": "CC BY 2.0 explicitly in source article permissions.",
+  "fidelity": "All 41 segments directly compared; numeric literals and inequalities unchanged. Advisory TypeSafe checked 26 substantive pairs: no flags. Four segments copyedited; lighting assumptions removed and apparent/observational qualifier restored. This was additional coverage, not a validated automatic approval.",
+  "figures": "Original unmodified figure checked; Russian axis key distinguishes sample concentration from surface loading.",
+  "limits": "2013 single tabletop experiment, Ara h 1 only; no clinical-risk estimate, factory validation, dry-hand transfer or milk/egg persistence evidence.",
+  "pdf": "7-page Russian PDF; embedded figure and no external requests; first/figure/final-page layout checked."
+}

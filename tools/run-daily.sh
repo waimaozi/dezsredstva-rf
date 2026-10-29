@@ -19,5 +19,5 @@ git merge --ff-only origin/main
 if [[ "$(git rev-list --count origin/main..HEAD)" != 0 ]]; then
   git push origin HEAD:main
 fi
-python3 tools/publish-translations.py --state-dir "$DEZSREDSTVA_STATE" --publish --refresh-demand
+python3 tools/publish-research.py --state-dir "$DEZSREDSTVA_STATE" --publish
 python3 tools/translation/verify-live.py "$DEZSREDSTVA_STATE"
