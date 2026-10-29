@@ -12,14 +12,17 @@ jobs:
       - name: Check latest public publisher status
         run: |
           python3 - <<'PY'
-          import datetime as d, json, urllib.request
+          import datetime as d, hashlib, json, urllib.request
           url = 'https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/publisher-status.json'
           with urllib.request.urlopen(url, timeout=30) as response:
               status = json.load(response)
           print(json.dumps(status, ensure_ascii=False, indent=2))
           age = d.datetime.now(d.timezone.utc) - d.datetime.fromisoformat(status['checked_at'])
           assert age < d.timedelta(days=9), 'Publisher heartbeat is stale'
-          assert status['status'] == 'published', 'Editorial queue needs attention: ' + status['status']
+          assert status['status'] in ('published', 'awaiting_deployment', 'live_verified'), 'Editorial queue needs attention: ' + status['status']
           with urllib.request.urlopen(status['published'], timeout=30) as response:
               assert response.status == 200, 'Latest translation is unavailable'
+          for asset in status.get('assets', []):
+              with urllib.request.urlopen(asset['url'], timeout=30) as response:
+                  assert hashlib.sha256(response.read()).hexdigest() == asset['sha256'], 'Published download differs from approved release'
           PY

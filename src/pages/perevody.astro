@@ -7,6 +7,11 @@ const articles = (await getCollection("articles"))
   .sort((a, b) => (b.data.updated ?? b.data.date).getTime() - (a.data.updated ?? a.data.date).getTime());
 const topics = [
   {
+    id: "allergeny", title: "Аллергены и контроль мойки",
+    description: "Что сохраняется на поверхности после высыхания пищи, что измеряет анализ и где заканчиваются выводы отдельного эксперимента.",
+    ids: articles.filter((a) => a.data.tags.includes("аллергены")).map((a) => a.id)
+  },
+  {
     id: "ispytaniya-dezinfekcii", title: "Что меняет результат испытания дезинфекции",
     description: "Лабораторный эксперимент с микропластиком: разные результаты для тепла, УФ и химической обработки. Какие условия проверены и что пока нельзя переносить на производство.",
     ids: ["mikroplastik-kak-faktor-rezistentnosti-patogenov-novye-dannye-dlya-pishchevykh-p"]
@@ -31,7 +36,7 @@ const topics = [
     description: "Что можно узнать из проб производственной среды и необычных результатов посевов. Где исследователям удалось найти источник, а где он остался предположением.",
     ids: ["2026-10-13-bioplenki-myasopererabotka-fsa", "2026-10-13-voda-i-inzhektor-kt", "2026-10-13-zagryaznennyj-sterilnyj-gel"]
   }
-].map((topic) => ({ ...topic, articles: topic.ids.map((id) => {
+].filter((topic) => topic.ids.length > 0).map((topic) => ({ ...topic, articles: topic.ids.map((id) => {
   const article = articles.find((a) => a.id === id);
   if (!article) throw new Error(`Missing curated translation: ${id}`);
   return article;

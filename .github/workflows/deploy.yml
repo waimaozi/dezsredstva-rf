@@ -27,6 +27,8 @@ jobs:
       - run: node --experimental-strip-types --test tests/article-discovery.test.ts tests/reader-evidence.test.ts
       - run: python3 -m unittest discover -s tests -p test_discovery_snapshot.py
       - run: python3 -m unittest discover -s tests -p test_research_probe.py
+      - run: python3 -m unittest discover -s tests -p test_research_queue.py
+      - run: python3 tools/publish-research.py --state-dir "$RUNNER_TEMP/research-preview"
       - run: npm run build
       - run: node scripts/check-discovery.mjs
       - uses: actions/upload-pages-artifact@v3

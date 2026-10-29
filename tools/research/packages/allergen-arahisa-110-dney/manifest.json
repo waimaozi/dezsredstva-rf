@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "id": "allergen-arahisa-110-dney",
+  "slug": "2026-10-29-allergen-arahisa-110-dney-na-poverhnosti",
+  "title": "Аллерген арахиса на поверхности стола: что показали 110 дней наблюдения",
+  "status": "approved",
+  "not_before": "2026-10-29",
+  "review": {
+    "reviewer": "Astra",
+    "checked_at": "2026-10-29T19:32:04.033571+00:00",
+    "scope": "Full article, abstract, figure/caption, declarations and 14 original-language references; no tables or supplements in source."
+  },
+  "source": {
+    "pmid": "23419031",
+    "pmcid": "PMC3599460",
+    "doi": "10.1186/1710-1492-9-7",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3599460/",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "sha256": "43a5754ded7dab8bb07e7bb0b997bc6d073a58f6d540851a43ad2b9ab530e3a1"
+  },
+  "files": [
+    {
+      "path": "public/downloads/research/allergen-arahisa-110-dney/figure-1.jpg",
+      "sha256": "b200799b5f6a9b32c2680d00be6e1bea683ff1e59fac94ba75b13c62f4e1d06d"
+    },
+    {
+      "path": "public/downloads/research/allergen-arahisa-110-dney/original.html",
+      "sha256": "994b44bbe1e6af3b5551ba2c4e5df2c34ad142565e0b6402040d48718eac3dfa"
+    },
+    {
+      "path": "public/downloads/research/allergen-arahisa-110-dney/original.pdf",
+      "sha256": "e9154c3ed4137ea837cdf92fe8e082d6e4cf47d4ab031817db02fc4d94b8bd3d"
+    },
+    {
+      "path": "public/downloads/research/allergen-arahisa-110-dney/translation.html",
+      "sha256": "c4122e0bc8bc15a210bb491ef97b2ad1c467d71a2247d34affe4967b5171f780"
+    },
+    {
+      "path": "public/downloads/research/allergen-arahisa-110-dney/translation.pdf",
+      "sha256": "bdab92751abc3fae98c3fbf91e870b5ebe10eef698289174b104c24c5a6ba155"
+    },
+    {
+      "path": "src/content/articles/2026-10-29-allergen-arahisa-110-dney-na-poverhnosti.md",
+      "sha256": "d62bfddda1044a83e63446d62be85ee2cc9bf8e3e3578a2429fe50cdb797686d"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "evidence/copyedit.json",
+      "sha256": "41f87f423cb4683295d677012d45f3216879f394027d14665a1f9ce49787e3ad"
+    },
+    {
+      "path": "evidence/fidelity-summary.json",
+      "sha256": "a224139b250ffc4309ebac3e99bef9e3a18cc0521adc37bb2f0dc11ec4045e58"
+    },
+    {
+      "path": "evidence/pdf-browser.json",
+      "sha256": "940a00e00be44af9fdbd958c843ecd52a0b8e9c386160a8d2370d7b34cb0ab35"
+    },
+    {
+      "path": "evidence/pdf-check.json",
+      "sha256": "db6082d612b1b24ddc1fec2bcbf3bb2ac17a60db1410d586dfed563a4c56f5af"
+    },
+    {
+      "path": "evidence/probe.json",
+      "sha256": "f0822a788d1ddaa3dd7a301f2e666a1e33e9fffe88abfeabe61f334cd501ec0e"
+    },
+    {
+      "path": "evidence/review.json",
+      "sha256": "7b276a71f4260146e228b31083dad6395c6c50e492a32ae25b0c205040da6074"
+    },
+    {
+      "path": "evidence/source.json",
+      "sha256": "859d202a20bb94516405fb72892389d2c1ba460c041299c32d84e17527adea95"
+    },
+    {
+      "path": "evidence/source.xml",
+      "sha256": "43a5754ded7dab8bb07e7bb0b997bc6d073a58f6d540851a43ad2b9ab530e3a1"
+    },
+    {
+      "path": "evidence/target.json",
+      "sha256": "9a8d246aea8e19dc571675423ab4b8efa342bd7d5286af921919b99f28064e32"
+    }
+  ]
+}

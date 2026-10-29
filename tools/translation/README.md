@@ -6,14 +6,10 @@ safety, laboratory, technology, veterinary and hygiene roles. Search demand is
 supporting discovery evidence, not an instruction to generate generic how-to
 pages. A paper's usefulness must be established from its actual content.
 
-The two unpublished generic CDC topics (solution preparation and reusable
-cleaning equipment) were removed from the executable catalog. Their snapshots
-remain historical evidence. The already-published ATP item remains for history.
-The weekly timer is unchanged; with no new eligible sources it reports
-`needs_sources` instead of publishing a generic substitute. The existing CLI
-below is a bounded CDC-section publisher, not an autonomous scientific-paper
-discovery system. Research translations can be checked and released through
-content PRs; the 2026-10-16 yeast outbreak paper is such an extra release.
+Since 29 October 2026, the production weekly timer publishes approved research
+packages through `tools/publish-research.py`. See `../research/README.md` for the
+current queue, validation and recovery process. The CDC CLI described below is
+retained as historical tooling and is no longer called by the weekly timer.
 
 The existing bounded publisher uses real Wordstat phrase results (Russia, last 30 days). Google
 suggestions are a fallback and carry no invented search counts. Rare phrases
@@ -53,7 +49,8 @@ Never put credentials into command arguments, Git URLs or evidence.
 
 Preview with `python3 tools/publish-translations.py --state-dir /private/state`.
 This makes billable calls and writes evidence, but cannot write article files,
-publication state or commits. Production entrypoint: `bash tools/run-daily.sh`.
+publication state or commits. The historical CLI is not the production entrypoint. The remaining description
+records its previous behavior.
 It fetches main, refuses a dirty/diverged checkout, produces at most one article,
 builds before committing, pushes, verifies the actual live page and then submits
 IndexNow. Failed pushes retain the commit; failed builds retain files for repair.
