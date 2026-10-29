@@ -59,6 +59,28 @@ class SnapshotHealth(unittest.TestCase):
         self.assertEqual(result['coverage'], 'awaiting_deployment')
         self.assertIsNone(result['observed_period'])
 
+    def test_new_webmaster_host_is_pending_not_zero_or_outage(self):
+        data = self.data()
+        data.update(webmaster_access={'status': 200}, webmaster_target_host={'verified': True},
+                    webmaster_summary={'status': 404, 'api_error_code': 'HOST_NOT_LOADED'})
+        self.assertEqual(snapshot.webmaster_state(data), 'pending_data')
+        self.assertEqual(snapshot.assess(data), [])
+
+    def test_webmaster_failure_and_unverified_host_are_not_pending(self):
+        data = self.data()
+        data.update(webmaster_access={'status': 200}, webmaster_target_host={'verified': False})
+        self.assertEqual(snapshot.assess(data), ['webmaster'])
+        data.update(webmaster_target_host={'verified': True}, webmaster_summary={'status': 504})
+        self.assertEqual(snapshot.assess(data), ['webmaster'])
+
+    def test_webmaster_summary_becomes_available_without_backfilling(self):
+        data = self.data()
+        self.assertEqual(snapshot.webmaster_state(data), 'not_requested')
+        data.update(webmaster_access={'status': 200}, webmaster_target_host={'verified': True},
+                    webmaster_summary={'status': 200, 'data': {'searchable_pages_count': 0}})
+        self.assertEqual(snapshot.webmaster_state(data), 'available')
+        self.assertEqual(snapshot.assess(data), [])
+
 
 if __name__ == '__main__':
     unittest.main()

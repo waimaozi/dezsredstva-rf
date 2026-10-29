@@ -9,7 +9,7 @@ import subprocess
 
 # Credentials enter the remote process over stdin, never in command arguments.
 REMOTE = r'''
-import sys,json,urllib.request,urllib.parse,datetime,base64,ssl,socket,xml.etree.ElementTree as E
+import sys,json,urllib.request,urllib.parse,urllib.error,datetime,base64,ssl,socket,re,xml.etree.ElementTree as E
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 p=json.load(sys.stdin)
@@ -20,7 +20,13 @@ def get(url,headers,body=None,timeout=20):
  except Exception as e:
   reason=getattr(e,'reason',e)
   category='timeout' if isinstance(reason,(TimeoutError,socket.timeout)) else 'tls' if isinstance(reason,ssl.SSLError) else 'http' if getattr(e,'code',None) else 'transport'
-  return {'status':getattr(e,'code',None),'error':type(e).__name__,'category':category}
+  result={'status':getattr(e,'code',None),'error':type(e).__name__,'category':category}
+  if isinstance(e,urllib.error.HTTPError):
+   try:
+    code=json.loads(e.read(4096)).get('error_code')
+    if isinstance(code,str) and re.fullmatch('[A-Z_]{1,64}',code):result['api_error_code']=code
+   except (ValueError,OSError,AttributeError):pass
+  return result
 jobs=[
  ('totals',None,'ym:s:visits,ym:s:users,ym:s:pageviews,ym:s:goal672237966reaches',None),
  ('search_engines','ym:s:lastSearchEngineRoot','ym:s:visits',"ym:s:lastTrafficSource=='organic'"),
@@ -95,7 +101,7 @@ def main():
                'reader_measurement': reader_measurement(start, end, config)}
     command = ['python3', '-c', REMOTE]
     if args.ssh:
-        command = ['ssh', '-o', 'BatchMode=yes', '-o', 'ConnectTimeout=8', args.ssh,
+        command = ['ssh', '-o', 'BatchMode=yes', '-o', 'ConnectTimeout=50', args.ssh,
                    'python3 -c ' + shlex.quote(REMOTE)]
     result = subprocess.run(command, input=json.dumps(payload), text=True, capture_output=True, timeout=125)
     if result.returncode:
