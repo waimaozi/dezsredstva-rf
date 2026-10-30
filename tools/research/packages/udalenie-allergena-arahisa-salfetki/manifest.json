@@ -3,7 +3,7 @@
   "id": "udalenie-allergena-arahisa-salfetki",
   "slug": "2026-11-10-allergen-arahisa-igrushki-knigi-salfetki",
   "title": "Удаление аллергена арахиса с игрушек, книг и столов: исследование очищающих салфеток",
-  "status": "manual_release_pending",
+  "status": "archived",
   "not_before": "2026-11-10",
   "review": {
     "reviewer": "Astra",
@@ -94,5 +94,7 @@
       "sha256": "f6e3f14379382841e898d7c9e88b43e3783fdaff0c7180ae82ef3b2daf737fd0"
     }
   ],
-  "manual_release": "manual-release.json"
+  "manual_release": "manual-release.json",
+  "archived_at": "2026-10-30T19:07:22.342807+00:00",
+  "archive_reason": "Explicit manual release published and live-verified on 2026-10-30. Original approved payload/evidence retained unchanged; see manual-release.json."
 }

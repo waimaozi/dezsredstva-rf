@@ -6,7 +6,7 @@
     "instruction": "just publish it now",
     "recorded_at": "2026-10-30T19:01:35.404164+00:00"
   },
-  "status": "awaiting_deployment",
+  "status": "live_verified",
   "files": [
     {
       "path": "public/downloads/research/udalenie-allergena-arahisa-salfetki/original.html",
@@ -38,5 +38,61 @@
       "scope": "Full article: 92 translated segments including all 30 source paragraphs, both tables with original spans/headers/values, 19 original-language bibliography records, author affiliation/correspondence, competing interests, author contributions and acknowledgements. No figures or separate supplements."
     }
   },
-  "change": "Publication date and article filename changed to 2026-10-30 at user request. Scientific text, all original package files/evidence and all four downloads preserved byte-for-byte. Weekly automatic cadence unchanged."
+  "change": "Publication date and article filename changed to 2026-10-30 at user request. Scientific text, all original package files/evidence and all four downloads preserved byte-for-byte. Weekly automatic cadence unchanged.",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-10-30-allergen-arahisa-igrushki-knigi-salfetki/",
+  "live_verified_at": "2026-10-30T19:06:58.002047+00:00",
+  "indexnow": "accepted",
+  "publication_commit": "563b9f1536859b89c375542a73600619ec1b1b1e",
+  "russian_verification": {
+    "checked_at": "2026-10-30T19:07:20.857755+00:00",
+    "vantage": "Russian monitoring server",
+    "status": "pass",
+    "article": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-10-30-allergen-arahisa-igrushki-knigi-salfetki/",
+    "checks": [
+      {
+        "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-10-30-allergen-arahisa-igrushki-knigi-salfetki/",
+        "status": 200,
+        "bytes": 69190
+      },
+      {
+        "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/udalenie-allergena-arahisa-salfetki/original.html",
+        "status": 200,
+        "bytes": 25607,
+        "sha256": "c4740574b2ccf0802e97bf309b7011a7c330b8d62491571caee2586ef6bfff2a"
+      },
+      {
+        "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/udalenie-allergena-arahisa-salfetki/original.pdf",
+        "status": 200,
+        "bytes": 320956,
+        "sha256": "f297e162aa8d1f21150f1cdcb3f3cf413ca0f42f74e1241beda957eb6496beea"
+      },
+      {
+        "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/udalenie-allergena-arahisa-salfetki/translation.html",
+        "status": 200,
+        "bytes": 44022,
+        "sha256": "a0c81ed30e84c53022939cca54efe9eb4f92a89adc35f5754f01485b21b019c1"
+      },
+      {
+        "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/udalenie-allergena-arahisa-salfetki/translation.pdf",
+        "status": 200,
+        "bytes": 419989,
+        "sha256": "68a847958a28416c65829fdb97c84d2019aa825d73f3cebe5449d21078846e1d"
+      },
+      {
+        "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/",
+        "status": 200,
+        "bytes": 27690
+      },
+      {
+        "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/perevody/",
+        "status": 200,
+        "bytes": 38877
+      },
+      {
+        "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/sitemap-0.xml",
+        "status": 200,
+        "bytes": 33543
+      }
+    ]
+  }
 }

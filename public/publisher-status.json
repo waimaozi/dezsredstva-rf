@@ -4,7 +4,7 @@
   "schedule": "Tuesday 09:00 Europe/Moscow",
   "mode": "reviewed_research",
   "release_trigger": "explicit_user_request",
-  "status": "awaiting_deployment",
+  "status": "live_verified",
   "approved_remaining": 1,
   "verified_sources": 0,
   "id": "udalenie-allergena-arahisa-salfetki",
@@ -29,5 +29,8 @@
       "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/udalenie-allergena-arahisa-salfetki/translation.pdf",
       "sha256": "68a847958a28416c65829fdb97c84d2019aa825d73f3cebe5449d21078846e1d"
     }
-  ]
+  ],
+  "commit": "563b9f1536859b89c375542a73600619ec1b1b1e",
+  "live_verified_at": "2026-10-30T19:06:58.002047+00:00",
+  "indexnow": "accepted"
 }
