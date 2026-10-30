@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "id": "udalenie-allergena-arahisa-salfetki",
+  "slug": "2026-10-30-allergen-arahisa-igrushki-knigi-salfetki",
+  "authorization": {
+    "instruction": "just publish it now",
+    "recorded_at": "2026-10-30T19:01:35.404164+00:00"
+  },
+  "status": "awaiting_deployment",
+  "files": [
+    {
+      "path": "public/downloads/research/udalenie-allergena-arahisa-salfetki/original.html",
+      "sha256": "c4740574b2ccf0802e97bf309b7011a7c330b8d62491571caee2586ef6bfff2a"
+    },
+    {
+      "path": "public/downloads/research/udalenie-allergena-arahisa-salfetki/original.pdf",
+      "sha256": "f297e162aa8d1f21150f1cdcb3f3cf413ca0f42f74e1241beda957eb6496beea"
+    },
+    {
+      "path": "public/downloads/research/udalenie-allergena-arahisa-salfetki/translation.html",
+      "sha256": "a0c81ed30e84c53022939cca54efe9eb4f92a89adc35f5754f01485b21b019c1"
+    },
+    {
+      "path": "public/downloads/research/udalenie-allergena-arahisa-salfetki/translation.pdf",
+      "sha256": "68a847958a28416c65829fdb97c84d2019aa825d73f3cebe5449d21078846e1d"
+    },
+    {
+      "path": "src/content/articles/2026-10-30-allergen-arahisa-igrushki-knigi-salfetki.md",
+      "sha256": "2b2547679f397c7e07f5d6ad279c0949ebaee030d5f6b2be7b9bc8529a3ce966"
+    }
+  ],
+  "reviewed_package": {
+    "slug": "2026-11-10-allergen-arahisa-igrushki-knigi-salfetki",
+    "not_before": "2026-11-10",
+    "review": {
+      "reviewer": "Astra",
+      "checked_at": "2026-10-30T16:28:36.183549+00:00",
+      "scope": "Full article: 92 translated segments including all 30 source paragraphs, both tables with original spans/headers/values, 19 original-language bibliography records, author affiliation/correspondence, competing interests, author contributions and acknowledgements. No figures or separate supplements."
+    }
+  },
+  "change": "Publication date and article filename changed to 2026-10-30 at user request. Scientific text, all original package files/evidence and all four downloads preserved byte-for-byte. Weekly automatic cadence unchanged."
+}
