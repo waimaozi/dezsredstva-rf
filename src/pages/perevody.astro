@@ -8,7 +8,7 @@ const articles = (await getCollection("articles"))
 const topics = [
   {
     id: "allergeny", title: "Аллергены и контроль мойки",
-    description: "Что сохраняется на поверхности после высыхания пищи, что измеряет анализ и где заканчиваются выводы отдельного эксперимента.",
+    description: "Что сохраняется на поверхности после высыхания пищи, что меняется после очистки салфетками и где заканчиваются выводы отдельного эксперимента.",
     ids: articles.filter((a) => a.data.tags.includes("аллергены")).map((a) => a.id)
   },
   {
@@ -72,6 +72,7 @@ const structuredData = {
       <section id={topic.id} class="section-shell scroll-mt-40 p-6">
         <h2 class="text-2xl font-semibold">{topic.title}</h2>
         <p class="section-copy mt-4">{topic.description}</p>
+        {topic.id === "allergeny" && <p class="mt-4"><a class="font-semibold text-sky-800 underline" href="/vypuski/allergeny/">Сравнить методы, результаты и ограничения исследований →</a></p>}
         <ul class="mt-5 space-y-4">
           {topic.articles.map((a) => <li>
             {a.data.readerQuestion && <p class="mb-2 font-medium text-slate-900">{a.data.readerQuestion}</p>}

@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-10-30T19:01:35.404164+00:00",
+  "checked_at": "2026-10-30T20:48:42.761622+00:00",
   "cadence": "weekly",
   "schedule": "Tuesday 09:00 Europe/Moscow",
   "mode": "reviewed_research",
-  "release_trigger": "explicit_user_request",
-  "status": "live_verified",
+  "release_trigger": "editorial_discovery_update",
+  "status": "awaiting_deployment",
   "approved_remaining": 1,
   "verified_sources": 0,
   "id": "udalenie-allergena-arahisa-salfetki",
-  "question": "Удаление аллергена арахиса с игрушек, книг и столов: исследование очищающих салфеток",
+  "question": "Удаление аллергена арахиса с поверхностей: исследование очищающих салфеток",
   "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-10-30-allergen-arahisa-igrushki-knigi-salfetki/",
   "source_doi": "10.1186/s13223-015-0069-x",
   "source_sha256": "976e3ca2d6ac4a79a52c44d47f9cb703f1f12962f6f4e8d59a51540fbb422234",
@@ -29,8 +29,5 @@
       "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/udalenie-allergena-arahisa-salfetki/translation.pdf",
       "sha256": "68a847958a28416c65829fdb97c84d2019aa825d73f3cebe5449d21078846e1d"
     }
-  ],
-  "commit": "563b9f1536859b89c375542a73600619ec1b1b1e",
-  "live_verified_at": "2026-10-30T19:06:58.002047+00:00",
-  "indexnow": "accepted"
+  ]
 }

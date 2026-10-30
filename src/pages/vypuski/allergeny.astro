@@ -1,0 +1,73 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import DownloadTracking from "../../components/DownloadTracking.astro";
+import ResearchFeedback from "../../components/ResearchFeedback.astro";
+import { getArticleAbsoluteUrl, getArticleUrl } from "../../lib/articles";
+import collection from "../../data/allergen-collection.json";
+
+const articles = await getCollection("articles");
+const cases = collection.cases.flatMap((item) => {
+  const article = articles.find((entry) => entry.data.translationId === item.translationId);
+  if (!article) {
+    if (item.required) throw new Error(`Missing allergen research: ${item.translationId}`);
+    return [];
+  }
+  if (!article.data.translation?.translatedPdf || !article.data.translation?.originalHtml) {
+    throw new Error(`Missing research downloads: ${item.translationId}`);
+  }
+  return [{ ...item, article, translation: article.data.translation }];
+});
+const structuredData = {
+  "@context": "https://schema.org", "@type": "CollectionPage",
+  "@id": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/vypuski/allergeny/",
+  name: collection.title, description: collection.description, inLanguage: "ru",
+  datePublished: "2026-10-30",
+  mainEntity: { "@type": "ItemList", numberOfItems: cases.length,
+    itemListElement: cases.map((item, index) => ({ "@type": "ListItem", position: index + 1,
+      name: item.article.data.title, url: getArticleAbsoluteUrl(item.article) })) }
+};
+---
+<Layout title={collection.title} description={collection.description} pathname="/vypuski/allergeny/" structuredData={structuredData}>
+  <div data-research-content>
+    <section class="section-shell p-6 sm:p-10">
+      <p class="eyebrow">Тематическая подборка · переводы исследований</p>
+      <h1 class="section-title mt-4">{collection.title}</h1>
+      <p class="section-copy mt-5">Как долго белковое загрязнение сохраняется на поверхности, что меняется после очистки и что именно показывает анализ пробы? Здесь собраны зарубежные исследования, которые помогают разобрать эти вопросы по методам и результатам.</p>
+      <p class="section-copy mt-4">Для специалистов по качеству, ХАССП, лабораторному контролю и санитарной обработке. Условия каждого опыта и ограничения указаны отдельно: исследования больничных предметов сами по себе не подтверждают режим мойки пищевого оборудования.</p>
+      <nav class="mt-6 flex flex-col gap-3" aria-label="Вопросы исследований">
+        {cases.map((item) => <a class="text-sky-700 underline" href={`#${item.translationId}`}>{item.question}</a>)}
+      </nav>
+    </section>
+
+    <section class="mt-8 grid gap-6" aria-label="Исследования аллергенов">
+      {cases.map((item) => <article id={item.translationId} class="section-shell scroll-mt-40 p-6 sm:p-8" data-research-case>
+        <p class="eyebrow">{item.translation.publisher} · {item.translation.originalDate}</p>
+        <h2 class="mt-3 text-2xl font-semibold">{item.question}</h2>
+        <dl class="mt-5 space-y-4">
+          <div><dt class="font-semibold">Как исследовали</dt><dd class="section-copy mt-1">{item.method}</dd></div>
+          <div><dt class="font-semibold">Что показала работа</dt><dd class="section-copy mt-1">{item.finding}</dd></div>
+          <div><dt class="font-semibold">Граница вывода</dt><dd class="section-copy mt-1">{item.limit}</dd></div>
+        </dl>
+        <p class="mt-5"><a class="font-semibold text-sky-800 underline" href={getArticleUrl(item.article)}>{item.article.data.title}</a></p>
+        <div class="reading-actions mt-5">
+          <a class="primary-action" href={getArticleUrl(item.article)}>Читать полный перевод</a>
+          <a href={item.translation.translatedPdf} download data-translation-download="russian-pdf">Перевод PDF</a>
+          <a href={item.translation.originalHtml} download data-translation-download="original">Оригинал HTML</a>
+          {item.translation.originalPdf && <a href={item.translation.originalPdf} download data-translation-download="original">Оригинал PDF</a>}
+        </div>
+        <p class="mt-4 text-sm text-slate-600">{item.translation.scope}</p>
+        <p class="mt-3 text-sm text-slate-600">{item.translation.authors} · <a class="underline" href={`https://doi.org/${item.translation.doi}`}>DOI: {item.translation.doi}</a></p>
+      </article>)}
+    </section>
+
+    <section class="section-shell mt-8 p-6 sm:p-8">
+      <h2 class="text-2xl font-semibold">Как читать результаты контроля аллергенов</h2>
+      <p class="section-copy mt-4">Важны измеряемый белок, способ отбора проб, предел обнаружения и условия очистки. «Не обнаружено» означает результат конкретного метода в конкретной пробе. Исследования удаления белка также не устанавливают эффективность уничтожения микроорганизмов.</p>
+      <p class="section-copy mt-4">Этот обзор — редакционное пояснение к источникам. Полные переводы сохраняют методы, результаты, таблицы, библиографию и оговорки авторов. Переводы и сопоставление с источниками выполнены с помощью ИИ; независимая профильная рецензия не проводилась.</p>
+      <p class="mt-5"><a class="text-sky-700 underline" href="/perevody/">Все переводы по рабочим вопросам →</a></p>
+    </section>
+  </div>
+  <ResearchFeedback kind="collection" />
+  <DownloadTracking />
+</Layout>
