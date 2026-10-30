@@ -1,0 +1,52 @@
+[
+  {
+    "article": "milkprotein",
+    "batch": 0,
+    "checked": 28,
+    "flags": [],
+    "usage": {
+      "input_tokens": 15023,
+      "output_tokens": 1291
+    }
+  },
+  {
+    "article": "milkprotein",
+    "batch": 1,
+    "checked": 12,
+    "flags": [],
+    "usage": {
+      "input_tokens": 11795,
+      "output_tokens": 555
+    }
+  },
+  {
+    "article": "milkprotein",
+    "batch": 2,
+    "checked": 40,
+    "flags": [],
+    "usage": {
+      "input_tokens": 18552,
+      "output_tokens": 1843
+    }
+  },
+  {
+    "article": "milkprotein",
+    "batch": 4,
+    "checked": 9,
+    "flags": [],
+    "usage": {
+      "input_tokens": 5216,
+      "output_tokens": 417
+    }
+  },
+  {
+    "article": "milkprotein",
+    "batch": 3,
+    "checked": 21,
+    "flags": [],
+    "usage": {
+      "input_tokens": 14503,
+      "output_tokens": 969
+    }
+  }
+]

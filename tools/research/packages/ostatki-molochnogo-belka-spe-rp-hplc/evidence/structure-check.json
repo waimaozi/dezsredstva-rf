@@ -1,0 +1,24 @@
+{
+  "segments": 229,
+  "figures": 7,
+  "tables": 3,
+  "equations": 8,
+  "math_nodes": 29,
+  "references": 22,
+  "numeric_and_inequality_checks": "pass",
+  "protected_formula_and_format_tokens": "pass",
+  "unrepresented_paragraph_text": [],
+  "list_only_wrappers_preserved": [
+    "para9001",
+    "para9002",
+    "para9003",
+    "para9004",
+    "para9005",
+    "para9006",
+    "para9007",
+    "para9008",
+    "para9010"
+  ],
+  "pdf_pages": 23,
+  "source_sha256": "cf882c6e7c3b5cc9fd07dff398afe23dcb6a128630fec8f73be5619e71e1fc73"
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "file": "graphical-abstract.jpg",
+    "bytes": 87679,
+    "type": "image/jpeg",
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/83ef/9043403/e3b737d02b6d/ga1.jpg",
+    "sha256": "757cd74cf8675a5b58c562cd098cf7dccf84fde887a88053f2ffbc8f08d57149",
+    "pdf": false
+  },
+  {
+    "file": "figure-1.jpg",
+    "bytes": 47120,
+    "type": "image/jpeg",
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/83ef/9043403/f1458dad2f11/gr1.jpg",
+    "sha256": "12c9c468b9708c324686588f958b109d561adb2887e634526509e0bf06131a91",
+    "pdf": false
+  },
+  {
+    "file": "figure-2.jpg",
+    "bytes": 40291,
+    "type": "image/jpeg",
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/83ef/9043403/9ce3efca0399/gr2.jpg",
+    "sha256": "cebcfb666ff6ec4fc67555b8926e27ff65ee0a429cd86da935fd93289a56dc61",
+    "pdf": false
+  },
+  {
+    "file": "figure-3.jpg",
+    "bytes": 47680,
+    "type": "image/jpeg",
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/83ef/9043403/3d52b75101e2/gr3.jpg",
+    "sha256": "c99f5165e6a42f2592f0f4816802445284aea3651770ca7224b6a4513bc1138b",
+    "pdf": false
+  },
+  {
+    "file": "figure-4.jpg",
+    "bytes": 37519,
+    "type": "image/jpeg",
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/83ef/9043403/3700dfb56eb2/gr4.jpg",
+    "sha256": "679414a2f4e7391923154a8cec9c74fca7d22388071aa13690321d171b42492e",
+    "pdf": false
+  },
+  {
+    "file": "figure-5.jpg",
+    "bytes": 45137,
+    "type": "image/jpeg",
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/83ef/9043403/db8bde1bd5b1/gr5.jpg",
+    "sha256": "7f85f02656eb1505a234e1ea95c0cd9d55ca478f74842d29594ff90cfb425b99",
+    "pdf": false
+  },
+  {
+    "file": "figure-6.jpg",
+    "bytes": 52816,
+    "type": "image/jpeg",
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/83ef/9043403/0a9a118928a1/gr6.jpg",
+    "sha256": "526a0e877c8e9b4c69ed26b71c31fbb335c9f5f9024f1adba92f0c485627af9a",
+    "pdf": false
+  },
+  {
+    "file": "epmc-original.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "publisher-original.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "oa.xml",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

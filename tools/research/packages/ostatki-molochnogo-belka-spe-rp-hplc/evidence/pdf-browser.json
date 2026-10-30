@@ -1,0 +1,41 @@
+{
+  "figures": 7,
+  "keys": 8,
+  "images": [
+    {
+      "loaded": true,
+      "embedded": true
+    },
+    {
+      "loaded": true,
+      "embedded": true
+    },
+    {
+      "loaded": true,
+      "embedded": true
+    },
+    {
+      "loaded": true,
+      "embedded": true
+    },
+    {
+      "loaded": true,
+      "embedded": true
+    },
+    {
+      "loaded": true,
+      "embedded": true
+    },
+    {
+      "loaded": true,
+      "embedded": true
+    }
+  ],
+  "text": 56198,
+  "tables": 3,
+  "math": 29,
+  "equations": 8,
+  "references": 22,
+  "externalRequests": 0,
+  "pdfBytes": 1098603
+}

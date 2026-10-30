@@ -1,0 +1,1593 @@
+{
+  "id": "milkprotein",
+  "case": {
+    "id": "milkprotein",
+    "original": "Concentration, purification and quantification of milk protein residues following cleaning processes using a combination of SPE and RP-HPLC",
+    "title": "Остатки молочного белка после мойки: концентрирование и анализ методом SPE–RP-HPLC",
+    "slug": "2026-11-03-ostatki-molochnogo-belka-spe-rp-hplc",
+    "original_date": "2022-04-08",
+    "doi": "10.1016/j.mex.2022.101695",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9043403/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "segments": {
+    "s0000": "Concentration, purification and quantification of milk protein residues following cleaning processes using a combination of SPE and RP-HPLC",
+    "s0001": "Detection and quantification of milk protein residues can be of utmost importance for validation of cleaning process efficiency in removing even traces of residues as well as quality assurance and product safety. However, currently available assays cannot provide a combination of high sensitivity and a simultaneous quantification of the individual milk proteins. Furthermore, a low protein-to-protein-variability and high compatibility with other reagents such as residual cleaning agents (e.g. surfactants) cannot be ensured. Therefore, a new method was developed comprised of a pre-concentration of proteins by solid-phase extraction and optimisation of the sensitivity of an existing reversed-phase high performance liquid chromatography method for the separate quantification of bovine milk proteins κ-Casein, α[[SUB:S2]]-Casein, α[[SUB:S1]]-Casein, β-Casein, α-Lactalbumin, and β-Lactoglobulin. Hereby, solid-phase extraction enables robust and reproducible purification and concentration of protein residues with a high protein recovery rate and flexible adjustment of concentration factors. The increased sensitivity of the reversed-phase high performance liquid chromatography method was achieved by changes in the measurement wavelength and guanidine buffer concentration. This new method enables reproducible concentration, purification and quantification of protein concentrations below 7 ng mL[[SUP:−1]] and thus can be used to detect milk protein residues in highly diluted aqueous systems.",
+    "s0002": "Concentration, purification and quantification of milk protein residues with a high recovery rate of proteins (> 94%) and high reproducibility (coefficient of variation (CV) < 3.0%)",
+    "s0003": "Flexible adjustment of sample volumes allows the utilisation of high concentration factors (≤ 500) without compromising the recovery rate of proteins (recovery rate of proteins decreases by 2.74% per 100 CF)",
+    "s0004": "Graphical abstract",
+    "s0005": "Graphical abstract",
+    "s0006": "Keywords",
+    "s0007": "Skim milk; Casein; Whey protein; Cleaning validation; Beta-lactoglobulin; Low protein concentration; Quality assurance; Quality control; Product safety",
+    "s0008": "Specifications table",
+    "s0009": "Subject Area:",
+    "s0010": "Chemistry",
+    "s0011": "More specific subject area:",
+    "s0012": "Protein analysis",
+    "s0013": "Method name:",
+    "s0014": "Concentration, purification and quantification of milk protein residues following cleaning processes using SPE and RP-HPLC",
+    "s0015": "Name and reference of original method:",
+    "s0016": "G. Bobe, D.C. Beitz, A.E. Freeman, G.L. Lindberg [1]: Separation and Quantification of Bovine Milk Proteins by Reversed-Phase High-Performance Liquid Chromatography, J Agric Food Chem 46 (1998) 458–463.",
+    "s0017": "Resource availability:",
+    "s0018": "SPE cartridges: Phenomenex Strata C18-T cartridges, 55 µm, 140 Å (Phenomenex LTD, Aschaffenburg, Germany)",
+    "s0019": "Vacuum chamber: Supelco Visiprep 12-port (Sigma-Aldrich Chemie GmbH, Taufkirchen, Germany)",
+    "s0020": "RP-HPLC system",
+    "s0021": "Agilent 1200 series chromatograph (Agilent Technologies, Waldbronn, Germany)",
+    "s0022": "C18 analytical silica-based column: Maisch ReproSil-Pur 300 ODS-3, 4.6 × 150 mm, 5 µm (Dr. A. Maisch HPLC GmbH, Ammerbuch-Entringen, Germany)",
+    "s0023": "Analytical guard cartridge: Agilent Zorbax 300SB-C18, 4.6 × 12.5 mm, 5 µm (Agilent Technologies, Waldbronn, Germany)",
+    "s0024": "Agilent ChemStation software (Rev.C.01.08)",
+    "s0025": "Pasteurised (74 °C, 28 s) skim milk (purchased from the local dairy Molkerei Weihenstephan, Freising, Germany)",
+    "s0026": "Analytical protein standards for κ-CN, α-CN, β-CN, α-LA, β-LG B, β-LG A (Sigma-Aldrich Chemie GmbH, Taufkirchen, Germany)",
+    "s0027": "Guanidine buffer (modified from Bobe et al. [1]; reagents from Merck KGaA, Darmstadt, Germany)",
+    "s0028": "Guanidine hydrochloride (GdnHCl)",
+    "s0029": "Trisodium citrate",
+    "s0030": "Dithiothreitol (DTT)",
+    "s0031": "BisTris buffer",
+    "s0032": "Trifluoroacetic acid (TFA) (Merck KGaA, Darmstadt, Germany)",
+    "s0033": "Acetonitrile (ACN) (Merck KGaA, Darmstadt, Germany)",
+    "s0034": "Ultrapure water (from MilliQ Integral 3, Merck KGaA, Darmstadt, Germany)",
+    "s0035": "Ca(OH)[[SUB:2]] (Merck KGaA, Darmstadt, Germany)",
+    "s0036": "NaOH (Merck KGaA, Darmstadt, Germany)",
+    "s0037": "HCl (Merck KGaA, Darmstadt, Germany)",
+    "s0038": "Ultrasil 08 (Ecolab Europe GmbH, Wallisellen, Switzerland)",
+    "s0039": "Ultrasil 120 (Ecolab Europe GmbH, Wallisellen, Switzerland)",
+    "s0040": "Method details",
+    "s0041": "Background information and applicability of the method",
+    "s0042": "The analysis of milk protein residues in highly diluted systems, as in cleaning validation or quality control, still poses a major challenge. Standard assays such as Bradford [2,3], bicinchoninic acid (BCA) [4], Coomassie-staining [5], Lowry [6], Dumas [7], or ultraviolet (UV) absorption provide easy-to-use approaches for protein concentrations in the range of 0.5–2000 µg mL[[SUP:−1]] (without taking the assay-specific sample dilutions into account). Therefore, they are limited in their applicability for the validation of cleaning processes or the detection of allergens such as β-Lactoglobulin (β-LG) in production plants where significantly lower concentrations can be relevant and specific proteins need to be identified. In contrast to the firstly mentioned methods, polyacrylamide gel electrophoresis (PAGE) [8] and RP-HPLC [1,9,10] allow a simultaneous detection and quantification of individual milk proteins. For this method, RP-HPLC was chosen due to being a reproducible and well-established method for protein quantification of bovine milk samples.",
+    "s0043": "However, the sensitivity of commonly used RP-HPLC methods for milk protein quantification is limited to a protein concentration of 6.25 µg mL[[SUP:−1]] [1,9], which is insufficient in determining traces of milk proteins on surfaces of technical equipment in highly diluted aqueous cleaning solutions after cleaning-in-place (CIP) processes. Therefore, a solid-phase extraction (SPE) was established in this work as a concentration method prior to RP-HPLC analysis.",
+    "s0044": "The working principle of the applied SPE approach is based on a hydrophobic binding of proteins onto a modified C18 silica gel embedded into a cartridge while other substances in the sample solution pass unhindered [11,12]. Besides hydrophobic binding as the main binding mechanism, remaining free silanol groups also allow for polar secondary interactions such as hydrogen bonding. Due to the working principle of SPE, it is possible to adjust the concentration factor freely by increasing the applied sample volume. Even highly diluted solutions can be concentrated to such an extent that they fall within the detection range of the quantification method with regard to the specific analyte. A limitation of the concentration by SPE is given by the loading capacity of the chosen cartridge size [11]. Compared to this approach, other concentration methods such as centrifugal filters or acetone precipitation can only achieve high concentration factors with larger centrifuges or several repetitions of the centrifugation step due to large volumes to process.",
+    "s0045": "With regard to the protein binding onto the SPE material, the sample flow rate must be controlled and cannot exceed a certain limit, without a decrease in the dynamic binding capacity [11,12]. Hence, the applied sample volume determines the time required to bind the proteins in an initial phase of the concentration process on the SPE material. After hydrophobically binding the proteins on the SPE material, a washing step with ultrapure water was conducted in order to remove unbound as well as other weakly bound substances, e.g. residual cleaning agents or other sample components such as salts and lactose. Subsequently, the analytes were eluted with a low volume of a more hydrophobic solvent – containing acetonitrile (ACN), trifluoroacetic acid (TFA) and ultrapure water – from the cartridge. Hereby, the extent of hydrophobic and polar regions in the analyte as well as the amount of remaining free silanol groups determine the required hydrophobicity of the eluent. Thus, it is possible to reduce the sample volume. Due to hydrophobic regions in the structure of milk proteins, this method shows a high recovery rate of proteins over the concentration process. Due to the binding mechanisms being mainly based on hydrophobic interactions and to some extent on polar secondary interactions, the binding strength depends on the protein's structure, size and state. Hence, a change in analyte always necessitates new calibration and validation. Details will be discussed in the Method validation section.",
+    "s0046": "In summary, the SPE-based method can be conducted to purify and concentrate analyte and to remove substances that might interfere with a quantification of the individual milk proteins by RP-HPLC. Since the applied sample volume and initial protein concentration determine the processing time of the concentration step by SPE, the available sample volume and protein concentration could restrict the applicability of this method. Therefore, an increase in the sensitivity of the subsequent RP-HPLC quantification step was investigated to reduce the necessary concentration factor, the required sample volume and the SPE time.",
+    "s0047": "With regard to the protein analysis in skim milk by RP-HPLC, Bobe et al. [1] developed a method which enables the quantification of the four major caseins (CN)(κ-CN, α[[SUB:S2]]-CN, α[[SUB:S1]]-CN and β-CN) as well as the two major whey proteins (α-Lactalbumin (α-LA), and β-LG) in bovine milk. In this method, the milk proteins are diluted in a guanidine (GdnHCl) buffer and bind by hydrophobic interactions onto a silica-based C-18 RP-HPLC column. Afterwards, the proteins are gradually removed by an ACN based solvent gradient with increasing hydrophobicity, which allows a quantification of the individual bovine milk proteins by UV-detection. Hereby, the applied wavelength of the UV-detector determines the detected component in the sample. At a wavelength of 260–290 nm mostly the aromatic amino acids Tryptophan, Tyrosine, Histidine and Phenylalanine are detected, whereas peptide bond absorption is detected at wavelengths of 190–230 nm, respectively [13], [14], [15]. Thus, at low wavelength the absorption is dominated by peptide bonds. At these wavelengths, aromatic side chains show only a slight absorption which induces a lower protein-protein variability due to the reduced impact of the content of specific amino acids. However, technical difficulties were reported for detection at wavelengths below 200 nm, such as an increasing signal noise induced by the absorption of air [13]. Furthermore, absorption maxima shift for different proteins and their different molecular states, depending on pre-treatment, degree of nativity as well as present solvents and their concentrations [13], [14], [15], [16]. Therefore, depending on the sample matrix and the aim of the analysis, different wavelengths might be required, which is an unknown, thus limiting the reliability of the results for samples with different protein states.",
+    "s0048": "Due to the impact of changes in solvents and sample composition, different observations regarding the performance optima at different wavelengths were made by several authors [1,9,10,17]. Bobe et al. [1] used a wavelength of 220 nm instead of 210 nm within the UV-detection during RP-HPLC, in order to reduce baseline noise as well as to enhance the peak resolution. In contrast to that, Bonfatti et al. [9] applied a wavelength of 214 nm instead of 220 nm for the same reasons. However, in a subsequent study, Dumpler et al. [10] showed a high resolution with a detection wavelength of 220 nm, similar to the observations made by Bobe et al. [1]. Besides wavelength, the RP-HPLC method for milk protein quantification as established by Bobe et al. [1] has been further adapted by Bonfatti et al. [9], Bonizzi et al. [17] and Dumpler et al. [10] regarding the optimisation criteria of higher resolution, increased simplicity of sample preparation and quantification of protein concentrates. The lowest detectable protein amount for an individual protein was reported to be approximately 0.5 µg for α-LA (6.25 µg mL[[SUP:−1]]) [1,9]. In the latest modification of the method, as reported by Dumpler et al. [10], a minimum quantifiable individual protein concentration of approximately 25 µg mL[[SUP:−1]] in the initial sample can be determined. This is due to the maximum injection volume of most HPLC setups being limited to 100 µl, as well as the 5-fold dilution with guanidine buffer as part of the sample preparation prior to the analysis. The most recent modification of the method, conducted by Dumpler et al. [10] enables a reduction of the sample analysis time, as well as a high resolution by an optimisation of the applied solvent gradient. Additionally, the buffering capacity was enhanced by an increased sodium citrate amount and furthermore, the storage stability at room temperature was increased by an enhanced guanidine concentration (5.1 M) during sample preparation. The guanidine concentration was increased in order to counterbalance the instability of whey proteins at room temperature as observed by Bonfatti et al. [9]. The instability of whey proteins was assumed to be caused by a guanidine concentration insufficient to completely denature the present whey proteins and thus leading to a refolding of the proteins in the buffer solution as a function of the storage time, explaining the decreased detection of proteins during RP-HPLC after storage of samples for several hours at room temperature [10,18]. With this increased GdnHCl concentration (5.1 M) in the sample, proteins in concentrated skim milk with up to 27% total solids could be quantified.",
+    "s0049": "However, the dilution of milk samples with GdnHCl buffer as shown by Dumpler et al. [10] was calculated for concentrated samples, whereas the approach investigated in this study focuses on the quantification of protein residues in diluted aqueous systems and thus protein concentrations lower than a third of that in milk after pre-concentration with SPE. The concentration by SPE, as explained above, produces a purified aqueous protein system with low protein content. Therefore, lower buffering capacity and lower GdnHCl concentrations are required in comparison to the concentrations used by Dumpler et al. [10]. Hence, the sample dilution in GdnHCl buffer could be reduced to 1:2 leading to a final GdnHCl concentration of 3 M in the sample. Furthermore, due to the reduced dilution of the initial sample, the detection limit is decreased. Additionally, a wavelength of 214 nm was applied to increase signal response and thus decrease the detection limit.",
+    "s0050": "The combined improvement of SPE and RP-HPLC methods, as targeted in this study, allows to concentrate, to purify and to quantify proteins in diluted test samples containing extremely low amounts of milk protein residues. The developed method enables a flexible adjustment of required concentration factors according to the target analyte under consideration. In this regard, the increase of applied sample volume and thus concentration factor is only limited by the loading/binding capacity of the SPE cartridge, which must not be exceeded. Furthermore, the specific binding mechanism of proteins onto the SPE material reduces the appearance of interfering substances, e.g. of polar substances such as residual cleaning agents, in the produced concentrate. The developed SPE method is likely to be applicable to other protein systems apart from diluted aqueous solutions derived from removing milk protein deposits on solid surfaces or similar applications, possibly with slight adjustments to the procedure or sample state. A main limitation of the method is that higher concentration factors (CF) and volumes are accompanied by longer processing times of up to 11 h. In future studies, a significant reduction of processing times might be achieved by using larger cartridges that allow higher flow rates or pre-concentrating the sample with e.g. a rotary evaporator.",
+    "s0051": "Preparation of solvents",
+    "s0052": "Solvent A (0.1% TFA, 90% ultrapure water and 10% ACN) and solvent B (0.07%TFA, 90% ACN and 10% ultrapure water) are prepared according to Dumpler et al. [10] and used for the RP-HPLC analysis. Furthermore, the solvents A and B are also used during the sample preparation and elution step of the SPE concentration. The guanidine buffer is prepared according to Dumpler et al. [10] containing 6 M guanidine hydrochloride, 21.5 mM trisodium citrate, 19.5 mM dithiothreitol (DTT) and 0.1 M BisTris buffer (pH 6.8).",
+    "s0053": "Concentration and purification of sample solution by SPE",
+    "s0054": "The assessment criteria for the applicability of the developed SPE method is determined by the recovery rate of proteins (see Eq. (1)). It is defined as the quotient of the detected protein concentration after SPE ([[MATH:M1]]) and the applied protein concentration of the initial sample solution without SPE ([[MATH:M2]]), measured by RP-HPLC. Hereby, it can be differentiated between the total protein concentration and the concentration of an individual milk protein.",
+    "s0055": "The CF produced by SPE is defined as the quotient of the applied initial sample volume [[MATH:M4]] and the elution volume [[MATH:M5]] during protein desorption (see Eq. (2)).",
+    "s0056": "The applied concentration factor achievable by SPE depends on the availability of sample volume as well as the protein concentration in the sample. If the protein concentration in the sample is known or can reliably at least roughly be estimated, the required CF and sample volume can be calculated with the following Eqs. (3) and (4):",
+    "s0057": "with [[MATH:M8]] as the lowest quantifiable protein concentration of the RP-HPLC method (see Method validation section) and [[MATH:M9]] as the required concentration factor to process a quantification with RP-HPLC. Combining Eqs. (2) and (3), the required sample volume ([[MATH:M10]]) critical for a concentration with SPE in order to conduct a protein quantification with the modified RP-HPLC method, can be calculated by the following Eq. (4):",
+    "s0058": "Here, [[MATH:M12]] and values for [[MATH:M13]] can be seen in Table 2.",
+    "s0059": "If the sample volume is limited or contains various proteins, the required sample volume for the concentration factor must be calculated for the protein with the lowest concentration or a certain target protein. If the sample volume is not limited, it is recommended to aim for a [[MATH:M14]].",
+    "s0060": "In case that the analyte concentration is unknown, the execution of several SPEs with different sample volumes is recommended to determine whether an overloading of the SPE material occurred. An overloading of the material is indicated by a decrease in recovery as a function of an increasing sample volume. The loading capacity depends on sample composition and chosen material type and amount. However, to estimate the value of the binding capacity, approximately 1–5% of the sorbent amount can be used according to manufacturers. With the SPE cartridges used in this study containing 500 mg sorbent, the binding capacity equals approximately 5–25 mg protein. An overloading of the SPE material could not be determined in this study for protein amounts < 6 mg. Besides the supposedly maximal cartridge loading capacity of below 25 mg protein, the application of 1–6 mg protein onto the cartridge is recommended since it maintains a safety margin for other unwanted substances also blocking parts of the cartridge's loading capacity.",
+    "s0061": "Procedure of the SPE method",
+    "s0062": "Sample preparation",
+    "s0063": "If applicable: filter particulates from sample with a sterile filter (0.45 µm)",
+    "s0064": "Add 22.67% of a 3 mM Ca(OH)[[SUB:2]] solution and 8% solvent B to the sample",
+    "s0065": "Adjust pH with 1 M HCl and 1 M NaOH to 7.0 ± 0.03",
+    "s0066": "Note: The increase in hydrophobicity, achieved by addition of solvent B, was necessary to improve protein binding onto the sorbent. Low binding with pure water as a medium could be due to proteins assembling into more hydrophilic complexes or insufficient wetting of the silica surface. Ca(OH)[[SUB:2]] was added to reduce negative charges in the calcium-sensitive proteins α[[SUB:S2]]-CN, α[[SUB:S1]]-CN and β-CN [19,20] and thus improve their binding onto the hydrophobic sorbent.",
+    "s0067": "SPE cartridge preparation",
+    "s0068": "Connect the cartridge to the vacuum chamber and open the connection between cartridge and vacuum chamber (outlet)",
+    "s0069": "Condition the sorbent with 6 mL Acetonitrile (slight vacuum can be applied; flow rate < 3.0 mL min[[SUP:−1]])",
+    "s0070": "Equilibrate the sorbent with 6 mL ultrapure water (slight vacuum can be applied; flow rate < 3.0 mL min[[SUP:−1]])",
+    "s0071": "Note: The flow rate should be <3.0 mL min[[SUP:−1]] for all steps except the washing step (< 6.0 mL min[[SUP:−1]]) and can be adjusted by partially closing the outlet or applying a slight vacuum. In case the next step (sample application) is not executed immediately afterwards, leave ∼1 mL ultrapure water in the cartridge and close the outlet until continuation of the process to avoid a drying of the SPE sorbent.",
+    "s0072": "Sample application",
+    "s0073": "Apply the desired amount of prepared sample volume (at least the minimum required volume calculated with Eq. (4)) before the ultrapure water from the equilibration step has completely run through, to avoid a drying of the cartridge (slight vacuum can be applied; flow rate < 3.0 mL min[[SUP:−1]])",
+    "s0074": "Rinse the cartridge with 6 mL ultrapure water",
+    "s0075": "Note: Avoid drying of the SPE material and the entrapment of air bubbles. In case the next step (washing application) is not executed immediately afterwards, leave ∼1 mL ultrapure water in the cartridge and close the outlet until continuation of the process to avoid a drying of the SPE sorbent.",
+    "s0076": "Washing step",
+    "s0077": "Wash with 100 mL ultrapure water (slight vacuum can be applied), with a flow rate of < 6.0 mL min[[SUP:−1]]",
+    "s0078": "Apply vacuum and let the cartridge run dry for 5 min to remove any leftover water",
+    "s0079": "Close the outlet",
+    "s0080": "Elution step",
+    "s0081": "Apply 1.5 mL of elution agent containing 61.6% solvent A and 38.4% solvent B and let it soak for 3 min to ensure diffusion of the elution agent into the sorbent matrix and to enhance the removal of analytes from the sorbent",
+    "s0082": "Open the outlet (no vacuum applied; flow rate < 3.0 mL min[[SUP:−1]])",
+    "s0083": "After the passage, apply a vacuum for 15 s to recover the elution agent and thus enable a reproducible quantification of the protein amount of the initial sample",
+    "s0084": "Repeat steps 1–3 once",
+    "s0085": "Note: The optimum solvent composition and thus hydrophobicity depends on sample characteristics, cartridge characteristics and interactions between the two. The chosen composition showed the highest recovery for diluted milk samples compared to more polar or more hydrophobic eluents. It is known that a repeated elution with low volumes leads to an enhanced protein recovery rate compared to a single elution with a higher volume. For diluted skim milk samples, a 2-fold elution with 1.5 mL each showed a protein recovery rate of 94.2%, while keeping the elution volume low and therefore enabling concentration factors of up to 500 (see Method validation section for details). Due to the incomplete recovery, SPE cartridges should not be re-used. Complete recovery of the elution agent can be validated with a 100 µl pipette.",
+    "s0086": "Calculation",
+    "s0087": "Calculate the protein mass of the sample applied to the SPE cartridge [[MATH:M15]] by RP-HPLC measurement (see Eq. (5)) and the inclusion of the additional SPE terms (see Eqs. (1) and (2)).",
+    "s0088": "with [[MATH:M17]] as the protein concentration detected in RP-HPLC and [[MATH:M18]] as the protein concentration in the initial sample.",
+    "s0089": "To calculate whether a selected sample volume is within the compatible range of RP-HPLC and SPE, the protein recovery rate should be omitted since proteins that bind only weakly and are washed out or bind too strong to be eluted, must still be counted towards the loading capacity.",
+    "s0090": "Validation",
+    "s0091": "Process an RP-HPLC of a skim milk sample in order to obtain the protein concentration for the following validation",
+    "s0092": "Dilute skim milk 1:120, 1:900, 1:3000, 1:6000 and 1:9000 with ultrapure water, conduct a concentration by SPE (as described above), dilute the SPE eluate 1:2 in GdnHCl buffer and process a RP-HPLC with a detection wavelength of 214 nm",
+    "s0093": "Evaluate results according to Eq. (6) and calculate the protein recovery rate according to Eq. (1).",
+    "s0094": "Note: If this method is to be applied to other protein systems, the concentration step by SPE might require an adjustment. If the protein recovery rate is low, analyse the sample volume that passed the SPE column in the loading step with RP-HPLC to obtain if protein can be found in this passed sample (in this case, the binding strength is too low). If not, binding strength might be too high or elution strength too low. In this case, the elution agent, elution mode and pre-treatment might require further adjustments.",
+    "s0095": "Quantification with RP-HPLC",
+    "s0096": "General procedure",
+    "s0097": "Prepare a 1:2 mixture of the eluted sample from the SPE in the GdnHCl buffer",
+    "s0098": "Let the solution react at room temperature (RT) for 30 min",
+    "s0099": "Conduct an RP-HPLC analysis as described by Dumpler et al. [10]. Set the detection wavelength to 214 nm and the injection volume to 100 µl",
+    "s0100": "Note: After incubation with GdnHCl buffer for 30 min, conduct RP-HPLC within 24 h to exclude decreasing protein detection due to refolding of proteins (see Method validation section).",
+    "s0101": "Calibration of the RP-HPLC method",
+    "s0102": "Dilute protein standards κ-CN, α-CN and β-CN 1:9, α-LA 1:5, β-LG B and β-LG A 1:3 separately in GdnHCl buffer.",
+    "s0103": "Process an RP-HPLC measurement with an applied wavelength of 214 nm in the UV detector for each individual standard, with an injection volume of 5 µl, 10 µl and 20 µl. Subsequently, correlate the obtained peak areas with applied protein amounts (taking purity of purchased standards into account).",
+    "s0104": "Quantification",
+    "s0105": "Separate and integrate RP-HPLC-peaks of the different milk proteins κ-CN, α[[SUB:S2]]-CN, α[[SUB:S1]]-CN, β-CN, α-LA and β-LG as shown by Dumpler et al. [10]",
+    "s0106": "Calculate the applied protein concentration according to Eq. (6):",
+    "s0107": "with [[MATH:M20]] as the protein concentration detected in RP-HPLC, [[MATH:M21]] as the dilution factor (DF) of the sample with GdnHCl buffer (DF = 2), [[MATH:M22]] as the calibrated injection volume (20 µL) and [[MATH:M23]] as the applied injection volume (100 µL).",
+    "s0108": "Validation",
+    "s0109": "Dilute skim milk 1:7.5, 1:10, 1:15, 1:20, 1:30, 1:50, 1:75, 1:100, 1:250, 1:400, 1:600, 1:750, 1:1000 in ultrapure water. Dilute the obtained solutions 1:2 in GdnHCl buffer.",
+    "s0110": "Conduct an RP-HPLC measurement (with a detection wavelength of 214 nm) with an injection volume of 50 µl and 100 µl. and compare detected RP-HPLC amounts with applied protein amounts.",
+    "s0111": "Method validation",
+    "s0112": "SPE procedure",
+    "s0113": "Reproducibility and protein recovery rates of the SPE method",
+    "s0114": "Protein concentration with the described protocol for SPE results in a total protein recovery of 94.2 ± 3.0% (n = 8). A high reproducibility of the applied SPE method could be proven by a calculation of the standard deviation (3.0%) and the CV (3.2%) of the total protein recovery rate between experiments. Furthermore, the protein recovery rates of the individual milk proteins were calculated and are shown in Fig. 1. Compared to the recovery rate of the total protein concentration, α[[SUB:S1]]-CN, β-CN, β-LG B and β-LG A achieved higher recovery rates with 102.4 ± 4.3%, 101.9 ± 7.3%, 99.8 ± 9.5% and 97.2 ± 5.0%, respectively. In contrast to that, the recoveries of κ-CN, α[[SUB:S2]]-CN and α-LA were lower, with 62.5 ± 2.3%, 75.4 ± 8.6% and 85.2 ± 5.8%, respectively.",
+    "s0115": "Fig. 1 Protein recovery rates after SPE and RP-HPLC for the total protein as well as for the individual milk proteins (κ-CN, αS2-CN, αS1-CN, β-CN, α-LA, β-LG B and β-LG A) (n = 8).",
+    "s0116": "Influence of residual cleaning agents on protein recovery rate",
+    "s0117": "Furthermore, it was investigated whether residual cleaning agents in the sample can affect the affinity of proteins to the SPE sorbent. It should be noted, that for cleaning validation and thus the detection of protein residues after cleaning and rinsing steps, concentrations of residual cleaning agents are nonetheless expected to be low. To examine the influence of cleaning agents on protein recovery and thus the robustness of the method, different concentrations were added to diluted milk samples (1:200 in water) for 20 min at 50 °C to resemble common cleaning conditions. Afterwards, pH was neutralized, and SPE followed by RP-HPLC was processed. The resulting influence of chemical concentrations on protein recovery is depicted in Fig. 2. This study validated the robustness of the method for NaOH (A) and a common combination of an industrial alkaline NaOH-based cleaner (Ultrasil 120) with a surfactant-based additive (Ultrasil 08) (B). No clear trend can be observed for protein recoveries with NaOH concentrations up to 0.3%, and no significant differences from NaOH-free samples were detected. Hence, NaOH-induced changes in protein charge or denaturation do not deteriorate the protein recovery for NaOH concentrations up to 0.3%. On the contrary, for industrial cleaning agents with an alkaline cleaner and a surfactant-based additive, three different levels of protein recovery can be observed. No difference to chemical-free samples can be noted for low concentrations up to 0.1%/0.16% (of Ultrasil 08 and Ultrasil 120). For medium concentrations of 0.2%/0.32%–0.3%/0.48%, protein recovery increases to 98.7% and 97.9%, respectively. At higher concentrations of 0.4%/0.64%–0.5%/0.8%, protein recovery decreases to 82.5% and 84.1%, respectively. Consequently, it can be concluded that the SPE method is more susceptible to influences on the binding affinity when using industrial cleaners that, next to NaOH, contain additives such as surfactants. Accordingly, separate validation needs to be conducted for different cleaning agents and concentrations.",
+    "s0118": "Fig. 2 Protein recovery of total milk proteins for varying residual concentrations of cleaning agents NaOH (A) and a combination of industrial cleaning agents Ultrasil 120 (upper x-axis) as an alkaline NaOH-based cleaning agent and Ultrasil 08 (lower x-axis) as a surfactant-based additive (B).",
+    "s0119": "Influence of sample volume and protein concentration",
+    "s0120": "In order to validate the applicability of the described method to different sample volumes and protein concentrations, the effect of the protein concentration in the sample as well as sample volume or process time on protein recovery rate was investigated. Therefore, skim milk was diluted with ultrapure water and processed by SPE (applied protein concentrations of 294.97 µg mL[[SUP:−1]], 38.03 µg mL[[SUP:−1]], 11.41 µg mL[[SUP:−1]], 5.71 µg mL[[SUP:−1]] and 3.80 µg mL[[SUP:−1]] in the SPE sample). To compensate the different protein concentrations, the applied sample volumes have been adjusted accordingly to recover identical protein amounts (5.7 mg in total) after SPE and RP-HPLC. With constant flow rates of 3 mL min[[SUP:−1]], the changes in sample volume induce longer sample process times on the one hand and higher CFs on the other hand. An overview of the influence of skim milk dilution on sample volume, protein concentration and thus CF and sample processing time can be seen in Table 1.",
+    "s0121": "Table 1",
+    "s0122": "Influence of different dilution factors of skim milk (1:120, 1:900, 1:3000, 1:6000 and 1:9000; details see Method details section) on resulting sample volume, SPE volume, protein concentration, CF and sample processing time.",
+    "s0123": "Samplenumber",
+    "s0124": "Sample volume[mL]",
+    "s0125": "SPE volumea[mL]",
+    "s0126": "Protein concentrationb[µg mL[[SUP:−1]]]",
+    "s0127": "CFc[-]",
+    "s0128": "Sample processing timed[min]",
+    "s0129": "1",
+    "s0130": "20",
+    "s0131": "26.1",
+    "s0132": "294.97",
+    "s0133": "6.7",
+    "s0134": "8.7",
+    "s0135": "2",
+    "s0136": "150",
+    "s0137": "196.1",
+    "s0138": "38.03",
+    "s0139": "50.0",
+    "s0140": "65.4",
+    "s0141": "3",
+    "s0142": "500",
+    "s0143": "653.6",
+    "s0144": "11.41",
+    "s0145": "166.7",
+    "s0146": "217.8",
+    "s0147": "4",
+    "s0148": "1000",
+    "s0149": "1307.3",
+    "s0150": "5.71",
+    "s0151": "333.3",
+    "s0152": "435.7",
+    "s0153": "5",
+    "s0154": "1500",
+    "s0155": "1960.9",
+    "s0156": "3.80",
+    "s0157": "500.0",
+    "s0158": "653.5",
+    "s0159": "a",
+    "s0160": "sample volume after addition of SPE ingredients.",
+    "s0161": "b",
+    "s0162": "total protein concentration in the sample after addition of SPE ingredients.",
+    "s0163": "c",
+    "s0164": "calculated based on the initial sample volume without SPE additives and the elution volume of 3.0 mL.",
+    "s0165": "d",
+    "s0166": "calculated with a flow rate of 3.0 mL min[[SUP:−1]]; only refers to the process time of the applied sample, no preceding or succeeding SPE steps included.",
+    "s0167": "In addition to the process time of samples with different protein concentrations and thus volumes, the protein recovery rates of the different samples in dependence of the CF were calculated (see Fig. 3 and Eq. (7)). The protein recovery for a CF = 50 corresponds to the results shown in Fig. 1. In Fig. 3 it can be seen that a significant linear decrease (p < 0.05) occurs with increasing CF and thus sample volume. Hereby, the correlation coefficient R[[SUP:2]] = 0.89 indicates a linear correlation between the protein recovery rate and the CF of the sample, and one-way ANOVA confirms the significance of the slope (p < 0.05).",
+    "s0168": "Fig. 3 Protein recovery rate of the total protein for skim milk samples diluted 1:120, 1:900, 1:3000, 1:6000 and 1:9000 after concentration by SPE and quantification by RP-HPLC.",
+    "s0169": "Furthermore, the linear Eq. (7) shows that the negative slope and thus decrease in protein recovery rate with increasing sample volume equals 2.74% per 100 CF or 9.12% per 1000 mL sample volume.",
+    "s0170": "Therefore, the protein recovery rate remains high for large values of CF. This allows flexible scalability of sample volume and CF. While CF is not limited to 500, using Eq. (3) with an exemplary CF of 500, the corresponding protein recovery rate of 79.6% and the minimum quantifiable protein concentration with RP-HPLC for e.g. the allergen β-LG B of 3.30 µg mL[[SUP:−1]] shows that protein concentrations c[[SUB:β-LG B]] < 0.0083 µg mL[[SUP:−1]] can be quantified with this approach.",
+    "s0171": "Validation of the modified RP-HPLC method",
+    "s0172": "In order to examine the effects of wavelength changes on peak separation and base line noise, diluted skim milk was diluted 1:2 in GdnHCl buffer and analysed by RP-HPLC with a UV-detector wavelength of 214 and 220 nm. Furthermore, the effect of changes in the GdnHCl concentration in skim milk samples was investigated by a comparison of diluted skim milk diluted 1:2 and 1:5 in GdnHCl and measured by RP-HPLC (detector wavelength = 214 nm).",
+    "s0173": "In Fig. 4 it can be seen that a reduction in the GdnHCl buffer concentration from 1:5 to 1:2 increases the detected peak areas by 126%. Additionally, it could be shown that a change of the detection wavelength from 220 nm, as applied by Dumpler et al. [10], to 214 nm does not affect baseline noise or peak resolution but increases the signal response and thus the peak area by 37% for diluted skim milk samples. In summary, the applied changes in wavelength and GdnHCl buffer concentration can improve the method postulated by Dumpler et al. [10] regarding the detected peak area by 209%. Therefore, the applied changes facilitate peak identification and integration of low protein content samples and thus enable a lowering of the detection limit which reduces sample volumes required in SPE. Total protein amounts in skim milk were found to be 34.70 ± 1.18 mg mL[[SUP:−1]] (n = 14) which is in accordance with literature values [1,21,22]. Thus, it can be concluded that the changes applied to the RP-HPLC method are not affected by additional noise or protein loss due to incomplete denaturation followed by refolding, as it was observed by Bonfatti et al. [9], and yields correct protein values.",
+    "s0174": "Fig. 4 UV signal of a RP-HPLC analysis with a 1:5 sample dilution in GdnHCl-buffer and a detection wavelength of 220 nm as postulated by Dumpler et al. [10] (black); a 1:2 sample dilution in GdnHCl-buffer and a detection wavelength of 220 nm (red); a 1:2 sample dilution in GdnHCl buffer and a detection wavelength of 214 nm (blue).",
+    "s0175": "Furthermore, a refolding and thus decreased detection during RP-HPLC due to incomplete denaturation had to be excluded. For this purpose, the storage stability of samples was analysed. After 30 min incubation of diluted milk samples (1:200 in water) with GdnHCl buffer, samples were stored at RT and repeatedly analysed with RP-HPLC for 70 h. The detected protein amounts, relative to the initial value after incubation and summed for whey proteins and caseins, are depicted in Fig. 5. For caseins, no trend deviating from the initial value can be observed within the examined time frame of 70 h. For whey proteins, a slightly decreasing protein amount can be observed over time, mainly attributed to β-LG A. Hence, it can be concluded that the reduced GdnHCl-buffer concentration in the sample does lead to incomplete denaturation and thus refolding over time. Nevertheless, the refolding-related decrease in detected protein amounts is less than 2% after 24 h and less than 5% after 48 h allowing sufficient analysis time.",
+    "s0176": "Fig. 5 Detected amount (with RP-HPLC) of whey proteins (green triangles) and caseins (blue squares) as a function of the storage time at RT relative to the initial protein amount detected after 30 min incubation with GdnHCl buffer. The grey line highlights the reference point of 100% detected protein.",
+    "s0177": "To examine the linear working range of the method, pasteurised skim milk was diluted to different extents (1:7.5–1:1000; for details see Method details section), mixed with GdnHCl buffer and analysed by RP-HPLC. The detected total protein concentration [[MATH:M25]] in skim milk as a function of the applied protein concentration [[MATH:M26]] was used to investigate the linearity of the slope with the correlation coefficient as well as the significance of the slope by ANOVA (see Fig. 6).",
+    "s0178": "Fig. 6 Detected protein concentration (with RP-HPLC) as a function of the applied protein concentration (0.09 mg mL[[SUP:−1]]–11.57 mg mL[[SUP:−1]]). The applied concentration was calculated according to Eq. (6).",
+    "s0179": "Within the examined range of protein concentrations of up to 11.57 mg mL[[SUP:−1]] total protein, a slope significantly different from zero (p < 0.05) could be confirmed by ANOVA. Furthermore, the correlation coefficient was determined to be R[[SUP:2]] > 0.999 confirming linearity within this range. The linear Eq. (8) shows that the slope m = 1.00021 ± 0.00545 is close to one, implying that any increase in [[MATH:M27]] causes an equivalent increase in [[MATH:M28]].",
+    "s0180": "Besides the linear range for the total protein concentration in skim milk (see Fig. 6), the individual milk proteins (κ-CN, α[[SUB:S2]]-CN, α[[SUB:S1]]-CN, β-CN, α-LA, β-LG B and β-LG A) were also analysed for linearity within the examined range of diluted skim milk concentrations (see Table 2). Here, α-LA showed the lowest R[[SUP:2]] value of 0.991 while κ-CN and α[[SUB:S1]]-CN showed the highest R[[SUP:2]] values of 0.998. In addition to R[[SUP:2]] values exceeding 0.99 for each milk protein, ANOVA confirmed a slope significantly different from zero (p < 0.05) for each milk protein. Linearity can therefore be assumed in the given range for individual milk proteins as well as the total protein.",
+    "s0181": "Table 2",
+    "s0182": "Test for linearity of RP-HPLC method with pasteurised skim milk.",
+    "s0183": "Milk protein",
+    "s0184": "Range of concentrations[µg mL[[SUP:−1]]]",
+    "s0185": "Range of amountsa[µg]",
+    "s0186": "R[[SUP:2]]b",
+    "s0187": "κ-CN",
+    "s0188": "9.6–1283.9",
+    "s0189": "0.96–128.39",
+    "s0190": "0.998",
+    "s0191": "α[[SUB:S2]]-CN",
+    "s0192": "8.8–1179.8",
+    "s0193": "0.88–117.98",
+    "s0194": "0.995",
+    "s0195": "α[[SUB:S1]]-CN",
+    "s0196": "27.5–3666.6",
+    "s0197": "2.75–366.66",
+    "s0198": "0.998",
+    "s0199": "β-CN",
+    "s0200": "27.0 –3597.2",
+    "s0201": "2.70–359.72",
+    "s0202": "0.997",
+    "s0203": "α-LA",
+    "s0204": "2.9–393.3",
+    "s0205": "0.29–39.33",
+    "s0206": "0.991",
+    "s0207": "β-LG B",
+    "s0208": "3.3–439.5",
+    "s0209": "0.33–43.95",
+    "s0210": "0.996",
+    "s0211": "β-LG A",
+    "s0212": "7.6–1017.9",
+    "s0213": "0.76–101.79",
+    "s0214": "0.997",
+    "s0215": "Total",
+    "s0216": "86.8–11,566.7",
+    "s0217": "8.68–1156.67",
+    "s0218": "> 0.999",
+    "s0219": "a",
+    "s0220": "applies for an injection volume of 100 µl.",
+    "s0221": "b",
+    "s0222": "R[[SUP:2]], correlation coefficient: high values indicate linear correlation. probability for zero slope of line all < 0.001.",
+    "s0223": "Overall, the performed approach enables robust and reproducible concentration, purification and concentration of bovine milk proteins in aqueous diluted skim milk samples and in presence of cleaning agents. The developed SPE method allows high protein recovery rates with flexible scalability of the CF while improvements towards the RP-HPLC method provide additional sensitivity, reducing the necessary CFs and thus processing time. However, changes in sample composition, analyte of interest or protein state will necessitate new calibration, validation and possibly adjustments to the method procedure.",
+    "s0224": "Acknowledgement",
+    "s0225": "We gratefully thank Nora Biesenthal, Martin Hilz and Hermine Roßgoderer for their assistance concerning SPE execution and RP-HPLC analysis of skim milk samples. David Andlinger and Roland Schopf are thanked for valuable discussions.",
+    "s0226": "This IGF Project of the FEI (AiF 57 EWN) was supported by AiF within the program for promoting the Industrial Collective Research (IGF) of the German Ministry of Economic Affairs and Energy (BMWi), based on a resolution of the German Parliament. This work was supported by the German Research Foundation (DFG) and the Technical University of Munich (TUM) in the framework of the Open Access Publishing Program.",
+    "s0227": "Declaration of Competing Interest",
+    "s0228": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper."
+  },
+  "template": "<h2>{{s0000}}</h2>\n<p>{{s0001}}</p><ul><li><p>{{s0002}}</p></li><li><p>{{s0003}}</p></li></ul>\n<h2>{{s0004}}</h2><figure id=\"fig0007\"><img src=\"ASSET/graphical-abstract.jpg\" alt=\"\" loading=\"lazy\"/><figcaption>{{s0005}}</figcaption></figure>\n<p><strong>{{s0006}}:</strong> {{s0007}}</p>\n<p>{{s0008}}</p><section class=\"research-table\" id=\"utbl0001\"><table><tbody><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0009}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0010}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0011}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0012}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0013}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0014}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0015}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0016}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0017}}</div></td><td rowspan=\"1\" colspan=\"1\"><ul><li><p>{{s0018}}</p></li><li><p>{{s0019}}</p></li><li><p>{{s0020}}</p><ul><li><p>{{s0021}}</p></li><li><p>{{s0022}}</p></li><li><p>{{s0023}}</p></li><li><p>{{s0024}}</p></li></ul></li><li><p>{{s0025}}</p></li><li><p>{{s0026}}</p></li><li><p>{{s0027}}</p><ul><li><p>{{s0028}}</p></li><li><p>{{s0029}}</p></li><li><p>{{s0030}}</p></li><li><p>{{s0031}}</p></li></ul></li><li><p>{{s0032}}</p></li><li><p>{{s0033}}</p></li><li><p>{{s0034}}</p></li><li><p>{{s0035}}</p></li><li><p>{{s0036}}</p></li><li><p>{{s0037}}</p></li><li><p>{{s0038}}</p></li><li><p>{{s0039}}</p></li></ul></td></tr></tbody></table></section><h3>{{s0040}}</h3><h4>{{s0041}}</h4><p>{{s0042}}</p><p>{{s0043}}</p><p>{{s0044}}</p><p>{{s0045}}</p><p>{{s0046}}</p><p>{{s0047}}</p><p>{{s0048}}</p><p>{{s0049}}</p><p>{{s0050}}</p><h4>{{s0051}}</h4><p>{{s0052}}</p><h4>{{s0053}}</h4><p>{{s0054}}</p><div class=\"equation\" id=\"eqn0001\">[[MATH:M3]] <span class=\"equation-number\">(1)</span></div><p>{{s0055}}</p><div class=\"equation\" id=\"eqn0002\">[[MATH:M6]] <span class=\"equation-number\">(2)</span></div><p>{{s0056}}</p><div class=\"equation\" id=\"eqn0003\">[[MATH:M7]] <span class=\"equation-number\">(3)</span></div><p>{{s0057}}</p><div class=\"equation\" id=\"eqn0004\">[[MATH:M11]] <span class=\"equation-number\">(4)</span></div><p>{{s0058}}</p><p>{{s0059}}</p><p>{{s0060}}</p><h4>{{s0061}}</h4><h5>{{s0062}}</h5><ol><li><p>{{s0063}}</p></li><li><p>{{s0064}}</p></li><li><p>{{s0065}}</p></li></ol><p>{{s0066}}</p><h5>{{s0067}}</h5><ol><li><p>{{s0068}}</p></li><li><p>{{s0069}}</p></li><li><p>{{s0070}}</p></li></ol><p>{{s0071}}</p><h5>{{s0072}}</h5><ol><li><p>{{s0073}}</p></li><li><p>{{s0074}}</p></li></ol><p>{{s0075}}</p><h5>{{s0076}}</h5><ol><li><p>{{s0077}}</p></li><li><p>{{s0078}}</p></li><li><p>{{s0079}}</p></li></ol><h5>{{s0080}}</h5><ol><li><p>{{s0081}}</p></li><li><p>{{s0082}}</p></li><li><p>{{s0083}}</p></li><li><p>{{s0084}}</p></li></ol><p>{{s0085}}</p><h5>{{s0086}}</h5><p>{{s0087}}</p><div class=\"equation\" id=\"eqn0005\">[[MATH:M16]] <span class=\"equation-number\">(5)</span></div><p>{{s0088}}</p><p>{{s0089}}</p><h5>{{s0090}}</h5><ol><li><p>{{s0091}}</p></li><li><p>{{s0092}}</p></li><li><p>{{s0093}}</p></li></ol><p>{{s0094}}</p><h4>{{s0095}}</h4><h5>{{s0096}}</h5><ol><li><p>{{s0097}}</p></li><li><p>{{s0098}}</p></li><li><p>{{s0099}}</p></li></ol><p>{{s0100}}</p><h5>{{s0101}}</h5><ol><li><p>{{s0102}}</p></li><li><p>{{s0103}}</p></li></ol><h5>{{s0104}}</h5><ol><li><p>{{s0105}}</p></li><li><p>{{s0106}}</p><div class=\"equation\" id=\"eqn0006\">[[MATH:M19]] <span class=\"equation-number\">(6)</span></div></li></ol><p>{{s0107}}</p><h5>{{s0108}}</h5><ol><li><p>{{s0109}}</p></li><li><p>{{s0110}}</p></li></ol><h3>{{s0111}}</h3><h4>{{s0112}}</h4><h5>{{s0113}}</h5><p>{{s0114}}</p><figure id=\"fig0001\"><img src=\"ASSET/figure-1.jpg\" alt=\"\" loading=\"lazy\"/><figcaption>{{s0115}}</figcaption></figure><h4>{{s0116}}</h4><p>{{s0117}}</p><figure id=\"fig0002\"><img src=\"ASSET/figure-2.jpg\" alt=\"\" loading=\"lazy\"/><figcaption>{{s0118}}</figcaption></figure><h4>{{s0119}}</h4><p>{{s0120}}</p><section class=\"research-table\" id=\"tbl0001\"><strong>{{s0121}}</strong><p>{{s0122}}</p><table><thead><tr><th rowspan=\"1\" colspan=\"1\"><div>{{s0123}}</div></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0124}}</div></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0125}}</div></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0126}}</div></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0127}}</div></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0128}}</div></th></tr></thead><tbody><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0129}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0130}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0131}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0132}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0133}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0134}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0135}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0136}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0137}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0138}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0139}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0140}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0141}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0142}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0143}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0144}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0145}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0146}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0147}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0148}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0149}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0150}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0151}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0152}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0153}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0154}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0155}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0156}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0157}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0158}}</div></td></tr></tbody></table><strong>{{s0159}}</strong><p>{{s0160}}</p><strong>{{s0161}}</strong><p>{{s0162}}</p><strong>{{s0163}}</strong><p>{{s0164}}</p><strong>{{s0165}}</strong><p>{{s0166}}</p></section><p>{{s0167}}</p><figure id=\"fig0003\"><img src=\"ASSET/figure-3.jpg\" alt=\"\" loading=\"lazy\"/><figcaption>{{s0168}}</figcaption></figure><p>{{s0169}}</p><div class=\"equation\" id=\"eqn0007\">[[MATH:M24]] <span class=\"equation-number\">(7)</span></div><p>{{s0170}}</p><h4>{{s0171}}</h4><p>{{s0172}}</p><p>{{s0173}}</p><figure id=\"fig0004\"><img src=\"ASSET/figure-4.jpg\" alt=\"\" loading=\"lazy\"/><figcaption>{{s0174}}</figcaption></figure><p>{{s0175}}</p><figure id=\"fig0005\"><img src=\"ASSET/figure-5.jpg\" alt=\"\" loading=\"lazy\"/><figcaption>{{s0176}}</figcaption></figure><p>{{s0177}}</p><figure id=\"fig0006\"><img src=\"ASSET/figure-6.jpg\" alt=\"\" loading=\"lazy\"/><figcaption>{{s0178}}</figcaption></figure><p>{{s0179}}</p><div class=\"equation\" id=\"eqn0008\">[[MATH:M29]] <span class=\"equation-number\">(8)</span></div><p>{{s0180}}</p><section class=\"research-table\" id=\"tbl0002\"><strong>{{s0181}}</strong><p>{{s0182}}</p><table><thead><tr><th rowspan=\"1\" colspan=\"1\"><div>{{s0183}}</div></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0184}}</div></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0185}}</div></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0186}}</div></th></tr></thead><tbody><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0187}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0188}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0189}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0190}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0191}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0192}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0193}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0194}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0195}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0196}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0197}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0198}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0199}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0200}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0201}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0202}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0203}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0204}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0205}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0206}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0207}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0208}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0209}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0210}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0211}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0212}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0213}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0214}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0215}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0216}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0217}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0218}}</div></td></tr></tbody></table><strong>{{s0219}}</strong><p>{{s0220}}</p><strong>{{s0221}}</strong><p>{{s0222}}</p></section><p>{{s0223}}</p>\n<h2>{{s0224}}</h2><p>{{s0225}}</p><p>{{s0226}}</p><h3>{{s0227}}</h3><p>{{s0228}}</p>",
+  "figures": [
+    {
+      "id": "fig0007",
+      "href": "ga1.jpg",
+      "file": "graphical-abstract.jpg"
+    },
+    {
+      "id": "fig0001",
+      "href": "gr1.jpg",
+      "file": "figure-1.jpg"
+    },
+    {
+      "id": "fig0002",
+      "href": "gr2.jpg",
+      "file": "figure-2.jpg"
+    },
+    {
+      "id": "fig0003",
+      "href": "gr3.jpg",
+      "file": "figure-3.jpg"
+    },
+    {
+      "id": "fig0004",
+      "href": "gr4.jpg",
+      "file": "figure-4.jpg"
+    },
+    {
+      "id": "fig0005",
+      "href": "gr5.jpg",
+      "file": "figure-5.jpg"
+    },
+    {
+      "id": "fig0006",
+      "href": "gr6.jpg",
+      "file": "figure-6.jpg"
+    }
+  ],
+  "tables": [
+    "utbl0001",
+    "tbl0001",
+    "tbl0002"
+  ],
+  "references": [
+    {
+      "id": "bib0001",
+      "text": "G. Bobe, D.C. Beitz, A.E. Freeman, G.L. Lindberg. Separation and quantification of bovine milk proteins by reversed-phase high-performance liquid chromatography. J. Agric. Food Chem. 46. 1998. pp. 458–463. DOI: 10.1021/jf970499p. PMID: 10554263.",
+      "doi": "10.1021/jf970499p"
+    },
+    {
+      "id": "bib0002",
+      "text": "M.M. Bradford. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal. Biochem. 72. 1976. pp. 248–254. DOI: 10.1016/0003-2697(76)90527-3. PMID: 942051.",
+      "doi": "10.1016/0003-2697(76)90527-3"
+    },
+    {
+      "id": "bib0003",
+      "text": "S.J. Compton, C.G. Jones. Mechanism of dye response and interference in the Bradford protein assay. Anal. Biochem. 151. 1985. pp. 369–374. DOI: 10.1016/0003-2697(85)90190-3. PMID: 4096375.",
+      "doi": "10.1016/0003-2697(85)90190-3"
+    },
+    {
+      "id": "bib0004",
+      "text": "P.K. Smith, R.I. Krohn, G.T. Hermanson, A.K. Mallia, F.H. Gartner, M.D. Provenzano, E.K. Fujimoto, N.M. Goeke, B.J. Olson, D.C. Klenk. Measurement of protein using bicinchoninic acid. Anal. Biochem. 150. 1985. pp. 76–85. PMID: 3843705. DOI: 10.1016/0003-2697(85)90442-7.",
+      "doi": "10.1016/0003-2697(85)90442-7"
+    },
+    {
+      "id": "bib0005",
+      "text": "R.W. Congdon, G.W. Muth, A.G. Splittgerber. The binding interaction of Coomassie blue with proteins. Anal. Biochem. 213. 1993. pp. 407–413. DOI: 10.1006/abio.1993.1439. PMID: 7694523.",
+      "doi": "10.1006/abio.1993.1439"
+    },
+    {
+      "id": "bib0006",
+      "text": "O.H. Lowry, N.J. Roseborough, A.L. Farr, R.J. Randall. Protein measurement with the Folin phenol reagent. J. Biol. Chem. 193. 1951. pp. 265–275. PMID: 14907713.",
+      "doi": null
+    },
+    {
+      "id": "bib0007",
+      "text": "P.G. Wiles, I.K. Gray, R.C. Kissling. Routine analysis of proteins by Kjeldahl and Dumas methods: review and interlaboratory study using dairy products. J. AOAC Int. 81. 1998. pp. 620–632. PMID: 9606925.",
+      "doi": null
+    },
+    {
+      "id": "bib0008",
+      "text": "W. Holzmüller, U. Kulozik. Protein quantification by means of a stain-free SDS-PAGE technology without the need for analytical standards: verification and validation of the method. J. Food Compost. Anal. 48. 2016. pp. 128–134. DOI: 10.1016/j.jfca.2016.03.003.",
+      "doi": "10.1016/j.jfca.2016.03.003"
+    },
+    {
+      "id": "bib0009",
+      "text": "V. Bonfatti, L. Grigoletto, A. Cecchinato, L. Gallo, P. Carnier. Validation of a new reversed-phase high-performance liquid chromatography method for separation and quantification of bovine milk protein genetic variants. J. Chromatogr. A. 1195. 2008. pp. 101–106. DOI: 10.1016/j.chroma.2008.04.075. PMID: 18495141.",
+      "doi": "10.1016/j.chroma.2008.04.075"
+    },
+    {
+      "id": "bib0010",
+      "text": "J. Dumpler, H. Wohlschläger, U. Kulozik. Dissociation and coagulation of caseins and whey proteins in concentrated skim milk heated by direct steam injection. Dairy Sci. Technol. 96. 2017. pp. 807–826. DOI: 10.1007/s13594-016-0304-3.",
+      "doi": "10.1007/s13594-016-0304-3"
+    },
+    {
+      "id": "bib0011",
+      "text": "M.C. Hennion. Solid-phase extraction: method development, sorbents, and coupling with liquid chromatography. J. Chromatogr. A. 856. 1999. pp. 3–54. DOI: 10.1016/S0021-9673(99)00832-8. PMID: 10526783.",
+      "doi": "10.1016/S0021-9673(99)00832-8"
+    },
+    {
+      "id": "bib0012",
+      "text": "C.F. Poole, S.K. Poole. Principles and practice of solid-phase extraction. Comprehensive Sampling and Sample Preparation. 2002. Elsevier. pp. 273–297.",
+      "doi": null
+    },
+    {
+      "id": "bib0013",
+      "text": "R.K. Scopes. Measurement of protein by spectrophotometry at 205 nm. Anal. Biochem. 59. 1974. pp. 277–282. DOI: 10.1016/0003-2697(74)90034-7. PMID: 4407487.",
+      "doi": "10.1016/0003-2697(74)90034-7"
+    },
+    {
+      "id": "bib0014",
+      "text": "E.B. Nielsen, J.A. Schellman. The absorption spectra of simple amides and peptides. J. Phys. Chem. 71. 1967. pp. 2297–2304. DOI: 10.1021/j100866a051. PMID: 6047413.",
+      "doi": "10.1021/j100866a051"
+    },
+    {
+      "id": "bib0015",
+      "text": "C.N. Pace, F. Vajdos, L. Fee, G. Grimsley, T. Gray. How to measure and predict the molar absorption coefficient of a protein. Protein Sci. 4. 1995. pp. 2411–2423. DOI: 10.1002/pro.5560041120. PMID: 8563639. PMCID: PMC2143013.",
+      "doi": "10.1002/pro.5560041120"
+    },
+    {
+      "id": "bib0016",
+      "text": "G.R. Grimsley, C.N. Pace. Spectrophotometric determination of protein concentration. Curr. Protoc. Protein Sci. 2004. DOI: 10.1002/0471140864.ps0301s33. Chapter 3Unit 3.1. PMID: 18429266.",
+      "doi": "10.1002/0471140864.ps0301s33"
+    },
+    {
+      "id": "bib0017",
+      "text": "I. Bonizzi, J.N. Buffoni, M. Feligini. Quantification of bovine casein fractions by direct chromatographic analysis of milk. Approaching the application to a real production context. J. Chromatogr. A. 1216. 2009. pp. 165–168. DOI: 10.1016/j.chroma.2008.11.045. PMID: 19062022.",
+      "doi": "10.1016/j.chroma.2008.11.045"
+    },
+    {
+      "id": "bib0018",
+      "text": "R.F. Greene, C.N. Pace. Urea and guanidine hydrochloride denaturation of ribonuclease, lysozyme, α-chymotrypsin, and b-lactoglobulin. J. Biol. Chem. 249. 1974. pp. 5388–5393. DOI: 10.1016/S0021-9258(20)79739-5. PMID: 4416801.",
+      "doi": "10.1016/S0021-9258(20)79739-5"
+    },
+    {
+      "id": "bib0019",
+      "text": "D.S. Horne, D.G. Dalgleish. Electrostatic interaction and the kinetics of protein aggregation: αs1-casein. Int. J. Biol. Macromol. 2. 1980. pp. 154–160. DOI: 10.1016/0141-8130(80)90067-7.",
+      "doi": "10.1016/0141-8130(80)90067-7"
+    },
+    {
+      "id": "bib0020",
+      "text": "D.S. Horne. Casein micelle structure and stability. Milk Proteins. 2020. Elsevier. pp. 213–250.",
+      "doi": null
+    },
+    {
+      "id": "bib0021",
+      "text": "H.E. Swaisgood. Chemistry of the caseins. P.F. Fox, P.L.H. McSweeney (eds.). Advanced Dairy Chemistry—1 Proteins. 2003. Springer US. pp. 139–201.",
+      "doi": null
+    },
+    {
+      "id": "bib0022",
+      "text": "E. Bijl, H.J.F. van Valenberg, T. Huppertz, A.C.M. van Hooijdonk. Protein, casein, and micellar salts in milk: current content and historical perspectives. J. Dairy Sci. 96. 2013. pp. 5455–5464. DOI: 10.3168/jds.2012-6497. PMID: 23849643.",
+      "doi": "10.3168/jds.2012-6497"
+    }
+  ],
+  "authors": [
+    "Christian Kürzl",
+    "Heidi Wohlschläger",
+    "Simon Schiffer",
+    "Ulrich Kulozik"
+  ],
+  "publisher": "MethodsX",
+  "source_xml": "source.xml",
+  "math": {
+    "M1": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M1\" altimg=\"si1.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>detected</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M2": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M2\" altimg=\"si2.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>applied</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M3": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M3\" altimg=\"si3.svg\"><ns0:mrow><ns0:mrow><ns0:mtext>Recovery</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mtext>rate</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mtext>of</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mtext>protein</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mo linebreak=\"badbreak\">=</ns0:mo><ns0:mspace width=\"0.33em\" /></ns0:mrow><ns0:mfrac><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>detected</ns0:mtext></ns0:mrow></ns0:msub><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>applied</ns0:mtext></ns0:mrow></ns0:msub></ns0:mfrac></ns0:mrow></ns0:math>",
+    "M4": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M4\" altimg=\"si4.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mtext>sample</ns0:mtext></ns0:msub></ns0:math>",
+    "M5": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M5\" altimg=\"si5.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mtext>elution</ns0:mtext></ns0:msub></ns0:math>",
+    "M6": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M6\" altimg=\"si6.svg\"><ns0:mrow><ns0:mrow><ns0:mtext>CF</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mo linebreak=\"badbreak\">=</ns0:mo><ns0:mspace width=\"0.33em\" /></ns0:mrow><ns0:mfrac><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mtext>sample</ns0:mtext></ns0:msub><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mtext>elution</ns0:mtext></ns0:msub></ns0:mfrac></ns0:mrow></ns0:math>",
+    "M7": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M7\" altimg=\"si7.svg\"><ns0:mrow><ns0:mi mathvariant=\"normal\">C</ns0:mi><ns0:msub><ns0:mi mathvariant=\"normal\">F</ns0:mi><ns0:mtext>req</ns0:mtext></ns0:msub><ns0:mrow><ns0:mspace width=\"0.33em\" /><ns0:mo linebreak=\"badbreak\">=</ns0:mo><ns0:mspace width=\"0.33em\" /></ns0:mrow><ns0:mfrac><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>min</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>RP</ns0:mtext><ns0:mo>−</ns0:mo><ns0:mtext>HPLC</ns0:mtext></ns0:mrow></ns0:msub><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>applied</ns0:mtext></ns0:mrow></ns0:msub></ns0:mfrac><ns0:mo>·</ns0:mo><ns0:mfrac><ns0:mn>1</ns0:mn><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mtext>recovery</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mtext>rate</ns0:mtext></ns0:mrow></ns0:mfrac></ns0:mrow></ns0:math>",
+    "M8": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M8\" altimg=\"si8.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>min</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>RP</ns0:mtext><ns0:mo>−</ns0:mo><ns0:mtext>HPLC</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M9": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M9\" altimg=\"si9.svg\"><ns0:mrow><ns0:mi mathvariant=\"normal\">C</ns0:mi><ns0:msub><ns0:mi mathvariant=\"normal\">F</ns0:mi><ns0:mtext>req</ns0:mtext></ns0:msub></ns0:mrow></ns0:math>",
+    "M10": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M10\" altimg=\"si10.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mrow><ns0:mrow><ns0:mtext>sample</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>req</ns0:mtext></ns0:mrow><ns0:mo>.</ns0:mo></ns0:mrow></ns0:msub></ns0:math>",
+    "M11": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M11\" altimg=\"si11.svg\"><ns0:mrow><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mrow><ns0:mrow><ns0:mtext>sample</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>req</ns0:mtext></ns0:mrow><ns0:mo>.</ns0:mo></ns0:mrow></ns0:msub><ns0:mrow><ns0:mspace width=\"0.33em\" /><ns0:mo linebreak=\"badbreak\">=</ns0:mo><ns0:mspace width=\"0.33em\" /></ns0:mrow><ns0:mfrac><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>min</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>RP</ns0:mtext><ns0:mo>−</ns0:mo><ns0:mtext>HPLC</ns0:mtext></ns0:mrow></ns0:msub><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>applied</ns0:mtext></ns0:mrow></ns0:msub></ns0:mfrac><ns0:mo>·</ns0:mo><ns0:mfrac><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mtext>elution</ns0:mtext></ns0:msub><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mtext>recovery</ns0:mtext></ns0:mrow></ns0:mfrac><ns0:mrow><ns0:mo>=</ns0:mo><ns0:mi mathvariant=\"normal\">C</ns0:mi></ns0:mrow><ns0:msub><ns0:mi mathvariant=\"normal\">F</ns0:mi><ns0:mrow><ns0:mtext>req</ns0:mtext><ns0:mo>.</ns0:mo></ns0:mrow></ns0:msub><ns0:mo>·</ns0:mo><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mtext>elution</ns0:mtext></ns0:msub></ns0:mrow></ns0:math>",
+    "M12": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M12\" altimg=\"si12.svg\"><ns0:mrow><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mrow><ns0:mtext>elution</ns0:mtext><ns0:mspace width=\"0.33em\" /></ns0:mrow></ns0:msub><ns0:mrow><ns0:mo>=</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mn>3</ns0:mn><ns0:mspace width=\"0.33em\" /><ns0:mtext>mL</ns0:mtext></ns0:mrow></ns0:mrow></ns0:math>",
+    "M13": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M13\" altimg=\"si8.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>min</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>RP</ns0:mtext><ns0:mo>−</ns0:mo><ns0:mtext>HPLC</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M14": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M14\" altimg=\"si13.svg\"><ns0:mrow><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mtext>sample</ns0:mtext></ns0:msub><ns0:mrow><ns0:mspace width=\"0.33em\" /><ns0:mo linebreak=\"badbreak\">&gt;</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mn>1</ns0:mn></ns0:mrow><ns0:mrow><ns0:mo>.</ns0:mo><ns0:mn>1</ns0:mn><ns0:mspace width=\"0.33em\" /></ns0:mrow><ns0:mo>·</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mrow><ns0:mrow><ns0:mtext>sample</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>req</ns0:mtext></ns0:mrow><ns0:mo>.</ns0:mo></ns0:mrow></ns0:msub></ns0:mrow></ns0:math>",
+    "M15": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M15\" altimg=\"si14.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">m</ns0:mi><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>applied</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>SPE</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M16": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M16\" altimg=\"si15.svg\"><ns0:mstyle scriptlevel=\"0\" displaystyle=\"true\"><ns0:mrow><ns0:msub><ns0:mrow><ns0:mi mathvariant=\"normal\">m</ns0:mi></ns0:mrow><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>applied</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>SPE</ns0:mtext></ns0:mrow></ns0:msub><ns0:mspace width=\"0.33em\" /><ns0:mo linebreak=\"goodbreak\">=</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:msub><ns0:mrow><ns0:mi mathvariant=\"normal\">c</ns0:mi></ns0:mrow><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>initial</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mtext>sample</ns0:mtext></ns0:mrow></ns0:msub><ns0:mo>·</ns0:mo><ns0:msub><ns0:mrow><ns0:mi mathvariant=\"normal\">V</ns0:mi></ns0:mrow><ns0:mtext>sample</ns0:mtext></ns0:msub><ns0:mo linebreak=\"goodbreak\">=</ns0:mo><ns0:mfrac><ns0:mrow><ns0:msub><ns0:mrow><ns0:mi mathvariant=\"normal\">c</ns0:mi></ns0:mrow><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>applied</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>RP</ns0:mtext><ns0:mo>−</ns0:mo><ns0:mtext>HPLC</ns0:mtext></ns0:mrow></ns0:msub><ns0:mspace width=\"0.33em\" /><ns0:mo>·</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:msub><ns0:mrow><ns0:mi mathvariant=\"normal\">V</ns0:mi></ns0:mrow><ns0:mtext>elution</ns0:mtext></ns0:msub></ns0:mrow><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mtext>recovery</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mtext>rate</ns0:mtext></ns0:mrow></ns0:mfrac></ns0:mrow></ns0:mstyle></ns0:math>",
+    "M17": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M17\" altimg=\"si16.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>applied</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>RP</ns0:mtext><ns0:mo>−</ns0:mo><ns0:mtext>HPLC</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M18": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M18\" altimg=\"si17.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>initial</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mtext>sample</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M19": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M19\" altimg=\"si18.svg\"><ns0:mrow><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>applied</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>RP</ns0:mtext><ns0:mo>−</ns0:mo><ns0:mtext>HPLC</ns0:mtext></ns0:mrow></ns0:msub><ns0:mrow><ns0:mspace width=\"0.33em\" /><ns0:mo linebreak=\"badbreak\">=</ns0:mo><ns0:mspace width=\"0.33em\" /></ns0:mrow><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>detected</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>RP</ns0:mtext><ns0:mo>−</ns0:mo><ns0:mtext>HPLC</ns0:mtext></ns0:mrow></ns0:msub><ns0:mspace width=\"0.33em\" /><ns0:mo>·</ns0:mo><ns0:mi mathvariant=\"normal\">D</ns0:mi><ns0:msub><ns0:mi mathvariant=\"normal\">F</ns0:mi><ns0:mrow><ns0:mtext>RP</ns0:mtext><ns0:mo>−</ns0:mo><ns0:mtext>HPLC</ns0:mtext></ns0:mrow></ns0:msub><ns0:mo>·</ns0:mo><ns0:mfrac><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mrow><ns0:mtext>inj</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mtext>cal</ns0:mtext></ns0:mrow></ns0:msub><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mrow><ns0:mtext>inj</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>actual</ns0:mtext></ns0:mrow></ns0:msub></ns0:mfrac></ns0:mrow></ns0:math>",
+    "M20": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M20\" altimg=\"si19.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>detected</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>RP</ns0:mtext><ns0:mo>−</ns0:mo><ns0:mtext>HPLC</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M21": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M21\" altimg=\"si20.svg\"><ns0:mrow><ns0:mi mathvariant=\"normal\">D</ns0:mi><ns0:msub><ns0:mi mathvariant=\"normal\">F</ns0:mi><ns0:mrow><ns0:mtext>RP</ns0:mtext><ns0:mo>−</ns0:mo><ns0:mtext>HPLC</ns0:mtext></ns0:mrow></ns0:msub></ns0:mrow></ns0:math>",
+    "M22": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M22\" altimg=\"si21.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mrow><ns0:mtext>inj</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mtext>cal</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M23": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M23\" altimg=\"si22.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">V</ns0:mi><ns0:mrow><ns0:mtext>inj</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>actual</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M24": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M24\" altimg=\"si23.svg\"><ns0:mrow><ns0:mrow><ns0:mtext>protein</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mtext>recovery</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mtext>rat</ns0:mtext></ns0:mrow><ns0:msub><ns0:mi mathvariant=\"normal\">e</ns0:mi><ns0:mtext>CF</ns0:mtext></ns0:msub><ns0:mrow><ns0:mspace width=\"0.33em\" /><ns0:mo linebreak=\"badbreak\">=</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mo linebreak=\"badbreak\">−</ns0:mo><ns0:mn>2</ns0:mn></ns0:mrow><ns0:mrow><ns0:mo>.</ns0:mo><ns0:mn>74</ns0:mn><ns0:mi mathvariant=\"normal\">E</ns0:mi><ns0:mo linebreak=\"badbreak\">−</ns0:mo><ns0:mn>4</ns0:mn><ns0:mspace width=\"0.33em\" /></ns0:mrow><ns0:mo>·</ns0:mo><ns0:mrow><ns0:mspace width=\"0.33em\" /><ns0:mtext>CF</ns0:mtext><ns0:mspace width=\"0.33em\" /><ns0:mo linebreak=\"badbreak\">+</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mn>0</ns0:mn></ns0:mrow><ns0:mrow><ns0:mo>.</ns0:mo><ns0:mn>936</ns0:mn></ns0:mrow></ns0:mrow></ns0:math>",
+    "M25": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M25\" altimg=\"si24.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>Protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>detected</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M26": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M26\" altimg=\"si25.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>Protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>applied</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M27": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M27\" altimg=\"si25.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>Protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>applied</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M28": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M28\" altimg=\"si24.svg\"><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>Protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>detected</ns0:mtext></ns0:mrow></ns0:msub></ns0:math>",
+    "M29": "<ns0:math xmlns:ns0=\"http://www.w3.org/1998/Math/MathML\" id=\"M29\" altimg=\"si26.svg\"><ns0:mrow><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>Protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>detected</ns0:mtext></ns0:mrow></ns0:msub><ns0:mrow><ns0:mspace width=\"0.33em\" /><ns0:mo linebreak=\"badbreak\">=</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mn>1</ns0:mn></ns0:mrow><ns0:mrow><ns0:mo>.</ns0:mo><ns0:mn>00021</ns0:mn><ns0:mspace width=\"0.33em\" /></ns0:mrow><ns0:mo>·</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:msub><ns0:mi mathvariant=\"normal\">c</ns0:mi><ns0:mrow><ns0:mtext>Protein</ns0:mtext><ns0:mo>,</ns0:mo><ns0:mspace width=\"0.33em\" /><ns0:mtext>applied</ns0:mtext></ns0:mrow></ns0:msub></ns0:mrow></ns0:math>"
+  },
+  "formats": {
+    "[[SUB:S2]]": "<sub>S2</sub>",
+    "[[SUB:S1]]": "<sub>S1</sub>",
+    "[[SUP:−1]]": "<sup>−1</sup>",
+    "[[SUB:2]]": "<sub>2</sub>",
+    "[[SUP:2]]": "<sup>2</sup>",
+    "[[SUB:β-LG B]]": "<sub>β-LG B</sub>"
+  },
+  "coverage": [
+    {
+      "segment": "s0000",
+      "source_id": null,
+      "tag": "article-title"
+    },
+    {
+      "segment": "s0001",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0002",
+      "source_id": "para0002",
+      "tag": "p"
+    },
+    {
+      "segment": "s0003",
+      "source_id": "para0003",
+      "tag": "p"
+    },
+    {
+      "segment": "s0004",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0005",
+      "source_id": "fig0007",
+      "tag": "fig"
+    },
+    {
+      "segment": "s0006",
+      "source_id": null,
+      "tag": "text"
+    },
+    {
+      "segment": "s0007",
+      "source_id": null,
+      "tag": "text"
+    },
+    {
+      "segment": "s0008",
+      "source_id": "para0004",
+      "tag": "p"
+    },
+    {
+      "segment": "s0009",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0010",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0011",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0012",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0013",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0014",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0015",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0016",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0017",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0018",
+      "source_id": "para0005",
+      "tag": "p"
+    },
+    {
+      "segment": "s0019",
+      "source_id": "para0006",
+      "tag": "p"
+    },
+    {
+      "segment": "s0020",
+      "source_id": "para0007",
+      "tag": "p"
+    },
+    {
+      "segment": "s0021",
+      "source_id": "para0008",
+      "tag": "p"
+    },
+    {
+      "segment": "s0022",
+      "source_id": "para0009",
+      "tag": "p"
+    },
+    {
+      "segment": "s0023",
+      "source_id": "para0010",
+      "tag": "p"
+    },
+    {
+      "segment": "s0024",
+      "source_id": "para0011",
+      "tag": "p"
+    },
+    {
+      "segment": "s0025",
+      "source_id": "para0012",
+      "tag": "p"
+    },
+    {
+      "segment": "s0026",
+      "source_id": "para0013",
+      "tag": "p"
+    },
+    {
+      "segment": "s0027",
+      "source_id": "para0014",
+      "tag": "p"
+    },
+    {
+      "segment": "s0028",
+      "source_id": "para0015",
+      "tag": "p"
+    },
+    {
+      "segment": "s0029",
+      "source_id": "para0016",
+      "tag": "p"
+    },
+    {
+      "segment": "s0030",
+      "source_id": "para0017",
+      "tag": "p"
+    },
+    {
+      "segment": "s0031",
+      "source_id": "para0018",
+      "tag": "p"
+    },
+    {
+      "segment": "s0032",
+      "source_id": "para0019",
+      "tag": "p"
+    },
+    {
+      "segment": "s0033",
+      "source_id": "para0020",
+      "tag": "p"
+    },
+    {
+      "segment": "s0034",
+      "source_id": "para0021",
+      "tag": "p"
+    },
+    {
+      "segment": "s0035",
+      "source_id": "para0022",
+      "tag": "p"
+    },
+    {
+      "segment": "s0036",
+      "source_id": "para0023",
+      "tag": "p"
+    },
+    {
+      "segment": "s0037",
+      "source_id": "para0024",
+      "tag": "p"
+    },
+    {
+      "segment": "s0038",
+      "source_id": "para0025",
+      "tag": "p"
+    },
+    {
+      "segment": "s0039",
+      "source_id": "para0026",
+      "tag": "p"
+    },
+    {
+      "segment": "s0040",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0041",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0042",
+      "source_id": "para0027",
+      "tag": "p"
+    },
+    {
+      "segment": "s0043",
+      "source_id": "para0028",
+      "tag": "p"
+    },
+    {
+      "segment": "s0044",
+      "source_id": "para0029",
+      "tag": "p"
+    },
+    {
+      "segment": "s0045",
+      "source_id": "para0030",
+      "tag": "p"
+    },
+    {
+      "segment": "s0046",
+      "source_id": "para0031",
+      "tag": "p"
+    },
+    {
+      "segment": "s0047",
+      "source_id": "para0032",
+      "tag": "p"
+    },
+    {
+      "segment": "s0048",
+      "source_id": "para0033",
+      "tag": "p"
+    },
+    {
+      "segment": "s0049",
+      "source_id": "para0034",
+      "tag": "p"
+    },
+    {
+      "segment": "s0050",
+      "source_id": "para0035",
+      "tag": "p"
+    },
+    {
+      "segment": "s0051",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0052",
+      "source_id": "para0036",
+      "tag": "p"
+    },
+    {
+      "segment": "s0053",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0054",
+      "source_id": "para0037",
+      "tag": "p"
+    },
+    {
+      "segment": "s0055",
+      "source_id": "para0038",
+      "tag": "p"
+    },
+    {
+      "segment": "s0056",
+      "source_id": "para0039",
+      "tag": "p"
+    },
+    {
+      "segment": "s0057",
+      "source_id": "para0039",
+      "tag": "p"
+    },
+    {
+      "segment": "s0058",
+      "source_id": "para0040",
+      "tag": "p"
+    },
+    {
+      "segment": "s0059",
+      "source_id": "para0041",
+      "tag": "p"
+    },
+    {
+      "segment": "s0060",
+      "source_id": "para0042",
+      "tag": "p"
+    },
+    {
+      "segment": "s0061",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0062",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0063",
+      "source_id": "para0044",
+      "tag": "p"
+    },
+    {
+      "segment": "s0064",
+      "source_id": "para0045",
+      "tag": "p"
+    },
+    {
+      "segment": "s0065",
+      "source_id": "para0046",
+      "tag": "p"
+    },
+    {
+      "segment": "s0066",
+      "source_id": "para0047",
+      "tag": "p"
+    },
+    {
+      "segment": "s0067",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0068",
+      "source_id": "para0048",
+      "tag": "p"
+    },
+    {
+      "segment": "s0069",
+      "source_id": "para0049",
+      "tag": "p"
+    },
+    {
+      "segment": "s0070",
+      "source_id": "para0050",
+      "tag": "p"
+    },
+    {
+      "segment": "s0071",
+      "source_id": "para0051",
+      "tag": "p"
+    },
+    {
+      "segment": "s0072",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0073",
+      "source_id": "para0052",
+      "tag": "p"
+    },
+    {
+      "segment": "s0074",
+      "source_id": "para0053",
+      "tag": "p"
+    },
+    {
+      "segment": "s0075",
+      "source_id": "para0054",
+      "tag": "p"
+    },
+    {
+      "segment": "s0076",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0077",
+      "source_id": "para0055",
+      "tag": "p"
+    },
+    {
+      "segment": "s0078",
+      "source_id": "para0056",
+      "tag": "p"
+    },
+    {
+      "segment": "s0079",
+      "source_id": "para0057",
+      "tag": "p"
+    },
+    {
+      "segment": "s0080",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0081",
+      "source_id": "para0058",
+      "tag": "p"
+    },
+    {
+      "segment": "s0082",
+      "source_id": "para0059",
+      "tag": "p"
+    },
+    {
+      "segment": "s0083",
+      "source_id": "para0060",
+      "tag": "p"
+    },
+    {
+      "segment": "s0084",
+      "source_id": "para0061",
+      "tag": "p"
+    },
+    {
+      "segment": "s0085",
+      "source_id": "para0062",
+      "tag": "p"
+    },
+    {
+      "segment": "s0086",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0087",
+      "source_id": "para0063",
+      "tag": "p"
+    },
+    {
+      "segment": "s0088",
+      "source_id": "para0063",
+      "tag": "p"
+    },
+    {
+      "segment": "s0089",
+      "source_id": "para0064",
+      "tag": "p"
+    },
+    {
+      "segment": "s0090",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0091",
+      "source_id": "para0065",
+      "tag": "p"
+    },
+    {
+      "segment": "s0092",
+      "source_id": "para0066",
+      "tag": "p"
+    },
+    {
+      "segment": "s0093",
+      "source_id": "para0067",
+      "tag": "p"
+    },
+    {
+      "segment": "s0094",
+      "source_id": "para0068",
+      "tag": "p"
+    },
+    {
+      "segment": "s0095",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0096",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0097",
+      "source_id": "para0069",
+      "tag": "p"
+    },
+    {
+      "segment": "s0098",
+      "source_id": "para0070",
+      "tag": "p"
+    },
+    {
+      "segment": "s0099",
+      "source_id": "para0071",
+      "tag": "p"
+    },
+    {
+      "segment": "s0100",
+      "source_id": "para0072",
+      "tag": "p"
+    },
+    {
+      "segment": "s0101",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0102",
+      "source_id": "para0073",
+      "tag": "p"
+    },
+    {
+      "segment": "s0103",
+      "source_id": "para0074",
+      "tag": "p"
+    },
+    {
+      "segment": "s0104",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0105",
+      "source_id": "para0075",
+      "tag": "p"
+    },
+    {
+      "segment": "s0106",
+      "source_id": "para0076",
+      "tag": "p"
+    },
+    {
+      "segment": "s0107",
+      "source_id": "para9009",
+      "tag": "p"
+    },
+    {
+      "segment": "s0108",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0109",
+      "source_id": "para0078",
+      "tag": "p"
+    },
+    {
+      "segment": "s0110",
+      "source_id": "para0079",
+      "tag": "p"
+    },
+    {
+      "segment": "s0111",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0112",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0113",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0114",
+      "source_id": "para0080",
+      "tag": "p"
+    },
+    {
+      "segment": "s0115",
+      "source_id": "fig0001",
+      "tag": "fig"
+    },
+    {
+      "segment": "s0116",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0117",
+      "source_id": "para0081",
+      "tag": "p"
+    },
+    {
+      "segment": "s0118",
+      "source_id": "fig0002",
+      "tag": "fig"
+    },
+    {
+      "segment": "s0119",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0120",
+      "source_id": "para0082",
+      "tag": "p"
+    },
+    {
+      "segment": "s0121",
+      "source_id": null,
+      "tag": "label"
+    },
+    {
+      "segment": "s0122",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0123",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0124",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0125",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0126",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0127",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0128",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0129",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0130",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0131",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0132",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0133",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0134",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0135",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0136",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0137",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0138",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0139",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0140",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0141",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0142",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0143",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0144",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0145",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0146",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0147",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0148",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0149",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0150",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0151",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0152",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0153",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0154",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0155",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0156",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0157",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0158",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0159",
+      "source_id": null,
+      "tag": "label"
+    },
+    {
+      "segment": "s0160",
+      "source_id": "notep0002",
+      "tag": "p"
+    },
+    {
+      "segment": "s0161",
+      "source_id": null,
+      "tag": "label"
+    },
+    {
+      "segment": "s0162",
+      "source_id": "notep0003",
+      "tag": "p"
+    },
+    {
+      "segment": "s0163",
+      "source_id": null,
+      "tag": "label"
+    },
+    {
+      "segment": "s0164",
+      "source_id": "notep0004",
+      "tag": "p"
+    },
+    {
+      "segment": "s0165",
+      "source_id": null,
+      "tag": "label"
+    },
+    {
+      "segment": "s0166",
+      "source_id": "notep0005",
+      "tag": "p"
+    },
+    {
+      "segment": "s0167",
+      "source_id": "para0083",
+      "tag": "p"
+    },
+    {
+      "segment": "s0168",
+      "source_id": "fig0003",
+      "tag": "fig"
+    },
+    {
+      "segment": "s0169",
+      "source_id": "para0084",
+      "tag": "p"
+    },
+    {
+      "segment": "s0170",
+      "source_id": "para0085",
+      "tag": "p"
+    },
+    {
+      "segment": "s0171",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0172",
+      "source_id": "para0086",
+      "tag": "p"
+    },
+    {
+      "segment": "s0173",
+      "source_id": "para0087",
+      "tag": "p"
+    },
+    {
+      "segment": "s0174",
+      "source_id": "fig0004",
+      "tag": "fig"
+    },
+    {
+      "segment": "s0175",
+      "source_id": "para0088",
+      "tag": "p"
+    },
+    {
+      "segment": "s0176",
+      "source_id": "fig0005",
+      "tag": "fig"
+    },
+    {
+      "segment": "s0177",
+      "source_id": "para0089",
+      "tag": "p"
+    },
+    {
+      "segment": "s0178",
+      "source_id": "fig0006",
+      "tag": "fig"
+    },
+    {
+      "segment": "s0179",
+      "source_id": "para0090",
+      "tag": "p"
+    },
+    {
+      "segment": "s0180",
+      "source_id": "para0091",
+      "tag": "p"
+    },
+    {
+      "segment": "s0181",
+      "source_id": null,
+      "tag": "label"
+    },
+    {
+      "segment": "s0182",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0183",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0184",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0185",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0186",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0187",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0188",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0189",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0190",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0191",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0192",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0193",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0194",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0195",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0196",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0197",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0198",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0199",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0200",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0201",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0202",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0203",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0204",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0205",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0206",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0207",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0208",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0209",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0210",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0211",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0212",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0213",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0214",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0215",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0216",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0217",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0218",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0219",
+      "source_id": null,
+      "tag": "label"
+    },
+    {
+      "segment": "s0220",
+      "source_id": "notep0006",
+      "tag": "p"
+    },
+    {
+      "segment": "s0221",
+      "source_id": null,
+      "tag": "label"
+    },
+    {
+      "segment": "s0222",
+      "source_id": "notep0007",
+      "tag": "p"
+    },
+    {
+      "segment": "s0223",
+      "source_id": "para0092",
+      "tag": "p"
+    },
+    {
+      "segment": "s0224",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0225",
+      "source_id": "para0093",
+      "tag": "p"
+    },
+    {
+      "segment": "s0226",
+      "source_id": "para0094",
+      "tag": "p"
+    },
+    {
+      "segment": "s0227",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0228",
+      "source_id": "para0095",
+      "tag": "p"
+    }
+  ]
+}

@@ -53,8 +53,9 @@ research queue below now connects reviewed packages to the weekly timer.
 
 The production weekly entrypoint now runs `tools/publish-research.py`, replacing
 scheduled generation from the exhausted CDC catalog. It does not discover,
-license or translate papers unattended. `candidates.json` lists verified sources
-whose translation/review is still required; these cannot be published by the job.
+license or translate papers unattended. `candidates.json` records sources and their package state. Entries marked
+`verified_source` still require translation/review and cannot be published by
+the job; `approved_package` points to a separately validated release package.
 
 An approved package lives in `packages/<translationId>/`: `files/` holds the
 article and its own local downloads; `evidence/` preserves the full source,
