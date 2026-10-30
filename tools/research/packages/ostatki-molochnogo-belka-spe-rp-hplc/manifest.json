@@ -1,0 +1,125 @@
+{
+  "schema": 1,
+  "id": "ostatki-molochnogo-belka-spe-rp-hplc",
+  "slug": "2026-11-03-ostatki-molochnogo-belka-spe-rp-hplc",
+  "title": "Остатки молочного белка после мойки: концентрирование и анализ методом SPE–RP-HPLC",
+  "status": "approved",
+  "not_before": "2026-11-03",
+  "review": {
+    "reviewer": "Astra",
+    "checked_at": "2026-10-30T15:13:59.534338+00:00",
+    "scope": "Complete article: 229 translated segments, graphical abstract and six numbered figures with Russian reading keys, three tables, eight equations/29 MathML nodes, 22 original-language references, authors/affiliation/correspondence, acknowledgements/funding/conflict declaration; no separate supplements."
+  },
+  "source": {
+    "pmid": "35492213",
+    "pmcid": "PMC9043403",
+    "doi": "10.1016/j.mex.2022.101695",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9043403/",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "sha256": "cf882c6e7c3b5cc9fd07dff398afe23dcb6a128630fec8f73be5619e71e1fc73"
+  },
+  "files": [
+    {
+      "path": "public/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/figure-1.jpg",
+      "sha256": "12c9c468b9708c324686588f958b109d561adb2887e634526509e0bf06131a91"
+    },
+    {
+      "path": "public/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/figure-2.jpg",
+      "sha256": "cebcfb666ff6ec4fc67555b8926e27ff65ee0a429cd86da935fd93289a56dc61"
+    },
+    {
+      "path": "public/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/figure-3.jpg",
+      "sha256": "c99f5165e6a42f2592f0f4816802445284aea3651770ca7224b6a4513bc1138b"
+    },
+    {
+      "path": "public/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/figure-4.jpg",
+      "sha256": "679414a2f4e7391923154a8cec9c74fca7d22388071aa13690321d171b42492e"
+    },
+    {
+      "path": "public/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/figure-5.jpg",
+      "sha256": "7f85f02656eb1505a234e1ea95c0cd9d55ca478f74842d29594ff90cfb425b99"
+    },
+    {
+      "path": "public/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/figure-6.jpg",
+      "sha256": "526a0e877c8e9b4c69ed26b71c31fbb335c9f5f9024f1adba92f0c485627af9a"
+    },
+    {
+      "path": "public/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/graphical-abstract.jpg",
+      "sha256": "757cd74cf8675a5b58c562cd098cf7dccf84fde887a88053f2ffbc8f08d57149"
+    },
+    {
+      "path": "public/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/original.html",
+      "sha256": "b88219921d405cd2d829b05b48b7d6909fb346ceba6a19635e003e8d2459f880"
+    },
+    {
+      "path": "public/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/original.pdf",
+      "sha256": "16e4aded18a859372c294b690d949f163a9c232bea6e8c9c894bda887db166ea"
+    },
+    {
+      "path": "public/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/translation.html",
+      "sha256": "61cefcfe19c17a47c909f7610e2ed20d8acacc5f795938e1b0ad8b8578d7a591"
+    },
+    {
+      "path": "public/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/translation.pdf",
+      "sha256": "133651266533e6093efb7d1309f5a8397ece2110e3263681abba36a9a2ce17c2"
+    },
+    {
+      "path": "src/content/articles/2026-11-03-ostatki-molochnogo-belka-spe-rp-hplc.md",
+      "sha256": "194364d08851c9cdbce2e69e973946152cf5455d5f2ff43ef9e9fa8755f3678c"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "evidence/asset-downloads.json",
+      "sha256": "52b43b23996768709dc2f6eeb7aa4161d50fa927a562343efe122fca86ccc355"
+    },
+    {
+      "path": "evidence/browser-local.json",
+      "sha256": "e595860867df250ded47d745333672778454478ab49e13adfcbc8d3229036b5b"
+    },
+    {
+      "path": "evidence/copyedit.json",
+      "sha256": "f82902742d8016cb3242fa515b3b1561dfc1f48d12cca155c8a5341b0b1f9e44"
+    },
+    {
+      "path": "evidence/fidelity-summary.json",
+      "sha256": "7ea09d9fd8d0adc6bb9c4672093dd05ddd62267a689cc253c0160947cca687ad"
+    },
+    {
+      "path": "evidence/original-pdf-source.json",
+      "sha256": "9f463c2272dc0ad41c4127acc3e5a21229f228a62093d5a2cf0455cde48243b3"
+    },
+    {
+      "path": "evidence/pdf-browser.json",
+      "sha256": "cbf8b2948b84f1fef3aa299bb1e85f51073ca66169da7cb026bdfeb531a793b2"
+    },
+    {
+      "path": "evidence/pdf-check.json",
+      "sha256": "bb3495185f8e68136b877294a7df0571da73499c2f1e59f423b60824a23e2cf3"
+    },
+    {
+      "path": "evidence/probe.json",
+      "sha256": "ab95b357e0b94ba7fcfdd0f34e772685d24c2bf06d3669260ae7fc95d61880be"
+    },
+    {
+      "path": "evidence/review.json",
+      "sha256": "640c923766d417dae2393046f285f10f4ecf4d27f2b819dc08e7cefd18c9aa7e"
+    },
+    {
+      "path": "evidence/source.json",
+      "sha256": "d98adf8e2beb91d057597657077d9d4b2a98337b52633e442db552be9eafdc11"
+    },
+    {
+      "path": "evidence/source.xml",
+      "sha256": "cf882c6e7c3b5cc9fd07dff398afe23dcb6a128630fec8f73be5619e71e1fc73"
+    },
+    {
+      "path": "evidence/structure-check.json",
+      "sha256": "1b11b28659b814b2577221e0eb5a5143bafe3c82800ff6588c3c99b1b52b8337"
+    },
+    {
+      "path": "evidence/target.json",
+      "sha256": "5b60202f7dfef61cb764541bdba56d1f9b550f03c5f8dff7222181b1404d2eba"
+    }
+  ]
+}

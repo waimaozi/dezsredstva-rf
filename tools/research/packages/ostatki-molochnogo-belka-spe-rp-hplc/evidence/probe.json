@@ -1,0 +1,23 @@
+{
+  "pmid": "35492213",
+  "checked_at": "2026-10-29T19:22:31.558432+00:00",
+  "status": "full_text_available",
+  "requires_editorial_rights_review": true,
+  "title": "Concentration, purification and quantification of milk protein residues following cleaning processes using a combination of SPE and RP-HPLC.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "notices": [],
+  "identifiers": {
+    "pubmed": "35492213",
+    "pmc": "PMC9043403",
+    "doi": "10.1016/j.mex.2022.101695",
+    "pii": "S2215-0161(22)00077-2"
+  },
+  "source_sha256": "cf882c6e7c3b5cc9fd07dff398afe23dcb6a128630fec8f73be5619e71e1fc73",
+  "permissions": [
+    "© 2022 The Author(s). Published by Elsevier B.V. 2022 https://creativecommons.org/licenses/by/4.0/ This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)."
+  ],
+  "figures": 7,
+  "tables": 3
+}

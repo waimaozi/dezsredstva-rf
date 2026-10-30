@@ -1,7 +1,7 @@
 [
   {
     "id": "milkprotein",
-    "status": "verified_source",
+    "status": "approved_package",
     "pmid": "35492213",
     "pmcid": "PMC9043403",
     "doi": "10.1016/j.mex.2022.101695",
@@ -14,7 +14,10 @@
     "verified_at": "2026-10-29T19:32:04.033571+00:00",
     "audience_use": "Для лаборатории: количественное определение следовых остатков отдельных молочных белков после мойки; сочетание SPE и RP-HPLC.",
     "limits": "Метод требует лабораторного оборудования; перенос на конкретную матрицу и остатки моющего средства требует проверки.",
-    "remaining": "Full translation, extraction/figure/table check, fidelity review, PDF and offline rendering, approved package manifest."
+    "remaining": "Scheduled weekly publication and live verification by the publisher timer.",
+    "package_id": "ostatki-molochnogo-belka-spe-rp-hplc",
+    "not_before": "2026-11-03",
+    "reviewed_at": "2026-10-30T15:13:59.534338+00:00"
   },
   {
     "id": "surfaces",

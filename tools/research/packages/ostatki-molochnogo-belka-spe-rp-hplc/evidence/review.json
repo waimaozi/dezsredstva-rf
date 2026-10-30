@@ -1,0 +1,16 @@
+{
+  "reviewer": "Astra",
+  "checked_at": "2026-10-30T15:13:59.534338+00:00",
+  "scope": "Complete article: 229 translated segments, graphical abstract and six numbered figures with Russian reading keys, three tables, eight equations/29 MathML nodes, 22 original-language references, authors/affiliation/correspondence, acknowledgements/funding/conflict declaration; no separate supplements.",
+  "independent_specialist_review": false,
+  "source_identity": "PubMed/Europe PMC PMID 35492213, PMCID PMC9043403 and DOI 10.1016/j.mex.2022.101695 matched. Original 14-page publisher PDF recovered from authors university repository mediaTUM; title, DOI and licence checked.",
+  "rights": "CC BY 4.0 explicitly present in article permissions and publisher PDF. Attribution retained; translation/editorial changes identified.",
+  "fidelity": "Full text directly compared; all 229 segment numeric literals, inequalities and protected formula/format tokens preserved. TypeSafe advisory checked 110 substantive pairs and flagged none. Direct review nevertheless corrected multiplicative formula terms mistranslated as summands and ambiguous 1:2 sample/buffer mixing wording. Additional coverage, not validated automatic approval or a claimed efficiency saving.",
+  "source_inconsistencies": "CV <3.0% versus 3.2%, less-than sign in beta-LG B numerical example, and duplicated concentration in conclusion preserved; separate reader notes added. No universal analytical limit inferred from the below-7-ng/mL abstract claim.",
+  "figures": "All seven original figure files visually checked, retained without alteration, accompanied by Russian legends/axes/notation keys.",
+  "mathematics": "All 29 source MathML nodes retained, including eight numbered equations. Original variable labels retained with Russian glossary; ten procedure lists retain numbering.",
+  "limits": "Diluted bovine skim milk and specific tested cleaning agents; equipment and long processing times required. Different matrix, detergent, analyte or protein state requires new calibration/validation. No clinical threshold or general factory-cleaning validation claimed.",
+  "pdf": "23-page Russian PDF; seven embedded images; no external network requests; all pages checked for out-of-page text; opening, graphical abstract, equations, tables and final bibliography pages visually inspected.",
+  "site": "Astro build and desktop/mobile browser checks passed: no page overflow/broken images, complete figures/tables/math/references, attribution/schema, PDF download event, home/translation hub. 30 required tests passed.",
+  "release": "Approved for weekly queue, not_before 2026-11-03; not published during preparation."
+}
