@@ -1,0 +1,16 @@
+[
+  {
+    "file": "pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4312450/",
+    "bytes": 130056,
+    "type": "text/html; charset=utf-8",
+    "pdf": false
+  },
+  {
+    "file": "original.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1186/s13223-015-0069-x.pdf",
+    "bytes": 320956,
+    "type": "application/pdf",
+    "pdf": true
+  }
+]

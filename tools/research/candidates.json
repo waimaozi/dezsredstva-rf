@@ -21,7 +21,7 @@
   },
   {
     "id": "surfaces",
-    "status": "verified_source",
+    "status": "approved_package",
     "pmid": "25642252",
     "pmcid": "PMC4312450",
     "doi": "10.1186/s13223-015-0069-x",
@@ -31,9 +31,12 @@
     "full_text_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4312450/fullTextXML",
     "source_sha256": "976e3ca2d6ac4a79a52c44d47f9cb703f1f12962f6f4e8d59a51540fbb422234",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "verified_at": "2026-10-29T19:32:04.033571+00:00",
+    "verified_at": "2026-10-30T16:16:05.498550+00:00",
     "audience_use": "Для санитарных служб: сравнение удаления Ara h 1 с пластика, игрушек и обложек книг разными салфетками.",
     "limits": "Измерен один аллерген, в заданном опыте; не исследование всех поверхностей, средств или риска реакции.",
-    "remaining": "Full translation, extraction/figure/table check, fidelity review, PDF and offline rendering, approved package manifest."
+    "remaining": "Scheduled weekly publication and live verification by the publisher timer.",
+    "package_id": "udalenie-allergena-arahisa-salfetki",
+    "not_before": "2026-11-10",
+    "reviewed_at": "2026-10-30T16:28:36.183549+00:00"
   }
 ]

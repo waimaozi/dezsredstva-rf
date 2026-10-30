@@ -1,0 +1,681 @@
+{
+  "id": "surfaces",
+  "case": {
+    "id": "surfaces",
+    "original": "Removal of peanut allergen Ara h 1 from common hospital surfaces, toys and books using standard cleaning methods",
+    "title": "Удаление аллергена арахиса с игрушек, книг и столов: исследование очищающих салфеток",
+    "slug": "2026-11-10-allergen-arahisa-igrushki-knigi-salfetki",
+    "original_date": "2015-01-23",
+    "doi": "10.1186/s13223-015-0069-x",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4312450/",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "segments": {
+    "s0000": "Removal of peanut allergen Ara h 1 from common hospital surfaces, toys and books using standard cleaning methods",
+    "s0001": "Background",
+    "s0002": "In children, a diagnosis of peanut allergy causes concern about accidental exposure because even small amounts of peanut protein could trigger an allergic reaction. Contamination of toys, books or other items by peanut butter in areas where individuals have eaten may occur in hospital waiting rooms and cafeterias. It is not known if hospital cleaning wipes are effective in removing peanut allergen.",
+    "s0003": "Objectives",
+    "s0004": "The purpose of this study was to determine whether cleaning peanut contaminated items with common household and hospital cleaning wipes would remove peanut allergen.",
+    "s0005": "Methods",
+    "s0006": "5 mL of peanut butter was evenly smeared on a 12 inch by 12 inch (30.5 by 30.5 cm) square on a nonporous (laminated plastic) table surface, a plastic doll, and a textured plastic ball, and 2.5 mL was applied to smooth and textured book covers. Samples for measurement of Ara h 1 were collected prior to the application of the peanut butter (baseline), and after cleaning with a common household wipe and two commercial hospital wipes. A monoclonal-based ELISA for arachis hypogaea allergen 1 (Ara h 1), range of detection 1.95-2000 ng/mL, was used to assess peanut allergen on each item. The samples were diluted 1:50 for testing.",
+    "s0007": "Results",
+    "s0008": "At baseline, there was no detectable Ara h 1 allergen on any item at baseline. Detectable Ara h 1 was detected on all products after applying peanut butter (range 1.2-19.0 micrograms/mL).",
+    "s0009": "After cleaning with any product, no Ara h 1 was detected on any item.",
+    "s0010": "Conclusions",
+    "s0011": "Table surfaces, book covers and plastic toys can be cleaned to remove peanut allergen Ara h 1 using common household and hospital cleaning wipes. Regular cleaning of these products or cleaning prior to their use should be promoted to reduce the risk of accidental peanut exposure, especially in areas where they have been used by many children.",
+    "s0012": "Keywords",
+    "s0013": "Food allergy; Peanut allergen; Cleaning; Hospital; Contamination; Ara h 1",
+    "s0014": "Background",
+    "s0015": "Peanut allergy affects approximately 1.6% of school age children [1]. Exposure to peanut, even in small quantities, is capable of causing life-threatening reactions [2,3]. Food allergy and specifically peanut allergy has a tremendous psychological burden on children and their families [4–10]. Having one food allergy impacts the introduction of other allergenic foods in allergic children and their siblings [11].",
+    "s0016": "Families express major concern about accidental exposure to food in the child’s environment, leading to significant impact for them and the child. A survey of caregivers [12] reported that that food allergy impacted meal preparation activities in 60% of participants, family social activities in 50% and stress levels in 41%. Ten percent of caregivers did not send their child to school due to food allergy. School activities, such as field trips (59%) and school parties (68%), were significantly affected by food allergy. Sixteen percent of caregivers avoided going to restaurants, 11% avoided allowing their child to play at friends’ houses, 14% avoided daycare or aftercare, 10% to 11% avoided parties and sports, and 26% avoided camp and sleepovers because of the child’s food allergy.",
+    "s0017": "Current treatment of peanut allergy includes avoidance of the trigger food and treatment of a severe reaction with epinephrine [13]. While future treatment may include oral induction of tolerance [14], nothing will replace avoidance measures as an effective preventative strategy.",
+    "s0018": "A previous study [15] demonstrated that peanut allergen (Ara h 1) was not widely distributed in preschools and schools. Hand washing and cleaning table surfaces with common cleaning agents easily removed peanut allergen. A recent study investigated the distribution of peanut protein in the home environment using a polyclonal peanut ELISA. Peanut protein was completely removed from granite table tops after cleaning with detergent, but persisted after detergent cleaning of laminate and wooden table surfaces, pillows and sofa covers [16]. We have previously shown that peanut allergen persists on a laminate table surface for at least 110 days if no cleaning occurs, but cleaning of surfaces with a common household cleaner easily removed the allergen [17]. We recommended regular cleaning of table surfaces as a safety measure for all individuals with peanut allergy.",
+    "s0019": "While avoidance measures and restricting peanut in common areas reduces risk, accidental contamination of toys or other items in areas where individuals have eaten may occur in homes with no allergic children, hospital waiting rooms and cafeterias. For hospital administrators the question of whether common hospital cleaners would effectively remove peanut allergen from various surfaces in the hospital often is asked.",
+    "s0020": "The purpose of this study was to determine whether cleaning peanut contaminated items commonly found in a hospital waiting room with common household and hospital cleaning wipes would remove the peanut allergen Ara h 1.",
+    "s0021": "Methods",
+    "s0022": "Samples for measurement of Ara h 1 were collected prior to the application of the peanut butter (baseline) by wiping a 37 mm glass fibre filter moistened phosphate buffered saline (PBS) containing 1% Tween 20 across each surface in the same manner. For a flat surface the filter was wiped in a “z” fashion across the surface. For a curved surface the filter was wiped in three concentric circles. 5 mL of peanut butter was smeared on a 12 inch by 12 inch square on a laminate table surface, a plastic doll, and a textured plastic ball. 2.5 mL of peanut butter was smeared on both smooth and textured book covers. The items were allowed to air dry for approximately five minutes. All items were then cleaned with a common household cleaning wipe and two different commercial hospital wipes. The item was wiped until there was no discernible peanut residue on the wipe. More than one wipe may have been used. Another sample for Ara h 1 was collected from the clean surfaces after the items air dried, in the same manner. Each experiment was performed once.",
+    "s0023": "The household commercial cleaning cloth used was Clorox® Disininfecting Wipes (Clorox Company, Brampton, Ontario, Canada) Two hospital wipes were used: Ultrawipes™ (Wood Wyant Inc, Victoriaville, Quebec, CA) and Butcher’s PerCept RTU Wipes™ (Virox Technologies Inc., Oakville, Ontario, CA). The active ingredients are listed in Table 1.",
+    "s0024": "Table 1",
+    "s0025": "Active ingredients of commercial cleaning wipes used",
+    "s0026": "Product",
+    "s0027": "Manufacturer",
+    "s0028": "Ingredients (% w/v)",
+    "s0029": "Clorox® Disinfecting Wipes (household)",
+    "s0030": "The Clorox Company of Canada Brampton, Ontario, CA",
+    "s0031": "n-alkyl dimethyl benzyl ammonium chloride (0.1-0.2)",
+    "s0032": "n-alkyl dimethyl ethylbenzyl ammonium chloride (0.1-0.2)",
+    "s0033": "isopropyl alcohol (1–5)",
+    "s0034": "Ultrawipes™ (hospital)",
+    "s0035": "Wood Wyant Inc Victoriaville, Quebec, CA",
+    "s0036": "didecyl dimethyl ammonium chloride (0.1)",
+    "s0037": "Butcher’s PerCept RTU Wipes™ (hospital)",
+    "s0038": "Virox Technologies Inc. Oakville, Ontario, CA",
+    "s0039": "hydrogen peroxide (0.5)",
+    "s0040": "A 37 mm glass fibre filter moistened phosphate buffered saline (PBS) containing 1% Tween 20 was used to sample all items. The filters were stored at −20 degrees Celsius until extraction. After thawing the filters but prior to the extraction, 1.5 ml of PBS-Tween 20 was added and the samples were left rotating overnight at 4 degrees Celsius. The following day the filters were squeezed to remove all the liquid to fresh tubes, and were tested for the peanut allergen, Ara h 1 by ELISA (INDOOR Biotechnologies, Charlottesville, Va) [18]. The samples were diluted 1:5 and 1:50 for testing and the protocol was conducted as provided by the manufacturer. The ELISA is based on the “sandwich” technique in which mouse monoclonal anti-Ara h 1 is coated onto plastic wells, the sample (or standard) applied, washed, then a second mouse monoclonal antibody added to detect the bound antigen. The concentration of antigen in the samples is interpolated from a standard curve derived from the relationship between purified antigen and absorbance determined by spectrophotometry. The standard curve is established at the same time and reagents as used on the samples. All samples were tested in triplicate. The range of detection of Ara h 1 was between 1.95 and 2000 ng/ml. After analysis the results were multiplied by the dilution factor and expressed as the actual concentration/mL (expressed as micrograms) for each sample.",
+    "s0041": "Results",
+    "s0042": "At baseline, prior to peanut butter application, no detectable Ara h 1 was found on any item. Immediately post application, there was detectable Ara h 1 (range 1.2-19.0 micrograms/mL) on all items (Table 2). Immediately after cleaning with any wipe, no detectable Ara h 1 was found on any item.",
+    "s0043": "Table 2",
+    "s0044": "Concentration of peanut allergen Ara h 1 on items at baseline, after applying peanut butter and after cleaning with each cleaning wipe",
+    "s0045": "Item",
+    "s0046": "Ara h 1 (micrograms/ml)",
+    "s0047": "baseline",
+    "s0048": "post-peanut",
+    "s0049": "post-cleaning",
+    "s0050": "Clorox®",
+    "s0051": "Ultrawipes™",
+    "s0052": "PerCept™",
+    "s0053": "Table",
+    "s0054": "N.D.",
+    "s0055": "3.5",
+    "s0056": "N.D.",
+    "s0057": "N.D.",
+    "s0058": "N.D.",
+    "s0059": "Ball",
+    "s0060": "N.D.",
+    "s0061": "1.2",
+    "s0062": "N.D.",
+    "s0063": "N.D.",
+    "s0064": "N.D.",
+    "s0065": "Smooth book cover",
+    "s0066": "N.D.",
+    "s0067": "19.0",
+    "s0068": "N.D.",
+    "s0069": "N.D.",
+    "s0070": "N.D.",
+    "s0071": "Textured book cover",
+    "s0072": "N.D.",
+    "s0073": "18.0",
+    "s0074": "N.D.",
+    "s0075": "N.D.",
+    "s0076": "N.D.",
+    "s0077": "N.D. = none detected.",
+    "s0078": "Discussion",
+    "s0079": "It is reassuring that simple but thorough cleaning of toys, books and surfaces of many items that could be found in a hospital using common household or hospital cleaning wipes will remove the peanut allergen Ara h 1. Regular cleaning of these products or cleaning prior to their use should be promoted to reduce the risk of accidental peanut exposure, especially in areas where items have been used by many children. This information should be helpful to reduce concern in families of children with peanut allergy when they are in other homes with no allergic children, hospital waiting rooms and cafeterias, where one cannot guarantee that there has been no one recently consuming peanut butter.",
+    "s0080": "There was variation with the amount of peanut protein found on the different surfaces, with the two books having the highest concentration. The likely explanation is that it was easier to apply and sample the books and there was a smaller area on which the peanut butter was applied. We wished to demonstrate the presence of Ara h 1 prior to the cleaning, and this was clearly present.",
+    "s0081": "The threshold dose distribution of peanut has been measured in double blind, placebo-controlled studies in children. The protein dose at which 5% of the allergic population is likely to respond was reported at 1.6 mg for peanut [19]. The concentration of peanut protein on the surface of any of the products tested in our study was in the micrograms per mL, which is below the threshold of reaction based on this study. At the same time it is possible for cutaneous reactions to occur with contact on the skin.",
+    "s0082": "Hospital cafeterias and waiting rooms could offer cleaning wipes to concerned families, which could definitely reduce risk and concern. Families could also carry household wipes with them, which could be used to clean toys or books before use.",
+    "s0083": "There are several limitations in our study. We have not tested items which are more porous, for example wood, or cloth or loosely woven material in upholstered furniture. These items may be more difficult to clean as the peanut may penetrate the surface, which has been demonstrated by other investigators using detergent. In addition we did not test for the presence of Ara h 2 in our samples.",
+    "s0084": "Conclusions",
+    "s0085": "Table surfaces, book covers and plastic toys commonly found in a hospital can be cleaned to remove peanut allergen Ara h 1 using common household and hospital cleaning wipes. Regular cleaning of these products or cleaning prior to their use should be promoted to reduce the risk of accidental peanut exposure, especially in areas where they have been used by many children.",
+    "s0086": "Competing interests",
+    "s0087": "The authors declare that they have no competing interests.",
+    "s0088": "Authors’ contributions",
+    "s0089": "WW conceived of the study, participated in the design of the study, collected the data, and drafted the manuscript. AMW participated in the design of the study and assisted in drafting the manuscript. AS carried out the immunoassays and assisted in drafting the manuscript. All authors read and approved the final manuscript.",
+    "s0090": "Acknowledgements",
+    "s0091": "We would like to acknowledge Hana James in Dr. Stadnyk’s laboratory for her assistance."
+  },
+  "template": "<h2>{{s0000}}</h2>\n<h3>{{s0001}}</h3><p>{{s0002}}</p><h3>{{s0003}}</h3><p>{{s0004}}</p><h3>{{s0005}}</h3><p>{{s0006}}</p><h3>{{s0007}}</h3><p>{{s0008}}</p><p>{{s0009}}</p><h3>{{s0010}}</h3><p>{{s0011}}</p>\n<p><strong>{{s0012}}:</strong> {{s0013}}</p>\n<h3>{{s0014}}</h3><p>{{s0015}}</p><p>{{s0016}}</p><p>{{s0017}}</p><p>{{s0018}}</p><p>{{s0019}}</p><p>{{s0020}}</p><h3>{{s0021}}</h3><p>{{s0022}}</p><p>{{s0023}}</p><section class=\"research-table\" id=\"Tab1\"><strong>{{s0024}}</strong><p>{{s0025}}</p><table><thead><tr><th rowspan=\"1\" colspan=\"1\"><div>{{s0026}}</div></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0027}}</div></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0028}}</div></th></tr></thead><tbody><tr><td rowspan=\"3\" colspan=\"1\"><div>{{s0029}}</div></td><td rowspan=\"3\" colspan=\"1\"><div>{{s0030}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0031}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0032}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0033}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0034}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0035}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0036}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0037}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0038}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0039}}</div></td></tr></tbody></table></section><p>{{s0040}}</p><h3>{{s0041}}</h3><p>{{s0042}}</p><section class=\"research-table\" id=\"Tab2\"><strong>{{s0043}}</strong><p>{{s0044}}</p><table><thead><tr><th rowspan=\"1\" colspan=\"1\"><div>{{s0045}}</div></th><th rowspan=\"1\" colspan=\"5\"><div>{{s0046}}</div></th></tr><tr><th rowspan=\"1\" colspan=\"1\"></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0047}}</div></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0048}}</div></th><th rowspan=\"1\" colspan=\"3\"><div>{{s0049}}</div></th></tr><tr><th rowspan=\"1\" colspan=\"1\"></th><th rowspan=\"1\" colspan=\"1\"></th><th rowspan=\"1\" colspan=\"1\"></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0050}}</div></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0051}}</div></th><th rowspan=\"1\" colspan=\"1\"><div>{{s0052}}</div></th></tr></thead><tbody><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0053}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0054}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0055}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0056}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0057}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0058}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0059}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0060}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0061}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0062}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0063}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0064}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0065}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0066}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0067}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0068}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0069}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0070}}</div></td></tr><tr><td rowspan=\"1\" colspan=\"1\"><div>{{s0071}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0072}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0073}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0074}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0075}}</div></td><td rowspan=\"1\" colspan=\"1\"><div>{{s0076}}</div></td></tr></tbody></table><p>{{s0077}}</p></section><h3>{{s0078}}</h3><p>{{s0079}}</p><p>{{s0080}}</p><p>{{s0081}}</p><p>{{s0082}}</p><p>{{s0083}}</p><h3>{{s0084}}</h3><p>{{s0085}}</p>\n<p>{{s0086}}</p><p>{{s0087}}</p><p>{{s0088}}</p><p>{{s0089}}</p>\n<h2>{{s0090}}</h2><p>{{s0091}}</p>",
+  "figures": [],
+  "tables": [
+    "Tab1",
+    "Tab2"
+  ],
+  "references": [
+    {
+      "id": "CR1",
+      "text": "M Ben-Shoshan, RS Kagan, R Alizadehfar, L Joseph, E Turnbull, Y St Pierre, et al. Is the prevalence of peanut allergy increasing? A 5-year follow-up study in children in Montreal. J Allergy Clin Immunol. 2009. 123. pp. 783–8. DOI: 10.1016/j.jaci.2009.02.004. PMID: 19348918.",
+      "doi": "10.1016/j.jaci.2009.02.004"
+    },
+    {
+      "id": "CR2",
+      "text": "HA Sampson, LM Mendelson, JP Rosen. Fatal and near-fatal anaphylactic reactions to foods in children and adolescents. N Engl J Med. 1992. 327. pp. 380–4. DOI: 10.1056/NEJM199208063270603. PMID: 1294076.",
+      "doi": "10.1056/NEJM199208063270603"
+    },
+    {
+      "id": "CR3",
+      "text": "SA Bock, A Munoz-Furlong, HA Sampson. Fatalities due to anaphylaxis to foods. J Allergy Clin Immunol. 2001. 107. pp. 191–3. DOI: 10.1067/mai.2001.112031. PMID: 11150011.",
+      "doi": "10.1067/mai.2001.112031"
+    },
+    {
+      "id": "CR4",
+      "text": "SH Sicherer, SA Noone, A Munoz-Furlong. The impact of childhood food allergy on quality of life. Ann Asthma Allergy Immunol. 2000. 87. pp. 461–4. DOI: 10.1016/S1081-1206(10)62258-2. PMID: 11770692.",
+      "doi": "10.1016/S1081-1206(10)62258-2"
+    },
+    {
+      "id": "CR5",
+      "text": "MN Primeau, R Kagan, JL Lim, C Dufresne, C Duffy, D Prhcal, et al. The psychological burden of peanut allergy as perceived by adults with peanut allergy and the parents of peanut-allergic children. Clin Exp Allergy. 2000. 30. pp. 1135–43. DOI: 10.1046/j.1365-2222.2000.00889.x. PMID: 10931121.",
+      "doi": "10.1046/j.1365-2222.2000.00889.x"
+    },
+    {
+      "id": "CR6",
+      "text": "NJ Avery, RM King, S Knight, JO’B Hourihane. Assessment of quality of life in children with peanut allergy. Pediatr Allergy Immunol. 2003. 14. pp. 378–82. DOI: 10.1034/j.1399-3038.2003.00072.x. PMID: 14641608.",
+      "doi": "10.1034/j.1399-3038.2003.00072.x"
+    },
+    {
+      "id": "CR7",
+      "text": "CA Gillespie, RL Woodgate, KI Chalmers, WTA Watson. “Living with risk”: mothering a child with food-induced anaphylaxis. J Ped Nurs. 2007. 22. pp. 30–42. DOI: 10.1016/j.pedn.2006.05.007. PMID: 17234496.",
+      "doi": "10.1016/j.pedn.2006.05.007"
+    },
+    {
+      "id": "CR8",
+      "text": "RM King, RC Knibb, JO’B Hourihane. Impact of peanut allergy on quality of life, stress and anxiety in the family. Allergy. 2009. 64. pp. 461–8. DOI: 10.1111/j.1398-9995.2008.01843.x. PMID: 19076542.",
+      "doi": "10.1111/j.1398-9995.2008.01843.x"
+    },
+    {
+      "id": "CR9",
+      "text": "EE Springston, B Smith, J Shulruff, J Pongracic, J Holl, RS Gupta. Variations in quality of life among caregivers of food allergic children. Ann Allergy Asthma Immunol. 2010. 105. pp. 287–94. DOI: 10.1016/j.anai.2010.08.003. PMID: 20934628.",
+      "doi": "10.1016/j.anai.2010.08.003"
+    },
+    {
+      "id": "CR10",
+      "text": "NL Ravid, RA Annunziato, MA Ambrose, K Chuang, C Mullarkey, SH Sicherer, et al. Mental health and quality-of-life concerns related to the burden of food allergy. Immunol Allergy Clin North Am. 2012. 32. pp. 83–95. DOI: 10.1016/j.iac.2011.11.005. PMID: 22244234.",
+      "doi": "10.1016/j.iac.2011.11.005"
+    },
+    {
+      "id": "CR11",
+      "text": "M McHenry, W Watson. Impact of primary food allergies on the introduction of other foods amongst Canadian children and their siblings. Allergy Asthma Clin Immunol. 2014. 10. pp. 26. DOI: 10.1186/1710-1492-10-26. PMID: 24949023. PMCID: PMC4063690.",
+      "doi": "10.1186/1710-1492-10-26"
+    },
+    {
+      "id": "CR12",
+      "text": "ME Bollinger, LM Dahlquist, K Mudd, C Sontag, L Dillinger, K McKenna. The impact of food allergy on the daily activities of children and their families. Ann Allergy Asthma Immunol. 2006. 96. pp. 415–21. DOI: 10.1016/S1081-1206(10)60908-8. PMID: 16597075.",
+      "doi": "10.1016/S1081-1206(10)60908-8"
+    },
+    {
+      "id": "CR13",
+      "text": "Burks AW(1), Jones SM, Boyce JA, Sicherer SH, Wood RA, Assa'ad A, Sampson HA. Pediatrics. NIAID-sponsored 2010 guidelines for managing food allergy: applications in the pediatric population. 2011;128:955–65.10.1542/peds.2011-0539PMC320896121987705",
+      "doi": "10.1542/peds.2011-0539"
+    },
+    {
+      "id": "CR14",
+      "text": "Nowak-Węgrzyn A, Albin S. Oral immunotherapy for food allergy: mechanisms and role in management. Clin Exp Allergy. 2014. doi: 10.1111/cea.1238210.1111/cea.1238225077670",
+      "doi": "10.1111/cea.12382"
+    },
+    {
+      "id": "CR15",
+      "text": "TT Perry, MK Conover-Walker, A Pomés, MD Chapman, RA Wood. Distribution of peanut allergen in the environment. Journal Allergy Clin Immunol. 2004. 113. pp. 973–6. DOI: 10.1016/j.jaci.2004.02.035. PMID: 15131582.",
+      "doi": "10.1016/j.jaci.2004.02.035"
+    },
+    {
+      "id": "CR16",
+      "text": "HA Brough, K Makinson, M Penagos, SJ Maleki, H Cheng, A Douiri, et al. Distribution of peanut protein in the home environment. J Allergy Clin Immunol. 2013. 132. pp. 623–9. DOI: 10.1016/j.jaci.2013.02.035. PMID: 23608728.",
+      "doi": "10.1016/j.jaci.2013.02.035"
+    },
+    {
+      "id": "CR17",
+      "text": "WT Watson, A Woodrow, AW Stadnyk. Persistence of peanut allergen on a table surface. Allergy Asthma Clin Immunol. 2013. 9. pp. 7. DOI: 10.1186/1710-1492-9-7. PMID: 23419031. PMCID: PMC3599460.",
+      "doi": "10.1186/1710-1492-9-7"
+    },
+    {
+      "id": "CR18",
+      "text": "A Pomés, RM Helm, GA Bannon, AW Burks, A Tsay, MD Chapman. Monitoring peanut allergen in food products by measuring Ara h 1. J Allergy Clin Immunol. 2003. 111. 3. pp. 640–5. DOI: 10.1067/mai.2003.118. PMID: 12642850.",
+      "doi": "10.1067/mai.2003.118"
+    },
+    {
+      "id": "CR19",
+      "text": "WM Blom, BJ Vlieg-Boerstra, AG Kruizinga, S van der Heide, GF Houben, AE Dubois. Threshold dose distributions for 5 major allergenic foods in children. J Allergy Clin Immunol. 2013. 131. pp. 172–9. DOI: 10.1016/j.jaci.2012.10.034. PMID: 23199599.",
+      "doi": "10.1016/j.jaci.2012.10.034"
+    }
+  ],
+  "authors": [
+    "Wade TA Watson",
+    "AnnMarie Woodrow",
+    "Andrew W Stadnyk"
+  ],
+  "publisher": "Allergy, Asthma & Clinical Immunology",
+  "source_xml": "source.xml",
+  "math": {},
+  "formats": {},
+  "coverage": [
+    {
+      "segment": "s0000",
+      "source_id": null,
+      "tag": "article-title"
+    },
+    {
+      "segment": "s0001",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0002",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0003",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0004",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0005",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0006",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0007",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0008",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0009",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0010",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0011",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0012",
+      "source_id": null,
+      "tag": "text"
+    },
+    {
+      "segment": "s0013",
+      "source_id": null,
+      "tag": "text"
+    },
+    {
+      "segment": "s0014",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0015",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0016",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0017",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0018",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0019",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0020",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0021",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0022",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0023",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0024",
+      "source_id": null,
+      "tag": "label"
+    },
+    {
+      "segment": "s0025",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0026",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0027",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0028",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0029",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0030",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0031",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0032",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0033",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0034",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0035",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0036",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0037",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0038",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0039",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0040",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0041",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0042",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0043",
+      "source_id": null,
+      "tag": "label"
+    },
+    {
+      "segment": "s0044",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0045",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0046",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0047",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0048",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0049",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0050",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0051",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0052",
+      "source_id": null,
+      "tag": "th"
+    },
+    {
+      "segment": "s0053",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0054",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0055",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0056",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0057",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0058",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0059",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0060",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0061",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0062",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0063",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0064",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0065",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0066",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0067",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0068",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0069",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0070",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0071",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0072",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0073",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0074",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0075",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0076",
+      "source_id": null,
+      "tag": "td"
+    },
+    {
+      "segment": "s0077",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0078",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0079",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0080",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0081",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0082",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0083",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0084",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0085",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0086",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0087",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0088",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0089",
+      "source_id": null,
+      "tag": "p"
+    },
+    {
+      "segment": "s0090",
+      "source_id": null,
+      "tag": "title"
+    },
+    {
+      "segment": "s0091",
+      "source_id": null,
+      "tag": "p"
+    }
+  ]
+}

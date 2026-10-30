@@ -1,0 +1,23 @@
+{
+  "pmid": "25642252",
+  "checked_at": "2026-10-30T16:16:05.498550+00:00",
+  "status": "full_text_available",
+  "requires_editorial_rights_review": true,
+  "title": "Removal of peanut allergen Ara h 1 from common hospital surfaces, toys and books using standard cleaning methods.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "notices": [],
+  "identifiers": {
+    "pubmed": "25642252",
+    "pmc": "PMC4312450",
+    "doi": "10.1186/s13223-015-0069-x",
+    "pii": "69"
+  },
+  "source_sha256": "976e3ca2d6ac4a79a52c44d47f9cb703f1f12962f6f4e8d59a51540fbb422234",
+  "permissions": [
+    "© Watson et al.; licensee BioMed Central. 2015 https://creativecommons.org/licenses/by/4.0/ This is an Open Access article distributed under the terms of the Creative Commons Attribution License ( http://creativecommons.org/licenses/by/4.0 ), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver ( http://creativecommons.org/publicdomain/zero/1.0/ ) applies to the data made available in this article, unless otherwise stated."
+  ],
+  "figures": 0,
+  "tables": 2
+}
