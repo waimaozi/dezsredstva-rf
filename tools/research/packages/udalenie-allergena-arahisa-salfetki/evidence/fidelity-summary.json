@@ -1,0 +1,22 @@
+[
+  {
+    "article": "surfaces",
+    "batch": 1,
+    "checked": 8,
+    "flags": [],
+    "usage": {
+      "input_tokens": 4505,
+      "output_tokens": 371
+    }
+  },
+  {
+    "article": "surfaces",
+    "batch": 0,
+    "checked": 27,
+    "flags": [],
+    "usage": {
+      "input_tokens": 16328,
+      "output_tokens": 1245
+    }
+  }
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "width": 390,
+    "title": "Удаление аллергена арахиса с игрушек, книг и столов: исследование очищающих салфеток",
+    "figures": 0,
+    "tables": 2,
+    "math": 0,
+    "equations": 0,
+    "refs": 19,
+    "minResultCellWidth": 96,
+    "keys": 0,
+    "brokenImages": 0,
+    "overflow": false,
+    "canonical": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-10-allergen-arahisa-igrushki-knigi-salfetki/",
+    "downloads": [
+      {
+        "text": "Скачать перевод PDF",
+        "url": "http://127.0.0.1:4329/downloads/research/udalenie-allergena-arahisa-salfetki/translation.pdf",
+        "format": "russian-pdf"
+      },
+      {
+        "text": "Скачать оригинал PDF",
+        "url": "http://127.0.0.1:4329/downloads/research/udalenie-allergena-arahisa-salfetki/original.pdf",
+        "format": "original"
+      },
+      {
+        "text": "Скачать оригинал HTML",
+        "url": "http://127.0.0.1:4329/downloads/research/udalenie-allergena-arahisa-salfetki/original.html",
+        "format": "original"
+      },
+      {
+        "text": "Читать по-русски без интернета",
+        "url": "http://127.0.0.1:4329/downloads/research/udalenie-allergena-arahisa-salfetki/translation.html",
+        "format": "russian"
+      }
+    ],
+    "schema": [
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "@id": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-10-allergen-arahisa-igrushki-knigi-salfetki/#article",
+          "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-10-allergen-arahisa-igrushki-knigi-salfetki/",
+          "headline": "Удаление аллергена арахиса с игрушек, книг и столов: исследование очищающих салфеток",
+          "description": "Полный перевод исследования Watson et al. (2015): удаление Ara h 1 с предметов очищающими салфетками. Составы, две таблицы, ограничения опыта, оригинал и русский PDF.",
+          "datePublished": "2026-11-10T00:00:00.000Z",
+          "dateModified": "2026-11-10T00:00:00.000Z",
+          "inLanguage": "ru",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "Wade TA Watson"
+            },
+            {
+              "@type": "Person",
+              "name": "AnnMarie Woodrow"
+            },
+            {
+              "@type": "Person",
+              "name": "Andrew W Stadnyk"
+            }
+          ],
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/about/#publisher",
+            "name": "Дезинфицирующиесредства.рф",
+            "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/about/"
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-10-allergen-arahisa-igrushki-knigi-salfetki/"
+          },
+          "keywords": [
+            "аллергены",
+            "санитарная обработка",
+            "медицинская гигиена",
+            "контроль очистки",
+            "перевод"
+          ],
+          "translator": {
+            "@type": "Organization",
+            "@id": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/about/#publisher",
+            "name": "Дезинфицирующиесредства.рф",
+            "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/about/"
+          },
+          "isBasedOn": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4312450/",
+          "translationOfWork": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4312450/",
+            "name": "Removal of peanut allergen Ara h 1 from common hospital surfaces, toys and books using standard cleaning methods",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4312450/",
+            "inLanguage": "en",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Wade TA Watson"
+              },
+              {
+                "@type": "Person",
+                "name": "AnnMarie Woodrow"
+              },
+              {
+                "@type": "Person",
+                "name": "Andrew W Stadnyk"
+              }
+            ],
+            "datePublished": "2015-01-23",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1186/s13223-015-0069-x"
+            },
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          },
+          "citation": "https://doi.org/10.1186/s13223-015-0069-x"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Главная",
+              "item": "https://дезинфицирующиесредства.рф/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Статьи",
+              "item": "https://дезинфицирующиесредства.рф/articles/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Удаление аллергена арахиса с игрушек, книг и столов: исследование очищающих салфеток",
+              "item": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-10-allergen-arahisa-igrushki-knigi-salfetki/"
+            }
+          ]
+        }
+      ]
+    ],
+    "goal": [
+      [
+        107711899,
+        "reachGoal",
+        "translation_download",
+        {
+          "format": "russian-pdf",
+          "article": "/articles/2026-11-10-allergen-arahisa-igrushki-knigi-salfetki/",
+          "asset": "/downloads/research/udalenie-allergena-arahisa-salfetki/translation.pdf"
+        }
+      ]
+    ]
+  },
+  {
+    "width": 1280,
+    "title": "Удаление аллергена арахиса с игрушек, книг и столов: исследование очищающих салфеток",
+    "figures": 0,
+    "tables": 2,
+    "math": 0,
+    "equations": 0,
+    "refs": 19,
+    "minResultCellWidth": 96,
+    "keys": 0,
+    "brokenImages": 0,
+    "overflow": false,
+    "canonical": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-10-allergen-arahisa-igrushki-knigi-salfetki/",
+    "downloads": [
+      {
+        "text": "Скачать перевод PDF",
+        "url": "http://127.0.0.1:4329/downloads/research/udalenie-allergena-arahisa-salfetki/translation.pdf",
+        "format": "russian-pdf"
+      },
+      {
+        "text": "Скачать оригинал PDF",
+        "url": "http://127.0.0.1:4329/downloads/research/udalenie-allergena-arahisa-salfetki/original.pdf",
+        "format": "original"
+      },
+      {
+        "text": "Скачать оригинал HTML",
+        "url": "http://127.0.0.1:4329/downloads/research/udalenie-allergena-arahisa-salfetki/original.html",
+        "format": "original"
+      },
+      {
+        "text": "Читать по-русски без интернета",
+        "url": "http://127.0.0.1:4329/downloads/research/udalenie-allergena-arahisa-salfetki/translation.html",
+        "format": "russian"
+      }
+    ],
+    "schema": [
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "@id": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-10-allergen-arahisa-igrushki-knigi-salfetki/#article",
+          "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-10-allergen-arahisa-igrushki-knigi-salfetki/",
+          "headline": "Удаление аллергена арахиса с игрушек, книг и столов: исследование очищающих салфеток",
+          "description": "Полный перевод исследования Watson et al. (2015): удаление Ara h 1 с предметов очищающими салфетками. Составы, две таблицы, ограничения опыта, оригинал и русский PDF.",
+          "datePublished": "2026-11-10T00:00:00.000Z",
+          "dateModified": "2026-11-10T00:00:00.000Z",
+          "inLanguage": "ru",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "Wade TA Watson"
+            },
+            {
+              "@type": "Person",
+              "name": "AnnMarie Woodrow"
+            },
+            {
+              "@type": "Person",
+              "name": "Andrew W Stadnyk"
+            }
+          ],
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/about/#publisher",
+            "name": "Дезинфицирующиесредства.рф",
+            "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/about/"
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-10-allergen-arahisa-igrushki-knigi-salfetki/"
+          },
+          "keywords": [
+            "аллергены",
+            "санитарная обработка",
+            "медицинская гигиена",
+            "контроль очистки",
+            "перевод"
+          ],
+          "translator": {
+            "@type": "Organization",
+            "@id": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/about/#publisher",
+            "name": "Дезинфицирующиесредства.рф",
+            "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/about/"
+          },
+          "isBasedOn": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4312450/",
+          "translationOfWork": {
+            "@type": "ScholarlyArticle",
+            "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4312450/",
+            "name": "Removal of peanut allergen Ara h 1 from common hospital surfaces, toys and books using standard cleaning methods",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4312450/",
+            "inLanguage": "en",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Wade TA Watson"
+              },
+              {
+                "@type": "Person",
+                "name": "AnnMarie Woodrow"
+              },
+              {
+                "@type": "Person",
+                "name": "Andrew W Stadnyk"
+              }
+            ],
+            "datePublished": "2015-01-23",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.1186/s13223-015-0069-x"
+            },
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+          },
+          "citation": "https://doi.org/10.1186/s13223-015-0069-x"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Главная",
+              "item": "https://дезинфицирующиесредства.рф/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Статьи",
+              "item": "https://дезинфицирующиесредства.рф/articles/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Удаление аллергена арахиса с игрушек, книг и столов: исследование очищающих салфеток",
+              "item": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-10-allergen-arahisa-igrushki-knigi-salfetki/"
+            }
+          ]
+        }
+      ]
+    ],
+    "goal": [
+      [
+        107711899,
+        "reachGoal",
+        "translation_download",
+        {
+          "format": "russian-pdf",
+          "article": "/articles/2026-11-10-allergen-arahisa-igrushki-knigi-salfetki/",
+          "asset": "/downloads/research/udalenie-allergena-arahisa-salfetki/translation.pdf"
+        }
+      ]
+    ]
+  },
+  {
+    "hub": 2,
+    "home": true
+  }
+]

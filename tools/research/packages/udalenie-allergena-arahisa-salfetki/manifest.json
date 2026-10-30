@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "id": "udalenie-allergena-arahisa-salfetki",
+  "slug": "2026-11-10-allergen-arahisa-igrushki-knigi-salfetki",
+  "title": "Удаление аллергена арахиса с игрушек, книг и столов: исследование очищающих салфеток",
+  "status": "approved",
+  "not_before": "2026-11-10",
+  "review": {
+    "reviewer": "Astra",
+    "checked_at": "2026-10-30T16:28:36.183549+00:00",
+    "scope": "Full article: 92 translated segments including all 30 source paragraphs, both tables with original spans/headers/values, 19 original-language bibliography records, author affiliation/correspondence, competing interests, author contributions and acknowledgements. No figures or separate supplements."
+  },
+  "source": {
+    "pmid": "25642252",
+    "pmcid": "PMC4312450",
+    "doi": "10.1186/s13223-015-0069-x",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4312450/",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "sha256": "976e3ca2d6ac4a79a52c44d47f9cb703f1f12962f6f4e8d59a51540fbb422234"
+  },
+  "files": [
+    {
+      "path": "public/downloads/research/udalenie-allergena-arahisa-salfetki/original.html",
+      "sha256": "c4740574b2ccf0802e97bf309b7011a7c330b8d62491571caee2586ef6bfff2a"
+    },
+    {
+      "path": "public/downloads/research/udalenie-allergena-arahisa-salfetki/original.pdf",
+      "sha256": "f297e162aa8d1f21150f1cdcb3f3cf413ca0f42f74e1241beda957eb6496beea"
+    },
+    {
+      "path": "public/downloads/research/udalenie-allergena-arahisa-salfetki/translation.html",
+      "sha256": "a0c81ed30e84c53022939cca54efe9eb4f92a89adc35f5754f01485b21b019c1"
+    },
+    {
+      "path": "public/downloads/research/udalenie-allergena-arahisa-salfetki/translation.pdf",
+      "sha256": "68a847958a28416c65829fdb97c84d2019aa825d73f3cebe5449d21078846e1d"
+    },
+    {
+      "path": "src/content/articles/2026-11-10-allergen-arahisa-igrushki-knigi-salfetki.md",
+      "sha256": "126534cdd47f9989a32fef9ac7d359a055d62d1efea0e53529f3ddfa1a8b3b4d"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "evidence/asset-downloads.json",
+      "sha256": "464f570aef95c67e749864b274cbbcc0f052ba947d7db9cb0c9e46fa442b8fc4"
+    },
+    {
+      "path": "evidence/browser-local.json",
+      "sha256": "1c77e3a2f92f2acf26e1a96ecb23493d7d3ef45a6a415ad52444caf89ef1d130"
+    },
+    {
+      "path": "evidence/copyedit.json",
+      "sha256": "83173063191f6127c4dcb78d1fcd015406b1dfd9421a9350dfc821ddff37dba1"
+    },
+    {
+      "path": "evidence/fidelity-summary.json",
+      "sha256": "0d475af69dc6775740b974f64d55e6afa001f67f67a2da5bb01a75cbfbfa13a2"
+    },
+    {
+      "path": "evidence/original-pdf-source.json",
+      "sha256": "7f1d7889b33d3e2eee1aa57bac03ce605d36d9184dfb8420e36d5f8993e0df22"
+    },
+    {
+      "path": "evidence/pdf-browser.json",
+      "sha256": "136cd2581a1128a1c4392cd2d7ff7eab60612efe67fdaa5a351663930e86bbff"
+    },
+    {
+      "path": "evidence/pdf-check.json",
+      "sha256": "8170160a8f9fca463ea97ac67240af7dede398027110f6055f4155a9755d0ad0"
+    },
+    {
+      "path": "evidence/probe.json",
+      "sha256": "e69d17aabd8ff9295a85b0f3b501283adb8f13242bb0945fdaa288dec317719f"
+    },
+    {
+      "path": "evidence/review.json",
+      "sha256": "9b4468cdd9143be2f1346fae9ae0ce85f2400f1303b5f21b35b4fce1aed192b8"
+    },
+    {
+      "path": "evidence/source.json",
+      "sha256": "c98574836c009a335f4ed5bb075bf332a4d2692f310bc40e3c57789b753bba22"
+    },
+    {
+      "path": "evidence/source.xml",
+      "sha256": "976e3ca2d6ac4a79a52c44d47f9cb703f1f12962f6f4e8d59a51540fbb422234"
+    },
+    {
+      "path": "evidence/structure-check.json",
+      "sha256": "91f27145429948a26fe99c4aa6332b27fcdcfbc50f39a7e1b3103dfdd7b5f150"
+    },
+    {
+      "path": "evidence/target.json",
+      "sha256": "f6e3f14379382841e898d7c9e88b43e3783fdaff0c7180ae82ef3b2daf737fd0"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "segments": 92,
+  "figures": 0,
+  "tables": 2,
+  "references": 19,
+  "numeric_inequality_checks": "pass",
+  "table_row_col_spans": "match source",
+  "non_detection_cells": 16,
+  "complete_source_paragraphs_checked": 30,
+  "pdf_pages": 8,
+  "source_sha256": "976e3ca2d6ac4a79a52c44d47f9cb703f1f12962f6f4e8d59a51540fbb422234"
+}

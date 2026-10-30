@@ -1,0 +1,16 @@
+{
+  "reviewer": "Astra",
+  "checked_at": "2026-10-30T16:28:36.183549+00:00",
+  "scope": "Full article: 92 translated segments including all 30 source paragraphs, both tables with original spans/headers/values, 19 original-language bibliography records, author affiliation/correspondence, competing interests, author contributions and acknowledgements. No figures or separate supplements.",
+  "independent_specialist_review": false,
+  "source_identity": "Fresh PubMed and Europe PMC acquisition matched PMID 25642252, PMCID PMC4312450 and DOI 10.1186/s13223-015-0069-x. No source notices. Source hash unchanged from verified candidate. Original four-page publisher PDF recovered and DOI/licence checked.",
+  "rights": "CC BY 4.0 explicitly in source and PDF; author/publisher attribution and CC0 data statement retained; translation/editorial changes identified.",
+  "audience": "Sanitation and medical hygiene staff, cleaning product/quality specialists. Adds different items, three wipe compositions and a full results table to the earlier 110-day persistence study. No claim of new factory validation.",
+  "fidelity": "Full source and Russian text directly compared; 92 segment numeric/inequality checks passed. TypeSafe advisory assessed 35 substantive pairs with no flags. Direct review corrected Oakville mistransliteration and a strengthened probability qualifier, and avoided unsupported grammatical gender in contribution statements. Additional review, not validated automatic approval or a claimed saving.",
+  "limits": "Each cleaning experiment once, separate triplicate sample assays; multiple wipes until visible residue absent; Ara h 1 only, no Ara h 2; porous materials not tested; N.D. not interpreted as zero.",
+  "source_issues": "Doll mentioned in methods but omitted from results table; no data invented. Original discussion compares concentration per mL with ingested mass; separate editorial note explains dimensional mismatch and does not endorse clinical safety inference. Historical 2015 treatment and formulation statements explicitly contextualized.",
+  "tables": "All row/column spans and 16 N.D. cells preserved. Russian reading notes explain percent mass/volume and concentration units. Mobile table labels kept readable with horizontal scrolling.",
+  "pdf": "Eight-page Russian PDF, no external requests. All pages checked for text outside page; opening, ingredient/results tables and bibliography inspected visually.",
+  "site": "Astro preview build and discovery check passed; desktop/mobile table rendering, complete content, author schema, download event and home/hub links passed. All 30 required tests passed.",
+  "release": "Approved for weekly queue, not_before 2026-11-10; no early publication."
+}
