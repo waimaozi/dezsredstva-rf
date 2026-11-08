@@ -7,6 +7,11 @@ const articles = (await getCollection("articles"))
   .sort((a, b) => (b.data.updated ?? b.data.date).getTime() - (a.data.updated ?? a.data.date).getTime());
 const topics = [
   {
+    id: "suhie-proizvodstva", title: "Влага на сухом производстве",
+    description: "Что остаётся после влажной санитарной обработки: высыхание пищевых остатков, движение воздуха и границы выводов исследования. Перевод избранных фрагментов.",
+    ids: ["2026-11-08-vlazhnaya-uborka-suhoe-proizvodstvo"]
+  },
+  {
     id: "allergeny", title: "Аллергены и контроль мойки",
     description: "Что сохраняется на поверхности после высыхания пищи, что меняется после очистки салфетками и где заканчиваются выводы отдельного эксперимента.",
     ids: articles.filter((a) => a.data.tags.includes("аллергены")).map((a) => a.id)
