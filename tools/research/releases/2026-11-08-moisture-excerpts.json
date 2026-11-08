@@ -1,0 +1,196 @@
+{
+  "schema": 1,
+  "id": "vlaga-posle-sanitarnoi-obrabotki",
+  "slug": "2026-11-08-vlazhnaya-uborka-suhoe-proizvodstvo",
+  "title": "После влажной уборки: почему контроль высыхания важен на сухом пищевом производстве",
+  "source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13188896/",
+    "doi": "10.1128/aem.02365-25",
+    "sha256": "4884ff36cd29d325cfb5efe33efd961c5dbb967554d432069ab55deacf7b4c97",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "scope": "Перевод избранных фрагментов: раздел «Значение исследования», абзацы 2–4 введения, по одному абзацу об объяснении высыхания и удалении влаги из результатов и обсуждения, оба абзаца выводов. Всего восемь абзацев оригинала. Лабораторные методики, остальные результаты, аннотация и четыре рисунка не включены. Приведены 12 цитируемых библиографических записей на языке оригинала с исходной нумерацией. Редакционные пояснения выделены отдельно. Английский HTML содержит те же избранные фрагменты, а не полную статью.",
+  "selected_segments": [
+    {
+      "id": "importance",
+      "xpath": "//article-meta/abstract/sec[title='IMPORTANCE']/p"
+    },
+    {
+      "id": "introduction-2",
+      "xpath": "//body/sec[@id='s1']/p[2]"
+    },
+    {
+      "id": "introduction-3",
+      "xpath": "//body/sec[@id='s1']/p[3]"
+    },
+    {
+      "id": "introduction-4",
+      "xpath": "//body/sec[@id='s1']/p[4]"
+    },
+    {
+      "id": "drying-explanation",
+      "xpath": "//body/sec[@id='s3']/sec[@id='s3-1']/p[2]"
+    },
+    {
+      "id": "ventilation-discussion",
+      "xpath": "//body/sec[@id='s3']/sec[@id='s3-3']/p[8]"
+    },
+    {
+      "id": "conclusions-1",
+      "xpath": "//body/sec[@id='s3']/sec[@id='s3-5']/p[1]"
+    },
+    {
+      "id": "conclusions-2",
+      "xpath": "//body/sec[@id='s3']/sec[@id='s3-5']/p[2]"
+    }
+  ],
+  "review": {
+    "reviewer": "Astra",
+    "checked_at": "2026-11-08T14:56:43.954960+00:00",
+    "type": "Direct source comparison plus advisory TypeSafe coverage; not an independent specialist review.",
+    "source_scope": "Eight selected prevention-focused paragraphs only. No laboratory culture methods or quantitative pathogen-growth figures reproduced.",
+    "coverage": "All eight selected paragraphs and their twelve cited reference entries accounted for; Russian and English downloads state identical scope.",
+    "typesafe": {
+      "model": "jev-1.13.0",
+      "decisions": 8,
+      "faithful": 8,
+      "usage": {
+        "input_tokens": 8717,
+        "output_tokens": 363
+      },
+      "interpretation": "Additional semantic coverage, not an automatic publication gate or measured efficiency gain."
+    },
+    "direct_checks": [
+      "Negation and causal uncertainty",
+      "Factory observation versus laboratory results",
+      "Airflow cross-contamination warning retained",
+      "Guidance claims contextualised by document dates",
+      "No universal humidity threshold inferred",
+      "Funding, authorship, licence and excerpt scope visible"
+    ]
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/vlaga-posle-sanitarnoi-obrabotki/original-excerpts.html",
+      "sha256": "c5a23852efb919ea62953b0134af96c1ae950776d0bdca08608ee6686d7c8496"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/vlaga-posle-sanitarnoi-obrabotki/translation.html",
+      "sha256": "72daf1ba3e0a3307e8776849433c92980fc46bc3dcdd829dc42d5c00d42a62e7"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/vlaga-posle-sanitarnoi-obrabotki/translation.pdf",
+      "sha256": "6d3f976bef88c3ea5eaeb7f34a36279c2efd8cf346ceaa5471fed8e82c1ef97f"
+    }
+  ],
+  "validation": {
+    "commands": [
+      {
+        "command": [
+          "node",
+          "--experimental-strip-types",
+          "--test",
+          "tests/article-discovery.test.ts",
+          "tests/reader-evidence.test.ts"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-p",
+          "test_discovery_snapshot.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-p",
+          "test_research_probe.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-p",
+          "test_research_queue.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tools/publish-research.py",
+          "--state-dir",
+          "<external-preview-directory>"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/check-discovery.mjs"
+        ],
+        "exit_code": 0
+      }
+    ],
+    "browser": {
+      "widths": [
+        320,
+        390,
+        1280
+      ],
+      "horizontal_overflow": false,
+      "download_count": 3,
+      "old_original_download_label": "preserved",
+      "new_original_download_label": "explicitly selected excerpts"
+    },
+    "offline": {
+      "ru": {
+        "segments": 8,
+        "references": 12,
+        "words": 2069
+      },
+      "en": {
+        "segments": 8,
+        "references": 12
+      },
+      "externalRequests": 0,
+      "pdfBytes": 151699
+    },
+    "pdf": {
+      "pages": 6,
+      "text_check": "pass",
+      "visual_pages_checked": [
+        1,
+        4,
+        6
+      ]
+    }
+  }
+}

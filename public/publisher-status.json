@@ -1,60 +1,30 @@
 {
-  "checked_at": "2026-11-03T06:00:06.010609+00:00",
+  "checked_at": "2026-11-08T14:55:08.066622+00:00",
   "cadence": "weekly",
   "schedule": "Tuesday 09:00 Europe/Moscow",
   "mode": "reviewed_research",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-03-ostatki-molochnogo-belka-spe-rp-hplc/",
+  "release_trigger": "manual_selected_excerpt_translation",
   "status": "awaiting_deployment",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "id": "ostatki-molochnogo-belka-spe-rp-hplc",
-  "question": "Остатки молочного белка после мойки: концентрирование и анализ методом SPE–RP-HPLC",
-  "source_doi": "10.1016/j.mex.2022.101695",
-  "source_sha256": "cf882c6e7c3b5cc9fd07dff398afe23dcb6a128630fec8f73be5619e71e1fc73",
+  "id": "vlaga-posle-sanitarnoi-obrabotki",
+  "question": "После влажной уборки: почему контроль высыхания важен на сухом пищевом производстве",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-08-vlazhnaya-uborka-suhoe-proizvodstvo/",
+  "source_doi": "10.1128/aem.02365-25",
+  "source_sha256": "4884ff36cd29d325cfb5efe33efd961c5dbb967554d432069ab55deacf7b4c97",
+  "scope": "Перевод избранных фрагментов: раздел «Значение исследования», абзацы 2–4 введения, по одному абзацу об объяснении высыхания и удалении влаги из результатов и обсуждения, оба абзаца выводов. Всего восемь абзацев оригинала. Лабораторные методики, остальные результаты, аннотация и четыре рисунка не включены. Приведены 12 цитируемых библиографических записей на языке оригинала с исходной нумерацией. Редакционные пояснения выделены отдельно. Английский HTML содержит те же избранные фрагменты, а не полную статью.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/figure-1.jpg",
-      "sha256": "12c9c468b9708c324686588f958b109d561adb2887e634526509e0bf06131a91"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/vlaga-posle-sanitarnoi-obrabotki/original-excerpts.html",
+      "sha256": "c5a23852efb919ea62953b0134af96c1ae950776d0bdca08608ee6686d7c8496"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/figure-2.jpg",
-      "sha256": "cebcfb666ff6ec4fc67555b8926e27ff65ee0a429cd86da935fd93289a56dc61"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/vlaga-posle-sanitarnoi-obrabotki/translation.html",
+      "sha256": "72daf1ba3e0a3307e8776849433c92980fc46bc3dcdd829dc42d5c00d42a62e7"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/figure-3.jpg",
-      "sha256": "c99f5165e6a42f2592f0f4816802445284aea3651770ca7224b6a4513bc1138b"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/figure-4.jpg",
-      "sha256": "679414a2f4e7391923154a8cec9c74fca7d22388071aa13690321d171b42492e"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/figure-5.jpg",
-      "sha256": "7f85f02656eb1505a234e1ea95c0cd9d55ca478f74842d29594ff90cfb425b99"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/figure-6.jpg",
-      "sha256": "526a0e877c8e9b4c69ed26b71c31fbb335c9f5f9024f1adba92f0c485627af9a"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/graphical-abstract.jpg",
-      "sha256": "757cd74cf8675a5b58c562cd098cf7dccf84fde887a88053f2ffbc8f08d57149"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/original.html",
-      "sha256": "b88219921d405cd2d829b05b48b7d6909fb346ceba6a19635e003e8d2459f880"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/original.pdf",
-      "sha256": "16e4aded18a859372c294b690d949f163a9c232bea6e8c9c894bda887db166ea"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/translation.html",
-      "sha256": "61cefcfe19c17a47c909f7610e2ed20d8acacc5f795938e1b0ad8b8578d7a591"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/ostatki-molochnogo-belka-spe-rp-hplc/translation.pdf",
-      "sha256": "133651266533e6093efb7d1309f5a8397ece2110e3263681abba36a9a2ce17c2"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/vlaga-posle-sanitarnoi-obrabotki/translation.pdf",
+      "sha256": "6d3f976bef88c3ea5eaeb7f34a36279c2efd8cf346ceaa5471fed8e82c1ef97f"
     }
   ]
 }
