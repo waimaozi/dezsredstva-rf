@@ -183,3 +183,12 @@ article.section-shell { min-width: 0; }
 }
 
 .prose-article .meat-sanitation .print-figure-label { display: none; }
+
+/* Preserve the five distinct calibration and spike-material columns. */
+.prose-article .swab-storage .research-table table { width: 1050px; min-width: 1050px; max-width: none; table-layout: fixed; font-size: .82rem; line-height: 1.45; }
+.prose-article .swab-storage .research-table th,
+.prose-article .swab-storage .research-table td { min-width: 0; padding: .45rem; white-space: normal; overflow-wrap: anywhere; }
+.prose-article .swab-storage .print-figure-label { display: none; }
+@media print {
+  .prose-article .swab-storage .research-table table { width: 100%; min-width: 0; font-size: 8pt; }
+}

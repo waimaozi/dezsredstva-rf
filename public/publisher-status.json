@@ -5,62 +5,62 @@
   "release_trigger": "manual_full_translation",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "checked_at": "2026-11-09T11:46:56.330320+00:00",
+  "checked_at": "2026-11-09T16:59:27.909811+00:00",
   "status": "awaiting_deployment",
-  "id": "moyka-vodoy-myasopererabotka",
-  "question": "После мойки водой бактерий стало больше: исследование на мясоперерабатывающем предприятии",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-09-moyka-vodoy-perenos-bakteriy-myasopererabotka/",
-  "source_doi": "10.1016/j.jfp.2025.100647",
-  "source_sha256": "5c322115dcaea8fe43ca5b15d18c456c149a5db593602befaa1260e163ffaa74",
-  "scope": "Полный перевод основной статьи: аннотация, ключевые слова, введение, материалы и методы, результаты, обсуждение, вклад авторов, заявление о конфликте интересов, благодарности и сведения о дополнительных материалах. Сохранены все 5 рисунков, 3 таблицы и 47 библиографических записей на языке оригинала. Подписи к рисункам переведены; надписи внутри изображений сохранены, русские ключи выделены отдельно. Редакционные пояснения отделены от перевода. Дополнительные рисунки S1–S3 и исходные данные не входят в перевод; ссылки авторов сохранены. Заголовок «Введение» добавлен для навигации, таблицы переоформлены без изменения данных.",
+  "id": "hranenie-smyvov-allergeny",
+  "question": "Смывы на аллергены: как хранение меняет результат анализа",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-09-hranenie-smyvov-analiz-allergenov/",
+  "source_doi": "10.1016/j.jfp.2025.100645",
+  "source_sha256": "e9a2e93d6d0d0854739b29e6d22ab0d2dc760d43c2b035e58934086fc4b7a22b",
+  "scope": "Полный перевод основной статьи: аннотация, ключевые слова, введение, материалы и методы, результаты и обсуждение, вклад авторов, заявление о конфликте интересов, благодарности и сведения о дополнительных материалах. Сохранены все 8 рисунков и таблица; 27 библиографических записей приведены на языке оригинала. Подписи переведены, оригинальные надписи внутри рисунков сохранены и пояснены русскими ключами. Редакционные пояснения отделены от перевода. Отдельные дополнительные материалы не входят в перевод; ссылка авторов сохранена. Заголовок «Введение» добавлен для навигации, рисунки извлечены из PDF без перерисовки данных.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-1.jpeg",
-      "sha256": "21da972db60acbf6290d46adf98e9bffc0914d054e3d5a11704e87914dfded21"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-1.png",
+      "sha256": "9f5eba4e3d827dfd2ee5b2dfd1856e7976aadf188ecaac68faf1c06bc2afe5f6"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-2-a.jpeg",
-      "sha256": "e605928ec5415b101fb0165e1ccfd2aafe21dc8a744c8c0b6305b4719f7ca872"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-2.png",
+      "sha256": "26415a63c00fea61b73fa6372ca025e273331b03208fc8a82d45069a803f7ad4"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-2-b.jpeg",
-      "sha256": "a94a6c8440c8989705e5cbb5565fe1518fff0719ca3dc9a36cda21061e74bbe0"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-3.png",
+      "sha256": "6346c25b52d7176ce9209d43907e0619878e30e4ce8b56b4c3ae1c77c1d78034"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-3.jpeg",
-      "sha256": "428f0386aed2a9d64915eb2200b54d6ff7385f63ce1d0b3f851abb8c67e57c73"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-4.png",
+      "sha256": "16938836651ec44414cd733fb8b165bde968d71ee9e3c71502241a1415224e0a"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-4-a.jpeg",
-      "sha256": "63b9cd37f2530f26e2b77a3caacfd3805a936f474f22c9314dc3e1a1f76cf879"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-5.png",
+      "sha256": "3851a6c25944b8e082092d1159161aa2dd8568d22ce45197b881d7b920e01c1f"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-4-b.jpeg",
-      "sha256": "f587c271f8c9a12aed9a50d36129009c7426607c2a57b54d81f8cba3f594a1b4"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-6.png",
+      "sha256": "3db9caa36d1307f874cf6ec145a83b01baf8ea24998ce8dc9ff7baf1d2985524"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-4-c.jpeg",
-      "sha256": "1d7a601d8ae2f4f3160e186363cfc69f3868f9f0e6e78f308e05b36715d24ae9"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-7.png",
+      "sha256": "23723f3277bb365d1b0389e70df192d58f132de8097c73b5e00582a148c617d7"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-5.jpeg",
-      "sha256": "ea76405a4a781fbb65546bc2757a7573897ac9525178a572fc8ecec809b79363"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-8.png",
+      "sha256": "c078f90f55ddac8208e16f306f72cbf40674f4ae117c707716874bc0e351f7cb"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/original.html",
-      "sha256": "64fecef38edd7b2ca6f6db34be203578a324ed57730a33e6251c8c2147ffd7ae"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/original.html",
+      "sha256": "8050a4363bc67c78b84ea1a1b72dc5f318b7317ca2a0b197e2d47fa8d101147b"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/original.pdf",
-      "sha256": "5c322115dcaea8fe43ca5b15d18c456c149a5db593602befaa1260e163ffaa74"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/original.pdf",
+      "sha256": "e9a2e93d6d0d0854739b29e6d22ab0d2dc760d43c2b035e58934086fc4b7a22b"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/translation.html",
-      "sha256": "15222b94dc24e1c241d84a2bae385108639f5be266820c0c98eaf194acce2b40"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/translation.html",
+      "sha256": "15bcf27a501b6d66055a642bb7812616211d641f880ef6e11b6529a78a0f1075"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/translation.pdf",
-      "sha256": "8935ee90d3a48e41fb25270cd7b447c08fef0f1bf81e79183a2454c63fe372e0"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/translation.pdf",
+      "sha256": "1d87899199ef20bd3d7839e208d7442440b440fc75828b023259b40a06486466"
     }
   ]
 }
