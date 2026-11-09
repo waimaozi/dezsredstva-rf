@@ -163,7 +163,7 @@ article.section-shell { min-width: 0; }
 }
 
 /* Keep the site descriptions readable in the ten-column tofu study table. */
-.prose-article .tofu-hygiene .research-table table { width: 1100px; min-width: 1100px; max-width: none; table-layout: fixed; font-size: .82rem; line-height: 1.45; }
+.prose-article .tofu-hygiene .research-table table { width: 1200px; min-width: 1200px; max-width: none; table-layout: fixed; font-size: .82rem; line-height: 1.45; }
 .prose-article .tofu-hygiene .research-table th,
 .prose-article .tofu-hygiene .research-table td { min-width: 0; padding: .45rem; white-space: normal; overflow-wrap: normal; }
 @media print {
