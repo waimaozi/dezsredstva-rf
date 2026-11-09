@@ -1,0 +1,243 @@
+{
+  "schema": 1,
+  "id": "atf-kontrol-tofu",
+  "slug": "2026-11-09-atf-kontrol-uluchshenie-moyki-proizvodstvo-tofu",
+  "title": "Как использовать АТФ-контроль для улучшения мойки: опыт производства тофу",
+  "source": {
+    "doi": "10.1128/AEM.02278-20",
+    "license": "CC BY 4.0",
+    "license_evidence": [
+      "Publisher PDF page 1",
+      "Publisher XML permissions/ali:license_ref",
+      "NCBI cloud metadata is_pmc_openaccess=true, is_manuscript=false"
+    ],
+    "source_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8090886.1/PMC8090886.1.pdf",
+    "source_pdf_sha256": "9b59f7c8e23f433119ed1cc8e1b8a9ec029cb4447df6476ba5537ebcdd41e32f",
+    "source_xml_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8090886.1/PMC8090886.1.xml",
+    "source_xml_sha256": "b1590de09ca93b3f238c3e348a5a4ee1e13859621548cd05d7075d42916f9f97",
+    "source_pdf_pages": 12,
+    "figures": 5,
+    "tables": 1,
+    "references": 38,
+    "supplements": "No separate journal supplementary-material object. Authors link separate data/code repository, retained without translation."
+  },
+  "scope": "Полный перевод основной статьи: аннотация, значимость работы, ключевые слова, введение, результаты, обсуждение и выводы, материалы и методы, доступность данных, благодарности, финансирование и вклад авторов. Сохранены все 5 рисунков и таблица с 30 участками отбора проб. Все 38 библиографических записей приведены на языке оригинала. Подписи к рисункам переведены; английские надписи внутри изображений сохранены, русские ключи для чтения выделены отдельно. Редакционные пояснения отделены от перевода. Набор данных и код из репозитория авторов не входят в перевод; ссылка на них сохранена.",
+  "review": {
+    "reviewer": "Astra",
+    "checked_at": "2026-11-09T10:24:06.767413+00:00",
+    "type": "Direct source comparison plus advisory TypeSafe coverage; not an independent specialist review.",
+    "coverage": {
+      "segments": 108,
+      "figures": 5,
+      "tables": 1,
+      "table_rows": 30,
+      "equations": 0,
+      "references": 38
+    },
+    "direct_checks": [
+      "One facility; uncontrolled before/after; changed cleaning time and equipment disassembly.",
+      "Microbial comparisons in phases 1 and 3 only; ATP in phases 1,2,3.",
+      "No significant improvement in surface yeast/mold failures or postpasteurization product counts.",
+      "75.1% agreement at study-specific criteria; 13.2% ATP-pass/microbiology-fail; adjacent sampled areas.",
+      "Table subtraction is percentage-point difference; negative signs and ns preserved.",
+      "3M funded research contract and four coauthors; only additional funders explicitly excluded from design role.",
+      "PDF repeats zone labels on each table row for pagination; HTML retains original rowspans. Web table uses wrapped site descriptions and horizontal scrolling."
+    ],
+    "typesafe": {
+      "model": "jev-1.13.0",
+      "mode": "Additional advisory semantic coverage, not validated automated approval or claimed efficiency saving.",
+      "decisions": 39,
+      "counts": {
+        "faithful": 38,
+        "distorted": 1
+      },
+      "usage": [
+        {
+          "input_tokens": 4952,
+          "output_tokens": 238
+        },
+        {
+          "input_tokens": 7574,
+          "output_tokens": 238
+        },
+        {
+          "input_tokens": 5486,
+          "output_tokens": 238
+        },
+        {
+          "input_tokens": 5681,
+          "output_tokens": 238
+        },
+        {
+          "input_tokens": 5187,
+          "output_tokens": 238
+        },
+        {
+          "input_tokens": 6427,
+          "output_tokens": 238
+        },
+        {
+          "input_tokens": 6484,
+          "output_tokens": 238
+        },
+        {
+          "input_tokens": 4678,
+          "output_tokens": 191
+        }
+      ],
+      "elapsed_seconds": 6.811707019805908,
+      "flag_resolution": "s0098: removed unsupported peristaltic equipment specificity. All quantities, temperatures and timing retained.",
+      "direct_review_corrections": [
+        "s0000",
+        "s0007",
+        "s0012",
+        "s0016",
+        "s0018",
+        "s0020",
+        "s0021",
+        "s0046",
+        "s0047",
+        "s0070",
+        "s0095",
+        "s0098",
+        "s0106"
+      ],
+      "limitations": [
+        "Jev flagged s0098 as distorted. Direct source comparison confirmed unsupported peristaltic equipment specificity; removed it. Other method details, quantities and timing remained faithful.",
+        "Case study, grease, and transfer-barrel wording were corrected by direct review despite faithful labels. No efficiency saving or automated approval claimed."
+      ],
+      "whole_workflow_efficiency": "Whole-workflow Codex token accounting unavailable; no saving claimed."
+    }
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-1.jpg",
+      "sha256": "1fbe28e3799a16a9a142f8958f4228c9f0b9cd33973162858913be4cce60e948"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-2.jpg",
+      "sha256": "684347cea2ac8ebb4814b9728c6c8fac12f1f008d09a7775bcc056a075128c93"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-3.jpg",
+      "sha256": "51c82e538fd99b8c67bd80d5096e3eae64c773bd4a567853365934a4011751d2"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-4.jpg",
+      "sha256": "3ce4ed9d81b0725d07b84d54258a3d78ab58e0c21ad378cbd2c9dcc6807c8b14"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-5.jpg",
+      "sha256": "6384233d737917cb41475db77305ec1aed49fbfa00759a5a7172011f8ca284a1"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/original.html",
+      "sha256": "539ed681ee3d060b349aef23ea2c3b60ab0981598c66894e4aeceac71c576df5"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/original.pdf",
+      "sha256": "9b59f7c8e23f433119ed1cc8e1b8a9ec029cb4447df6476ba5537ebcdd41e32f"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/translation.html",
+      "sha256": "7962e34ab7a45a66a1e4c570920635384365d6785c770bcb1398d4be0502c14e"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/translation.pdf",
+      "sha256": "6a2162654001c3c9dd059740c77a19b5c7b3415fcfa433551fe6a3c2d3b697a4"
+    }
+  ],
+  "validation": {
+    "tests": {
+      "node": 8,
+      "discovery_snapshot": 10,
+      "research_probe": 2,
+      "research_queue": 10,
+      "result": "pass"
+    },
+    "queue_preview": "cadence_wait",
+    "astro_build": "pass",
+    "discovery": {
+      "articlePages": 209,
+      "reviewPages": 4,
+      "tagPages": 475,
+      "translations": 20,
+      "sitemapUrls": 217,
+      "noindexUrlsInSitemap": 0,
+      "emptyTagPages": 0
+    },
+    "browser": {
+      "widths": [
+        320,
+        390,
+        1280
+      ],
+      "horizontal_overflow": false,
+      "downloads": 4,
+      "status": "pass"
+    },
+    "offline": {
+      "status": "pass",
+      "docs": [
+        {
+          "filename": "translation.html",
+          "segments": 108,
+          "references": 38,
+          "tables": 1,
+          "figures": 5,
+          "imagesLoaded": true,
+          "equations": 0
+        },
+        {
+          "filename": "original.html",
+          "segments": 108,
+          "references": 38,
+          "tables": 1,
+          "figures": 5,
+          "imagesLoaded": true,
+          "equations": 0
+        }
+      ],
+      "externalRequests": 0,
+      "pdfBytes": 806786
+    },
+    "audit": {
+      "literal_segments": 108,
+      "translation.html": {
+        "segments": 108,
+        "tables": 1,
+        "table_rows": 30,
+        "figures": 5,
+        "references": 38
+      },
+      "original.html": {
+        "segments": 108,
+        "tables": 1,
+        "table_rows": 30,
+        "figures": 5,
+        "references": 38
+      },
+      "pdf": {
+        "pages": 25,
+        "landscape_pages": [
+          12,
+          13
+        ],
+        "images": 5,
+        "all_30_site_identifiers": "pass",
+        "zone_labels": "repeated in each row for PDF pagination; original rowspans preserved in HTML"
+      },
+      "original_bytes": "pass",
+      "status": "pass"
+    },
+    "pdf_visual_pages_checked": [
+      1,
+      7,
+      10,
+      12,
+      13,
+      15,
+      16
+    ]
+  }
+}
