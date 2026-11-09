@@ -1,30 +1,50 @@
 {
-  "checked_at": "2026-11-08T14:55:08.066622+00:00",
+  "checked_at": "2026-11-09T08:07:38.346150+00:00",
   "cadence": "weekly",
   "schedule": "Tuesday 09:00 Europe/Moscow",
   "mode": "reviewed_research",
-  "release_trigger": "manual_selected_excerpt_translation",
+  "release_trigger": "manual_full_translation",
   "status": "awaiting_deployment",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "id": "vlaga-posle-sanitarnoi-obrabotki",
-  "question": "После влажной уборки: почему контроль высыхания важен на сухом пищевом производстве",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-08-vlazhnaya-uborka-suhoe-proizvodstvo/",
-  "source_doi": "10.1128/aem.02365-25",
-  "source_sha256": "4884ff36cd29d325cfb5efe33efd961c5dbb967554d432069ab55deacf7b4c97",
-  "scope": "Перевод избранных фрагментов: раздел «Значение исследования», абзацы 2–4 введения, по одному абзацу об объяснении высыхания и удалении влаги из результатов и обсуждения, оба абзаца выводов. Всего восемь абзацев оригинала. Лабораторные методики, остальные результаты, аннотация и четыре рисунка не включены. Приведены 12 цитируемых библиографических записей на языке оригинала с исходной нумерацией. Редакционные пояснения выделены отдельно. Английский HTML содержит те же избранные фрагменты, а не полную статью.",
+  "id": "molochnyy-allergen-otbor-prob",
+  "question": "Анализ на молочный аллерген: что меняет размер лабораторной пробы",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-09-molochnyy-allergen-razmer-laboratornoy-proby/",
+  "source_doi": "10.1016/j.foodcont.2025.111195",
+  "source_sha256": "1a873b1b37f13e8e92dd943659527d77d694e80719146e0e36232e6572219b4f",
+  "scope": "Полный перевод основной статьи: аннотация, ключевые слова, введение, методы, результаты и обсуждение, выводы, сведения о вкладе авторов, финансировании, конфликте интересов и доступности данных. Сохранены все 3 рисунка, 6 таблиц и 2 нумерованные формулы. Все 41 библиографическая запись приведена на языке оригинала. Надписи внутри рисунков оставлены на английском; подписи переведены, русские ключи для чтения выделены отдельно. Дополнительный файл DOCX доступен в оригинале на английском и не переведён. Редакционные пояснения отделены от перевода.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/vlaga-posle-sanitarnoi-obrabotki/original-excerpts.html",
-      "sha256": "c5a23852efb919ea62953b0134af96c1ae950776d0bdca08608ee6686d7c8496"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/figure-1.jpeg",
+      "sha256": "c86c9ec9e0ea4a1ad10724cdb4d7dee9e8900a96d36bca552741b0f39888748c"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/vlaga-posle-sanitarnoi-obrabotki/translation.html",
-      "sha256": "72daf1ba3e0a3307e8776849433c92980fc46bc3dcdd829dc42d5c00d42a62e7"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/figure-2.jpeg",
+      "sha256": "3bdbe61064133b00e85c085f95ae9caa7b73877ad4e8ce24dd98061d09ab0c98"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/vlaga-posle-sanitarnoi-obrabotki/translation.pdf",
-      "sha256": "6d3f976bef88c3ea5eaeb7f34a36279c2efd8cf346ceaa5471fed8e82c1ef97f"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/figure-3.jpeg",
+      "sha256": "c6364de8c2888b60a9192c3fbb612e89d055be41d04915893274f1cdbcd9e801"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/original-supplement.docx",
+      "sha256": "bf70e5343ca75138cfb8dad25e08e1570ce0b598f725c75c7db955803e122746"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/original.html",
+      "sha256": "63ed66062ea1920c90a2866542805c05d60908d0d5d3615bc8ca7c2f60686d09"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/original.pdf",
+      "sha256": "1a873b1b37f13e8e92dd943659527d77d694e80719146e0e36232e6572219b4f"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/translation.html",
+      "sha256": "07ece52a2edf3d4c7087cfc79fd997a7c5f2f62c97e96182a17697b9ba9adbc8"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/translation.pdf",
+      "sha256": "d7630d1108e3a7b6b30f822ac692045988c7fe039204face6b901b0a62511451"
     }
   ]
 }

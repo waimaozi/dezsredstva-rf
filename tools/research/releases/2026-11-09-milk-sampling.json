@@ -1,0 +1,246 @@
+{
+  "schema": 1,
+  "id": "molochnyy-allergen-otbor-prob",
+  "slug": "2026-11-09-molochnyy-allergen-razmer-laboratornoy-proby",
+  "title": "Анализ на молочный аллерген: что меняет размер лабораторной пробы",
+  "source": {
+    "url": "https://orbit.dtu.dk/en/publications/milk-allergen-quantification-in-rice-flour-an-experimental-invest/",
+    "pdf_url": "https://backend.orbit.dtu.dk/ws/files/390028118/Sancho_et_al_2025_published.pdf",
+    "supplement_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0956713525000647-mmc1.docx",
+    "doi": "10.1016/j.foodcont.2025.111195",
+    "sha256": "1a873b1b37f13e8e92dd943659527d77d694e80719146e0e36232e6572219b4f",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": "CC BY 4.0 stated in publisher PDF, DTU repository and Crossref VOR metadata."
+  },
+  "scope": "Полный перевод основной статьи: аннотация, ключевые слова, введение, методы, результаты и обсуждение, выводы, сведения о вкладе авторов, финансировании, конфликте интересов и доступности данных. Сохранены все 3 рисунка, 6 таблиц и 2 нумерованные формулы. Все 41 библиографическая запись приведена на языке оригинала. Надписи внутри рисунков оставлены на английском; подписи переведены, русские ключи для чтения выделены отдельно. Дополнительный файл DOCX доступен в оригинале на английском и не переведён. Редакционные пояснения отделены от перевода.",
+  "review": {
+    "reviewer": "Astra",
+    "checked_at": "2026-11-09T08:09:31.365940+00:00",
+    "type": "Direct source comparison plus advisory TypeSafe coverage; not an independent specialist review.",
+    "coverage": {
+      "segments": 139,
+      "empty_layout_placeholder": 1,
+      "figures": 3,
+      "tables": 6,
+      "table_rows": 65,
+      "equations": 2,
+      "references": 41
+    },
+    "direct_checks": [
+      "All substantive prose reviewed against source: methods, statistics, results, scope limitations, disclosures and funding.",
+      "Laboratory sample, extraction test portion and liquid aliquot kept distinct.",
+      "Variance reduction kept distinct from allergen concentration and clinical risk.",
+      "Homogeneous model, changed mixing equipment/time and unknown industrial applicability retained.",
+      "ED-based acceptance levels contextualised as model thresholds, not universal safe exposure.",
+      "Figure graphics retained unchanged; Russian captions and separate reading keys.",
+      "Tables 3, 4 and 6 checked against source PDF; all numerical cells preserved by code.",
+      "Both main equations reconstructed as MathML and inspected.",
+      "All 41 references retained; PDF line-wrap whitespace in URLs removed.",
+      "Original PDF includes DTU cover plus nine-page article; original supplement supplied in English, explicitly outside translation scope."
+    ],
+    "typesafe": {
+      "model": "jev-1.13.0",
+      "mode": "Additional semantic coverage, not automatic approval or a measured efficiency gain.",
+      "decisions": 53,
+      "faithful": 53,
+      "issue": 0,
+      "uncertain": 0,
+      "misses_found_by_direct_review": [
+        "s0065: incremental sampling rendered as пошаговый; corrected to отбор точечных проб."
+      ],
+      "usage": {
+        "input_tokens": 54043,
+        "output_tokens": 2418
+      },
+      "whole_workflow_efficiency": "Codex token accounting unavailable; no saving claimed."
+    },
+    "corrections": [
+      {
+        "id": "s0008",
+        "before": "пороговая вызывающая доза",
+        "after": "доза, вызывающая реакцию",
+        "reason": "Clear ED terminology"
+      },
+      {
+        "id": "s0016",
+        "before": "в экспериментах с измерением одного размера лабораторной пробы и одного размера аналитической навески",
+        "after": "в экспериментах, где использовали один размер лабораторной пробы и один размер аналитической навески",
+        "reason": "Sizes were fixed design conditions, not measured quantities"
+      },
+      {
+        "id": "s0016",
+        "before": "пороговые вызывающие реакцию дозы",
+        "after": "дозы, вызывающие реакцию",
+        "reason": "Consistent ED terminology"
+      },
+      {
+        "id": "s0037",
+        "before": "процент степени извлечения",
+        "after": "степень извлечения в процентах",
+        "reason": "Russian phrasing"
+      },
+      {
+        "id": "s0045",
+        "before": "аналитическими измерениями молока",
+        "after": "аналитическими измерениями содержания молочного белка",
+        "reason": "Clarify measured substance in context"
+      },
+      {
+        "id": "s0065",
+        "before": "пошаговый (инкрементный) отбор проб",
+        "after": "отбор точечных проб (incremental sampling)",
+        "reason": "Correct sampling term; advisory Jev PASS missed this terminology defect"
+      },
+      {
+        "id": "s0066",
+        "before": "(Q- Q)",
+        "after": "(Q-Q)",
+        "reason": "PDF line break artifact"
+      },
+      {
+        "id": "s0066",
+        "before": "p-value =",
+        "after": "p =",
+        "reason": "Russian scientific notation"
+      },
+      {
+        "id": "s0126",
+        "before": "провоцирующая доза",
+        "after": "доза, вызывающая реакцию",
+        "reason": "Consistent ED terminology"
+      },
+      {
+        "id": "s0134",
+        "before": "в рамках рамочной программы",
+        "after": "по рамочной программе",
+        "reason": "Russian phrasing"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/figure-1.jpeg",
+      "sha256": "c86c9ec9e0ea4a1ad10724cdb4d7dee9e8900a96d36bca552741b0f39888748c"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/figure-2.jpeg",
+      "sha256": "3bdbe61064133b00e85c085f95ae9caa7b73877ad4e8ce24dd98061d09ab0c98"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/figure-3.jpeg",
+      "sha256": "c6364de8c2888b60a9192c3fbb612e89d055be41d04915893274f1cdbcd9e801"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/original-supplement.docx",
+      "sha256": "bf70e5343ca75138cfb8dad25e08e1570ce0b598f725c75c7db955803e122746"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/original.html",
+      "sha256": "63ed66062ea1920c90a2866542805c05d60908d0d5d3615bc8ca7c2f60686d09"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/original.pdf",
+      "sha256": "1a873b1b37f13e8e92dd943659527d77d694e80719146e0e36232e6572219b4f"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/translation.html",
+      "sha256": "07ece52a2edf3d4c7087cfc79fd997a7c5f2f62c97e96182a17697b9ba9adbc8"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/molochnyy-allergen-otbor-prob/translation.pdf",
+      "sha256": "d7630d1108e3a7b6b30f822ac692045988c7fe039204face6b901b0a62511451"
+    }
+  ],
+  "validation": {
+    "tests": {
+      "node": 8,
+      "discovery_snapshot": 10,
+      "research_probe": 2,
+      "research_queue": 10,
+      "result": "pass"
+    },
+    "queue_preview": "cadence_wait",
+    "astro_build": "pass",
+    "discovery": {
+      "articlePages": 207,
+      "reviewPages": 4,
+      "tagPages": 469,
+      "translations": 18,
+      "sitemapUrls": 215,
+      "noindexUrlsInSitemap": 0,
+      "emptyTagPages": 0
+    },
+    "browser": {
+      "widths": [
+        320,
+        390,
+        1280
+      ],
+      "horizontal_overflow": false,
+      "downloads": 5,
+      "status": "pass"
+    },
+    "offline": {
+      "status": "pass",
+      "docs": [
+        {
+          "filename": "translation.html",
+          "segments": 139,
+          "references": 41,
+          "tables": 6,
+          "figures": 3,
+          "imagesLoaded": true,
+          "equations": 2
+        },
+        {
+          "filename": "original.html",
+          "segments": 139,
+          "references": 41,
+          "tables": 6,
+          "figures": 3,
+          "imagesLoaded": true,
+          "equations": 2
+        }
+      ],
+      "externalRequests": 0,
+      "pdfBytes": 1903879
+    },
+    "audit": {
+      "literal_segments": 139,
+      "translation.html": {
+        "segments": 139,
+        "tables": 6,
+        "table_rows": 65,
+        "figures": 3,
+        "references": 41,
+        "equations": 2
+      },
+      "original.html": {
+        "segments": 139,
+        "tables": 6,
+        "table_rows": 65,
+        "figures": 3,
+        "references": 41,
+        "equations": 2
+      },
+      "pdf": {
+        "pages": 26,
+        "landscape_pages": [
+          14,
+          15
+        ],
+        "images": 3,
+        "table_number_tokens": "pass"
+      },
+      "original_bytes": "pass",
+      "status": "pass"
+    },
+    "pdf_visual_pages_checked": [
+      1,
+      7,
+      14,
+      15,
+      18
+    ]
+  }
+}
