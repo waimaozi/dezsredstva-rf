@@ -1,0 +1,211 @@
+{
+  "schema": 1,
+  "id": "belok-krahmal-cip-moyka",
+  "slug": "2026-11-09-belok-krahmal-sostav-zagryazneniya-cip-moyka",
+  "title": "Смесь белка и крахмала: как состав загрязнения меняет результат CIP-мойки",
+  "source": {
+    "url": "https://research.birmingham.ac.uk/en/publications/cleaning-performance-of-stainless-steel-surfaces-fouled-with-preh/",
+    "pdf_url": "https://digibug.ugr.es/bitstream/handle/10481/93792/1-s2.0-S0260877424003236-main.pdf?isAllowed=y&sequence=1",
+    "doi": "10.1016/j.jfoodeng.2024.112257",
+    "sha256": "f672cea86d86ea7ee85c8b9934fdd2931c7847907aa6e55c5bc46a3e929ec846",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_evidence": "CC BY 4.0 in publisher PDF page 1, University of Birmingham record and Crossref VOR metadata.",
+    "supplement_status": "Not acquired: publisher/CDN access blocked and repository landing page bot challenge; no bypass attempted."
+  },
+  "scope": "Полный перевод основной статьи: аннотация, ключевые слова, введение, методы, результаты, обсуждение, выводы, вклад авторов, конфликт интересов, доступность данных и благодарности. Сохранены все 8 рисунков, 3 таблицы и 4 нумерованные формулы. Все 45 библиографических записей приведены на языке оригинала. Надписи внутри рисунков оставлены на английском; подписи переведены, русские ключи для чтения выделены отдельно. Отдельный дополнительный материал, включая рисунки SI1 и SI2, не включён и не переведён: файл получить не удалось. Ссылки на него сохранены. Редакционные пояснения отделены от перевода.",
+  "review": {
+    "reviewer": "Astra",
+    "checked_at": "2026-11-09T08:38:06.335053+00:00",
+    "type": "Direct source comparison plus advisory TypeSafe coverage; not an independent specialist review.",
+    "coverage": {
+      "segments": 104,
+      "figures": 8,
+      "tables": 3,
+      "table_rows": 11,
+      "equations": 4,
+      "references": 45
+    },
+    "direct_checks": [
+      "Methods, results, conclusions, disclosures, funding, units and statistical qualifications compared with the source.",
+      "P0–P100 WPC formulation fractions kept distinct from pure protein fractions; De and PCR denominators explained.",
+      "Adhesive/cohesive scraper levels kept distinct from actual mixed failure mechanisms. Force, stress and work retain their units.",
+      "P100 temperature/stiffness inconsistency retained and explained beside Table 2; no silent change to authors’ claim.",
+      "Original equation (1) proportional symbol and equation (2) time bounds with dx preserved with a separate note.",
+      "Table 3 contains one F/p dataset despite mentioning both De and PCR; editorial note explains visible scope.",
+      "Native figures remain byte-identical. Figure 3 panels b/c correctly identify 20/40 °C force curves, not Young modulus; Figure 2 reading key matches actual labels.",
+      "Figure 5 source caption says force-time while plotted x-axis is displacement; separate reading key describes the plotted axes.",
+      "All references retained in English; line-break extraction artifacts normalised in reformatted HTML only.",
+      "Separate supplement was blocked at source; SI1/SI2 references retained, supplement explicitly excluded from translated and archived main article scope."
+    ],
+    "typesafe": {
+      "model": "jev-1.13.0",
+      "mode": "Additional review for coverage, not automatic approval or measured efficiency gain.",
+      "decisions": 54,
+      "faithful": 54,
+      "issue": 0,
+      "usage": {
+        "input_tokens": 61343,
+        "output_tokens": 2463
+      },
+      "elapsed_seconds": 9.075282041972969,
+      "misses_found_by_direct_review": [
+        "s0068: restored seeming/uncertainty qualifier (по-видимому).",
+        "s0018: Sa is surface mean height, not a profile roughness quantity.",
+        "s0012: cake deposits narrowed incorrectly to biscuit dough; corrected."
+      ],
+      "whole_workflow_efficiency": "No Codex token accounting available; no saving claimed."
+    },
+    "corrections": [
+      "s0012 cake deposit terminology",
+      "s0018 surface mean height terminology",
+      "s0025 quotation marks",
+      "s0053 gelatinisation terminology and composition/volume distinction",
+      "s0068 uncertainty qualifier restored",
+      "s0070 hatched bars clarified",
+      "Consistent Russian units and restored subscripts; exact numeric tokens retained."
+    ]
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-1.jpeg",
+      "sha256": "62c8413174438e3fa250033724b665af2a81e33e6f54acea212b97bd36741409"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-2.jpeg",
+      "sha256": "1e36d19e6fc6333fb4d793ec6a2fa581b7d73a8b7fd91152847d06f64f1128bc"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-3.jpeg",
+      "sha256": "76f22c134c31f331c5d117ebbc5cb1b9bbdc02ea2fdaddb9706c2957fc54e7c8"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-4.jpeg",
+      "sha256": "d3dcbdf0b17b7aef54678473d58a0066b4afaec0826fd1561a3dc7e3be79b20f"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-5.jpeg",
+      "sha256": "4ab46faeb4daa11438861b6134ccacef01005b60505633977f72598068bd926d"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-6.jpeg",
+      "sha256": "e7c9e3b9ef2a9d09fa595c80d6ca4132673b2df458bd6dffefcefacbbc59febc"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-7.jpeg",
+      "sha256": "3dce0f6ce7b0237eb2b900a4e53d4c24704762093bd406ff39caab17a12d7ddf"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-8.jpeg",
+      "sha256": "fbf254d342b3dc377408eb3e2c07b1c7834c849f7f706b2265fee969e586c448"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/original.html",
+      "sha256": "6b4a76ab583d3eb5bb1ac3c6ae56ada7949877454f5952b0e50608f1c6af4c2b"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/original.pdf",
+      "sha256": "f672cea86d86ea7ee85c8b9934fdd2931c7847907aa6e55c5bc46a3e929ec846"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/translation.html",
+      "sha256": "2c954d8e91d485b1d8ec7038187421b2ca24e86e38afa448dd47d14833f45f3d"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/translation.pdf",
+      "sha256": "bcc87cb8a452be46e14e3bd568026d48d7ae35bd4f5c0d85e36c5a0e60d93e21"
+    }
+  ],
+  "validation": {
+    "tests": {
+      "node": 8,
+      "discovery_snapshot": 10,
+      "research_probe": 2,
+      "research_queue": 10,
+      "result": "pass"
+    },
+    "queue_preview": "cadence_wait",
+    "astro_build": "pass",
+    "discovery": {
+      "articlePages": 208,
+      "reviewPages": 4,
+      "tagPages": 473,
+      "translations": 19,
+      "sitemapUrls": 216,
+      "noindexUrlsInSitemap": 0,
+      "emptyTagPages": 0
+    },
+    "browser": {
+      "widths": [
+        320,
+        390,
+        1280
+      ],
+      "horizontal_overflow": false,
+      "downloads": 4,
+      "status": "pass"
+    },
+    "offline": {
+      "status": "pass",
+      "docs": [
+        {
+          "filename": "translation.html",
+          "segments": 104,
+          "references": 45,
+          "tables": 3,
+          "figures": 8,
+          "imagesLoaded": true,
+          "equations": 4
+        },
+        {
+          "filename": "original.html",
+          "segments": 104,
+          "references": 45,
+          "tables": 3,
+          "figures": 8,
+          "imagesLoaded": true,
+          "equations": 4
+        }
+      ],
+      "externalRequests": 0,
+      "pdfBytes": 6241547
+    },
+    "audit": {
+      "literal_segments": 104,
+      "translation.html": {
+        "segments": 104,
+        "tables": 3,
+        "table_rows": 11,
+        "figures": 8,
+        "references": 45,
+        "equations": 4
+      },
+      "original.html": {
+        "segments": 104,
+        "tables": 3,
+        "table_rows": 11,
+        "figures": 8,
+        "references": 45,
+        "equations": 4
+      },
+      "pdf": {
+        "pages": 30,
+        "landscape_pages": [],
+        "images": 8,
+        "table_number_tokens": "pass"
+      },
+      "original_bytes": "pass",
+      "status": "pass"
+    },
+    "pdf_visual_pages_checked": [
+      1,
+      8,
+      9,
+      11,
+      13,
+      15,
+      20,
+      25,
+      26
+    ]
+  }
+}
