@@ -1,55 +1,66 @@
 {
-  "checked_at": "2026-11-09T10:23:12.650151+00:00",
   "cadence": "weekly",
   "schedule": "Tuesday 09:00 Europe/Moscow",
   "mode": "reviewed_research",
   "release_trigger": "manual_full_translation",
-  "status": "awaiting_deployment",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "id": "atf-kontrol-tofu",
-  "question": "Как использовать АТФ-контроль для улучшения мойки: опыт производства тофу",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-09-atf-kontrol-uluchshenie-moyki-proizvodstvo-tofu/",
-  "source_doi": "10.1128/AEM.02278-20",
-  "source_sha256": "9b59f7c8e23f433119ed1cc8e1b8a9ec029cb4447df6476ba5537ebcdd41e32f",
-  "source_xml_sha256": "b1590de09ca93b3f238c3e348a5a4ee1e13859621548cd05d7075d42916f9f97",
-  "scope": "Полный перевод основной статьи: аннотация, значимость работы, ключевые слова, введение, результаты, обсуждение и выводы, материалы и методы, доступность данных, благодарности, финансирование и вклад авторов. Сохранены все 5 рисунков и таблица с 30 участками отбора проб. Все 38 библиографических записей приведены на языке оригинала. Подписи к рисункам переведены; английские надписи внутри изображений сохранены, русские ключи для чтения выделены отдельно. Редакционные пояснения отделены от перевода. Набор данных и код из репозитория авторов не входят в перевод; ссылка на них сохранена.",
+  "checked_at": "2026-11-09T11:46:56.330320+00:00",
+  "status": "awaiting_deployment",
+  "id": "moyka-vodoy-myasopererabotka",
+  "question": "После мойки водой бактерий стало больше: исследование на мясоперерабатывающем предприятии",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-09-moyka-vodoy-perenos-bakteriy-myasopererabotka/",
+  "source_doi": "10.1016/j.jfp.2025.100647",
+  "source_sha256": "5c322115dcaea8fe43ca5b15d18c456c149a5db593602befaa1260e163ffaa74",
+  "scope": "Полный перевод основной статьи: аннотация, ключевые слова, введение, материалы и методы, результаты, обсуждение, вклад авторов, заявление о конфликте интересов, благодарности и сведения о дополнительных материалах. Сохранены все 5 рисунков, 3 таблицы и 47 библиографических записей на языке оригинала. Подписи к рисункам переведены; надписи внутри изображений сохранены, русские ключи выделены отдельно. Редакционные пояснения отделены от перевода. Дополнительные рисунки S1–S3 и исходные данные не входят в перевод; ссылки авторов сохранены. Заголовок «Введение» добавлен для навигации, таблицы переоформлены без изменения данных.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-1.jpg",
-      "sha256": "1fbe28e3799a16a9a142f8958f4228c9f0b9cd33973162858913be4cce60e948"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-1.jpeg",
+      "sha256": "21da972db60acbf6290d46adf98e9bffc0914d054e3d5a11704e87914dfded21"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-2.jpg",
-      "sha256": "684347cea2ac8ebb4814b9728c6c8fac12f1f008d09a7775bcc056a075128c93"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-2-a.jpeg",
+      "sha256": "e605928ec5415b101fb0165e1ccfd2aafe21dc8a744c8c0b6305b4719f7ca872"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-3.jpg",
-      "sha256": "51c82e538fd99b8c67bd80d5096e3eae64c773bd4a567853365934a4011751d2"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-2-b.jpeg",
+      "sha256": "a94a6c8440c8989705e5cbb5565fe1518fff0719ca3dc9a36cda21061e74bbe0"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-4.jpg",
-      "sha256": "3ce4ed9d81b0725d07b84d54258a3d78ab58e0c21ad378cbd2c9dcc6807c8b14"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-3.jpeg",
+      "sha256": "428f0386aed2a9d64915eb2200b54d6ff7385f63ce1d0b3f851abb8c67e57c73"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-5.jpg",
-      "sha256": "6384233d737917cb41475db77305ec1aed49fbfa00759a5a7172011f8ca284a1"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-4-a.jpeg",
+      "sha256": "63b9cd37f2530f26e2b77a3caacfd3805a936f474f22c9314dc3e1a1f76cf879"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/original.html",
-      "sha256": "539ed681ee3d060b349aef23ea2c3b60ab0981598c66894e4aeceac71c576df5"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-4-b.jpeg",
+      "sha256": "f587c271f8c9a12aed9a50d36129009c7426607c2a57b54d81f8cba3f594a1b4"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/original.pdf",
-      "sha256": "9b59f7c8e23f433119ed1cc8e1b8a9ec029cb4447df6476ba5537ebcdd41e32f"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-4-c.jpeg",
+      "sha256": "1d7a601d8ae2f4f3160e186363cfc69f3868f9f0e6e78f308e05b36715d24ae9"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/translation.html",
-      "sha256": "7962e34ab7a45a66a1e4c570920635384365d6785c770bcb1398d4be0502c14e"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/figure-5.jpeg",
+      "sha256": "ea76405a4a781fbb65546bc2757a7573897ac9525178a572fc8ecec809b79363"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/translation.pdf",
-      "sha256": "6a2162654001c3c9dd059740c77a19b5c7b3415fcfa433551fe6a3c2d3b697a4"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/original.html",
+      "sha256": "64fecef38edd7b2ca6f6db34be203578a324ed57730a33e6251c8c2147ffd7ae"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/original.pdf",
+      "sha256": "5c322115dcaea8fe43ca5b15d18c456c149a5db593602befaa1260e163ffaa74"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/translation.html",
+      "sha256": "15222b94dc24e1c241d84a2bae385108639f5be266820c0c98eaf194acce2b40"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/moyka-vodoy-myasopererabotka/translation.pdf",
+      "sha256": "8935ee90d3a48e41fb25270cd7b447c08fef0f1bf81e79183a2454c63fe372e0"
     }
   ]
 }
