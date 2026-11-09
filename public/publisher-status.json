@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09T08:37:25.644763+00:00",
+  "checked_at": "2026-11-09T10:23:12.650151+00:00",
   "cadence": "weekly",
   "schedule": "Tuesday 09:00 Europe/Moscow",
   "mode": "reviewed_research",
@@ -7,60 +7,49 @@
   "status": "awaiting_deployment",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "id": "belok-krahmal-cip-moyka",
-  "question": "Смесь белка и крахмала: как состав загрязнения меняет результат CIP-мойки",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-09-belok-krahmal-sostav-zagryazneniya-cip-moyka/",
-  "source_doi": "10.1016/j.jfoodeng.2024.112257",
-  "source_sha256": "f672cea86d86ea7ee85c8b9934fdd2931c7847907aa6e55c5bc46a3e929ec846",
-  "scope": "Полный перевод основной статьи: аннотация, ключевые слова, введение, методы, результаты, обсуждение, выводы, вклад авторов, конфликт интересов, доступность данных и благодарности. Сохранены все 8 рисунков, 3 таблицы и 4 нумерованные формулы. Все 45 библиографических записей приведены на языке оригинала. Надписи внутри рисунков оставлены на английском; подписи переведены, русские ключи для чтения выделены отдельно. Отдельный дополнительный материал, включая рисунки SI1 и SI2, не включён и не переведён: файл получить не удалось. Ссылки на него сохранены. Редакционные пояснения отделены от перевода.",
+  "id": "atf-kontrol-tofu",
+  "question": "Как использовать АТФ-контроль для улучшения мойки: опыт производства тофу",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-09-atf-kontrol-uluchshenie-moyki-proizvodstvo-tofu/",
+  "source_doi": "10.1128/AEM.02278-20",
+  "source_sha256": "9b59f7c8e23f433119ed1cc8e1b8a9ec029cb4447df6476ba5537ebcdd41e32f",
+  "source_xml_sha256": "b1590de09ca93b3f238c3e348a5a4ee1e13859621548cd05d7075d42916f9f97",
+  "scope": "Полный перевод основной статьи: аннотация, значимость работы, ключевые слова, введение, результаты, обсуждение и выводы, материалы и методы, доступность данных, благодарности, финансирование и вклад авторов. Сохранены все 5 рисунков и таблица с 30 участками отбора проб. Все 38 библиографических записей приведены на языке оригинала. Подписи к рисункам переведены; английские надписи внутри изображений сохранены, русские ключи для чтения выделены отдельно. Редакционные пояснения отделены от перевода. Набор данных и код из репозитория авторов не входят в перевод; ссылка на них сохранена.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-1.jpeg",
-      "sha256": "62c8413174438e3fa250033724b665af2a81e33e6f54acea212b97bd36741409"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-1.jpg",
+      "sha256": "1fbe28e3799a16a9a142f8958f4228c9f0b9cd33973162858913be4cce60e948"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-2.jpeg",
-      "sha256": "1e36d19e6fc6333fb4d793ec6a2fa581b7d73a8b7fd91152847d06f64f1128bc"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-2.jpg",
+      "sha256": "684347cea2ac8ebb4814b9728c6c8fac12f1f008d09a7775bcc056a075128c93"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-3.jpeg",
-      "sha256": "76f22c134c31f331c5d117ebbc5cb1b9bbdc02ea2fdaddb9706c2957fc54e7c8"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-3.jpg",
+      "sha256": "51c82e538fd99b8c67bd80d5096e3eae64c773bd4a567853365934a4011751d2"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-4.jpeg",
-      "sha256": "d3dcbdf0b17b7aef54678473d58a0066b4afaec0826fd1561a3dc7e3be79b20f"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-4.jpg",
+      "sha256": "3ce4ed9d81b0725d07b84d54258a3d78ab58e0c21ad378cbd2c9dcc6807c8b14"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-5.jpeg",
-      "sha256": "4ab46faeb4daa11438861b6134ccacef01005b60505633977f72598068bd926d"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/figure-5.jpg",
+      "sha256": "6384233d737917cb41475db77305ec1aed49fbfa00759a5a7172011f8ca284a1"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-6.jpeg",
-      "sha256": "e7c9e3b9ef2a9d09fa595c80d6ca4132673b2df458bd6dffefcefacbbc59febc"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/original.html",
+      "sha256": "539ed681ee3d060b349aef23ea2c3b60ab0981598c66894e4aeceac71c576df5"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-7.jpeg",
-      "sha256": "3dce0f6ce7b0237eb2b900a4e53d4c24704762093bd406ff39caab17a12d7ddf"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/original.pdf",
+      "sha256": "9b59f7c8e23f433119ed1cc8e1b8a9ec029cb4447df6476ba5537ebcdd41e32f"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/figure-8.jpeg",
-      "sha256": "fbf254d342b3dc377408eb3e2c07b1c7834c849f7f706b2265fee969e586c448"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/translation.html",
+      "sha256": "7962e34ab7a45a66a1e4c570920635384365d6785c770bcb1398d4be0502c14e"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/original.html",
-      "sha256": "6b4a76ab583d3eb5bb1ac3c6ae56ada7949877454f5952b0e50608f1c6af4c2b"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/original.pdf",
-      "sha256": "f672cea86d86ea7ee85c8b9934fdd2931c7847907aa6e55c5bc46a3e929ec846"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/translation.html",
-      "sha256": "2c954d8e91d485b1d8ec7038187421b2ca24e86e38afa448dd47d14833f45f3d"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/belok-krahmal-cip-moyka/translation.pdf",
-      "sha256": "bcc87cb8a452be46e14e3bd568026d48d7ae35bd4f5c0d85e36c5a0e60d93e21"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/atf-kontrol-tofu/translation.pdf",
+      "sha256": "6a2162654001c3c9dd059740c77a19b5c7b3415fcfa433551fe6a3c2d3b697a4"
     }
   ]
 }
