@@ -1,11 +1,10 @@
 """Wait for the real Pages deployment, then notify IndexNow."""
 import json
-import hashlib
 import html
 from pathlib import Path
 import sys
 import time
-from common import fetch, now, save
+from common import download_sha256, fetch, now, save
 
 path = Path(sys.argv[1]) / 'last-run.json'
 status = json.loads(path.read_text())
@@ -21,7 +20,7 @@ for attempt in range(20):
         if status.get('source_doi') and status['source_doi'] not in raw:
             raise RuntimeError('Source attribution missing')
         for asset in status.get('assets', []):
-            if hashlib.sha256(fetch(asset['url'], timeout=30)).hexdigest() != asset['sha256']:
+            if download_sha256(asset['url'], timeout=30) != asset['sha256']:
                 raise RuntimeError('Deployed download hash differs from approved package')
         if status.get('assets'):
             hub = fetch('https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/perevody/', timeout=20).decode()

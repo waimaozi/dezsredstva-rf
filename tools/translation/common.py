@@ -1,5 +1,6 @@
 """Bounded HTTP calls and private operational evidence. Never log credentials."""
 import datetime as dt
+import hashlib
 import json
 import os
 import time
@@ -46,6 +47,26 @@ def fetch(url, body=None, headers=None, timeout=45):
 
 def json_fetch(url, body=None, headers=None, timeout=45):
     return json.loads(fetch(url, body, headers, timeout))
+
+
+def download_sha256(url, timeout=45, max_bytes=64_000_000):
+    """Hash publication downloads in bounded chunks, including illustrated PDFs."""
+    req = urllib.request.Request(url, headers={
+        'User-Agent': 'DezsredstvaTranslations/1.0'})
+    digest = hashlib.sha256()
+    total = 0
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            while True:
+                chunk = response.read(min(1_000_000, max_bytes - total + 1))
+                if not chunk:
+                    return digest.hexdigest()
+                total += len(chunk)
+                if total > max_bytes:
+                    raise RuntimeError('Download exceeds verification size limit')
+                digest.update(chunk)
+    except urllib.error.HTTPError as error:
+        raise RuntimeError(f'Upstream HTTP {error.code}') from None
 
 
 def chat(prompt, output, max_tokens=14000):
