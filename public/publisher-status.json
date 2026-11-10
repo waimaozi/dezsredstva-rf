@@ -5,62 +5,50 @@
   "release_trigger": "manual_full_translation",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "checked_at": "2026-11-09T16:59:27.909811+00:00",
+  "checked_at": "2026-11-10T11:25:32.745664+00:00",
   "status": "awaiting_deployment",
-  "id": "hranenie-smyvov-allergeny",
-  "question": "Смывы на аллергены: как хранение меняет результат анализа",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-09-hranenie-smyvov-analiz-allergenov/",
-  "source_doi": "10.1016/j.jfp.2025.100645",
-  "source_sha256": "e9a2e93d6d0d0854739b29e6d22ab0d2dc760d43c2b035e58934086fc4b7a22b",
-  "scope": "Полный перевод основной статьи: аннотация, ключевые слова, введение, материалы и методы, результаты и обсуждение, вклад авторов, заявление о конфликте интересов, благодарности и сведения о дополнительных материалах. Сохранены все 8 рисунков и таблица; 27 библиографических записей приведены на языке оригинала. Подписи переведены, оригинальные надписи внутри рисунков сохранены и пояснены русскими ключами. Редакционные пояснения отделены от перевода. Отдельные дополнительные материалы не входят в перевод; ссылка авторов сохранена. Заголовок «Введение» добавлен для навигации, рисунки извлечены из PDF без перерисовки данных.",
+  "id": "listeriya-vozrast-bioplenki",
+  "question": "Листерия на нержавеющей стали: что меняется, когда биоплёнка стареет",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-10-listeriya-vozrast-bioplenki-dezinfektsiya/",
+  "source_doi": "10.1016/j.jfp.2025.100652",
+  "source_sha256": "5336a3483a98a2aeec9272160b455201e9d768d77e4542bf30fefc9fabe4ffb6",
+  "scope": "Полный перевод основной статьи: аннотация, ключевые слова, введение, материалы и методы, результаты, обсуждение, вклад авторов, заявление о конфликте интересов, благодарности и сведения о дополнительных материалах. Сохранены все 5 составных рисунков; 49 библиографических записей приведены на языке оригинала. Подписи переведены, надписи внутри рисунков сохранены и пояснены русскими ключами. Редакционные пояснения отделены от перевода. Отдельные дополнительные материалы, включая дополнительные рисунки 1–3, не входят в перевод; ссылка авторов сохранена. Заголовок «Введение» добавлен для навигации. Рисунки извлечены из PDF без перерисовки данных и размещены рядом с соответствующими результатами.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-1.png",
-      "sha256": "9f5eba4e3d827dfd2ee5b2dfd1856e7976aadf188ecaac68faf1c06bc2afe5f6"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/figure-1.png",
+      "sha256": "2067e053fa9fe96c5381c295d92d725ffb5742311bd44a32d82574b118f794cc"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-2.png",
-      "sha256": "26415a63c00fea61b73fa6372ca025e273331b03208fc8a82d45069a803f7ad4"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/figure-2.png",
+      "sha256": "40f981951fd3aaff231376ebc2b2275688e7eb4c3cb1695c04711bb0286a5097"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-3.png",
-      "sha256": "6346c25b52d7176ce9209d43907e0619878e30e4ce8b56b4c3ae1c77c1d78034"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/figure-3.png",
+      "sha256": "9efd61e4fbcbeb764e1829c375ca9c117097126fb854ce66c89d8f697b15c578"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-4.png",
-      "sha256": "16938836651ec44414cd733fb8b165bde968d71ee9e3c71502241a1415224e0a"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/figure-4.png",
+      "sha256": "424ab6596782fd105d2e2160b080c2e32e32a728536b5d10a60d71cc6e12a310"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-5.png",
-      "sha256": "3851a6c25944b8e082092d1159161aa2dd8568d22ce45197b881d7b920e01c1f"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/figure-5.png",
+      "sha256": "4068238b85a3a115c0a63289af4d7b3b51d2d24f50ed563b67e35850360996ba"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-6.png",
-      "sha256": "3db9caa36d1307f874cf6ec145a83b01baf8ea24998ce8dc9ff7baf1d2985524"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/original.html",
+      "sha256": "c9cfb99462ddb329eac518039cc403c5070e7ccf9c8d83044e0a55a5831f30b4"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-7.png",
-      "sha256": "23723f3277bb365d1b0389e70df192d58f132de8097c73b5e00582a148c617d7"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/original.pdf",
+      "sha256": "5336a3483a98a2aeec9272160b455201e9d768d77e4542bf30fefc9fabe4ffb6"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/figure-8.png",
-      "sha256": "c078f90f55ddac8208e16f306f72cbf40674f4ae117c707716874bc0e351f7cb"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/translation.html",
+      "sha256": "f7948d7ee7b0b4892648d532a8500054803d32a3f114e2c78a2d2c061b0d03ca"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/original.html",
-      "sha256": "8050a4363bc67c78b84ea1a1b72dc5f318b7317ca2a0b197e2d47fa8d101147b"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/original.pdf",
-      "sha256": "e9a2e93d6d0d0854739b29e6d22ab0d2dc760d43c2b035e58934086fc4b7a22b"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/translation.html",
-      "sha256": "15bcf27a501b6d66055a642bb7812616211d641f880ef6e11b6529a78a0f1075"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/hranenie-smyvov-allergeny/translation.pdf",
-      "sha256": "1d87899199ef20bd3d7839e208d7442440b440fc75828b023259b40a06486466"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/translation.pdf",
+      "sha256": "c098d24733e889dda53fbb455b0aec50a52bf1526b87498a7f6a05a4d76f5db6"
     }
   ]
 }
