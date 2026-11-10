@@ -192,3 +192,7 @@ article.section-shell { min-width: 0; }
 @media print {
   .prose-article .swab-storage .research-table table { width: 100%; min-width: 0; font-size: 8pt; }
 }
+
+/* Full-size source figures in the Listeria biofilm translation. */
+.prose-article .listeria-biofilm .print-figure-label { display: none; }
+.prose-article .listeria-biofilm .references li { overflow-wrap: anywhere; }
