@@ -1,0 +1,76 @@
+{
+  "status": "reviewed_for_manual_publication",
+  "publication_date": "2026-11-13",
+  "article": {
+    "slug": "2026-11-13-salmonella-liniya-uboya-kolichestvennyy-analiz",
+    "id": "salmonella-svinina-kolichestvennyy-analiz",
+    "title": "Сальмонелла на линии убоя: «ниже LOQ» не значит «не обнаружено»",
+    "doi": "10.1016/j.jfp.2025.100665",
+    "scope": "Полный перевод основной статьи объёмом 8 страниц: аннотация, ключевые слова, введение, материалы и методы, результаты, обсуждение, выводы, вклад авторов, декларация конкурирующих интересов и благодарности. Сохранены 2 рисунка и все 3 таблицы с примечаниями; 47 библиографических записей приведены на языке оригинала. Подписи к рисункам переведены; исходные надписи пояснены русскими ключами. Рисунки извлечены из PDF без перерисовки. Таблицы набраны текстом с сохранением ячеек и обозначений. Редакционные пояснения и замечания о расхождениях в исходных числах отделены от перевода. Заголовок «Введение» добавлен для навигации. Отдельные дополнительные материалы в основной статье не указаны.",
+    "segments": 103,
+    "references": 47,
+    "figures": 2,
+    "tables": 3,
+    "source_sha256": "17fbf29ec0a339f0c25e5772ef7d68d46c36174d07497d5b7ff2c68eecf53a40"
+  },
+  "source": {
+    "pmid": "41205873",
+    "doi": "10.1016/j.jfp.2025.100665",
+    "sha256": "17fbf29ec0a339f0c25e5772ef7d68d46c36174d07497d5b7ff2c68eecf53a40",
+    "license": "CC BY 4.0",
+    "source_verified": "Publisher PDF and current Crossref VOR metadata agree; PMID and DOI match; no update/retraction notices found in checked Crossref and Europe PMC records."
+  },
+  "review": {
+    "source_segments": 103,
+    "tables": 3,
+    "table_rows": 60,
+    "references": 47,
+    "figures": 2,
+    "russian_pdf_pages": 21,
+    "full_source_comparison": true,
+    "literal_numbers_inequalities_and_markers": "pass",
+    "table_cells_match_source_pdf": "pass",
+    "source_numerical_discrepancies": "Preserved with separate editorial notes",
+    "advisory_semantic_review": {
+      "model": "jev-1.13.0",
+      "pairs": 31,
+      "faithful": 31,
+      "role": "Additional coverage; direct review also found and corrected errors missed by the model."
+    },
+    "independent_specialist_review": false,
+    "browser_widths": [
+      320,
+      390,
+      1280
+    ],
+    "node_tests": 8,
+    "python_tests": 22,
+    "pdf_visual_review": "Figures and all tables readable; tables 2 and 3 on their own pages; source note heading kept with text."
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/figure-1.png",
+      "sha256": "49e81d36f4eaf52c09029068806829fc0ef2276a5c914883167272c71129f604"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/figure-2.png",
+      "sha256": "008c65b33bfc995b0c4da30ec786034de60fc36ea49616a99ad7208835f93c1e"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/original.html",
+      "sha256": "19c6cd9fc64cce1941fd891e826b6b3b6354fbfaddf5db76e9d8245e4fefdecb"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/original.pdf",
+      "sha256": "17fbf29ec0a339f0c25e5772ef7d68d46c36174d07497d5b7ff2c68eecf53a40"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/translation.html",
+      "sha256": "2845e74519cf56dc95ac06fc7296d7e19ab90247a23d1f73c4c937d4ec398bec"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/translation.pdf",
+      "sha256": "3c2c6f26ea688a0cd2e171c504ba3822a34e44ccb869399e4db196f8126034a9"
+    }
+  ]
+}

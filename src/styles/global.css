@@ -196,3 +196,18 @@ article.section-shell { min-width: 0; }
 /* Full-size source figures in the Listeria biofilm translation. */
 .prose-article .listeria-biofilm .print-figure-label { display: none; }
 .prose-article .listeria-biofilm .references li { overflow-wrap: anywhere; }
+
+/* Preserve the source columns while keeping the Salmonella tables scrollable. */
+.prose-article .salmonella-pork .table-wrap { max-width: 100%; overflow-x: auto; margin: 1.5rem 0; }
+.prose-article .salmonella-pork table { display: table; width: 760px; min-width: 760px; max-width: none; margin: 0; table-layout: fixed; font-size: .82rem; line-height: 1.45; }
+.prose-article .salmonella-pork th, .prose-article .salmonella-pork td { min-width: 0; padding: .5rem; white-space: normal; overflow-wrap: anywhere; }
+.prose-article .salmonella-pork caption { text-align: left; font-weight: 600; margin-bottom: .8rem; }
+.prose-article .salmonella-pork #table-2 th:first-child, .prose-article .salmonella-pork #table-3 th:first-child { width: 16%; }
+.prose-article .salmonella-pork .table-notes { font-size: .85rem; line-height: 1.6; }
+.prose-article .salmonella-pork .table-notes p { margin-top: .5rem; }
+.prose-article .salmonella-pork .references li { overflow-wrap: anywhere; }
+@media print {
+  .prose-article .salmonella-pork table { width: 100%; min-width: 0; font-size: 7.5pt; }
+  .prose-article .salmonella-pork .table-wrap { overflow: visible; }
+  .prose-article .salmonella-pork tr { break-inside: avoid; }
+}

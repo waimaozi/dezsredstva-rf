@@ -5,50 +5,38 @@
   "release_trigger": "manual_full_translation",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "checked_at": "2026-11-10T11:25:32.745664+00:00",
+  "checked_at": "2026-11-13T08:37:28.157792+00:00",
   "status": "awaiting_deployment",
-  "id": "listeriya-vozrast-bioplenki",
-  "question": "Листерия на нержавеющей стали: что меняется, когда биоплёнка стареет",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-10-listeriya-vozrast-bioplenki-dezinfektsiya/",
-  "source_doi": "10.1016/j.jfp.2025.100652",
-  "source_sha256": "5336a3483a98a2aeec9272160b455201e9d768d77e4542bf30fefc9fabe4ffb6",
-  "scope": "Полный перевод основной статьи: аннотация, ключевые слова, введение, материалы и методы, результаты, обсуждение, вклад авторов, заявление о конфликте интересов, благодарности и сведения о дополнительных материалах. Сохранены все 5 составных рисунков; 49 библиографических записей приведены на языке оригинала. Подписи переведены, надписи внутри рисунков сохранены и пояснены русскими ключами. Редакционные пояснения отделены от перевода. Отдельные дополнительные материалы, включая дополнительные рисунки 1–3, не входят в перевод; ссылка авторов сохранена. Заголовок «Введение» добавлен для навигации. Рисунки извлечены из PDF без перерисовки данных и размещены рядом с соответствующими результатами.",
+  "id": "salmonella-svinina-kolichestvennyy-analiz",
+  "question": "Сальмонелла на линии убоя: «ниже LOQ» не значит «не обнаружено»",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-13-salmonella-liniya-uboya-kolichestvennyy-analiz/",
+  "source_doi": "10.1016/j.jfp.2025.100665",
+  "source_sha256": "17fbf29ec0a339f0c25e5772ef7d68d46c36174d07497d5b7ff2c68eecf53a40",
+  "scope": "Полный перевод основной статьи объёмом 8 страниц: аннотация, ключевые слова, введение, материалы и методы, результаты, обсуждение, выводы, вклад авторов, декларация конкурирующих интересов и благодарности. Сохранены 2 рисунка и все 3 таблицы с примечаниями; 47 библиографических записей приведены на языке оригинала. Подписи к рисункам переведены; исходные надписи пояснены русскими ключами. Рисунки извлечены из PDF без перерисовки. Таблицы набраны текстом с сохранением ячеек и обозначений. Редакционные пояснения и замечания о расхождениях в исходных числах отделены от перевода. Заголовок «Введение» добавлен для навигации. Отдельные дополнительные материалы в основной статье не указаны.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/figure-1.png",
-      "sha256": "2067e053fa9fe96c5381c295d92d725ffb5742311bd44a32d82574b118f794cc"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/figure-1.png",
+      "sha256": "49e81d36f4eaf52c09029068806829fc0ef2276a5c914883167272c71129f604"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/figure-2.png",
-      "sha256": "40f981951fd3aaff231376ebc2b2275688e7eb4c3cb1695c04711bb0286a5097"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/figure-2.png",
+      "sha256": "008c65b33bfc995b0c4da30ec786034de60fc36ea49616a99ad7208835f93c1e"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/figure-3.png",
-      "sha256": "9efd61e4fbcbeb764e1829c375ca9c117097126fb854ce66c89d8f697b15c578"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/original.html",
+      "sha256": "19c6cd9fc64cce1941fd891e826b6b3b6354fbfaddf5db76e9d8245e4fefdecb"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/figure-4.png",
-      "sha256": "424ab6596782fd105d2e2160b080c2e32e32a728536b5d10a60d71cc6e12a310"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/original.pdf",
+      "sha256": "17fbf29ec0a339f0c25e5772ef7d68d46c36174d07497d5b7ff2c68eecf53a40"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/figure-5.png",
-      "sha256": "4068238b85a3a115c0a63289af4d7b3b51d2d24f50ed563b67e35850360996ba"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/translation.html",
+      "sha256": "2845e74519cf56dc95ac06fc7296d7e19ab90247a23d1f73c4c937d4ec398bec"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/original.html",
-      "sha256": "c9cfb99462ddb329eac518039cc403c5070e7ccf9c8d83044e0a55a5831f30b4"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/original.pdf",
-      "sha256": "5336a3483a98a2aeec9272160b455201e9d768d77e4542bf30fefc9fabe4ffb6"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/translation.html",
-      "sha256": "f7948d7ee7b0b4892648d532a8500054803d32a3f114e2c78a2d2c061b0d03ca"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-vozrast-bioplenki/translation.pdf",
-      "sha256": "c098d24733e889dda53fbb455b0aec50a52bf1526b87498a7f6a05a4d76f5db6"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/translation.pdf",
+      "sha256": "3c2c6f26ea688a0cd2e171c504ba3822a34e44ccb869399e4db196f8126034a9"
     }
   ]
 }
