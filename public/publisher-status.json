@@ -5,38 +5,46 @@
   "release_trigger": "manual_full_translation",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "checked_at": "2026-11-13T08:37:28.157792+00:00",
+  "checked_at": "2026-11-13T14:38:32.112109+00:00",
   "status": "awaiting_deployment",
-  "id": "salmonella-svinina-kolichestvennyy-analiz",
-  "question": "Сальмонелла на линии убоя: «ниже LOQ» не значит «не обнаружено»",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-13-salmonella-liniya-uboya-kolichestvennyy-analiz/",
-  "source_doi": "10.1016/j.jfp.2025.100665",
-  "source_sha256": "17fbf29ec0a339f0c25e5772ef7d68d46c36174d07497d5b7ff2c68eecf53a40",
-  "scope": "Полный перевод основной статьи объёмом 8 страниц: аннотация, ключевые слова, введение, материалы и методы, результаты, обсуждение, выводы, вклад авторов, декларация конкурирующих интересов и благодарности. Сохранены 2 рисунка и все 3 таблицы с примечаниями; 47 библиографических записей приведены на языке оригинала. Подписи к рисункам переведены; исходные надписи пояснены русскими ключами. Рисунки извлечены из PDF без перерисовки. Таблицы набраны текстом с сохранением ячеек и обозначений. Редакционные пояснения и замечания о расхождениях в исходных числах отделены от перевода. Заголовок «Введение» добавлен для навигации. Отдельные дополнительные материалы в основной статье не указаны.",
+  "id": "mindal-surrogat-termoobrabotka",
+  "question": "Целый и дроблёный миндаль: что меняется при валидации термообработки",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-13-mindal-forma-produkta-validatsiya-termoobrabotki/",
+  "source_doi": "10.1016/j.jfp.2025.100644",
+  "source_sha256": "285ca4b67d56cb85fca2865ed2281b8707dde83dcc3ef72b02224166ebe9c7f5",
+  "scope": "Полный перевод основной статьи объёмом 8 страниц: аннотация, ключевые слова, введение, материалы и методы, результаты и обсуждение, вклад авторов, заявление о конфликте интересов, благодарности и сведения о дополнительных материалах. Сохранены все 4 рисунка и таблица с примечаниями; 44 библиографические записи приведены на языке оригинала. Подписи переведены, надписи внутри рисунков сохранены и пояснены русскими ключами. Рисунки извлечены из PDF без перерисовки данных, таблица набрана текстом. Редакционные пояснения отделены от перевода; заголовок «Введение» добавлен для навигации. Отдельные дополнительные рисунки S1–S2 и таблицы S1–S4 в перевод не входят; ссылка авторов сохранена.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/figure-1.png",
-      "sha256": "49e81d36f4eaf52c09029068806829fc0ef2276a5c914883167272c71129f604"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/figure-1.png",
+      "sha256": "0612969803a75e4f0da9955d28b7a92a3c943f748f3483d7ca4e36102edbea4f"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/figure-2.png",
-      "sha256": "008c65b33bfc995b0c4da30ec786034de60fc36ea49616a99ad7208835f93c1e"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/figure-2.png",
+      "sha256": "153e06f74a19a5f9cefa597144863b5f9d3d2f450f2a3220a8b02d2e4cb04f47"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/original.html",
-      "sha256": "19c6cd9fc64cce1941fd891e826b6b3b6354fbfaddf5db76e9d8245e4fefdecb"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/figure-3.png",
+      "sha256": "dad63ad8eb73dee04443d87e25021feba9922af2ed827ac5505d3b908d281123"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/original.pdf",
-      "sha256": "17fbf29ec0a339f0c25e5772ef7d68d46c36174d07497d5b7ff2c68eecf53a40"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/figure-4.png",
+      "sha256": "17542e3a4f746760c2ec1a5911e4c41b578bb65d0239f4809aa008c46ca996d9"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/translation.html",
-      "sha256": "2845e74519cf56dc95ac06fc7296d7e19ab90247a23d1f73c4c937d4ec398bec"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/original.html",
+      "sha256": "f37a3f1a7c6e23c9f24047dd4114e3532fad02aba381890ad8decff415d007fe"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-svinina-kolichestvennyy-analiz/translation.pdf",
-      "sha256": "3c2c6f26ea688a0cd2e171c504ba3822a34e44ccb869399e4db196f8126034a9"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/original.pdf",
+      "sha256": "285ca4b67d56cb85fca2865ed2281b8707dde83dcc3ef72b02224166ebe9c7f5"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/translation.html",
+      "sha256": "d4ce8b85fa90105b863a0e259a5bde2a7ec85e572acb8ea3df17797b8c477cc6"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/translation.pdf",
+      "sha256": "d0739dc02e74b10dae1a7fbfd26307c4caed80fa4fddeba0c3d3ff95fd8f95b7"
     }
   ]
 }

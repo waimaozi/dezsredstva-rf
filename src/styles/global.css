@@ -198,6 +198,18 @@ article.section-shell { min-width: 0; }
 .prose-article .listeria-biofilm .references li { overflow-wrap: anywhere; }
 
 /* Preserve the source columns while keeping the Salmonella tables scrollable. */
+.prose-article .almond-surrogate .table-wrap { max-width: 100%; overflow-x: auto; margin: 1.5rem 0; }
+.prose-article .almond-surrogate table { display: table; width: 880px; min-width: 880px; max-width: none; margin: 0; table-layout: fixed; font-size: .82rem; line-height: 1.45; }
+.prose-article .almond-surrogate th, .prose-article .almond-surrogate td { min-width: 0; padding: .5rem; white-space: normal; overflow-wrap: anywhere; }
+.prose-article .almond-surrogate caption { text-align: left; font-weight: 600; margin-bottom: .8rem; }
+.prose-article .almond-surrogate .table-notes { font-size: .85rem; line-height: 1.6; }
+.prose-article .almond-surrogate .table-notes p { margin-top: .5rem; }
+.prose-article .almond-surrogate .references li { overflow-wrap: anywhere; }
+@media print {
+  .prose-article .almond-surrogate table { width: 100%; min-width: 0; font-size: 7.5pt; }
+  .prose-article .almond-surrogate .table-wrap { overflow: visible; }
+  .prose-article .almond-surrogate tr { break-inside: avoid; }
+}
 .prose-article .salmonella-pork .table-wrap { max-width: 100%; overflow-x: auto; margin: 1.5rem 0; }
 .prose-article .salmonella-pork table { display: table; width: 760px; min-width: 760px; max-width: none; margin: 0; table-layout: fixed; font-size: .82rem; line-height: 1.45; }
 .prose-article .salmonella-pork th, .prose-article .salmonella-pork td { min-width: 0; padding: .5rem; white-space: normal; overflow-wrap: anywhere; }

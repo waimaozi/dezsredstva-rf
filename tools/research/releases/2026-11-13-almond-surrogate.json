@@ -1,0 +1,85 @@
+{
+  "status": "reviewed_for_manual_publication",
+  "publication_date": "2026-11-13",
+  "article": {
+    "slug": "2026-11-13-mindal-forma-produkta-validatsiya-termoobrabotki",
+    "id": "mindal-surrogat-termoobrabotka",
+    "title": "Целый и дроблёный миндаль: что меняется при валидации термообработки",
+    "doi": "10.1016/j.jfp.2025.100644",
+    "scope": "Полный перевод основной статьи объёмом 8 страниц: аннотация, ключевые слова, введение, материалы и методы, результаты и обсуждение, вклад авторов, заявление о конфликте интересов, благодарности и сведения о дополнительных материалах. Сохранены все 4 рисунка и таблица с примечаниями; 44 библиографические записи приведены на языке оригинала. Подписи переведены, надписи внутри рисунков сохранены и пояснены русскими ключами. Рисунки извлечены из PDF без перерисовки данных, таблица набрана текстом. Редакционные пояснения отделены от перевода; заголовок «Введение» добавлен для навигации. Отдельные дополнительные рисунки S1–S2 и таблицы S1–S4 в перевод не входят; ссылка авторов сохранена.",
+    "segments": 63,
+    "references": 44,
+    "figures": 4,
+    "tables": 1,
+    "source_sha256": "285ca4b67d56cb85fca2865ed2281b8707dde83dcc3ef72b02224166ebe9c7f5"
+  },
+  "source": {
+    "pmid": "41109528",
+    "doi": "10.1016/j.jfp.2025.100644",
+    "sha256": "285ca4b67d56cb85fca2865ed2281b8707dde83dcc3ef72b02224166ebe9c7f5",
+    "license": "CC BY 4.0",
+    "source_verified": "Publisher PDF and current Crossref VOR metadata agree; PMID and DOI match; no update/retraction notices in checked Crossref and Europe PMC records."
+  },
+  "review": {
+    "source_segments": 63,
+    "tables": 1,
+    "table_rows": 6,
+    "references": 44,
+    "figures": 4,
+    "russian_pdf_pages": 21,
+    "full_source_comparison": true,
+    "literal_numbers_inequalities_and_markers": "pass",
+    "table_cells_match_source_pdf": "pass",
+    "source_discrepancies": "Figure 4A lower confidence limit 0.644 versus 0.645 in text preserved and noted separately.",
+    "advisory_semantic_review": {
+      "model": "jev-1.13.0",
+      "pairs": 10,
+      "faithful": 10,
+      "role": "Additional targeted coverage; manual review corrected unsupported specificity, certainty and untranslated units. Not automatic approval."
+    },
+    "edited_segments": 33,
+    "independent_specialist_review": false,
+    "browser_widths": [
+      320,
+      390,
+      1280
+    ],
+    "node_tests": 8,
+    "python_tests": 22,
+    "pdf_visual_review": "All figures and table readable. Separate editorial scope/interpretation and figure keys; source bibliography and disclosures preserved."
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/figure-1.png",
+      "sha256": "0612969803a75e4f0da9955d28b7a92a3c943f748f3483d7ca4e36102edbea4f"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/figure-2.png",
+      "sha256": "153e06f74a19a5f9cefa597144863b5f9d3d2f450f2a3220a8b02d2e4cb04f47"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/figure-3.png",
+      "sha256": "dad63ad8eb73dee04443d87e25021feba9922af2ed827ac5505d3b908d281123"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/figure-4.png",
+      "sha256": "17542e3a4f746760c2ec1a5911e4c41b578bb65d0239f4809aa008c46ca996d9"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/original.html",
+      "sha256": "f37a3f1a7c6e23c9f24047dd4114e3532fad02aba381890ad8decff415d007fe"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/original.pdf",
+      "sha256": "285ca4b67d56cb85fca2865ed2281b8707dde83dcc3ef72b02224166ebe9c7f5"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/translation.html",
+      "sha256": "d4ce8b85fa90105b863a0e259a5bde2a7ec85e572acb8ea3df17797b8c477cc6"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/mindal-surrogat-termoobrabotka/translation.pdf",
+      "sha256": "d0739dc02e74b10dae1a7fbfd26307c4caed80fa4fddeba0c3d3ff95fd8f95b7"
+    }
+  ]
+}
