@@ -1,0 +1,98 @@
+{
+  "status": "reviewed_for_manual_publication",
+  "publication_date": "2026-11-17",
+  "article": {
+    "slug": "2026-11-17-listeriya-monitoring-byudzhet-korrektiruyushchie-deystviya",
+    "id": "listeriya-monitoring-byudzhet",
+    "title": "Мониторинг листерии: из чего складываются расходы на программу",
+    "doi": "10.3168/jdsc.2024-0692",
+    "scope": "Полный перевод основной статьи на 5 журнальных страницах, а также графической аннотации и ключевых выводов из электронной версии. Исходный PDF содержит 6 страниц с учётом графической аннотации. Переведены аннотация, весь основной текст, таблица с 9 предприятиями и всеми 5 примечаниями, благодарности, сведения о финансировании, доступности данных и конфликте интересов. Все 24 библиографические записи сохранены на языке оригинала. Графическая аннотация воспроизведена без изменения; её надписи переведены отдельным ключом. Текст и таблица подготовлены по полному XML PMC и сверены с PDF. Редакционные пояснения отделены от перевода; заголовок «Основной текст» добавлен для навигации. Отдельные анкеты и исходные данные из репозитория авторов не переведены; ссылка на них сохранена.",
+    "segments": 54,
+    "references": 24,
+    "figures": 1,
+    "tables": 1,
+    "source_sha256": "2a2c1db710599d1a83497cf595a79ac55f5273b317c6b050d4b5b883ccb2de2f"
+  },
+  "source": {
+    "pmid": "40458142",
+    "pmcid": "PMC12126814",
+    "doi": "10.3168/jdsc.2024-0692",
+    "sha256": "2a2c1db710599d1a83497cf595a79ac55f5273b317c6b050d4b5b883ccb2de2f",
+    "license": "CC BY 4.0",
+    "source_verified": "PMC full XML, original publisher PDF and image with matching PMC checksums. Current Crossref VOR license confirms CC BY 4.0. No retraction indicated by checked PMC metadata; no updates listed by checked Crossref record. Online date follows PMC (18 March 2025); issue May 2025.",
+    "pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12126814.1/PMC12126814.1.pdf"
+  },
+  "selection": {
+    "reader": "Quality, food safety and HACCP managers budgeting environmental monitoring at dairy plants",
+    "utility": "Distinguishes swabbing/testing from corrective-action costs using nine plant examples; self-reported historical US data are not a current budget benchmark.",
+    "prior_rank": "Reused November 9 TypeSafe secondary-relevance rating; editorial selection for management/budgeting utility and topic diversity. No redundant reranking.",
+    "wordstat_russia_phrase_family_30_days": {
+      "мониторинг листерии": 1,
+      "контроль листерии": 29,
+      "производственный контроль молочной продукции": 224
+    },
+    "wordstat_role": "Audience vocabulary; does not establish demand for this paper or control the title."
+  },
+  "review": {
+    "source_segments": 54,
+    "rendered_segment_occurrences": 55,
+    "tables": 1,
+    "table_rows": 9,
+    "table_cells": 90,
+    "references": 24,
+    "figures": 1,
+    "russian_pdf_pages": 15,
+    "full_source_comparison": true,
+    "literal_numbers_inequalities_and_markers": "pass",
+    "table_cells_match_source_pdf": "pass",
+    "source_discrepancies": "Listeria versus Lm in table notes; CP perceived control 3 versus narrative 4; N claimed lowest follow-up prevalence versus CM lower in table. Preserved and explained. Delta uses initial-only baseline, not the adjacent combined column.",
+    "metadata_restored_from_pdf": [
+      "Standard abbreviations notice",
+      "All five author ORCID links",
+      "Reference year suffixes",
+      "Reference access dates and FDA URL hyphens"
+    ],
+    "advisory_semantic_review": {
+      "model": "jev-1.13.0",
+      "pairs": 10,
+      "faithful": 10,
+      "role": "Jev accepted all 10 pairs; manual review still corrected statistical terminology, unsupported food-handler setting and tentative wording. Advisory check is additional coverage, not validation or savings.",
+      "usage": {
+        "input_tokens": 17555,
+        "output_tokens": 476
+      }
+    },
+    "edited_segments": 25,
+    "independent_specialist_review": false,
+    "browser_widths": [
+      320,
+      390,
+      1280
+    ],
+    "node_tests": 8,
+    "python_tests": 22,
+    "pdf_visual_review": "Readable landscape table, full source graphical abstract with Russian key, separate editorial explanations; all text/reference coverage and page bounds verified."
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-monitoring-byudzhet/graphical-abstract.jpg",
+      "sha256": "772a223d9b844f3c97cac8cabe48ec677a24dd4d460c35448873f63c664b47fa"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-monitoring-byudzhet/original.html",
+      "sha256": "4458ced5d1223a3b18a439625b29c0f3d7f8f8328c39769fbd2bd6d427217047"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-monitoring-byudzhet/original.pdf",
+      "sha256": "2a2c1db710599d1a83497cf595a79ac55f5273b317c6b050d4b5b883ccb2de2f"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-monitoring-byudzhet/translation.html",
+      "sha256": "0865fa2afcd355c628cce265b81f60e5fb63e95f206483bf8a9e005b0e45c3cf"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-monitoring-byudzhet/translation.pdf",
+      "sha256": "63be4c1dac4387e36b154cdcd81deee90578f533d8afe39e97fb963431d896d2"
+    }
+  ]
+}

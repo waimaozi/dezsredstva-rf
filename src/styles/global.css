@@ -223,3 +223,18 @@ article.section-shell { min-width: 0; }
   .prose-article .salmonella-pork .table-wrap { overflow: visible; }
   .prose-article .salmonella-pork tr { break-inside: avoid; }
 }
+
+/* Ten source columns remain readable and keyboard-scrollable. */
+.prose-article .listeria-costs .table-scroll { max-width:100%; overflow-x:auto; margin:1.5rem 0; }
+.prose-article .listeria-costs table { display:table; width:1150px; min-width:1150px; max-width:none; margin:0; table-layout:fixed; font-size:.82rem; line-height:1.45; }
+.prose-article .listeria-costs th, .prose-article .listeria-costs td { min-width:0; padding:.45rem; white-space:normal; overflow-wrap:anywhere; }
+.prose-article .listeria-costs .table-notes { font-size:.85rem; line-height:1.6; }
+.prose-article .listeria-costs .references li { overflow-wrap:anywhere; }
+@media print {
+  .prose-article .listeria-costs table { width:100%; min-width:0; font-size:7pt; }
+  .prose-article .listeria-costs .table-scroll { overflow:visible; }
+  .prose-article .listeria-costs tr { break-inside:avoid; }
+}
+
+.prose-article .listeria-costs .print-table-caption { display:none; }
+@media print { .prose-article .listeria-costs .print-table-caption { display:table-caption; text-align:left; } }
