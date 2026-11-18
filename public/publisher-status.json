@@ -5,34 +5,30 @@
   "release_trigger": "manual_full_translation",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "checked_at": "2026-11-17T07:46:12.548784+00:00",
+  "checked_at": "2026-11-18T10:52:50.194917+00:00",
   "status": "awaiting_deployment",
-  "id": "listeriya-monitoring-byudzhet",
-  "question": "Мониторинг листерии: из чего складываются расходы на программу",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-17-listeriya-monitoring-byudzhet-korrektiruyushchie-deystviya/",
-  "source_doi": "10.3168/jdsc.2024-0692",
-  "source_sha256": "2a2c1db710599d1a83497cf595a79ac55f5273b317c6b050d4b5b883ccb2de2f",
-  "scope": "Полный перевод основной статьи на 5 журнальных страницах, а также графической аннотации и ключевых выводов из электронной версии. Исходный PDF содержит 6 страниц с учётом графической аннотации. Переведены аннотация, весь основной текст, таблица с 9 предприятиями и всеми 5 примечаниями, благодарности, сведения о финансировании, доступности данных и конфликте интересов. Все 24 библиографические записи сохранены на языке оригинала. Графическая аннотация воспроизведена без изменения; её надписи переведены отдельным ключом. Текст и таблица подготовлены по полному XML PMC и сверены с PDF. Редакционные пояснения отделены от перевода; заголовок «Основной текст» добавлен для навигации. Отдельные анкеты и исходные данные из репозитория авторов не переведены; ссылка на них сохранена.",
+  "id": "salmonella-smes-dlya-keksa",
+  "question": "Сальмонелла в сухой смеси для кекса: от одной упаковки к расследованию вспышки",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-18-salmonella-smes-dlya-keksa-rassledovanie-vspyshki/",
+  "source_doi": "10.15585/mmwr.mm6834a5",
+  "source_sha256": "c3fb661ecc4517ada790bbda68e6ae252bfb9f8ddba6c67f9c67e8d3257bb3fa",
+  "scope": "Полный перевод основной статьи на 2 журнальных страницах: весь текст расследования, сведения об авторах и организациях, заявление о конфликте интересов и обе сноски. Все 4 библиографические записи сохранены на языке оригинала. В источнике нет отдельных аннотации, рисунков и таблиц. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Подзаголовки добавлены для навигации; редакционные пояснения отделены от перевода.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-monitoring-byudzhet/graphical-abstract.jpg",
-      "sha256": "772a223d9b844f3c97cac8cabe48ec677a24dd4d460c35448873f63c664b47fa"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-smes-dlya-keksa/original.html",
+      "sha256": "26f8a5a0a1ca41cb372cfb5644e4f82c800254c62e5a55b5a3402e7ca975e3ac"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-monitoring-byudzhet/original.html",
-      "sha256": "4458ced5d1223a3b18a439625b29c0f3d7f8f8328c39769fbd2bd6d427217047"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-smes-dlya-keksa/original.pdf",
+      "sha256": "c3fb661ecc4517ada790bbda68e6ae252bfb9f8ddba6c67f9c67e8d3257bb3fa"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-monitoring-byudzhet/original.pdf",
-      "sha256": "2a2c1db710599d1a83497cf595a79ac55f5273b317c6b050d4b5b883ccb2de2f"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-smes-dlya-keksa/translation.html",
+      "sha256": "23e9c15e9d42555000ba89d7a3caf768928104356a81c0bed66a86def282d41a"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-monitoring-byudzhet/translation.html",
-      "sha256": "0865fa2afcd355c628cce265b81f60e5fb63e95f206483bf8a9e005b0e45c3cf"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/listeriya-monitoring-byudzhet/translation.pdf",
-      "sha256": "63be4c1dac4387e36b154cdcd81deee90578f533d8afe39e97fb963431d896d2"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-smes-dlya-keksa/translation.pdf",
+      "sha256": "fc19dafd2508087889958948219db52f2a0dbb8b9e2e6e233514d3b65b68a0e5"
     }
   ]
 }

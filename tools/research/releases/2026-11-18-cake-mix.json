@@ -1,0 +1,79 @@
+{
+  "status": "reviewed_for_manual_publication",
+  "publication_date": "2026-11-18",
+  "article": {
+    "slug": "2026-11-18-salmonella-smes-dlya-keksa-rassledovanie-vspyshki",
+    "id": "salmonella-smes-dlya-keksa",
+    "title": "Сальмонелла в сухой смеси для кекса: от одной упаковки к расследованию вспышки",
+    "doi": "10.15585/mmwr.mm6834a5",
+    "scope": "Полный перевод основной статьи на 2 журнальных страницах: весь текст расследования, сведения об авторах и организациях, заявление о конфликте интересов и обе сноски. Все 4 библиографические записи сохранены на языке оригинала. В источнике нет отдельных аннотации, рисунков и таблиц. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Подзаголовки добавлены для навигации; редакционные пояснения отделены от перевода.",
+    "segments": 9,
+    "references": 4,
+    "figures": 0,
+    "tables": 0,
+    "source_sha256": "c3fb661ecc4517ada790bbda68e6ae252bfb9f8ddba6c67f9c67e8d3257bb3fa"
+  },
+  "source": {
+    "pmid": "31465317",
+    "pmcid": "PMC6715262",
+    "doi": "10.15585/mmwr.mm6834a5",
+    "sha256": "c3fb661ecc4517ada790bbda68e6ae252bfb9f8ddba6c67f9c67e8d3257bb3fa",
+    "pdf_url": "https://www.cdc.gov/mmwr/volumes/68/wr/pdfs/mm6834a5-h.pdf",
+    "license": "Public domain under article-specific PMC XML statement and MMWR reuse policy",
+    "license_url": "https://www.cdc.gov/mmwr/about.html",
+    "reuse_conditions_url": "https://www.cdc.gov/other/agencymaterials.html",
+    "rights_note": "Primary article-specific statement takes precedence over Europe PMC CC BY shorthand. CDC attribution, free-source link and nonendorsement notice supplied; source content preserved; no CDC logo introduced.",
+    "status_check": "PMC is-retracted=no; inspected Crossref metadata has no update-to relation; targeted DOI correction search found no correction of this article."
+  },
+  "selection": {
+    "reader": "Quality, food safety, technology and laboratory staff at dry-mix manufacturers",
+    "utility": "A positive unopened retail package and genome/exposure evidence alongside negative later factory samples; distinguishes separate evidence streams and avoids inferring a contaminated ingredient.",
+    "source_probe": "Complete 2-page PDF and XML reviewed after two more complex candidates were held for data inconsistencies.",
+    "limits": "Historical outbreak concluded January 2019; 43 boxes not a market prevalence sample; no universal SNP cutoff; original Oregon patients not asserted to be among seven final cases.",
+    "semantic_ranking": "No new TypeSafe call: single short candidate selected and reviewed in full, not a batch of repeated semantic decisions."
+  },
+  "review": {
+    "source_segments": 9,
+    "rendered_segment_occurrences": 9,
+    "body_paragraphs": 4,
+    "authors": 12,
+    "footnotes": 2,
+    "references": 4,
+    "figures": 0,
+    "tables": 0,
+    "russian_pdf_pages": 4,
+    "full_source_comparison": true,
+    "numeric_literals": "pass; decimal comma normalized",
+    "spelled_numbers": "Manually compared: two patients, six outlets, four patients / SNPs, one SNP, seven final cases in five states.",
+    "pdf_content_and_bounds": "pass",
+    "pdf_visual_review": "Readable four-page packet; full source body and reference text retained; editorial notes distinct.",
+    "independent_specialist_review": false,
+    "browser_widths": [
+      320,
+      390,
+      1280
+    ],
+    "node_tests": 8,
+    "python_tests": 22,
+    "build": "pass",
+    "discovery_check": "216 articles, 27 translations, 0 empty tag pages and 0 noindex URLs in sitemap"
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-smes-dlya-keksa/original.html",
+      "sha256": "26f8a5a0a1ca41cb372cfb5644e4f82c800254c62e5a55b5a3402e7ca975e3ac"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-smes-dlya-keksa/original.pdf",
+      "sha256": "c3fb661ecc4517ada790bbda68e6ae252bfb9f8ddba6c67f9c67e8d3257bb3fa"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-smes-dlya-keksa/translation.html",
+      "sha256": "23e9c15e9d42555000ba89d7a3caf768928104356a81c0bed66a86def282d41a"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-smes-dlya-keksa/translation.pdf",
+      "sha256": "fc19dafd2508087889958948219db52f2a0dbb8b9e2e6e233514d3b65b68a0e5"
+    }
+  ]
+}
