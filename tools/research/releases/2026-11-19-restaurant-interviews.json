@@ -1,0 +1,89 @@
+{
+  "status": "reviewed_for_manual_publication",
+  "publication_date": "2026-11-19",
+  "article": {
+    "slug": "2026-11-19-salmonella-restoran-oprosy-istoriya-pokupok",
+    "id": "salmonella-restoran-oprosy",
+    "title": "Сальмонелла в ресторане: как повторные опросы и история покупок помогли найти источник",
+    "doi": "10.15585/mmwr.mm7323a4",
+    "scope": "Полный перевод основной статьи на 2 журнальных страницах: краткое содержание, весь текст расследования, 1 рисунок с подписью и примечаниями, благодарности, сведения об авторах и организациях, заявление о конфликте интересов и все 3 сноски. Все 3 библиографические записи сохранены на языке оригинала. График воспроизведён без изменения данных; перевод надписей приведён под ним. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Редакционные пояснения отделены от перевода.",
+    "segments": 27,
+    "references": 3,
+    "figures": 1,
+    "tables": 0,
+    "authors": 10,
+    "source_sha256": "fa9049538db81d93d22fea43dc5f19bd14c7dbcbde108cdb96dc888ba636ffb6",
+    "figure_sha256": "42631c57e958a36ccbdc57aafe362b424bd8fbd804fb9626bd8bed15799349da"
+  },
+  "source": {
+    "pmid": "38870481",
+    "pmcid": "PMC11199015",
+    "doi": "10.15585/mmwr.mm7323a4",
+    "sha256": "fa9049538db81d93d22fea43dc5f19bd14c7dbcbde108cdb96dc888ba636ffb6",
+    "pdf_url": "https://www.cdc.gov/mmwr/volumes/73/wr/pdfs/mm7323a4-H.pdf",
+    "xml_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11199015.1/PMC11199015.1.xml",
+    "figure_url": "https://www.cdc.gov/mmwr/volumes/73/wr/figures/mm7323a4-F-large.gif",
+    "figure_sha256": "42631c57e958a36ccbdc57aafe362b424bd8fbd804fb9626bd8bed15799349da",
+    "license": "Public domain, confirmed by article-specific PMC XML and MMWR policy",
+    "license_url": "https://www.cdc.gov/mmwr/about.html",
+    "reuse_conditions_url": "https://www.cdc.gov/other/agencymaterials.html",
+    "rights_note": "Full attribution, free-source link and nonendorsement notice supplied. Publisher PDF and figure bytes preserved. Translation and editorial explanations identified separately; no CDC logo introduced.",
+    "status_check": "Crossref has no update-to relation; XML has no retracted-article relation; PubMed and targeted DOI correction search revealed no correction or retraction of this report."
+  },
+  "selection": {
+    "reader": "Food safety, HACCP, laboratory and sanitation staff at catering establishments; transferable investigation reasoning for food-industry quality staff.",
+    "utility": "Initial interviews missed a common exposure; iterative open-ended interviews and purchase histories identified a restaurant; composite environmental/food samples guided sanitation.",
+    "limits": "Historical US investigation, status through June 10, 2024. Composite positives do not prove each constituent surface positive. Introduction route not established; positive employee not proven initial source. No sanitation regimen or reopening test details supplied. No market or factory prevalence estimate.",
+    "semantic_ranking": "No new TypeSafe call: individual source suitability and numerical consistency review, not a batch of repeated semantic classifications.",
+    "screened_alternative": "Cashew brie report 10.15585/mmwr.mm7221a4 not selected: text shifts from 36 samples / 51 isolates to 51 samples; did not expand or translate it."
+  },
+  "review": {
+    "source_segments": 27,
+    "rendered_segment_occurrences": 27,
+    "body_paragraphs": 6,
+    "summary_sections": 3,
+    "authors": 10,
+    "footnotes": 3,
+    "references": 3,
+    "figures": 1,
+    "tables": 0,
+    "russian_pdf_pages": 5,
+    "full_source_comparison": true,
+    "numeric_literals": "pass; decimal comma normalized",
+    "spelled_numbers": "Full comparison: five initial residents; four/eight reported exposures at milestones; nine staff; seven composite environmental and two composite food positives; 11 total cases; symptom, hospitalization, nonstool and UTI counts; five incubation observations; one newly hired employee; three later patients. Figure bars sum to 11; source timeline and dates retained.",
+    "pdf_content_and_bounds": "pass",
+    "pdf_visual_review": "All pages inspected. Full source, original figure with translated labels, distinct editorial notes and attribution preserved.",
+    "independent_specialist_review": false,
+    "browser_widths": [
+      320,
+      390,
+      1280
+    ],
+    "node_tests": 8,
+    "python_tests": 22,
+    "build": "pass",
+    "discovery_check": "217 articles, 28 translations, 0 empty tag pages and 0 noindex URLs in sitemap"
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-restoran-oprosy/figure-1.gif",
+      "sha256": "42631c57e958a36ccbdc57aafe362b424bd8fbd804fb9626bd8bed15799349da"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-restoran-oprosy/original.html",
+      "sha256": "a2c5b4dacf144035690922395ae033b7f0e9efe358c647eee1f16df5e611cb28"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-restoran-oprosy/original.pdf",
+      "sha256": "fa9049538db81d93d22fea43dc5f19bd14c7dbcbde108cdb96dc888ba636ffb6"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-restoran-oprosy/translation.html",
+      "sha256": "8fa19c042b434d2eacbd7fd7c90637623fa457a78b8a962000f51c0e6efd3cd3"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-restoran-oprosy/translation.pdf",
+      "sha256": "2571dabe28d484d999faf098f5690353651b5bb72e423bc2eab3c369c2ec6812"
+    }
+  ]
+}
