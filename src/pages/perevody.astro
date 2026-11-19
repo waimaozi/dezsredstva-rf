@@ -7,6 +7,11 @@ const articles = (await getCollection("articles"))
   .sort((a, b) => (b.data.updated ?? b.data.date).getTime() - (a.data.updated ?? a.data.date).getTime());
 const topics = [
   {
+    id: "rassledovaniya", title: "Расследования пищевых вспышек",
+    description: "Как опросы, история покупок, пробы продукции и смывы помогают найти источник. Связь между данными и границы выводов на примерах завершённых расследований.",
+    ids: ["2026-11-19-salmonella-restoran-oprosy-istoriya-pokupok", "2026-11-18-salmonella-smes-dlya-keksa-rassledovanie-vspyshki", "2026-10-17-listeriya-v-apparate-dlya-molochnyh-kokteyley"]
+  },
+  {
     id: "kontrol-moyki", title: "Контроль мойки: АТФ и микробиология",
     description: "Что происходит с микробным загрязнением на этапах санитарной обработки, как АТФ-контроль помогает изменить мойку и что подтверждает микробиология.",
     ids: ["2026-11-09-moyka-vodoy-perenos-bakteriy-myasopererabotka", "2026-11-09-atf-kontrol-uluchshenie-moyki-proizvodstvo-tofu", "2026-10-15-chto-pokazyvaet-lyuminometr"]
