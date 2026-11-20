@@ -5,34 +5,34 @@
   "release_trigger": "manual_full_translation",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "checked_at": "2026-11-19T10:43:58.090823+00:00",
+  "checked_at": "2026-11-20T06:26:31.288328+00:00",
   "status": "awaiting_deployment",
-  "id": "salmonella-restoran-oprosy",
-  "question": "Сальмонелла в ресторане: как повторные опросы и история покупок помогли найти источник",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-19-salmonella-restoran-oprosy-istoriya-pokupok/",
-  "source_doi": "10.15585/mmwr.mm7323a4",
-  "source_sha256": "fa9049538db81d93d22fea43dc5f19bd14c7dbcbde108cdb96dc888ba636ffb6",
-  "scope": "Полный перевод основной статьи на 2 журнальных страницах: краткое содержание, весь текст расследования, 1 рисунок с подписью и примечаниями, благодарности, сведения об авторах и организациях, заявление о конфликте интересов и все 3 сноски. Все 3 библиографические записи сохранены на языке оригинала. График воспроизведён без изменения данных; перевод надписей приведён под ним. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Редакционные пояснения отделены от перевода.",
+  "id": "gretskie-orehi-ecoli",
+  "question": "Грецкие орехи и вспышка E. coli: что показали пробы и прослеживаемость",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-20-gretskie-orehi-ecoli-proslezhivaemost-proby/",
+  "source_doi": "10.15585/mmwr.mm7438a2",
+  "source_sha256": "14b9a5ea77f7d3ac7b5ef2b23b8ab967c290dcbb5c2a54d69fcb704e838639c5",
+  "scope": "Полный перевод основной статьи на 2 журнальных страницах: краткое содержание, весь текст расследования, 1 рисунок с подписью, благодарности, сведения об авторах и организациях, заявление о конфликте интересов и все 3 сноски. Все 5 библиографических записей сохранены на языке оригинала. График воспроизведён без изменения данных; перевод надписей приведён под ним. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Редакционные пояснения отделены от перевода.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-restoran-oprosy/figure-1.gif",
-      "sha256": "42631c57e958a36ccbdc57aafe362b424bd8fbd804fb9626bd8bed15799349da"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/figure-1.gif",
+      "sha256": "d7a31b78f85285417527cf433a2de9706305a7cf34e307b66a3f9d9a009a105f"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-restoran-oprosy/original.html",
-      "sha256": "a2c5b4dacf144035690922395ae033b7f0e9efe358c647eee1f16df5e611cb28"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/original.html",
+      "sha256": "f3bbefd7a3f4b28a0e23b2ac3a50cdbd31e1110450e333b85c72dff3b6948d70"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-restoran-oprosy/original.pdf",
-      "sha256": "fa9049538db81d93d22fea43dc5f19bd14c7dbcbde108cdb96dc888ba636ffb6"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/original.pdf",
+      "sha256": "14b9a5ea77f7d3ac7b5ef2b23b8ab967c290dcbb5c2a54d69fcb704e838639c5"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-restoran-oprosy/translation.html",
-      "sha256": "8fa19c042b434d2eacbd7fd7c90637623fa457a78b8a962000f51c0e6efd3cd3"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/translation.html",
+      "sha256": "7705c8c230535dada0f2c5ddb4eb2efe58ed6c9ee973d5e74b670f802c27ca26"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/salmonella-restoran-oprosy/translation.pdf",
-      "sha256": "2571dabe28d484d999faf098f5690353651b5bb72e423bc2eab3c369c2ec6812"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/translation.pdf",
+      "sha256": "d9b28dcd11115e3c2f407927fb146772bbc193b4f5401609b06ad131d885201e"
     }
   ]
 }

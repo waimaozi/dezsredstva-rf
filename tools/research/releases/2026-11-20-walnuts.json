@@ -1,0 +1,100 @@
+{
+  "status": "reviewed_for_manual_publication",
+  "publication_date": "2026-11-20",
+  "article": {
+    "slug": "2026-11-20-gretskie-orehi-ecoli-proslezhivaemost-proby",
+    "id": "gretskie-orehi-ecoli",
+    "title": "Грецкие орехи и вспышка E. coli: что показали пробы и прослеживаемость",
+    "doi": "10.15585/mmwr.mm7438a2",
+    "scope": "Полный перевод основной статьи на 2 журнальных страницах: краткое содержание, весь текст расследования, 1 рисунок с подписью, благодарности, сведения об авторах и организациях, заявление о конфликте интересов и все 3 сноски. Все 5 библиографических записей сохранены на языке оригинала. График воспроизведён без изменения данных; перевод надписей приведён под ним. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Редакционные пояснения отделены от перевода.",
+    "segments": 25,
+    "references": 5,
+    "figures": 1,
+    "tables": 0,
+    "authors": 13,
+    "source_sha256": "14b9a5ea77f7d3ac7b5ef2b23b8ab967c290dcbb5c2a54d69fcb704e838639c5",
+    "figure_sha256": "d7a31b78f85285417527cf433a2de9706305a7cf34e307b66a3f9d9a009a105f"
+  },
+  "source": {
+    "pmid": "41296615",
+    "pmcid": "PMC12654869",
+    "doi": "10.15585/mmwr.mm7438a2",
+    "sha256": "14b9a5ea77f7d3ac7b5ef2b23b8ab967c290dcbb5c2a54d69fcb704e838639c5",
+    "pdf_url": "https://www.cdc.gov/mmwr/volumes/74/wr/pdfs/mm7438a2-H.pdf",
+    "xml_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12654869.1/PMC12654869.1.xml",
+    "figure_url": "https://www.cdc.gov/mmwr/volumes/74/wr/figures/mm7438a2-F_E_coli-walnuts-large.gif",
+    "figure_sha256": "d7a31b78f85285417527cf433a2de9706305a7cf34e307b66a3f9d9a009a105f",
+    "license": "Public domain, confirmed by article-specific PMC XML and MMWR policy",
+    "license_url": "https://www.cdc.gov/mmwr/about.html",
+    "reuse_conditions_url": "https://www.cdc.gov/other/agencymaterials.html",
+    "rights_note": "Full attribution, free-source link and nonendorsement notice supplied. Publisher PDF and figure bytes preserved. Translation and editorial explanations identified separately; no CDC logo introduced.",
+    "status_check": "Crossref has no update-to relation; XML has no retracted-article relation; PubMed and targeted DOI correction search revealed no correction or retraction of this report."
+  },
+  "selection": {
+    "reader": "Quality, food safety, HACCP, laboratory and technology staff working with tree nuts.",
+    "utility": "Combines epidemiology and batch traceback with a household Shiga-toxin-gene PCR finding and negative supplier product/environmental samples.",
+    "limits": "Historical US outbreak closed June 25, 2024; source published November 27, 2025. Eleven interviewed of 13 cases; eight traced stores of nine. One household sample positive for a Shiga-toxin gene does not establish isolation of a viable outbreak strain. Contamination route unknown. No organic-versus-conventional risk comparison or market prevalence estimate."
+  },
+  "review": {
+    "source_segments": 25,
+    "rendered_segment_occurrences": 25,
+    "body_paragraphs": 6,
+    "summary_sections": 3,
+    "authors": 13,
+    "footnotes": 3,
+    "references": 5,
+    "figures": 1,
+    "tables": 0,
+    "russian_pdf_pages": 5,
+    "full_source_comparison": true,
+    "numeric_literals": "pass; decimal comma normalized",
+    "spelled_numbers": "Full comparison: seven initial infections; three-allele case criterion; 13 cases = seven California plus six Washington; seven hospitalized, two HUS; 11 interviewed, ten bulk purchases; four household samples (two per state), one Shiga-toxin-gene positive; nine stores, eight linked to two lots and one grower; two product plus 11 environmental samples negative. Figure bars sum to 13 and dates agree with case window.",
+    "pdf_content_and_bounds": "pass",
+    "pdf_visual_review": "All five pages inspected; original graph with translated labels, separate editorial notes, all source text and attribution retained.",
+    "independent_specialist_review": false,
+    "source_links_preserved": true,
+    "offline_figure_bytes_match": true,
+    "typesafe": {
+      "mode": "additional review for coverage; full source review retained",
+      "model": "jev-1.13.0",
+      "actual_qualification_checks": 4,
+      "result": "preserved in all four; deliberately overstated negative control correctly flagged",
+      "usage": {
+        "input_tokens": 5490,
+        "output_tokens": 252
+      },
+      "scope": "Case definition, PCR versus isolation, traceback denominators, uncertainty about prevention and contamination route; no automatic acceptance or efficiency claim."
+    },
+    "browser_widths": [
+      320,
+      390,
+      1280
+    ],
+    "node_tests": 8,
+    "python_tests": 22,
+    "build": "pass",
+    "discovery_check": "218 articles, 29 translations, 0 empty tag pages and 0 noindex URLs in sitemap"
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/figure-1.gif",
+      "sha256": "d7a31b78f85285417527cf433a2de9706305a7cf34e307b66a3f9d9a009a105f"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/original.html",
+      "sha256": "f3bbefd7a3f4b28a0e23b2ac3a50cdbd31e1110450e333b85c72dff3b6948d70"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/original.pdf",
+      "sha256": "14b9a5ea77f7d3ac7b5ef2b23b8ab967c290dcbb5c2a54d69fcb704e838639c5"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/translation.html",
+      "sha256": "7705c8c230535dada0f2c5ddb4eb2efe58ed6c9ee973d5e74b670f802c27ca26"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/translation.pdf",
+      "sha256": "d9b28dcd11115e3c2f407927fb146772bbc193b4f5401609b06ad131d885201e"
+    }
+  ]
+}
