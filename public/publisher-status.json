@@ -5,34 +5,30 @@
   "release_trigger": "manual_full_translation",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "checked_at": "2026-11-20T06:26:31.288328+00:00",
+  "checked_at": "2026-11-21T09:38:01.670454+00:00",
   "status": "awaiting_deployment",
-  "id": "gretskie-orehi-ecoli",
-  "question": "Грецкие орехи и вспышка E. coli: что показали пробы и прослеживаемость",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-20-gretskie-orehi-ecoli-proslezhivaemost-proby/",
-  "source_doi": "10.15585/mmwr.mm7438a2",
-  "source_sha256": "14b9a5ea77f7d3ac7b5ef2b23b8ab967c290dcbb5c2a54d69fcb704e838639c5",
-  "scope": "Полный перевод основной статьи на 2 журнальных страницах: краткое содержание, весь текст расследования, 1 рисунок с подписью, благодарности, сведения об авторах и организациях, заявление о конфликте интересов и все 3 сноски. Все 5 библиографических записей сохранены на языке оригинала. График воспроизведён без изменения данных; перевод надписей приведён под ним. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Редакционные пояснения отделены от перевода.",
+  "id": "indeyka-kontrol-temperatury",
+  "question": "Индейка для выездного обеда: вспышка после хранения без контроля температуры",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-21-indeyka-kontrol-temperatury-kejtering/",
+  "source_doi": "10.15585/mmwr.mm6546a5",
+  "source_sha256": "1d1f5f4fd6097368d0477eccac1898d96b8b5b0ccc15d6da204d37e057491569",
+  "scope": "Полный перевод основной статьи на 2 журнальных страницах: все 6 абзацев расследования, авторы, организации и сведения для переписки. Все 6 библиографических записей сохранены на языке оригинала. В источнике нет отдельной аннотации, рисунков и таблиц. Текст подготовлен по полной HTML-версии CDC и сверён с PDF издателя. Подзаголовки добавлены для навигации; редакционные пояснения отделены от перевода.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/figure-1.gif",
-      "sha256": "d7a31b78f85285417527cf433a2de9706305a7cf34e307b66a3f9d9a009a105f"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/indeyka-kontrol-temperatury/original.html",
+      "sha256": "e9383b993a28b0b084b33a030d6fccbee1f0f64f6946978d481fbe78c2fd574c"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/original.html",
-      "sha256": "f3bbefd7a3f4b28a0e23b2ac3a50cdbd31e1110450e333b85c72dff3b6948d70"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/indeyka-kontrol-temperatury/original.pdf",
+      "sha256": "1d1f5f4fd6097368d0477eccac1898d96b8b5b0ccc15d6da204d37e057491569"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/original.pdf",
-      "sha256": "14b9a5ea77f7d3ac7b5ef2b23b8ab967c290dcbb5c2a54d69fcb704e838639c5"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/indeyka-kontrol-temperatury/translation.html",
+      "sha256": "44cdc51fea255d8bdfe9efe3c6bd9fb0e9fa35f01b4d59b624a98e4de838436a"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/translation.html",
-      "sha256": "7705c8c230535dada0f2c5ddb4eb2efe58ed6c9ee973d5e74b670f802c27ca26"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/gretskie-orehi-ecoli/translation.pdf",
-      "sha256": "d9b28dcd11115e3c2f407927fb146772bbc193b4f5401609b06ad131d885201e"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/indeyka-kontrol-temperatury/translation.pdf",
+      "sha256": "0e7ceb077ff6b1a723580931ef6c7fffbebcaa4987f8f4596b4801a58dbda31d"
     }
   ]
 }

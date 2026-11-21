@@ -1,0 +1,91 @@
+{
+  "status": "reviewed_for_manual_publication",
+  "publication_date": "2026-11-21",
+  "article": {
+    "slug": "2026-11-21-indeyka-kontrol-temperatury-kejtering",
+    "id": "indeyka-kontrol-temperatury",
+    "title": "Индейка для выездного обеда: вспышка после хранения без контроля температуры",
+    "doi": "10.15585/mmwr.mm6546a5",
+    "scope": "Полный перевод основной статьи на 2 журнальных страницах: все 6 абзацев расследования, авторы, организации и сведения для переписки. Все 6 библиографических записей сохранены на языке оригинала. В источнике нет отдельной аннотации, рисунков и таблиц. Текст подготовлен по полной HTML-версии CDC и сверён с PDF издателя. Подзаголовки добавлены для навигации; редакционные пояснения отделены от перевода.",
+    "segments": 9,
+    "references": 6,
+    "figures": 0,
+    "tables": 0,
+    "authors": 9,
+    "source_sha256": "1d1f5f4fd6097368d0477eccac1898d96b8b5b0ccc15d6da204d37e057491569"
+  },
+  "source": {
+    "pmid": "27880750",
+    "doi": "10.15585/mmwr.mm6546a5",
+    "sha256": "1d1f5f4fd6097368d0477eccac1898d96b8b5b0ccc15d6da204d37e057491569",
+    "pdf_url": "https://www.cdc.gov/mmwr/volumes/65/wr/pdfs/mm6546a5.pdf",
+    "html_url": "https://www.cdc.gov/mmwr/volumes/65/wr/mm6546a5.htm",
+    "license": "Public domain under MMWR policy",
+    "license_url": "https://www.cdc.gov/mmwr/about.html",
+    "reuse_conditions_url": "https://www.cdc.gov/other/agencymaterials.html",
+    "rights_note": "Full attribution, free-source link and nonendorsement notice supplied. Publisher PDF bytes preserved. Translation and editorial explanations identified separately; no CDC logo introduced.",
+    "status_check": "Publisher page has no correction notice; Crossref has no update-to relation. Full publisher HTML and two-page original PDF reviewed."
+  },
+  "selection": {
+    "reader": "Food safety, HACCP, laboratory and technology staff responsible for batch preparation, delivery and catering.",
+    "utility": "Shows how epidemiology, stool and leftover-food testing, and the preparation/transport history jointly supported a C. perfringens outbreak investigation.",
+    "limits": "Historical North Carolina outbreak in November 2015, source published November 25, 2016. Survey exposure combines turkey and stuffing. Forty-four exposed respondents and forty-four total cases are separate denominators. CPE toxin detection in stool differs from culture of cpe-bearing bacteria in turkey. Actual holding/transport temperatures were not measured. No universal safe holding limit or reheating regimen inferred; historical local rules are not presented as current Russian law."
+  },
+  "review": {
+    "source_segments": 9,
+    "rendered_segment_occurrences": 9,
+    "body_paragraphs": 6,
+    "authors": 9,
+    "footnotes": 0,
+    "references": 6,
+    "figures": 0,
+    "tables": 0,
+    "russian_pdf_pages": 4,
+    "full_source_comparison": true,
+    "numeric_literals": "pass; decimal comma normalized",
+    "arithmetic": "Exposed 38/44 versus unexposed 6/14; RR rounds to 2.02; 58 respondents and 44 cases consistent. Reported whole-number percentages consistent with ordinary rounding.",
+    "spelled_numbers": "Five stool samples; 20 food submissions; selected food culture/count samples one stuffing plus four turkey, additionally one ham; all five stools CPE-positive and cpe-bearing C. perfringens isolated from five stools/four turkey; one turkey sample >10^5 CFU/g. Ten-hour preparation and up-to-eight-hour holding/transport preserved.",
+    "pdf_content_and_bounds": "pass",
+    "pdf_visual_review": "All four pages inspected. All source paragraphs, author information and references retained; editorial notes and attribution legible.",
+    "independent_specialist_review": false,
+    "source_links_preserved": true,
+    "original_pdf_bytes_unchanged": true,
+    "typesafe": {
+      "mode": "Additional coverage; full source comparison retained. No efficiency claim.",
+      "model": "jev-1.13.0",
+      "actual_qualification_checks": 4,
+      "result": "All four preserved; deliberately overstated negative control correctly flagged. Decisions assessed against source manually.",
+      "usage": {
+        "input_tokens": 5698,
+        "output_tokens": 252
+      }
+    },
+    "browser_widths": [
+      320,
+      390,
+      1280
+    ],
+    "node_tests": 8,
+    "python_tests": 22,
+    "build": "pass",
+    "discovery_check": "219 articles, 30 translations, 0 empty tag pages and 0 noindex URLs in sitemap"
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/indeyka-kontrol-temperatury/original.html",
+      "sha256": "e9383b993a28b0b084b33a030d6fccbee1f0f64f6946978d481fbe78c2fd574c"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/indeyka-kontrol-temperatury/original.pdf",
+      "sha256": "1d1f5f4fd6097368d0477eccac1898d96b8b5b0ccc15d6da204d37e057491569"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/indeyka-kontrol-temperatury/translation.html",
+      "sha256": "44cdc51fea255d8bdfe9efe3c6bd9fb0e9fa35f01b4d59b624a98e4de838436a"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/indeyka-kontrol-temperatury/translation.pdf",
+      "sha256": "0e7ceb077ff6b1a723580931ef6c7fffbebcaa4987f8f4596b4801a58dbda31d"
+    }
+  ]
+}
