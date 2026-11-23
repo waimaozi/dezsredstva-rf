@@ -5,30 +5,34 @@
   "release_trigger": "manual_full_translation",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "checked_at": "2026-11-21T09:38:01.670454+00:00",
+  "checked_at": "2026-11-23T15:28:26.540290+00:00",
   "status": "awaiting_deployment",
-  "id": "indeyka-kontrol-temperatury",
-  "question": "Индейка для выездного обеда: вспышка после хранения без контроля температуры",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-21-indeyka-kontrol-temperatury-kejtering/",
-  "source_doi": "10.15585/mmwr.mm6546a5",
-  "source_sha256": "1d1f5f4fd6097368d0477eccac1898d96b8b5b0ccc15d6da204d37e057491569",
-  "scope": "Полный перевод основной статьи на 2 журнальных страницах: все 6 абзацев расследования, авторы, организации и сведения для переписки. Все 6 библиографических записей сохранены на языке оригинала. В источнике нет отдельной аннотации, рисунков и таблиц. Текст подготовлен по полной HTML-версии CDC и сверён с PDF издателя. Подзаголовки добавлены для навигации; редакционные пояснения отделены от перевода.",
+  "id": "norovirus-salaty-rabotnik",
+  "question": "Норовирус и готовые салаты: что показало расследование ресторанной вспышки",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-23-norovirus-salaty-zabolevshiy-rabotnik/",
+  "source_doi": "10.15585/mmwr.mm7233a4",
+  "source_sha256": "34c9e1c30b8c759266cbf4b4635d1191b523f4417f21461704fa7ed872728a25",
+  "scope": "Полный перевод основной статьи на 2 журнальных страницах: все 7 абзацев расследования, 1 рисунок с подписью и двумя примечаниями, сведения об авторах и организациях, заявление о конфликте интересов и обе сноски основного текста. Все 5 библиографических записей сохранены на языке оригинала. График воспроизведён без изменения данных; перевод надписей приведён под ним. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Редакционные пояснения отделены от перевода.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/indeyka-kontrol-temperatury/original.html",
-      "sha256": "e9383b993a28b0b084b33a030d6fccbee1f0f64f6946978d481fbe78c2fd574c"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/figure-1.gif",
+      "sha256": "c66f5e2768a02049af7946719281c460f30b6333be7e3e533feb15f180b9ced2"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/indeyka-kontrol-temperatury/original.pdf",
-      "sha256": "1d1f5f4fd6097368d0477eccac1898d96b8b5b0ccc15d6da204d37e057491569"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/original.html",
+      "sha256": "2154550b94616cbc72797013c394ef1cae6f01070459aaedbea0083cc7224dfb"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/indeyka-kontrol-temperatury/translation.html",
-      "sha256": "44cdc51fea255d8bdfe9efe3c6bd9fb0e9fa35f01b4d59b624a98e4de838436a"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/original.pdf",
+      "sha256": "34c9e1c30b8c759266cbf4b4635d1191b523f4417f21461704fa7ed872728a25"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/indeyka-kontrol-temperatury/translation.pdf",
-      "sha256": "0e7ceb077ff6b1a723580931ef6c7fffbebcaa4987f8f4596b4801a58dbda31d"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/translation.html",
+      "sha256": "2356391e3d1da6d803bd1b4c3ca26f2679619864b55d9feac4f44c63551b93d5"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/translation.pdf",
+      "sha256": "660f82069f983f83b190b2afb0860eddafc1889de5bc72997a0d1654d6374c9d"
     }
   ]
 }

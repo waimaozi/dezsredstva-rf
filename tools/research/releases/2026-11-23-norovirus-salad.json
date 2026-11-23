@@ -1,0 +1,103 @@
+{
+  "status": "reviewed_for_manual_publication",
+  "publication_date": "2026-11-23",
+  "article": {
+    "slug": "2026-11-23-norovirus-salaty-zabolevshiy-rabotnik",
+    "id": "norovirus-salaty-rabotnik",
+    "title": "Норовирус и готовые салаты: что показало расследование ресторанной вспышки",
+    "doi": "10.15585/mmwr.mm7233a4",
+    "scope": "Полный перевод основной статьи на 2 журнальных страницах: все 7 абзацев расследования, 1 рисунок с подписью и двумя примечаниями, сведения об авторах и организациях, заявление о конфликте интересов и обе сноски основного текста. Все 5 библиографических записей сохранены на языке оригинала. График воспроизведён без изменения данных; перевод надписей приведён под ним. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Редакционные пояснения отделены от перевода.",
+    "segments": 18,
+    "references": 5,
+    "figures": 1,
+    "tables": 0,
+    "authors": 3,
+    "source_sha256": "34c9e1c30b8c759266cbf4b4635d1191b523f4417f21461704fa7ed872728a25",
+    "figure_sha256": "c66f5e2768a02049af7946719281c460f30b6333be7e3e533feb15f180b9ced2"
+  },
+  "source": {
+    "pmid": "37590287",
+    "pmcid": "PMC10441824",
+    "doi": "10.15585/mmwr.mm7233a4",
+    "sha256": "34c9e1c30b8c759266cbf4b4635d1191b523f4417f21461704fa7ed872728a25",
+    "pdf_url": "https://www.cdc.gov/mmwr/volumes/72/wr/pdfs/mm7233a4-H.pdf",
+    "html_url": "https://www.cdc.gov/mmwr/volumes/72/wr/mm7233a4.htm",
+    "xml_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10441824.1/PMC10441824.1.xml",
+    "figure_url": "https://www.cdc.gov/mmwr/volumes/72/wr/figures/mm7233a4-F-medium.gif",
+    "figure_sha256": "c66f5e2768a02049af7946719281c460f30b6333be7e3e533feb15f180b9ced2",
+    "license": "Public domain, confirmed by article-specific PMC XML and MMWR policy",
+    "license_url": "https://www.cdc.gov/mmwr/about.html",
+    "reuse_conditions_url": "https://www.cdc.gov/other/agencymaterials.html",
+    "rights_note": "Attribution, free-source link and nonendorsement notice supplied. Publisher PDF and figure bytes preserved; translated figure-label key supplied. Translation and editorial explanations identified separately; no CDC logo introduced.",
+    "status_check": "Publisher page has no correction notice; Crossref has no update-to relation and XML has no retracted-article relation. Targeted DOI correction search and PubMed did not reveal a correction."
+  },
+  "selection": {
+    "reader": "Food safety and HACCP staff, kitchen managers and ready-to-eat salad production teams.",
+    "utility": "Shows how case-control interviews, partial laboratory confirmation and preparation history supported an outbreak investigation involving staff illness and handling of ready-to-eat food.",
+    "limits": "Historical Illinois outbreak in November 2022, source published August 18, 2023. Three confirmed and 314 probable cases; 49 lost to follow-up. Initial patient and household secondary cases excluded from 317. Odds ratio is not a risk ratio. No laboratory result for salad reported. Worker role described as likely; actual total patron count unknown and cases probably underreported. Source guidance on exclusion for at least 48 hours after symptoms is not presented as proof of ceased shedding or current universal Russian law."
+  },
+  "review": {
+    "source_segments": 18,
+    "rendered_segment_occurrences": 18,
+    "body_paragraphs": 7,
+    "source_section_headings": 2,
+    "authors": 3,
+    "main_text_footnotes": 2,
+    "figure_notes": 2,
+    "references": 5,
+    "figures": 1,
+    "tables": 0,
+    "russian_pdf_pages": 5,
+    "full_source_comparison": true,
+    "numeric_literals": "pass; decimal comma normalized",
+    "arithmetic": "3 confirmed + 314 probable = 317; 268 followed up + 49 lost = 317; percentages 85, 15, 43 round correctly. Case-control odds ratio (227/41)/(15/25) rounds to 9.23. Source CI 4.48–18.99 retained verbatim; direct unrounded Wald calculation gives 4.48537–18.98379 (4.49–18.98), differing only at final displayed decimals. Source does not specify its CI calculation/rounding; not claimed as an exact arithmetic replication.",
+    "spelled_numbers": "Three or more loose stools in 24 hours defines diarrhea; three confirmed cases; seven emergency evaluations and five outpatient visits, not summed as unique patients; no admissions or deaths. Twenty-seven cases did not eat salad but ate sauces/dressings. Age range six months to 83 years. 48-hour recommendation after symptom resolution preserved.",
+    "source_markup_repairs": "Removed literal <Figure></Figure> from XML caption and fixed colliding figure footnote targets; source prose retained.",
+    "pdf_content_and_bounds": "pass",
+    "pdf_visual_review": "All five final pages inspected. Original graph and translated label key legible, all source text and attribution retained; editorial notes on separate introductory page.",
+    "independent_specialist_review": false,
+    "source_links_preserved": true,
+    "offline_figure_bytes_match": true,
+    "typesafe": {
+      "mode": "additional review for coverage; full source comparison retained, no efficiency claim",
+      "model": "jev-1.13.0",
+      "actual_qualification_checks": 4,
+      "result": "All four source conditions preserved; deliberately false negative control correctly flagged; decisions manually assessed.",
+      "usage": {
+        "input_tokens": 4870,
+        "output_tokens": 252
+      }
+    },
+    "browser_widths": [
+      320,
+      390,
+      1280
+    ],
+    "node_tests": 8,
+    "python_tests": 22,
+    "build": "pass",
+    "discovery_check": "220 articles, 31 translations, 0 empty tag pages and 0 noindex URLs in sitemap"
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/figure-1.gif",
+      "sha256": "c66f5e2768a02049af7946719281c460f30b6333be7e3e533feb15f180b9ced2"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/original.html",
+      "sha256": "2154550b94616cbc72797013c394ef1cae6f01070459aaedbea0083cc7224dfb"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/original.pdf",
+      "sha256": "34c9e1c30b8c759266cbf4b4635d1191b523f4417f21461704fa7ed872728a25"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/translation.html",
+      "sha256": "2356391e3d1da6d803bd1b4c3ca26f2679619864b55d9feac4f44c63551b93d5"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/translation.pdf",
+      "sha256": "660f82069f983f83b190b2afb0860eddafc1889de5bc72997a0d1654d6374c9d"
+    }
+  ]
+}
