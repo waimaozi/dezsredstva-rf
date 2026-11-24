@@ -1,0 +1,147 @@
+{
+  "status": "reviewed_for_manual_publication",
+  "publication_date": "2026-11-24",
+  "article": {
+    "slug": "2026-11-24-kurinaya-pechen-muss-kontrol-temperatury",
+    "id": "kurinaya-pechen-muss",
+    "title": "Куриная печень для мусса: почему внешний вид не заменяет измерение температуры",
+    "doi": "10.15585/mmwr.mm6638a4",
+    "scope": "Полный перевод основной статьи на 1 журнальной странице: все 6 абзацев расследования, благодарности, сведения об авторах и организации, данные для переписки и заявление о конфликте интересов. Все 5 библиографических записей сохранены на языке оригинала. В источнике нет отдельной аннотации, рисунков и таблиц. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Подзаголовки добавлены для навигации; редакционные пояснения отделены от перевода.",
+    "segments": 12,
+    "references": 5,
+    "figures": 0,
+    "tables": 0,
+    "authors": 4,
+    "source_sha256": "4ad6a8a7f9ac515ce447014d1c6c9767b2a1bee49c98d67b92e39aca7c85a503"
+  },
+  "source": {
+    "pmid": "28957038",
+    "pmcid": "PMC5657677",
+    "doi": "10.15585/mmwr.mm6638a4",
+    "sha256": "4ad6a8a7f9ac515ce447014d1c6c9767b2a1bee49c98d67b92e39aca7c85a503",
+    "pdf_url": "https://www.cdc.gov/mmwr/volumes/66/wr/pdfs/mm6638a4.pdf",
+    "html_url": "https://www.cdc.gov/mmwr/volumes/66/wr/mm6638a4.htm",
+    "xml_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5657677.1/PMC5657677.1.xml",
+    "license": "Public domain, explicitly stated in article-specific PMC XML license paragraph and MMWR policy. XML also carries a CC BY 3.0 text-mining reference.",
+    "license_url": "https://www.cdc.gov/mmwr/about.html",
+    "reuse_conditions_url": "https://www.cdc.gov/other/agencymaterials.html",
+    "rights_note": "Attribution, free-source link and nonendorsement notice supplied. Publisher PDF bytes preserved. Translation, added navigation subheadings and separate editorial explanations identified; no CDC logo introduced.",
+    "status_check": "Publisher page has no correction notice; Crossref has no update-to relation and XML has no retracted-article relation. Targeted DOI correction search and PubMed did not reveal a correction."
+  },
+  "selection": {
+    "reader": "Food safety, HACCP, technology and kitchen staff working with poultry and offal.",
+    "utility": "Separates visual assessment of cooking from a measured demonstration temperature, epidemiologic associations and PFGE evidence from a different outbreak. Shows the value of investigating illness complaints.",
+    "limits": "Historical Washington outbreak in July 2016; source published September 29, 2017. Five cases and fourteen controls, two foods associated with illness, very wide confidence intervals. July 15 demonstration was nine days after the July 6 meal. No original-batch food remained for testing. One patient isolate matched profiles from two liver samples from 2014; this is not a positive test of the 2016 lot. The 77% figure is from a separately cited 2012 study, not this outbreak or current Russian products. Regulatory and surveillance descriptions are historical US context."
+  },
+  "review": {
+    "source_segments": 12,
+    "rendered_segment_occurrences": 12,
+    "body_paragraphs": 6,
+    "acknowledgments": true,
+    "authors": 4,
+    "main_text_footnotes": 0,
+    "references": 5,
+    "figures": 0,
+    "tables": 0,
+    "russian_pdf_pages": 4,
+    "full_source_comparison": true,
+    "numeric_literals": "pass; decimal comma normalized",
+    "arithmetic": "Three confirmed plus two probable = five cases; four guests plus one worker = five. July 15 demonstration occurred nine days after July 6 meal. Fahrenheit/Celsius pairs are whole-degree rounded conversions preserved from source. Exposure cell counts are not reported, so ORs and CIs are preserved, not independently recalculated.",
+    "spelled_numbers": "Initial complaint four of seven people from five households. Three positive stool cultures, five cases, fourteen controls and twenty-eight menu items. One patient isolate compared to two food samples from the 2014 outbreak. Same supplier is not a positive test of the missing 2016 batch. Second published Pacific Northwest outbreak and first US initial complaint-system report are historical author statements.",
+    "pdf_content_and_bounds": "pass",
+    "pdf_visual_review": "All four pages inspected. Source text, author details, references and attribution legible; separate introductory page for editorial notes.",
+    "independent_specialist_review": false,
+    "source_links_preserved": true,
+    "original_pdf_bytes_unchanged": true,
+    "typesafe": {
+      "mode": "Additional review for coverage; full source comparison retained. No efficiency claim.",
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 3804,
+        "output_tokens": 252
+      },
+      "actual_qualification_checks": 4,
+      "decisions": {
+        "s0002": {
+          "type": "choice",
+          "choice": "preserved",
+          "confidence": 0.98,
+          "probabilities": {
+            "preserved": 0.99,
+            "overstated_or_changed": 0.01,
+            "insufficient": 0.0
+          }
+        },
+        "s0003": {
+          "type": "choice",
+          "choice": "preserved",
+          "confidence": 0.97,
+          "probabilities": {
+            "preserved": 0.98,
+            "overstated_or_changed": 0.02,
+            "insufficient": 0.0
+          }
+        },
+        "s0004": {
+          "type": "choice",
+          "choice": "preserved",
+          "confidence": 0.97,
+          "probabilities": {
+            "preserved": 0.98,
+            "overstated_or_changed": 0.02,
+            "insufficient": 0.0
+          }
+        },
+        "s0005": {
+          "type": "choice",
+          "choice": "preserved",
+          "confidence": 0.85,
+          "probabilities": {
+            "preserved": 0.9,
+            "overstated_or_changed": 0.1,
+            "insufficient": 0.0
+          }
+        },
+        "negative_control": {
+          "type": "choice",
+          "choice": "overstated_or_changed",
+          "confidence": 1.0,
+          "probabilities": {
+            "preserved": 0.0,
+            "overstated_or_changed": 1.0,
+            "insufficient": 0.0
+          }
+        }
+      },
+      "manual_review": "All four accepted source/translation pairs and the negative control assessed manually: case categories, both implicated foods and odds ratios, demonstration timing, external 77% citation and 2014-vs-2016 sampling distinctions retained. No automatic acceptance from model labels.",
+      "transport": "Direct connection timed out; retry through existing authorized VPS connection succeeded."
+    },
+    "browser_widths": [
+      320,
+      390,
+      1280
+    ],
+    "node_tests": 8,
+    "python_tests": 22,
+    "build": "pass",
+    "discovery_check": "221 articles, 32 translations, 0 empty tag pages and 0 noindex URLs in sitemap"
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/kurinaya-pechen-muss/original.html",
+      "sha256": "6165074b705ea7dbaf298d22b94562c668d4ef4aa71361eca338315b481107ae"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/kurinaya-pechen-muss/original.pdf",
+      "sha256": "4ad6a8a7f9ac515ce447014d1c6c9767b2a1bee49c98d67b92e39aca7c85a503"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/kurinaya-pechen-muss/translation.html",
+      "sha256": "546b1698f0417aaed55bc1a5ecbba49d74485e843f0a9c8029428e0b2c1da845"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/kurinaya-pechen-muss/translation.pdf",
+      "sha256": "e158f1d1d4cdf49c26f770d89baf6a1a5b52cf50c8d8f9a137602fb1aa9ada13"
+    }
+  ]
+}
