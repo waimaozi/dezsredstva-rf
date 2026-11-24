@@ -5,34 +5,30 @@
   "release_trigger": "manual_full_translation",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "checked_at": "2026-11-23T15:28:26.540290+00:00",
+  "checked_at": "2026-11-24T12:27:19.505859+00:00",
   "status": "awaiting_deployment",
-  "id": "norovirus-salaty-rabotnik",
-  "question": "Норовирус и готовые салаты: что показало расследование ресторанной вспышки",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-23-norovirus-salaty-zabolevshiy-rabotnik/",
-  "source_doi": "10.15585/mmwr.mm7233a4",
-  "source_sha256": "34c9e1c30b8c759266cbf4b4635d1191b523f4417f21461704fa7ed872728a25",
-  "scope": "Полный перевод основной статьи на 2 журнальных страницах: все 7 абзацев расследования, 1 рисунок с подписью и двумя примечаниями, сведения об авторах и организациях, заявление о конфликте интересов и обе сноски основного текста. Все 5 библиографических записей сохранены на языке оригинала. График воспроизведён без изменения данных; перевод надписей приведён под ним. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Редакционные пояснения отделены от перевода.",
+  "id": "kurinaya-pechen-muss",
+  "question": "Куриная печень для мусса: почему внешний вид не заменяет измерение температуры",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-24-kurinaya-pechen-muss-kontrol-temperatury/",
+  "source_doi": "10.15585/mmwr.mm6638a4",
+  "source_sha256": "4ad6a8a7f9ac515ce447014d1c6c9767b2a1bee49c98d67b92e39aca7c85a503",
+  "scope": "Полный перевод основной статьи на 1 журнальной странице: все 6 абзацев расследования, благодарности, сведения об авторах и организации, данные для переписки и заявление о конфликте интересов. Все 5 библиографических записей сохранены на языке оригинала. В источнике нет отдельной аннотации, рисунков и таблиц. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Подзаголовки добавлены для навигации; редакционные пояснения отделены от перевода.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/figure-1.gif",
-      "sha256": "c66f5e2768a02049af7946719281c460f30b6333be7e3e533feb15f180b9ced2"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/kurinaya-pechen-muss/original.html",
+      "sha256": "6165074b705ea7dbaf298d22b94562c668d4ef4aa71361eca338315b481107ae"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/original.html",
-      "sha256": "2154550b94616cbc72797013c394ef1cae6f01070459aaedbea0083cc7224dfb"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/kurinaya-pechen-muss/original.pdf",
+      "sha256": "4ad6a8a7f9ac515ce447014d1c6c9767b2a1bee49c98d67b92e39aca7c85a503"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/original.pdf",
-      "sha256": "34c9e1c30b8c759266cbf4b4635d1191b523f4417f21461704fa7ed872728a25"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/kurinaya-pechen-muss/translation.html",
+      "sha256": "546b1698f0417aaed55bc1a5ecbba49d74485e843f0a9c8029428e0b2c1da845"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/translation.html",
-      "sha256": "2356391e3d1da6d803bd1b4c3ca26f2679619864b55d9feac4f44c63551b93d5"
-    },
-    {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/norovirus-salaty-rabotnik/translation.pdf",
-      "sha256": "660f82069f983f83b190b2afb0860eddafc1889de5bc72997a0d1654d6374c9d"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/kurinaya-pechen-muss/translation.pdf",
+      "sha256": "e158f1d1d4cdf49c26f770d89baf6a1a5b52cf50c8d8f9a137602fb1aa9ada13"
     }
   ]
 }
