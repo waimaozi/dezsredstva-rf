@@ -5,30 +5,30 @@
   "release_trigger": "manual_full_translation",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "checked_at": "2026-11-24T12:27:19.505859+00:00",
+  "checked_at": "2026-11-25T06:55:04.354673+00:00",
   "status": "awaiting_deployment",
-  "id": "kurinaya-pechen-muss",
-  "question": "Куриная печень для мусса: почему внешний вид не заменяет измерение температуры",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-24-kurinaya-pechen-muss-kontrol-temperatury/",
-  "source_doi": "10.15585/mmwr.mm6638a4",
-  "source_sha256": "4ad6a8a7f9ac515ce447014d1c6c9767b2a1bee49c98d67b92e39aca7c85a503",
-  "scope": "Полный перевод основной статьи на 1 журнальной странице: все 6 абзацев расследования, благодарности, сведения об авторах и организации, данные для переписки и заявление о конфликте интересов. Все 5 библиографических записей сохранены на языке оригинала. В источнике нет отдельной аннотации, рисунков и таблиц. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Подзаголовки добавлены для навигации; редакционные пояснения отделены от перевода.",
+  "id": "zamorozhennye-yagody-norovirus",
+  "question": "Замороженные ягоды и норовирус: как общая партия связала вспышки на судах",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-25-zamorozhennye-yagody-norovirus-partiya/",
+  "source_doi": "10.15585/mmwr.mm6916a3",
+  "source_sha256": "3fbe9ef5c4bfdc8d60a1ea12ca1067e0f0f0ce6dc6c410050b7fdd1bc4250e9b",
+  "scope": "Полный перевод основной статьи на 2 журнальных страницах: все 4 абзаца расследования, благодарности, сведения об авторах и организациях, данные для переписки, заявление о конфликте интересов и сноска. Все 3 библиографические записи сохранены на языке оригинала. В источнике нет отдельной аннотации, рисунков и таблиц. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Подзаголовки добавлены для навигации; редакционные пояснения отделены от перевода.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/kurinaya-pechen-muss/original.html",
-      "sha256": "6165074b705ea7dbaf298d22b94562c668d4ef4aa71361eca338315b481107ae"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/zamorozhennye-yagody-norovirus/original.html",
+      "sha256": "6e97d08ca2ec90d4ffe457e712d6906eee47e308e4b19d833dadad151fb2a4e3"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/kurinaya-pechen-muss/original.pdf",
-      "sha256": "4ad6a8a7f9ac515ce447014d1c6c9767b2a1bee49c98d67b92e39aca7c85a503"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/zamorozhennye-yagody-norovirus/original.pdf",
+      "sha256": "3fbe9ef5c4bfdc8d60a1ea12ca1067e0f0f0ce6dc6c410050b7fdd1bc4250e9b"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/kurinaya-pechen-muss/translation.html",
-      "sha256": "546b1698f0417aaed55bc1a5ecbba49d74485e843f0a9c8029428e0b2c1da845"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/zamorozhennye-yagody-norovirus/translation.html",
+      "sha256": "0c4ac66d2805606fa8683a607f51dc4cddebff835afc0901a3cb8bc9a6a907f8"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/kurinaya-pechen-muss/translation.pdf",
-      "sha256": "e158f1d1d4cdf49c26f770d89baf6a1a5b52cf50c8d8f9a137602fb1aa9ada13"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/zamorozhennye-yagody-norovirus/translation.pdf",
+      "sha256": "e5252a2d63ed50249a9a0852ce5be4def7beb639ab5ae96b1264eecbdacffd80"
     }
   ]
 }

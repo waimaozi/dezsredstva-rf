@@ -1,0 +1,136 @@
+{
+  "status": "reviewed_for_manual_publication",
+  "publication_date": "2026-11-25",
+  "article": {
+    "slug": "2026-11-25-zamorozhennye-yagody-norovirus-partiya",
+    "id": "zamorozhennye-yagody-norovirus",
+    "title": "Замороженные ягоды и норовирус: как общая партия связала вспышки на судах",
+    "doi": "10.15585/mmwr.mm6916a3",
+    "scope": "Полный перевод основной статьи на 2 журнальных страницах: все 4 абзаца расследования, благодарности, сведения об авторах и организациях, данные для переписки, заявление о конфликте интересов и сноска. Все 3 библиографические записи сохранены на языке оригинала. В источнике нет отдельной аннотации, рисунков и таблиц. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Подзаголовки добавлены для навигации; редакционные пояснения отделены от перевода.",
+    "segments": 11,
+    "references": 3,
+    "figures": 0,
+    "tables": 0,
+    "authors": 8,
+    "source_sha256": "3fbe9ef5c4bfdc8d60a1ea12ca1067e0f0f0ce6dc6c410050b7fdd1bc4250e9b"
+  },
+  "source": {
+    "pmid": "32324722",
+    "pmcid": "PMC7188409",
+    "doi": "10.15585/mmwr.mm6916a3",
+    "sha256": "3fbe9ef5c4bfdc8d60a1ea12ca1067e0f0f0ce6dc6c410050b7fdd1bc4250e9b",
+    "pdf_url": "https://www.cdc.gov/mmwr/volumes/69/wr/pdfs/mm6916a3-H.pdf",
+    "html_url": "https://www.cdc.gov/mmwr/volumes/69/wr/mm6916a3.htm",
+    "xml_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7188409.1/PMC7188409.1.xml",
+    "license": "Public domain, explicitly stated in article-specific PMC XML license paragraph and MMWR policy. XML also carries a CC BY 3.0 text-mining reference.",
+    "license_url": "https://www.cdc.gov/mmwr/about.html",
+    "reuse_conditions_url": "https://www.cdc.gov/other/agencymaterials.html",
+    "rights_note": "Attribution, free-source link and nonendorsement notice supplied. Publisher PDF bytes preserved. Translation, added navigation subheadings and separate editorial explanations identified; no CDC logo introduced.",
+    "status_check": "Publisher page has no correction notice; Crossref has no update-to relation and XML has no retracted-article relation. Targeted DOI correction search and PubMed did not reveal a correction."
+  },
+  "selection": {
+    "reader": "Food safety, HACCP, laboratory, purchasing and supplier-control teams handling frozen fruit and berries.",
+    "utility": "Shows how repeated outbreaks were connected through ill-passenger questionnaires, lot-number matches, food testing and supply records across an entire fleet.",
+    "limits": "Historical 2019 outbreaks; source published April 24, 2020. Detailed counts cover three voyages of two ships, not all summer outbreaks on ten ships. Nearly 80% refers to completed questionnaires from ill passengers with no total questionnaire denominator or non-ill comparison. Stool genotype GII.2[P16], food genogroups II versus I, and 97.5% sequence similarity are distinct results. PCR is not a viability test. No further outbreaks reported after removal is observational; no disinfection protocol or current recall inferred."
+  },
+  "review": {
+    "source_segments": 11,
+    "rendered_segment_occurrences": 11,
+    "body_paragraphs": 4,
+    "acknowledgments": true,
+    "authors": 8,
+    "main_text_footnotes": 1,
+    "references": 3,
+    "figures": 0,
+    "tables": 0,
+    "russian_pdf_pages": 4,
+    "full_source_comparison": true,
+    "numeric_literals": "pass; English thousands separators and Russian grouping spaces normalized separately from decimal commas",
+    "arithmetic": "All six passenger/crew percentages agree with one-decimal rounding. Stool submissions 4+5+2=11, positives 3+4+2=9. No denominator supplied for nearly 80% of food questionnaires; no attack rate inferred from that fraction.",
+    "spelled_numbers": "Four stools with three positives on first A voyage; five with four positives on B; two with two positives on second A voyage. Three voyages on two ships distinguished from summer outbreaks on ten ships. Sixteen food items tested; three positive with genogroups II, I, I. Stool genotype GII.2[P16], 97.5% sequence similarity and nearly 22,000 pounds preserved.",
+    "pdf_content_and_bounds": "pass",
+    "pdf_visual_review": "All four pages inspected. Source text, author details, references and attribution legible; separate introductory page for editorial notes.",
+    "independent_specialist_review": false,
+    "source_links_preserved": true,
+    "original_pdf_bytes_unchanged": true,
+    "typesafe": {
+      "mode": "Additional review for coverage; full source comparison retained. No efficiency claim.",
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 3770,
+        "output_tokens": 202
+      },
+      "actual_qualification_checks": 3,
+      "decisions": {
+        "s0002": {
+          "type": "choice",
+          "choice": "preserved",
+          "confidence": 1.0,
+          "probabilities": {
+            "preserved": 1.0,
+            "overstated_or_changed": 0.0,
+            "insufficient": 0.0
+          }
+        },
+        "s0003": {
+          "type": "choice",
+          "choice": "preserved",
+          "confidence": 0.94,
+          "probabilities": {
+            "preserved": 0.96,
+            "overstated_or_changed": 0.04,
+            "insufficient": 0.0
+          }
+        },
+        "s0004": {
+          "type": "choice",
+          "choice": "preserved",
+          "confidence": 0.94,
+          "probabilities": {
+            "preserved": 0.96,
+            "overstated_or_changed": 0.04,
+            "insufficient": 0.0
+          }
+        },
+        "negative_control": {
+          "type": "choice",
+          "choice": "overstated_or_changed",
+          "confidence": 1.0,
+          "probabilities": {
+            "preserved": 0.0,
+            "overstated_or_changed": 1.0,
+            "insufficient": 0.0
+          }
+        }
+      },
+      "manual_review": "All three accepted source/translation pairs and negative control assessed manually: 80% of completed ill-passenger questionnaires, nine of eleven stool positives, distinct food genogroups, 97.5% similarity, historical supplier traceback and absence of further reported outbreaks retained. No automatic acceptance based on model labels."
+    },
+    "browser_widths": [
+      320,
+      390,
+      1280
+    ],
+    "node_tests": 8,
+    "python_tests": 22,
+    "build": "pass",
+    "discovery_check": "222 articles, 33 translations, 0 empty tag pages and 0 noindex URLs in sitemap"
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/zamorozhennye-yagody-norovirus/original.html",
+      "sha256": "6e97d08ca2ec90d4ffe457e712d6906eee47e308e4b19d833dadad151fb2a4e3"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/zamorozhennye-yagody-norovirus/original.pdf",
+      "sha256": "3fbe9ef5c4bfdc8d60a1ea12ca1067e0f0f0ce6dc6c410050b7fdd1bc4250e9b"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/zamorozhennye-yagody-norovirus/translation.html",
+      "sha256": "0c4ac66d2805606fa8683a607f51dc4cddebff835afc0901a3cb8bc9a6a907f8"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/zamorozhennye-yagody-norovirus/translation.pdf",
+      "sha256": "e5252a2d63ed50249a9a0852ce5be4def7beb639ab5ae96b1264eecbdacffd80"
+    }
+  ]
+}
