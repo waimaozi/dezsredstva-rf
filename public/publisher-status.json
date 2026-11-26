@@ -5,7 +5,7 @@
   "release_trigger": "manual_full_translation",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "checked_at": "2026-11-26T07:13:34.169610+00:00",
+  "checked_at": "2026-11-26T07:17:58.069415+00:00",
   "status": "awaiting_deployment",
   "id": "dyni-salmonella-proshlye-proby",
   "question": "Сальмонелла в дынях: как результаты прошлых проб ускорили расследование",
@@ -28,11 +28,11 @@
     },
     {
       "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/dyni-salmonella-proshlye-proby/translation.html",
-      "sha256": "2a6d80bad933c5bb2dbbc9db8b6d0dc11a41b5cd3809ddcc95c954e674033806"
+      "sha256": "345d4f7fc7e6f5d1a591408c32601b5f92d777bd7b31b8a9e8c63d1e02a94f6f"
     },
     {
       "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/dyni-salmonella-proshlye-proby/translation.pdf",
-      "sha256": "4f4cbcd68072e47d254e5f41b392acf34d7084b3ef514e66025b2ba2b92cba43"
+      "sha256": "a426a82ab46012c5cc8af7e2eb8ea6980662839f3f5e9ce411e32d320ea89fc5"
     }
   ]
 }
