@@ -5,30 +5,34 @@
   "release_trigger": "manual_full_translation",
   "approved_remaining": 0,
   "verified_sources": 0,
-  "checked_at": "2026-11-25T06:55:04.354673+00:00",
+  "checked_at": "2026-11-26T07:13:34.169610+00:00",
   "status": "awaiting_deployment",
-  "id": "zamorozhennye-yagody-norovirus",
-  "question": "Замороженные ягоды и норовирус: как общая партия связала вспышки на судах",
-  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-25-zamorozhennye-yagody-norovirus-partiya/",
-  "source_doi": "10.15585/mmwr.mm6916a3",
-  "source_sha256": "3fbe9ef5c4bfdc8d60a1ea12ca1067e0f0f0ce6dc6c410050b7fdd1bc4250e9b",
-  "scope": "Полный перевод основной статьи на 2 журнальных страницах: все 4 абзаца расследования, благодарности, сведения об авторах и организациях, данные для переписки, заявление о конфликте интересов и сноска. Все 3 библиографические записи сохранены на языке оригинала. В источнике нет отдельной аннотации, рисунков и таблиц. Текст подготовлен по полному XML PMC и сверён с PDF издателя. Подзаголовки добавлены для навигации; редакционные пояснения отделены от перевода.",
+  "id": "dyni-salmonella-proshlye-proby",
+  "question": "Сальмонелла в дынях: как результаты прошлых проб ускорили расследование",
+  "published": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/articles/2026-11-26-dyni-salmonella-proshlye-proby-rassledovanie/",
+  "source_doi": "10.15585/mmwr.mm7305a5",
+  "source_sha256": "9ba9c7b4b21d931188add160e6add37624c75bef6bcc35423fb7c4fe1cffd9d9",
+  "scope": "Полный перевод основной статьи на 2 журнальных страницах: все 4 абзаца расследования, блок краткого содержания из трёх вопросов и ответов, 1 рисунок с подписью, сведения об авторах и организациях, данные для переписки, заявление о конфликте интересов и обе сноски. Все 3 библиографические записи сохранены на языке оригинала. График воспроизведён без изменения данных; перевод надписей приведён под ним. Текст, PDF и рисунок получены из PubMed Central; текст сверен с журнальным PDF. Редакционные пояснения отделены от перевода.",
   "assets": [
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/zamorozhennye-yagody-norovirus/original.html",
-      "sha256": "6e97d08ca2ec90d4ffe457e712d6906eee47e308e4b19d833dadad151fb2a4e3"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/dyni-salmonella-proshlye-proby/figure-1.jpg",
+      "sha256": "5f6288d764b122b423044c2236ec483c11bca57ea4d21d901991a1a2c66a0e0b"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/zamorozhennye-yagody-norovirus/original.pdf",
-      "sha256": "3fbe9ef5c4bfdc8d60a1ea12ca1067e0f0f0ce6dc6c410050b7fdd1bc4250e9b"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/dyni-salmonella-proshlye-proby/original.html",
+      "sha256": "15f19c0b2784707ba5b01939598e2568ae9b5ccb709431b0eac736c26a015f7f"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/zamorozhennye-yagody-norovirus/translation.html",
-      "sha256": "0c4ac66d2805606fa8683a607f51dc4cddebff835afc0901a3cb8bc9a6a907f8"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/dyni-salmonella-proshlye-proby/original.pdf",
+      "sha256": "9ba9c7b4b21d931188add160e6add37624c75bef6bcc35423fb7c4fe1cffd9d9"
     },
     {
-      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/zamorozhennye-yagody-norovirus/translation.pdf",
-      "sha256": "e5252a2d63ed50249a9a0852ce5be4def7beb639ab5ae96b1264eecbdacffd80"
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/dyni-salmonella-proshlye-proby/translation.html",
+      "sha256": "2a6d80bad933c5bb2dbbc9db8b6d0dc11a41b5cd3809ddcc95c954e674033806"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/dyni-salmonella-proshlye-proby/translation.pdf",
+      "sha256": "4f4cbcd68072e47d254e5f41b392acf34d7084b3ef514e66025b2ba2b92cba43"
     }
   ]
 }

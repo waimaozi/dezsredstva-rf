@@ -1,0 +1,158 @@
+{
+  "status": "reviewed_for_manual_publication",
+  "publication_date": "2026-11-26",
+  "article": {
+    "slug": "2026-11-26-dyni-salmonella-proshlye-proby-rassledovanie",
+    "id": "dyni-salmonella-proshlye-proby",
+    "title": "Сальмонелла в дынях: как результаты прошлых проб ускорили расследование",
+    "doi": "10.15585/mmwr.mm7305a5",
+    "scope": "Полный перевод основной статьи на 2 журнальных страницах: все 4 абзаца расследования, блок краткого содержания из трёх вопросов и ответов, 1 рисунок с подписью, сведения об авторах и организациях, данные для переписки, заявление о конфликте интересов и обе сноски. Все 3 библиографические записи сохранены на языке оригинала. График воспроизведён без изменения данных; перевод надписей приведён под ним. Текст, PDF и рисунок получены из PubMed Central; текст сверен с журнальным PDF. Редакционные пояснения отделены от перевода.",
+    "segments": 20,
+    "references": 3,
+    "figures": 1,
+    "tables": 0,
+    "authors": 9,
+    "source_sha256": "9ba9c7b4b21d931188add160e6add37624c75bef6bcc35423fb7c4fe1cffd9d9",
+    "figure_sha256": "5f6288d764b122b423044c2236ec483c11bca57ea4d21d901991a1a2c66a0e0b"
+  },
+  "source": {
+    "pmid": "38329908",
+    "pmcid": "PMC10861204",
+    "doi": "10.15585/mmwr.mm7305a5",
+    "sha256": "9ba9c7b4b21d931188add160e6add37624c75bef6bcc35423fb7c4fe1cffd9d9",
+    "pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10861204.1/PMC10861204.1.pdf",
+    "publisher_pdf_url": "https://www.cdc.gov/mmwr/volumes/73/wr/pdfs/mm7305a5-H.pdf",
+    "html_url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7305a5.htm",
+    "xml_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10861204.1/PMC10861204.1.xml",
+    "figure_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10861204.1/mm7305a5-F.jpg",
+    "figure_sha256": "5f6288d764b122b423044c2236ec483c11bca57ea4d21d901991a1a2c66a0e0b",
+    "license": "Public domain explicitly stated in article-specific PMC XML; CC0 license reference.",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "publisher_policy_url": "https://www.cdc.gov/mmwr/about.html",
+    "rights_note": "Attribution, free-source link, translation/change notice and nonendorsement supplied. Journal PDF and original figure from official PMC mirror preserved byte-for-byte. Figure labels translated separately; figure also embedded in both offline HTML files.",
+    "status_check": "No correction found in targeted DOI/PubMed search. Crossref has no update-to; XML has no retraction relation.",
+    "retrieval": "Direct local HTTPS timed out; VPS and Russian VPS returned 403 for CDC assets. Official PMC open-data mirror provided complete XML, unchanged journal PDF and original figure. Source references checked directly against PDF."
+  },
+  "selection": {
+    "reader": "Food safety, HACCP, laboratory, fresh-produce quality and purchasing professionals",
+    "utility": "Reusing environmental isolate data across years; advance interview preparation; limits of faster investigation for short-season produce.",
+    "limits": "Historical investigation, not a current recall. Environmental strain not linked to illnesses in the 2020 outbreak; initial seven-allele and case-definition ten-allele thresholds separate. 36/47 is interviewed patients, not all 87. Healthy comparator is historical. Source was probable; comparison of two investigations is not a controlled causal test. Identification remained after growing season; no recall or prevented cases claimed."
+  },
+  "review": {
+    "source_segments": 20,
+    "rendered_segment_occurrences": 20,
+    "body_paragraphs": 4,
+    "summary_questions": 3,
+    "authors": 9,
+    "affiliations": 6,
+    "main_text_footnotes": 2,
+    "references": 3,
+    "figures": 1,
+    "tables": 0,
+    "russian_pdf_pages": 5,
+    "full_source_comparison": true,
+    "numeric_literals": "pass; English thousands separators and Russian grouping spaces normalized separately from decimal commas",
+    "arithmetic": "36/47 rounds to 77%; 32/87 rounds to 37%; state counts sum to 87 across 11 states. Aug 4 to Aug 25 = 21 days; Sep 18 to Oct 23 = 35 days; reduction 14 days = 2 weeks. Healthy comparison survey denominator absent, so p-value not independently reconstructed.",
+    "spelled_numbers": "Initial 12 isolates related within seven allele differences distinguished from final case definition within 10. Thirty-two admissions and all spelled state counts preserved. Median 65, range 1–93, 67% female preserved without inferring numerator.",
+    "pdf_content_and_bounds": "pass",
+    "pdf_visual_review": "All five pages inspected. Editorial context, full translation, chart with translated legend, author details, footnotes, references and attribution legible. Both original journal pages also inspected.",
+    "independent_specialist_review": false,
+    "source_links_preserved": true,
+    "original_pdf_bytes_unchanged": true,
+    "original_figure_bytes_unchanged": true,
+    "typesafe": {
+      "mode": "Additional qualification review; full manual source comparison retained, no efficiency claim.",
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 6194,
+        "output_tokens": 252
+      },
+      "actual_qualification_checks": 4,
+      "decisions": {
+        "s0008": {
+          "type": "choice",
+          "choice": "preserved",
+          "confidence": 0.98,
+          "probabilities": {
+            "preserved": 0.99,
+            "overstated_or_changed": 0.01,
+            "insufficient": 0.0
+          }
+        },
+        "s0011": {
+          "type": "choice",
+          "choice": "preserved",
+          "confidence": 0.96,
+          "probabilities": {
+            "preserved": 0.97,
+            "overstated_or_changed": 0.03,
+            "insufficient": 0.0
+          }
+        },
+        "s0012": {
+          "type": "choice",
+          "choice": "preserved",
+          "confidence": 0.97,
+          "probabilities": {
+            "preserved": 0.98,
+            "overstated_or_changed": 0.02,
+            "insufficient": 0.0
+          }
+        },
+        "s0014": {
+          "type": "choice",
+          "choice": "preserved",
+          "confidence": 0.92,
+          "probabilities": {
+            "preserved": 0.95,
+            "overstated_or_changed": 0.05,
+            "insufficient": 0.0
+          }
+        },
+        "negative_control": {
+          "type": "choice",
+          "choice": "overstated_or_changed",
+          "confidence": 1.0,
+          "probabilities": {
+            "preserved": 0.0,
+            "overstated_or_changed": 1.0,
+            "insufficient": 0.0
+          }
+        }
+      },
+      "manual_review": "All four accepted pairs and negative control reviewed. Source explicitly excludes the 2020 environmental strain from that year's outbreak; seven and ten allele thresholds retained; 36/47 versus historical 29% comparator and probable source retained; harvest ended before action and future benefit remains conditional. A repeated 2020 date was expanded after the advisory check solely to match source numeric occurrences; final literal and full-source checks pass.",
+      "independent_specialist_review": false
+    },
+    "browser_widths": [
+      320,
+      390,
+      1280
+    ],
+    "node_tests": 8,
+    "python_tests": 22,
+    "build": "pass",
+    "discovery_check": "223 articles, 34 translations, 0 empty tag pages and 0 noindex URLs in sitemap"
+  },
+  "assets": [
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/dyni-salmonella-proshlye-proby/figure-1.jpg",
+      "sha256": "5f6288d764b122b423044c2236ec483c11bca57ea4d21d901991a1a2c66a0e0b"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/dyni-salmonella-proshlye-proby/original.html",
+      "sha256": "15f19c0b2784707ba5b01939598e2568ae9b5ccb709431b0eac736c26a015f7f"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/dyni-salmonella-proshlye-proby/original.pdf",
+      "sha256": "9ba9c7b4b21d931188add160e6add37624c75bef6bcc35423fb7c4fe1cffd9d9"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/dyni-salmonella-proshlye-proby/translation.html",
+      "sha256": "2a6d80bad933c5bb2dbbc9db8b6d0dc11a41b5cd3809ddcc95c954e674033806"
+    },
+    {
+      "url": "https://xn--80adfaeaaojaaa6d2bcpdslq7b4d3f.xn--p1ai/downloads/research/dyni-salmonella-proshlye-proby/translation.pdf",
+      "sha256": "4f4cbcd68072e47d254e5f41b392acf34d7084b3ef514e66025b2ba2b92cba43"
+    }
+  ]
+}
